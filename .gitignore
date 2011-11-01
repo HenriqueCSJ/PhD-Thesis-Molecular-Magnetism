@@ -1,0 +1,8 @@
+#Temp files
+*.swp
+#Log files
+*.log
+#Dvi files
+*.dvi
+#aux files
+*.aux
