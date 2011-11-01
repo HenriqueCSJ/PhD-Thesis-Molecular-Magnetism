@@ -6,3 +6,5 @@
 *.dvi
 #aux files
 *.aux
+#pdf files
+*.pdf
