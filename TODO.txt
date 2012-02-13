@@ -1,0 +1,2 @@
+* Chapitre Pos-traitement
+1-Faire une figure décrivant les différentes étapes du code source à son exécution pour le langage compilé et interprété.
