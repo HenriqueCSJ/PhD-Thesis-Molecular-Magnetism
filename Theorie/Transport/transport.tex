@@ -1,7 +1,48 @@
-\chapter{Théorie du transport dans le cas d'un point quantique}
-\section{Blockage de Coulomb}
-\subsection*{la notion de potentiel chimique}
-\subsection*{le blockage de Coulomb classique}
-\subsection*{le blockage de Coulomb quantique}
-\section{l'Effet Kondo}
-\section{La Spectroscopie par mesure électrique}
+\chapter{Blocage de Coulomb}
+Pour comprendre l'origine du blocage de coulomb, il peut être utile de se référé au premier article le mettant en évidence. Il faut pour cela remonter jusqu'en 1951 lorsque C.J. Gorter mesura un accroissement anormal de la conductance à basse température de métaux granuleux. L'explication qu'il fournis à l'époque est que lorsque la température s'abaisse, l'énergie thermique des électron devient comparable à l'énergie nécessaire à l'ajout d'un électron dans un grain de métal. Cette dernière est directement lié à la capacitance d'un grain par la relation $e^2/C$ ou $e$ est la charge élémentaire de l'électron et C est la capacité associé au grain métalique. Il est important de noter que dans cette expérience la seule notion de quantification apparaît au travers de l'électron seulement. Nous montrerons que ce blockage de coulomb est appelé blockage de coulomb classique et contraste avec le blockage de Coulomb quantique que nous verrons dans la suite et pour lequel la quantification associé à la petite taille du système doit aussi être prise en compte. Mais avant de décrire ces deux régimes, il est commode d'introduire la notion de potentiel chimique qui permet de façon simple et efficace de rendre compte du blockage de Coulomb tant classique que quantique.
+
+\section{La notion de potentiel chimique}
+Le potentiel chimique peut être défini comme l'énergie apporté au systeme par la particle N. On peut donc écrire la relation suivante :
+\begin{eqnarray}
+\mu(N) = E(N) - E(N-1)
+\end{eqnarray}
+dans laquelle $\mu (N)$ est le potentiel chimique associé à la n$^{\rm{ième}}$ particule et  $E(N)$($E(N-1)$) l'énergie du sytème avec $N$ ($N-1$) particules. Imaginons maintenant un système relativement simple d'un il\^ot métalique piégé entre deux morceau de métal que l'on nomera dans la suite source et drain ou parfois mer de fermi. Le système résultant est décrit dans le figure ??. On peut associer au capacité entre la source (le drain) et l'il\^ot une capacité C$_\rm{s}$ (C$_\rm{d}$). Le potentiel chimique d'un électron dans le drain et dans la source est définie par l'énergie de fermi E$_F$. Le potentiel chimique de d'un électron dans l'il\^ot est définie par les capacité C$_\rm{s}$ et C$_\rm{d}$ par une relation qu'il est pour l'instant inutile d'exprimer. Supposons un maintenant qu'il nous est possible de modifier la valeur de se potentiel chimique de façon à venir l'aligner avec celui des électron de la source et du drain. Dans ce cas, si l'on prend un électron de la source et qu'on le met sur l'il\^ot ou le drain, l'énergie totale n'est pas modifié du fait m\^eme de la définition du potentiel chimique. On voit donc que dans cette situation, les trois configuration (un électron dans la source, le drain ou s\^ur l'ilot) ont la m\^eme énergie ou autrement dit, sont dégénéré. Dans la suite, cette configuration sera associé à des point que l'on nomera point de dégénérescence.
+
+
+Jusqu'à maintenant, nous avons supposé que les potentiels chimiques de la source et du drain étaient identique. On peut cependant, à l'aide d'une tension drain/source $V_{\rm{ds}}$ venir les désaligné d'un $\Delta E = eV_{\rm{ds}}$. On se retrouve dans la situation de la figure ??. En supposant que C$_\rm{d}$ = C$_\rm{s}$, le potentiel chimique de l'i\^ot métallique se retrouve centré par rapport aux potentiels chimiques de la source et du drain. Regardons maintenant ce que font les électrons. Pour qu'un électron du source puisse allé dans l'ilo\^t, il faut qu'il est une énergie équivalente au potentiel chimique de celui-ci. De m\^eme, pour que cette électron puisse aller dans le drain, il faut qu'il y est un état d'énergie équivalent disponible dans celui-ci. Autrement dit, il faut s'intéresser à la densité d'état et à la distribution de fermi associé à la source et au drain. Habituellement, du fait des faibles tensions source drain appliqués dans nos mesures, on peut considéré la densité d'état comme étant constante. Cette hypothèse est raisonnable dans le cas d'un métal et ne peut pas \^etre appliqué dans des cas particulier i.e des électrode supraconductrices.
+
+\section{\'Equation pilote}
+Une manière de poser le problème du courant passant à travers l'il\^ot est d'utiliser la méthode des équation pilote. Je ne présenterai pas dans ce chapitre tous les détails de résolution de cette équation pilote. Je renvois le lecteur à cet excellent papier de E. Bonet et Al. Je me limiterai à poser le problème et à exposer les résultats obtenue à partir de ces équations.
+Si l'on suppose que l'il\^o peut avoir deux état (zero ou un électron) et que l'on associe à chacun de ces états une probabilité (P$_0$ et P$_1$ respectivement), on peut écrire la relation suivante :
+\begin{eqnarray}
+\frac{dP_1}{dt} = \Gamma_{0 \rightarrow 1}P_0 - \Gamma_{1 \rightarrow 0}P_1
+\end{eqnarray}
+ou $\Gamma_{\alpha \rightarrow \beta}$ est le taux de transition de l'état $\alpha$ à l'état $\beta$.
+
+Concentrons-nous pour l'instant sur les coefficient gamma et prenons par exemple $\Gamma_{0 \rightarrow 1}$. Il s'agit de la probabilité qu'à un électron de passer d'une des électrodes à l'il\^ot. Si l'on tient compte de la la discussion précédente, cette probabilité est directement proportionnelle à celle qu'à un électron de posséder le potentiel chimique correspondant pondéré par le fait qu'on a un densité d'état donnée et une barrière tunnel. On appellera le terme de pondération $\gamma_x$ ou $x$ correspond au label de l'électrode considéré à savoir droite ou gauche. On peut donc écrite 
+\begin{eqnarray}
+\Gamma_{0 \rightarrow 1} = 2\gamma_d  f(\epsilon - E_d^F) + 2\gamma_g f(\epsilon - E_g^F)
+\end{eqnarray}
+le facteur 2 rendant compte de la dégénérescence de spin. Pour ce qui est du coefficient $\Gamma_{1 \rightarrow 0}$, son expression peut être déduite en utilisant le même raisonement :
+
+\begin{eqnarray}
+\Gamma_{1 \rightarrow 0} = \gamma_d (1- f(\epsilon - E_d^F)) + \gamma_g (1-f(\epsilon - E_g^F))
+\end{eqnarray}
+Cette expression peut se comprendre facilement en la comparant à la transistion inverse. Dans le deuxième cas, on a "besoin" d'un électron dans l'électrode et cette probabilité est donnée par la distribution de fermi f, alors que dans le premier cas, on a "besoin" d'un état vide pour l'électron autrement dit 1-f.
+
+En régime permanent, les probabilité associées à l'état de charge de l'il\^o ne dépendent plus du temps ce qui conduit à la nouvelle relation :
+\begin{eqnarray}
+0 = \Gamma_{0 \rightarrow 1}P_0 - \Gamma_{1 \rightarrow 0}P_1
+\end{eqnarray}
+which leads to the two following relations:
+\begin{eqnarray}
+P_1 = \frac{\Gamma_{0 \rightarrow 1}}{\Gamma_{0 \rightarrow 1} + \Gamma_{1 \rightarrow 0}} \\
+P_0 = \frac{\Gamma_{1 \rightarrow 0}}{\Gamma_{0 \rightarrow 1} + \Gamma_{1 \rightarrow 0}} 
+\end{eqnarray}
+
+
+ 
+\section{Le blocage de Coulomb classique}
+
+\section{Le blocage de Coulomb quantique}
+
