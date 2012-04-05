@@ -34,15 +34,30 @@ En régime permanent, les probabilité associées à l'état de charge de l'il\^
 \begin{eqnarray}
 0 = \Gamma_{0 \rightarrow 1}P_0 - \Gamma_{1 \rightarrow 0}P_1
 \end{eqnarray}
-which leads to the two following relations:
+On peut donc en déduire les relations suivantes:
 \begin{eqnarray}
-P_1 = \frac{\Gamma_{0 \rightarrow 1}}{\Gamma_{0 \rightarrow 1} + \Gamma_{1 \rightarrow 0}} \\
-P_0 = \frac{\Gamma_{1 \rightarrow 0}}{\Gamma_{0 \rightarrow 1} + \Gamma_{1 \rightarrow 0}} 
+P_1 &= \frac{\Gamma_{0 \rightarrow 1}}{\Gamma_{0 \rightarrow 1} + \Gamma_{1 \rightarrow 0}} &= \frac{2\gamma_d f_d + 2 \gamma_g f_g}{\gamma_d(1+f_d) + \gamma_g(1 + f_g)} \\
+P_0 &= \frac{\Gamma_{1 \rightarrow 0}}{\Gamma_{0 \rightarrow 1} + \Gamma_{1 \rightarrow 0}} &= \frac{\gamma_d(1-f_d) + \gamma_g(1 - f_g)}{\gamma_d(1+f_d) + \gamma_g(1 + f_g)}
+\end{eqnarray}
+Partant de raisonnement simple, nous voici avec l'expression des probabilité des l'état de charge de notre il\^ot métallique. Cependant, nous n'avons toujours pas l'expression du courant traversant notre système. Il nous faut pour cela prendre une électrode et faire le bilan des électron qui viennent de l'il\^ot et ce qui y parte.Si nous nous placon du c\^oté source nous avons l'expression du courant suivante :
+\begin{eqnarray}
+I = e (\Gamma_{0 \rightarrow 1}^d P_0 - \Gamma_{1 \rightarrow 0}^d P_1)
+\end{eqnarray}
+L'expression de $\Gamma_{0 \rightarrow 1}^d$ et $\Gamma_{1 \rightarrow 0}^d$ de la m\^eme façon on a 
+ 
+\begin{eqnarray}
+\Gamma_{0 \rightarrow 1}^d =  2\gamma_d f(\epsilon - E_d^F)\\
+\Gamma_{1 \rightarrow 0}^d = \gamma_d (1- f(\epsilon - E_d^F)) 
+\end{eqnarray}
+Après un peu d'algèbre, on obtiend l'expression suivante pout le courant :
+
+\begin{eqnarray}
+I = 2 |e| \frac{\gamma_d \gamma_g (f_d - f_g)}{\gamma_d(1+f_r) + \gamma_g(1 + f_g)}
 \end{eqnarray}
 
 
- 
 \section{Le blocage de Coulomb classique}
+Maintenant que nous avons toutes les expression nécessaire, nous allons essayer d'analyser un peu plus en détail le phénomène de blocage de Coublomb. A cette étape, je rapelle que la seule hypothèse et que l'énergie thermique de l'électron est faible quand on la compare à l'énergie nécessaire à l'ajout d'un électron dans l'il\^ot.
 
 \section{Le blocage de Coulomb quantique}
 
