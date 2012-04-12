@@ -1,80 +1,241 @@
 
 
 \chapter{Blocage de Coulomb}
-Pour comprendre l'origine du blocage de coulomb, il peut être utile de se référé au premier article le mettant en évidence. Il faut pour cela remonter jusqu'en 1951 lorsque C.J. Gorter mesura un accroissement anormal de la conductance à basse température de métaux granuleux. L'explication qu'il fournis à l'époque est que lorsque la température s'abaisse, l'énergie thermique des électron devient comparable à l'énergie nécessaire à l'ajout d'un électron dans un grain de métal. Cette dernière est directement lié à la capacitance d'un grain par la relation $e^2/C$ ou $e$ est la charge élémentaire de l'électron et C est la capacité associé au grain métallique. Il est important de noter que dans cette expérience la seule notion de quantification apparaît au travers de l'électron seulement. Nous montrerons que ce blocage de coulomb est appelé blocage de coulomb classique et contraste avec le blocage de Coulomb quantique que nous verrons dans la suite et pour lequel la quantification associé à la petite taille du système doit aussi être prise en compte. Mais avant de décrire ces deux régimes, il est commode d'introduire la notion de potentiel chimique qui permet de façon simple et efficace de rendre compte du blocage de Coulomb tant classique que quantique.
+
+Dans ce chapitre nous allons aborder le transport à travers une structure nanoscopique et nous allons nous intéresser en particulier au phénomène de blocage de Coulomb. Ce phénomène a d'abord été observé sur des échantillon métallique macroscopique composé de petit grain métallique par C.J. Gorter en 1951. En mesurant la conductance d'un de ces échantillon en fonction de la température, l'auteur a constaté une diminution inattendu à basse température. Cette diminution de la température à été attribué à l'aspect granuleux du métal. Plus précisément , pour ajouter un électron dans un des grains constituant le métal, il fallait fournir une énergie $e^2/C$ où $e$ est la charge de l'électron et $C$ est la capacité que l'on peut associé à un de ces grains. A haute température ($k_bT >> e^2/C$), cette énergie n'affecte pas la conductance du système. A basse température en revanche ($k_bT << e^2/C$), cette enérgie réduit l'habilité des électron à se mouvoir librement dans le métal ce qui entraîne une diminution de la conductance. Depuis, l'étude de ce phénomène à beaucoup évolué et de nos jours et le rôle central du grain de métal est souvent remplacé par des molécules, des point quantique de gaz d'électron à deux dimensions etc..
+
+Dans ce chapitre, nous verrons tout d'abord qu'elles sont le différent paramètres physique d'un système type. En particulier, nous donnerons quelques conditions nécessaire à l'apparition d'un phénomène de blocage de Coulomb classique et quantique. Nous aborderons ensuite la notion de potentiel chimique et nous montrerons comment cette notion peut expliquer de façon intuitive le phénomène de blocage de Coulomb. Nous déterminerons notamment comment certain paramètre du système par une simple mesure de courant. Nous développerons ensuite un modèle plus quantitatif afin de déterminer le courant circulant à travers une structure nanoscopique. Pour cela, nous nous concentrerons sur le cas particulier d'une boite quantique oscillant entre deux états de charge.
 
 
-\section{Le blocage de Coulomb classique}
 
-\subsection{La notion de potentiel chimique}
-Le potentiel chimique peut être défini comme l'énergie apporté au système par la particule N. On peut donc écrire la relation suivante :
+\section{Les paramètres du système}
+La description que nous proposons ici est celui d'un système à trois terminaux que l'on nommera la source, le drain et la grille, ainsi qu'un il\^ot dont la nature peut varier suivant les cas. On peut imaginer une molécule, un il\^ot métallique, un gaz d'électron deux dimensions etc.. L'il\^ot est couplé capacitivement au trois terminaux par trois capacitance ; $C_g$ pour la grille, $C_d$ pour le drain et $C_s$ pour la source. De plus, des barrière tunnel entre l'il\^ot et la source et l'il\^ot et le drain permettant le passage d'électron (sous certaines conditions). Ces deux barrières tunnels sont caractériser par les paramètre $\Gamma_s$ pour le système source/il\^ot et $\Gamma_d$ pour le système drain/il\^ot. La source et le drain sont considéré comme des matériaux massif métallique et dont les électrons obéisse à la statistique de Fermi-Dirac. Enfin, nous attribuons à l'il\^ot une taille caractéristique $L$. Tous ces paramètre sont représenté dans la Fig. \ref{description_systeme}. Nous allons maintenant regarder plus en détail chacun des ces paramètres.
+
+\subsubsection{Les capacitances du système}
+Comme expliqué précédemment, trois capacitances couples l'il\^ot central aux trois terminaux. De part ces capacitances, l'application d'un tension sur l'un ou plusieurs terminaux va modifier l'energie des électrons situés sur l'ilôt. Cette modification peut facilement s'exprimer comme suit :
+
 \begin{eqnarray}
-\mu(N) = E(N) - E(N-1)
+E = \frac{(C_sV_s + C_dV_d + C_gV_g)^2}{2(C_g + C_s + C_g)}=\frac{(C_sV_s + C_dV_d + C_gV_g)^2}{2C_{\Sigma}} \nonumber
 \end{eqnarray}
-dans laquelle $\mu (N)$ est le potentiel chimique associé à la n$^{\text{ième}}$ particule et  $E(N)$($E(N-1)$) l'énergie du système avec $N$ ($N-1$) particules. Imaginons maintenant un système relativement simple d'un il\^ot métallique piégé entre deux morceau de métal que l'on nommera dans la suite source et drain ou parfois mer de Fermi. Le système résultant est décrit dans le figure ??. On peut associer au capacité entre la source (le drain) et l'il\^ot une capacité C$_{\rm{s}}$ (C$_{\rm{d}}$). Le potentiel chimique d'un électron dans le drain et dans la source est définie par l'énergie de Fermi E$_F$. Le potentiel chimique de d'un électron dans l'il\^ot est définie par les capacité C$_{\rm{s}}$ et C$_{\rm{d}}$ par une relation qu'il est pour l'instant inutile d'exprimer. Supposons un maintenant qu'il nous est possible de modifier la valeur de se potentiel chimique de façon à venir l'aligner avec celui des électron de la source et du drain. Dans ce cas, si l'on prend un électron de la source et qu'on le met sur l'il\^ot ou le drain, l'énergie totale n'est pas modifié du fait m\^eme de la définition du potentiel chimique. On voit donc que dans cette situation, les trois configuration (un électron dans la source, le drain ou s\^ur l'ilot) ont la m\^eme énergie ou autrement dit, sont dégénéré. Dans la suite, cette configuration sera associé à des point que l'on nommera point de dégénérescence.
 
-
-Jusqu'à maintenant, nous avons supposé que les potentiels chimiques de la source et du drain étaient identique. On peut cependant, à l'aide d'une tension drain/source $V_{\rm{ds}}$ venir les désaligné d'un $\Delta E = eV_{\rm{ds}}$. On se retrouve dans la situation de la figure ??. En supposant que C$_{\rm{d}}$ = C$_{\rm{s}}$, le potentiel chimique de l'i\^ot métallique se retrouve centré par rapport aux potentiels chimiques de la source et du drain. Regardons maintenant ce que font les électrons. Pour qu'un électron du source puisse aller dans l'ilo\^t, il faut qu'il est une énergie équivalente au potentiel chimique de celui-ci. De m\^eme, pour que cette électron puisse aller dans le drain, il faut qu'il y est un état d'énergie équivalent disponible dans celui-ci. Autrement dit, il faut s'intéresser à la densité d'état et à la distribution de Fermi associé à la source et au drain. Habituellement, du fait des faibles tensions source drain appliqués dans nos mesures, on peut considéré la densité d'état comme étant constante. Cette hypothèse est raisonnable dans le cas d'un métal et ne peut pas \^etre appliqué dans des cas particulier i.e des électrode supraconductrices.
-
-
-\subsection{Description électrostatique du problème}
-Maintenant que nous avons toutes les expression nécessaire, nous allons essayer d'analyser un peu plus en détail le phénomène de blocage de Coulomb. A cette étape, je rapelle que la seule hypothèse et que l'énergie thermique de l'électron est faible quand on la compare à l'énergie nécessaire à l'ajout d'un électron dans l'il\^ot. Dans le but de contrôler l'alignement du potentiel chimique de l'ilôt indépendamment de celui de la source et du drain, nous allons rajouter une grille, qui est en réaliter un couplage purement capacitif entre l'ilôt et une troisième électrode. La structure finale est présenté dans la figure ??. Nous allons maintenant exprimer les trois potentiel chimique $\mu_s$ pour la source, $\mu_d$ pour le drain et $\mu_{dot}$ pour l'ilôt central. On supposera pour cela une tension $V_{d}$ pour la tension de drain, $V_s$ pour la tension de appliqué à la source et $V_g$ pour la tension appliqué à la grille. L'expression des potentiels chimique de la source et du drain est exprimé directement par les deux formules suivante :
+De plus, ces capacitance vont induire un "co\^ut" énergétique à l'ajout d'un électron dans l'il\^ot central. L'ajout d'un électron est associé à l'énergie $\frac{E_c}{2}$~(nous verrons l'utilité du facteur un-demi dans la suite). Cette énergie est donné par :
 \begin{eqnarray}
-\mu_s = eV_s \\
-\mu_d = eV_d
+\frac{E_c}{2} = \frac{e^2}{2(C_s+C_d+C_g)}=\frac{e^2}{2C_{\Sigma}} \nonumber
 \end{eqnarray}
-L'expression du potentiel chimique de l'il\^ot est un peu plus complexe et le calcul complet est dérivé dans l'annexe. Il doit tenir compte de la tension de source, de drain et de grille ainsi que du nombre d'électron présent dans l'il\^ot central. Il peut s'exprimer comme suit :
+
+
+Ces cette énergie qui est à l'origine de la diminution de la conductance observée par C.J. Gorter en 1951. On voit ici appara\^itre ici une condition nécessaire à l'apparition du phénomène du blocage de Coulomb : $E_c >> k_bT$.
+
+On peut donc exprimer l'énergie d'un il\^ot contenant N électrons et soumis à trois tensions $V_g$, $V_d$ et $V_s$ comme suit :
 \begin{eqnarray}
-\mu_N = 
-\underbrace{(N-\frac{1}{2})\frac{e^2}{C_{total}}}_{\text{répulsion coulombienne}}
+U(N) = \frac{1}{2C_{\Sigma}} (-|e|N + C_sV_s + C_dV_d + C_gV_g)^2
+\end{eqnarray}
+
+\begin{figure}
+\caption{Paramètres caractérisant un système à trois terminaux}
+\label{description_systeme}
+\end{figure}
+
+
+
+\subsubsection{La taille de l'il\^ot}
+Comme nous l'avons précisé précédemment, nous étudions des structure nanoscopique ou autrement dit $L\sim nm$. Pour de telle dimension, on observe une quantification des différent état du système il\^ot. Les spectre énergétique de l'il\^ot peut s'exprimer en fonction de trois nombre quantique $n_x$,$n_y$ et $n_z$ à travers la relation suivante:
+\begin{eqnarray}
+E_n = \frac{\pi^2 \hbar^2}{2m}(\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}) \nonumber
+\end{eqnarray}
+
+
+Il s'agit bien entendu ici d'une expression très simplifié. Dans le cas de molécules par exemple, cette quantification simpliste est remplacé par la quantification correspondante aux orbitale moléculaire. Pour résoudre expérimentalement cette quantifications des niveaux la condition $\frac{\pi^2 \hbar^2}{2mL} >> k_bT$. Le seul moyen d'action de l'expérimentateur se fait à la fois sur $L$ en diminuant la taille des objets observés et $T$ en utilisant des frigo à dilution. Lorsque cette condition est rempli, on rentre dans le régime du blocage de coulomb quantique.
+\newline
+
+\fbox{
+\begin{minipage}{0.85\textwidth}
+\textbf{Remarque :} dans la plus part des système $E_c>>E_n$. Cependant, dans le cas d'il\^ot à base de molécule, on se retrouve avec $E_c \sim E_n$. Dès lors, le régime de blocage de Coulomb est dans ce cas toujours quantique.
+
+\end{minipage}
+}
+
+
+\subsubsection{Les paramètre de couplage tunnel $\Gamma_{s/d}$}
+On peut voir ces coefficient comme définissannt la "facilité" avec laquelle les électrons peuvent passer par effect tunnel de la source ou du drain vers l'il\^ot et vice-versas. Les valeur $\Gamma_{s/d}$ sont déterminante dans la valeur du courant qui va \^etre mesuré dans notre système. De plus, le couplage à la source et au drain contribue à l'élargissement des niveaux d'énergie d'une largeur $\Delta E$ donnée par :
+\begin{eqnarray}
+\Delta E_{\text{intrinsèque}} = h (\Gamma_s + \Gamma_d)
+\end{eqnarray}
+Cette élargissement est appelé élargissement intrinsèque par opposition à l'élargissement induit par la température. On peut deviner ici une seconde condition nécéssaire à l'apparition du phénomène de blocage de Coulomb à savoir $\Delta E_{\text{intrinsèque}} << E_c$. De plus, dans un régime de blocage fort on a $\Delta E_{\text{intrinsèque}} << k_bT$. Si cette dernière condition est remplie, on peut donc avoir accès par l'intermédiaire de des distribution de Fermi-Dirac à la température du système. C'est cette propriété qui est utilisé dans le thermomètre à blocage de Coulomb.
+
+
+
+
+
+\section{La notion de potentiel chimique}
+La notion de potentiel chimique est à mes yeux une des notions les plus importantes afin de comprendre de manière simple et intuitive le phénomène de blocage de Coulomb. Un exemple de son utilisation dans la cadre du transport quantique peut \^etre trouvé dans la très belle et très pédagogique revue de Hanson \textit{et Al.}. Dans cette section, nous allons tout d'abord présenté le concept de potentiel chimique. Nous exprimerons ensuite, à partir des considération exposé dans la partie précédente, le potentiel chimique de la source, du drain et surtout de l'ilôt central.
+
+\subsubsection{Définition}
+
+On recontre souvent le potentiel chimique en thermodynamique lorsque l'on s'intéresse aux systèmes ouvert échangeant des particules. Cette grandeur défini la variation d'énergie d'un système du à la modification du nombre de particule qui le compose. On le trouve parfois défini comme suit :
+\begin{eqnarray}
+\mu = \frac{\partial U}{\partial N} \nonumber
+\end{eqnarray}
+$U$ étant l'énergie du système et $N$ le nombre de particule. Dans la suite, nous allons plut\^ot adopter la notation de Hanson et Al. et prendre la définition suivante :
+\begin{eqnarray}
+\mu(N) = U(N) - U(N-1)
+\end{eqnarray}
+ou $\mu(N)$ est la modification en énergie apporté par l'ajout de la $N^\text{nième}$ particules, $U(N)$ et $U(N-1)$ étant respectivement l'énergie du système avec $N$ et $N-1$ particules.
+
+Maintenant, partant de cette définition on peut imaginer un système de trois réservoirs. Supposons maintenant que l'on puisse atribuer à chacun des ces réservoirs un potentiel chimique et que deux plus, ces potentiels chimiques soient alignés. Je nommerai ces potentiel chimique $\mu_{droit}$, $\mu_{centre}$ et $\mu_{gauche}$. On a donc $\mu_{droit}=\mu_{centre}=\mu_{gauche}$.
+
+Si maintenant je prends une particule dans le réservoir de droite et que je là mets au centre. L'énergie du réservoir de droite va varié de $-\mu_{droit}$ tandis que l'énergie du réservoir du centre va varier de $\mu_{centre}$. En revanche la variation totale en énergie du système est nulle. En faisant de m\^eme avec le réservoir de gauche, on arrive à la conclusion que les trois configuration ; la particule à droite au centre ou à gauche ont la m\^eme énergie ou autrement dit, sont dégénéré. Nous verrons dans la suite que une telle configuration sera appelé point de dégénérescence. De fait, la particule est libre de circuler d'un point du système à l'autre. Nous voyons donc que la notion de potentiel chimique nous permet d'identifier ou non la possibilité pour des particules de passer d'un réservoir à l'autre en fonction du potentiel chimique qui leur est associés. Nous utiliserons cette propriété dans la suite pour définir les contitions de circulation d'électron dans notre système. Mais pour cela, il faut définir ce qu'est le potentiel chimique dans le cas de nos trois réservoir à savoir: la source, le drain et bien sûr l'ilôt.
+
+
+\subsubsection{Les potentiels chimique de la source et du drain.}
+L'expression du potentiel chimique de la source et du drain est directement donnée par $\mu_i = e V_i$ ou $i=source/drain$. Il s'agit en fait du niveau de Fermi des électron dans la source et le drain (à ne pas confondre avec l'énergie de Fermi). Si l'on veut maintenant savoir quel est la probabilité dans un métal de niveau de fermi $\mu_F$ de trouvé un électron de potentiel chimique $\mu$, je peux utiliser la distribution de fermi et cette probabilité est donc égale à :
+\begin{eqnarray}
+p(\mu) = \frac{1}{1 + \exp{(\frac{\mu - \mu_F}{k_bT})}} \nonumber
+\end{eqnarray}
+ On obtient donc en fonction des tensions source et drain:
+\begin{eqnarray}
+p_i(\mu) = \frac{1}{1 + \exp{(\frac{\mu - eV_i}{k_bT})}}
+\end{eqnarray}
+ou $i=source/drain$. Nous verrons dans la suite que cette notion est essentielle dans la détermination du courant qui traverse notre structure.
+
+\begin{figure}
+\caption{Distribution de Fermi pour une tension $V_i$ donné}
+\label{distrib_fermi}
+\end{figure}
+
+
+
+\subsubsection{Le potentiel chimique de l'il\^ot}
+Si l'expression du potentiel chimique de la source et du drain n'a rien de compliqué (dans le cas d'életrode normale tout du moins), on ne peut pas en dire de m\^eme de celle de l'il\^ot. C'est m\^eme là que réside toute la difficulté de la compréhension d'une expérience. Heureusement, dans la partie précédente nous avons déjà fait le bilan des différentes énergie en jeux dans le système. A savoir, nous devons prendre en compte l'énergie électrostatique du système, l'énergie d'interaction électron-électron ainsi que la discrétisation des niveaux d'énergie dans l'il\^ot. Tout ceci donne :
+\begin{eqnarray}
+U(N) = \underbrace{\frac{1}{2C_{\Sigma}} (-|e|N + C_sV_s + C_dV_d + C_gV_g)^2}_{\text{couplage électrostatique et énergie de charge}}
 + 
-\underbrace{\frac{e}{C_{tot}}(C_gV_g + C_sV_s + C_dV_d)}_{\text{couplage électrostatique}}
+\underbrace{\sum_{n=1}^{N} E_n}_{\substack{\text{énergie liés aux} \\\text{aux états discret}}}
 \end{eqnarray}
-On constate qu'il comporte deux termes, le premier étant associé à la répulsion coulombienne entre les différents électrons présent sur l'il\^ot et le second étant associé au couplage électrostatique de l'électron avec les potentiel de la source, du drain et de la grille à travers les différentes capacité du systèmes.
+On peut également tenir compte d'un éventuel champ magnétique en faisant le remplacement suivant :
+\begin{eqnarray}
+\sum_{n=1}^N E_n = \sum_{n=1}^N E_n(B) \nonumber
+\end{eqnarray}
+C'est à dire en attribuant à chaque niveau discret, une dépendance en champ magnétique. Nous verrons rapidement dans la suite comment cela se traduit dans le cas d'un système simple. Une fois l'énergie en fonction de $N$ exprimer simplement, il suffit d'appliquer la définition précédente à savoir :
+\begin{eqnarray}
+\mu(N) = U(N) - U(N-1) \nonumber
+\end{eqnarray}
+On se retrouve avec une expression relativement simple du potentiel chimique :
+\begin{eqnarray}
+\mu(N) = (N-\frac{1}{2})\frac{e^2}{C_{\Sigma}}
++ 
+\frac{e}{C_{\Sigma}}(C_gV_g + C_sV_s + C_dV_d)
++
+E_N(B)
+\end{eqnarray}
 
-Pour comprendre plus facilement le blockage de Coulomb, on va se concentrer d'abord sur la drain. Il s'agit de déterminer pour qu'elle condition un électron du drain va venir charger l'ilôt. Si l'on reprend l'analyse faite précédemment, la condition à remplir est relativement simple
+Si maintenant, on se rappelle que nous avons défini plus haut l'énergie de charge $\frac{E_c}{2} = \frac{e^2}{C_{\Sigma}}$, nous pouvons réécrire la relation précédente sous la forme :
+
 \begin{eqnarray}
-\mu_d \ge \mu_N
+\mu(N) = (N-\frac{1}{2})E_c
+- 
+\frac{E_c}{|e|}(C_gV_g + C_sV_s + C_dV_d)
++
+E_N(B)
 \end{eqnarray}
-Si l'on considère maintenant une tension de drain $V_d$, on peut exprimer cette relation comme suit : 
+L'énergie $E_c$ est donc la quantité d'énergie d\^u à la répulsion Coulombienne qui sépare deux potentiels chimiques d'état de charge différents.
+
+%
+%ANCIENNE VERSION
+%
+
+
+
+
+\section{Détermination des conditions de circulation d'un courant}
+Pour rendre l'exposé qui va suivre plus clair, nous allons le décomposé en trois partie. Dans la première partie, nous allons voir quelles sont les conditions à remplir pour qu'un électron du drain puisse aller dans l'il\^ot. Dans la deuxième partie, nous ferrons de m\^eme pour le drain. Enfin, dans la dernière partie, nous exploiterons les résultats obtenues pour en déduire les conditions pour qu'un courant circule dans notre structure ainsi que le signe de ce courant en fonction des paramètres. De plus, pour adapter les solutions trouvées au condition expérimentale, on posera $V_s = 0$ car dans la grande majorité des dispositif, une des électrodes est directement connecter à la masse. Ce qui donnera $V_d=V_{ds}$, $V_{ds}$ étant la tension appliqué à l'échantillon au traver de la source et du drain.
+
+\subsubsection{Charge de l'il\^ot par le drain}
+Comme nous en avons discuté précédemment, pour qu'un particule (ici un électron) puisse passer d'un réservoir à l'autre, il faut que son potentiel chimique soit identique dans les deux réservoirs. Si l'on adapte se raisonnement à notre système, il faut donc qu'il y ait dans le drain des électrons dont le potentiel chimique corresponde à celui de cette électron une fois sur l'il\^ot. Supposoent donc l'il\^ot dans l'état de charge $N-1$, pour passer à l'état de charge $N$, il faut qu'il y ait au moins un électron dont le potentiel chimique soit égale à $\mu(N)$. Il nous suffit d'oberver la courbe de la Fig. \ref{distrib_fermi} pour comprendre que cela suppose :
 \begin{eqnarray}
-eV_d \ge (N-\frac{1}{2})\frac{e^2}{C_{total}} + \frac{e}{C_{tot}}(C_gV_g + C_sV_s + C_dV_d)
+-|e|V_{ds} \geq \mu(N)
 \end{eqnarray}
-A cet stage du développement, on va faire l'hypothèse supplémentaire $V_s=0$. Cette hypothèse se fait non pas en fonction de la physique du problème mais plut\^ot par rapport aux conditions expérimentale qui font que la tension de source est dans la plus par des cas, mise à la masse. Cela a une conséquence directe qui est que l'on brise la symétrie du problème. En effet, la source et traité différemment du drain. Je reviendrait à cette remarque à la fin de se paragraphe.
-La relation devient donc :
+Ce qui conduit à la relation suivante :
 \begin{eqnarray}
-V_d \ge (N-\frac{1}{2})\frac{e^2}{C_{total}} + \frac{1}{C_{tot}}(C_gV_g + C_dV_d)
+-|e|V_{ds} \geq (N-\frac{1}{2})\frac{e^2}{C_{\Sigma}}
+-
+\frac{|e|}{C_{\Sigma}}(C_gV_g + C_sV_s + C_dV_d)
++
+E_N(B) \nonumber
 \end{eqnarray}
-où les tensions sont exprimés en eV.
+En se rappelant que $V_s= 0$ et que $V_{ds} = Vd$, on en déduit la relation suivante :
+\begin{eqnarray}
+V_{ds} \leq \frac{1}{C_{\Sigma}}(C_gV_g + C_dV_{ds}) + \frac{E_N(B)}{|e|} - (N-\frac{1}{2})\frac{|e|}{C_{\Sigma}} \nonumber
+\end{eqnarray}
 Cette relation peut se réécrire de la façon suivante :
 \begin{eqnarray}
-V_d  \ge \frac{1}{C_g + C_s} (C_gV_g + C_{tot}(N-\frac{1}{2})E_c)
+V_{ds} \leq \frac{1}{C_g + C_s} \{C_gV_g - \frac{C_{\Sigma}}{|e|}[E_N(B) + (N-\frac{1}{2})E_c] \}
 \end{eqnarray}
-où $E_c= \frac{e^2}{C_{tot}}$ est ce que l'on nomme l'énergie de charge. On peut donc tracé cette zone pour N=1 et regarder dans un plan ($V_g$,$V_d$) quelles sont le zone pour lequelle le dot se charge, et le zone pour lequelles il reste non chargé (ou se décharge si il était chargé).
-
-
-Nous pouvons maintenant faire de m\^eme pour la source en se rappelant que $V_s=0$. Pour qu'un électron de la source charge l'il\^ot, la relation suivante doit \^etre satisfaite :
+De cette formule nous pouvons en déduire deux relations importantes. Comme on peut le voir, l'état de charge $N$ décale la droite caractéristique de charge de l'il\^ot. De cette constatation, on peut en déduire que la séparation en tension de grille $\Delta V_g$ et liée à l'énergie du système par :
 \begin{eqnarray}
-0 \ge (N-\frac{1}{2})\frac{e^2}{C_{total}} + \frac{1}{C_{tot}}(C_gV_g + C_dV_d)
+\frac{C_g}{C_{\Sigma}} |e| \Delta V_g = E_c + \Delta E
 \end{eqnarray}
-Ce qui peut se réécrire de la manière suivante :
+Le deuxième enseignement est que la zone de transition entre charge et décharge dans le plan ($V_g$,$V_{ds}$) est délimité par une droite dont la pente est donnée par les différentes capacitances du système. Cette pente est donnée par 
 \begin{eqnarray}
-V_d \le -\frac{1}{C_d}(C_gV_g + C_{tot}(N-\frac{1}{2})E_c)
+\frac{C_g}{C_g + C_s}
 \end{eqnarray}
 
-On voit donc que la pente que l'on peut obtenir en mesurant les paramètres pour lesquels on a charge ou décharge nous permettent d'obtenir les différentes capacitances du système. De plus, lorque l'on à $V_d=0$, one constate que la condition est remplit périodiquement suivant les valeur de N le nombre d'électron et que la séparation entre deux période $\Delta V_g$ donne :
+
+
+\begin{figure}
+\caption{Représentation de la charge et de la décharge de l'il\^ot dans le plan ($V_g$,$V_{ds}$)}
+\label{charge_discharge}
+\end{figure}
+
+
+
+\subsubsection{Charge de l'il\^ot par la source}
+Un raisonnement similaire au précédent et en se rappelant que $V_s = 0$ conduit à la relation suivante :
+
 \begin{eqnarray}
-E_c = \frac{C_g}{C_{tot}}\Delta V_g
+V_{ds} \geq -\frac{1}{C_d} \{C_gV_g + \frac{C_{\Sigma}}{|e|}[E_N(B) + (N-\frac{1}{2})E_c] \}
 \end{eqnarray}
 
 
-\subsection{\'Equation pilote}
+On peut extraire une deuxième pente qui correspond à la charge ou la décharge de l'il\^ot par la source.
+
+
+\subsubsection{Condition de circulation du courant}
+
+Si l'on reprend les deux paragraphes précédent, on peut imaginer quatre situtation :
+\begin{enumerate}
+\item aucun électron ne peut \^etre chargé ni par la source ni par le drain. L'état de charge reste à N.
+\item un électron peut \^etre chargé à la fois par la source et par le drain. Il va donc y demerer et l'état de charge est N+1.
+\item un électron ne peut \^etre charge que par la source. Dans ce cas, il finit par se décharger dans le drain
+\item un électron ne peut \^etre chargé que par le drain. Dans ce cas, il finit par se décharger dans la source.
+\end{enumerate}
+Dans les cas un et deux, l'état de charge de l'il\^ot est bien défini et on se trouve dans le régime de blocage de Coulomb. Dans le cas 3 les électrons circulent de la source vers le drain. Un courant positif est donc mesuré. Dans le cas 4, les électrons circulent du drain vers la source. Un courant négatif est donc mesuré. L'emsemble de ces régimes est représenté dans la Fig. \ref{charge_discharge}.
+
+
+
+
+
+
+
+
+\section{\'Equation pilote}
 Une manière de poser le problème du courant passant à travers l'il\^ot est d'utiliser la méthode des équation pilote. Je ne présenterai pas dans ce chapitre tous les détails de résolution de cette équation pilote. Je renvois le lecteur à cet excellent papier de E. Bonet et Al. Je me limiterai à poser le problème et à exposer les résultats obtenue à partir de ces équations.
-Si l'on suppose que l'il\^o peut avoir deux état (zero ou un électron) et que l'on associe à chacun de ces états une probabilité (P$_0$ et P$_1$ respectivement), on peut écrire la relation suivante :
+Si l'on suppose que l'il\^o peut avoir deux état (zero ou un électron) et l'on peut associé à chacun de ces états une probabilité (P$_0$,P$_-$ et P$_+$ respectivement) en attribuant un $+$ pour l'état spin up et $-$ à l'état de spin dot dans le cas d'un il\^ot chargé par un électron. On peut établir entre ces probabilité les relations suivantes:
+
 \begin{eqnarray}
-\frac{dP_1}{dt} = \Gamma_{0 \rightarrow 1}P_0 - \Gamma_{1 \rightarrow 0}P_1
+\frac{dP_0}{dt} &=& \Gamma_{+ \rightarrow 0}P_+ + \Gamma_{- \rightarrow 0}P_-  -(\Gamma_{0 \rightarrow +}P_0 + \Gamma_{0 \rightarrow -}P_0 + ) \nonumber \\
+\frac{dP_\pm}{dt} &=& \Gamma_{0 \rightarrow \pm}P_0 - \Gamma_{\pm \rightarrow 0}P_\pm \nonumber
 \end{eqnarray}
-ou $\Gamma_{\alpha \rightarrow \beta}$ est le taux de transition de l'état $\alpha$ à l'état $\beta$.
+ou $\Gamma_{\alpha \rightarrow \beta}$ est le taux de transition de l'état $\alpha$ à l'état $\beta$. En régime permanent, les differentes probabilités ne dépendent plus dut temps et on peut donc en déduire les relations suivantes :
+\begin{eqnarray}
+P_0 &=& \frac{\Gamma_{+ \rightarrow 0}P_{+} + \Gamma_{- \rightarrow 0}P_{-}}{\Gamma_{0 \rightarrow -} + \Gamma_{0 \rightarrow +} }\\
+P_{+} &=& \frac{\Gamma_{+ \rightarrow 0}}{\Gamma_{0 \rightarrow +}}P_0 \\
+P_{-} &=& \frac{\Gamma_{- \rightarrow 0}}{\Gamma_{0 \rightarrow -}}P_0
+\end{eqnarray}
+
+
+
+\newpage 
 
 Concentrons-nous pour l'instant sur les coefficient gamma et prenons par exemple $\Gamma_{0 \rightarrow 1}$. Il s'agit de la probabilité qu'à un électron de passer d'une des électrodes à l'il\^ot. Si l'on tient compte de la la discussion précédente, cette probabilité est directement proportionnelle à celle qu'à un électron de posséder le potentiel chimique correspondant pondéré par le fait qu'on a un densité d'état donnée et une barrière tunnel. On appellera le terme de pondération $\gamma_x$ ou $x$ correspond au label de l'électrode considéré à savoir droite ou gauche. On peut donc écrite 
 \begin{eqnarray}
@@ -121,25 +282,6 @@ I = 2 |e| \frac{\gamma_d \gamma_g (f_d - f_g)}{\gamma_d(1+f_r) + \gamma_g(1 + f_
 
 
 
-\section{Le blocage de Coulomb quantique}
-
-\subsection{Définition du potential chimique dans le cas quantique}
-Lorsque l'on cherche à définir le potentiel chimique associé à l'état de charge N dans le régime quantique, il est important de regarder quels termes sont à rajouter. Il faut tout d'abord tenir compte des état au sein du dot. On notera l'énergie d'un niveau n $E_n$. De plus, lorsque le système est soumis à un champ magnétique, un second terme, le terme zeeman que l'on notera $E_z$ doit également \^etre ajouté. Si le terme $E_N$ est dépend du système considéré et ne peut donc pas prendre la forme d'un expression générale, le terme Zeeman peut \^etre exprimé de la façon suivante :
-\begin{eqnarray}
-\Delta E_z &=& g \mu_B (S(N) - S(N-1))B \\
-&=&g \mu_B \Delta S(N)B
-\end{eqnarray}
-ou $S(N)$ et $S(N-1)$ sont respectivement les état de spin des état de charge N et N-1. On peut donc réexprimer le potentiel chimique comme étant :
-\begin{eqnarray}
-\mu_N = 
-\underbrace{(N-\frac{1}{2})\frac{e^2}{C_{total}}}_{\text{répulsion coulombienne}} 
-+ 
-\underbrace{\frac{e}{C_{tot}}(C_gV_g + C_sV_s + C_dV_d)}_{\text{couplage électrostatique}}
-+
-\underbrace{E_N}_{\substack{\text{énergie liés aux} \\\text{aux états discret}}}
-+
-\underbrace{g \mu_B \Delta S(N)B}_{\text{terme Zeeman}}
-\end{eqnarray}
 
 \subsection{Nouvelles equations pilotes}
 Jusqu'à maintenant, nous n'avons considéré que l'énergie de charge du sytème. Cependant, dans le cas de système de très petit taille et lorsque les expérinces sont faites à basse température, on ne peut plus ignorer l'aspect discret des niveau d'énergie dans l'il\^ot. Si l'on note $\Delta E$ l'espacement en énergie entre deux état (un fondamental et un excité par exemple) et que la température est telle que $\Delta E \ge k_bT$, alors l'on doit considérer le cas du blocage de Coulomb quantique et non plus classique. Si la description du phénomène exposé plus haut n'est pas complètement modifié (l'expression des pente ou des relations entre potentiel chimique restent les m\^emes), de nouveau phénomène peuvent \^etre observé dans ce régime. En particulier, l'apparition de transitions supplémentaires d\^u à la présence d'état excité donne naissance à de nouvelles signature dans le courant pouvant \^etre utiliser afin d'éffectuer un véritable spectroscopie des états d'un sytème par l'intermédiaire d'une mesure de courant.
