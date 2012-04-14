@@ -9,7 +9,7 @@ Dans ce chapitre, nous verrons tout d'abord qu'elles sont le différent paramèt
 
 
 \section{Les paramètres du système}
-La description que nous proposons ici est celui d'un système à trois terminaux que l'on nommera la source, le drain et la grille, ainsi qu'un il\^ot dont la nature peut varier suivant les cas. On peut imaginer une molécule, un il\^ot métallique, un gaz d'électron deux dimensions etc.. L'il\^ot est couplé capacitivement au trois terminaux par trois capacitance ; $C_g$ pour la grille, $C_d$ pour le drain et $C_s$ pour la source. De plus, des barrière tunnel entre l'il\^ot et la source et l'il\^ot et le drain permettant le passage d'électron (sous certaines conditions). Ces deux barrières tunnels sont caractériser par les paramètre $\Gamma_s$ pour le système source/il\^ot et $\Gamma_d$ pour le système drain/il\^ot. La source et le drain sont considéré comme des matériaux massif métallique et dont les électrons obéisse à la statistique de Fermi-Dirac. Enfin, nous attribuons à l'il\^ot une taille caractéristique $L$. Tous ces paramètre sont représenté dans la Fig. \ref{description_systeme}. Nous allons maintenant regarder plus en détail chacun des ces paramètres.
+La description que nous proposons ici est celui d'un système à trois terminaux que l'on nommera la source, le drain et la grille, ainsi qu'un il\^ot dont la nature peut varier suivant les cas. On peut imaginer une molécule, un il\^ot métallique, un gaz d'électron deux dimensions etc.. L'il\^ot est couplé capacitivement au trois terminaux par trois capacitance ; $C_g$ pour la grille, $C_d$ pour le drain et $C_s$ pour la source. De plus, des barrière tunnel entre l'il\^ot et la source et l'il\^ot et le drain permettant le passage d'électron (sous certaines conditions). Ces deux barrières tunnels sont caractériser par les paramètre $\gamma_s$ pour le système source/il\^ot et $\gamma_d$ pour le système drain/il\^ot. La source et le drain sont considéré comme des matériaux massif métallique et dont les électrons obéisse à la statistique de Fermi-Dirac. Enfin, nous attribuons à l'il\^ot une taille caractéristique $L$. Tous ces paramètre sont représenté dans la Fig. \ref{description_systeme}. Nous allons maintenant regarder plus en détail chacun des ces paramètres.
 
 \subsubsection{Les capacitances du système}
 Comme expliqué précédemment, trois capacitances couples l'il\^ot central aux trois terminaux. De part ces capacitances, l'application d'un tension sur l'un ou plusieurs terminaux va modifier l'energie des électrons situés sur l'ilôt. Cette modification peut facilement s'exprimer comme suit :
@@ -24,7 +24,7 @@ De plus, ces capacitance vont induire un "co\^ut" énergétique à l'ajout d'un 
 \end{eqnarray}
 
 
-Ces cette énergie qui est à l'origine de la diminution de la conductance observée par C.J. Gorter en 1951. On voit ici appara\^itre ici une condition nécessaire à l'apparition du phénomène du blocage de Coulomb : $E_c >> k_bT$.
+Ces cette énergie qui est à l'origine de la diminution de la conductance observée par C.J. Gorter en 1951. On voit ici une première condition nécessaire à l'apparition du phénomène du blocage de Coulomb : $E_c >> k_bT$.
 
 On peut donc exprimer l'énergie d'un il\^ot contenant N électrons et soumis à trois tensions $V_g$, $V_d$ et $V_s$ comme suit :
 \begin{eqnarray}
@@ -48,18 +48,11 @@ E_n = \frac{\pi^2 \hbar^2}{2m}(\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2} + \frac
 Il s'agit bien entendu ici d'une expression très simplifié. Dans le cas de molécules par exemple, cette quantification simpliste est remplacé par la quantification correspondante aux orbitale moléculaire. Pour résoudre expérimentalement cette quantifications des niveaux la condition $\frac{\pi^2 \hbar^2}{2mL} >> k_bT$. Le seul moyen d'action de l'expérimentateur se fait à la fois sur $L$ en diminuant la taille des objets observés et $T$ en utilisant des frigo à dilution. Lorsque cette condition est rempli, on rentre dans le régime du blocage de coulomb quantique.
 \newline
 
-\fbox{
-\begin{minipage}{0.85\textwidth}
-\textbf{Remarque :} dans la plus part des système $E_c>>E_n$. Cependant, dans le cas d'il\^ot à base de molécule, on se retrouve avec $E_c \sim E_n$. Dès lors, le régime de blocage de Coulomb est dans ce cas toujours quantique.
 
-\end{minipage}
-}
-
-
-\subsubsection{Les paramètre de couplage tunnel $\Gamma_{s/d}$}
-On peut voir ces coefficient comme définissannt la "facilité" avec laquelle les électrons peuvent passer par effect tunnel de la source ou du drain vers l'il\^ot et vice-versas. Les valeur $\Gamma_{s/d}$ sont déterminante dans la valeur du courant qui va \^etre mesuré dans notre système. De plus, le couplage à la source et au drain contribue à l'élargissement des niveaux d'énergie d'une largeur $\Delta E$ donnée par :
+\subsubsection{Les paramètre de couplage tunnel $\gamma_{s/d}$}
+On peut voir ces coefficient comme définissannt la "facilité" avec laquelle les électrons peuvent passer par effect tunnel de la source ou du drain vers l'il\^ot et vice-versas. Les valeur $\gamma_{s/d}$ sont déterminante dans la valeur du courant qui va \^etre mesuré dans notre système. De plus, le couplage à la source et au drain contribue à l'élargissement des niveaux d'énergie d'une largeur $\Delta E$ donnée par :
 \begin{eqnarray}
-\Delta E_{\text{intrinsèque}} = h (\Gamma_s + \Gamma_d)
+\Delta E_{\text{intrinsèque}} = h (\gamma_s + \gamma_d)
 \end{eqnarray}
 Cette élargissement est appelé élargissement intrinsèque par opposition à l'élargissement induit par la température. On peut deviner ici une seconde condition nécéssaire à l'apparition du phénomène de blocage de Coulomb à savoir $\Delta E_{\text{intrinsèque}} << E_c$. De plus, dans un régime de blocage fort on a $\Delta E_{\text{intrinsèque}} << k_bT$. Si cette dernière condition est remplie, on peut donc avoir accès par l'intermédiaire de des distribution de Fermi-Dirac à la température du système. C'est cette propriété qui est utilisé dans le thermomètre à blocage de Coulomb.
 
@@ -84,7 +77,11 @@ ou $\mu(N)$ est la modification en énergie apporté par l'ajout de la $N^\text{
 
 Maintenant, partant de cette définition on peut imaginer un système de trois réservoirs. Supposons maintenant que l'on puisse atribuer à chacun des ces réservoirs un potentiel chimique et que deux plus, ces potentiels chimiques soient alignés. Je nommerai ces potentiel chimique $\mu_{droit}$, $\mu_{centre}$ et $\mu_{gauche}$. On a donc $\mu_{droit}=\mu_{centre}=\mu_{gauche}$.
 
-Si maintenant je prends une particule dans le réservoir de droite et que je là mets au centre. L'énergie du réservoir de droite va varié de $-\mu_{droit}$ tandis que l'énergie du réservoir du centre va varier de $\mu_{centre}$. En revanche la variation totale en énergie du système est nulle. En faisant de m\^eme avec le réservoir de gauche, on arrive à la conclusion que les trois configuration ; la particule à droite au centre ou à gauche ont la m\^eme énergie ou autrement dit, sont dégénéré. Nous verrons dans la suite que une telle configuration sera appelé point de dégénérescence. De fait, la particule est libre de circuler d'un point du système à l'autre. Nous voyons donc que la notion de potentiel chimique nous permet d'identifier ou non la possibilité pour des particules de passer d'un réservoir à l'autre en fonction du potentiel chimique qui leur est associés. Nous utiliserons cette propriété dans la suite pour définir les contitions de circulation d'électron dans notre système. Mais pour cela, il faut définir ce qu'est le potentiel chimique dans le cas de nos trois réservoir à savoir: la source, le drain et bien sûr l'ilôt.
+Si maintenant je prends une particule dans le réservoir de droite et que je là mets au centre. L'énergie du réservoir de droite va varié de $-\mu_{droit}$ tandis que l'énergie du réservoir du centre va varier de $\mu_{centre}$. En revanche la variation totale en énergie du système est nulle. 
+
+En faisant de m\^eme avec le réservoir de gauche, on arrive à la conclusion que les trois configuration ; la particule à droite au centre ou à gauche ont la m\^eme énergie ou autrement dit, sont dégénéré. Nous verrons dans la suite que une telle configuration sera appelé point de dégénérescence. 
+
+De fait, la particule est libre de circuler d'un point du système à l'autre. Nous voyons donc que la notion de potentiel chimique nous permet d'identifier ou non la possibilité pour des particules de passer d'un réservoir à l'autre en fonction du potentiel chimique qui leur est associés. Nous utiliserons cette propriété dans la suite pour définir les contitions de circulation d'électron dans notre système. Mais pour cela, il faut définir ce qu'est le potentiel chimique dans le cas de nos trois réservoir à savoir: la source, le drain et bien sûr l'ilôt.
 
 
 \subsubsection{Les potentiels chimique de la source et du drain.}
@@ -116,7 +113,9 @@ On peut également tenir compte d'un éventuel champ magnétique en faisant le r
 \begin{eqnarray}
 \sum_{n=1}^N E_n = \sum_{n=1}^N E_n(B) \nonumber
 \end{eqnarray}
-C'est à dire en attribuant à chaque niveau discret, une dépendance en champ magnétique. Nous verrons rapidement dans la suite comment cela se traduit dans le cas d'un système simple. Une fois l'énergie en fonction de $N$ exprimer simplement, il suffit d'appliquer la définition précédente à savoir :
+c'est à dire en attribuant à chaque niveau discret, une dépendance en champ magnétique. Nous verrons rapidement dans la suite comment cela se traduit dans le cas d'un système simple. 
+
+Une fois l'énergie en fonction de $N$ exprimer simplement, il suffit d'appliquer la définition précédente à savoir :
 \begin{eqnarray}
 \mu(N) = U(N) - U(N-1) \nonumber
 \end{eqnarray}
@@ -143,7 +142,7 @@ L'énergie $E_c$ est donc la quantité d'énergie d\^u à la répulsion Coulombi
 
 
 \section{Détermination des conditions de circulation d'un courant}
-Pour rendre l'exposé qui va suivre plus clair, nous allons le décomposé en trois partie. Dans la première partie, nous allons voir quelles sont les conditions à remplir pour qu'un électron du drain puisse aller dans l'il\^ot. Dans la deuxième partie, nous ferrons de m\^eme pour le drain. Enfin, dans la dernière partie, nous exploiterons les résultats obtenues pour en déduire les conditions pour qu'un courant circule dans notre structure ainsi que le signe de ce courant en fonction des paramètres. De plus, pour adapter les solutions trouvées au condition expérimentale, on posera $V_s = 0$ car dans la grande majorité des dispositif, une des électrodes est directement connecter à la masse. Ce qui donnera $V_d=V_{ds}$, $V_{ds}$ étant la tension appliqué à l'échantillon au traver de la source et du drain.
+Pour rendre l'exposé qui va suivre plus clair, nous allons le décomposé en trois partie. Dans la première partie, nous allons voir quelles sont les conditions à remplir pour qu'un électron du drain puisse aller dans l'il\^ot. Dans la deuxième partie, nous ferrons de m\^eme pour la source. Enfin, dans la dernière partie, nous exploiterons les résultats obtenues pour en déduire les conditions pour qu'un courant circule dans notre structure ainsi que le signe de ce courant en fonction des paramètres. Afin d'adapter les solutions trouvées au condition expérimentale, on posera $V_s = 0$ car dans la grande majorité des dispositif, une des électrodes est directement connecter à la masse. Ce qui donnera $V_d=V_{ds}$, $V_{ds}$ étant la tension appliqué à l'échantillon au traver de la source et du drain.
 
 \subsubsection{Charge de l'il\^ot par le drain}
 Comme nous en avons discuté précédemment, pour qu'un particule (ici un électron) puisse passer d'un réservoir à l'autre, il faut que son potentiel chimique soit identique dans les deux réservoirs. Si l'on adapte se raisonnement à notre système, il faut donc qu'il y ait dans le drain des électrons dont le potentiel chimique corresponde à celui de cette électron une fois sur l'il\^ot. Supposoent donc l'il\^ot dans l'état de charge $N-1$, pour passer à l'état de charge $N$, il faut qu'il y ait au moins un électron dont le potentiel chimique soit égale à $\mu(N)$. Il nous suffit d'oberver la courbe de la Fig. \ref{distrib_fermi} pour comprendre que cela suppose :
@@ -158,7 +157,7 @@ Ce qui conduit à la relation suivante :
 +
 E_N(B) \nonumber
 \end{eqnarray}
-En se rappelant que $V_s= 0$ et que $V_{ds} = Vd$, on en déduit la relation suivante :
+En se rappelant que $V_s= 0$ et que $V_{ds} = V_d$, on en déduit la relation suivante :
 \begin{eqnarray}
 V_{ds} \leq \frac{1}{C_{\Sigma}}(C_gV_g + C_dV_{ds}) + \frac{E_N(B)}{|e|} - (N-\frac{1}{2})\frac{|e|}{C_{\Sigma}} \nonumber
 \end{eqnarray}
@@ -217,133 +216,87 @@ Dans les cas un et deux, l'état de charge de l'il\^ot est bien défini et on se
 Une manière plus précise de poser le problème du courant est d'utiliser la méthode des équation pilote. On peut diviser la procedure à suivre en trois étapes. La première étape consiste à déterminer les différents état possible de l'ilôt, de leur attribuer à chacun une probabilité et de mettre en évidence ensuite les différentes relations de transition d'un état à l'autre. Une fois ceci fait, il faut déterminer les paramètre physique permetant le passage d'un état à l'autre en exprimant les taux de transition que l'on notera $\Gamma$. Enfin, à partir des taux de transitions et des différentes probabilité d'état, on peut exprimer le courant circulant dans le système.
 
 \subsubsection{Les différents états du système et leur probabilités}
-On suppose ici que l'état de charge de l'ilôt est soir $N=0$ soit $N=1$.Si l'on tient comprte de l'état de spin de l'électron, l'on peut associé à chacun de ces états une probabilité (P$_0$,P$_-$ et P$_+$ respectivement) en attribuant un $+$ pour l'état spin up et $-$ à l'état de spin down. On peut facilement établir entre ces probabilité les relations suivantes:
+On suppose ici que l'état de charge de l'ilôt est soit $N=0$ soit $N=1$. Si l'on tient compte de l'état de spin de l'électron, l'on peut associé à chacun de ces états une probabilité (P$_0$,P$_-$ et P$_+$ respectivement) en attribuant un $+$ pour l'état spin up et $-$ à l'état de spin down. On peut facilement établir entre ces probabilité les relations suivantes:
 
 \begin{eqnarray}
-\frac{dP_0}{dt} &=& \Gamma_{+ \rightarrow 0}P_+ + \Gamma_{- \rightarrow 0}P_-  -(\Gamma_{0 \rightarrow +}P_0 + \Gamma_{0 \rightarrow -}P_0 + ) \nonumber \\
+\frac{dP_0}{dt} &=& \Gamma_{+ \rightarrow 0}P_+ + \Gamma_{- \rightarrow 0}P_-  -(\Gamma_{0 \rightarrow +}P_0 + \Gamma_{0 \rightarrow -}P_0) \nonumber \\
 \frac{dP_\pm}{dt} &=& \Gamma_{0 \rightarrow \pm}P_0 - \Gamma_{\pm \rightarrow 0}P_\pm \nonumber
 \end{eqnarray}
-ou $\Gamma_{\alpha \rightarrow \beta}$ est le taux de transition de l'état $\alpha$ à l'état $\beta$. On remarquera ici que les phénomène de relaxation dans le dot sont négligé ici car aucune transition $up \leftrightarrow down$ n'est possible.En régime permanent, les differentes probabilités ne dépendent plus du temps et on peut donc en déduire les relations suivantes :
+ou $\Gamma_{\alpha \rightarrow \beta}$ est le taux de transition de l'état $\alpha$ à l'état $\beta$. 
+
+En régime permanent, les differentes probabilités ne dépendent plus du temps et on peut donc en déduire les relations suivantes :
 \begin{eqnarray}
 P_0 &=& \frac{\Gamma_{+ \rightarrow 0}P_{+} + \Gamma_{- \rightarrow 0}P_{-}}{\Gamma_{0 \rightarrow -} + \Gamma_{0 \rightarrow +} }\\
 P_{\pm} &=& \frac{\Gamma_{\pm \rightarrow 0}}{\Gamma_{0 \rightarrow \pm}}P_0 
 \end{eqnarray}
-Il nous faut maintenant exprimer les taux de transition $\Gamma_{0 \rightarrow \pm}$ et $\Gamma_{\pm \rightarrow 0}$ en fonction des paramètres du système.
+
+Ce qui peut être reformuler de la façon suivante:
+\begin{eqnarray}
+P_0 &=& \frac{1}{1 + \frac{\Gamma_{0 \rightarrow +}}{\Gamma_{+ \rightarrow 0}} + \frac{\Gamma_{0 \rightarrow -}}{\Gamma_{- \rightarrow 0}}} \\
+P_{\pm} &=& \frac{\Gamma_{\pm \rightarrow 0}}{\Gamma_{0 \rightarrow \pm}}P_0 
+\end{eqnarray}
+
+
+Il nous faut maintenant exprimer les taux de transition $\Gamma_{0 \rightarrow \pm}$ et $\Gamma_{\pm \rightarrow 0}$ en fonction des paramètres du système. 
 
 \subsubsection{Détermination des taux de transfert}
-Nous allons tout d'abord nous intéresser au taux de transfert $\Gamma_{0 \rightarrow \pm}$ car le raisonement à faire est très proche de celui effectué précédemment dans le cadre des potentiels chimiques. Comme nous l'avons déjà montré plus haut, il y a deux façon de charge l'ilôt : par la source ou par le drain. On a donc
+Nous allons tout d'abord nous intéresser au taux de transfert $\Gamma_{0 \rightarrow \pm}$ car le raisonement à faire est très proche de celui effectué précédemment dans le cadre des potentiels chimiques. 
+
+Comme nous l'avons déjà montré plus haut, il y a deux façon de charge l'ilôt : par la source ou par le drain. On a donc :
 \begin{eqnarray}
 \Gamma_{0 \rightarrow \pm} = \Gamma_{0 \rightarrow \pm}^s + \Gamma_{0 \rightarrow \pm}^d
 \end{eqnarray}
-Ou nous avons diviser le taux de transfert en un taux de transfert source et un taux de transfert drain. Il s'agit donc de trouver dans la source (ou le drain) un électron dont le potentiel chimique correspond à la transition $0\rightarrow \pm$. Nous noterons de potentiel chimique $\mu_{\pm}$ dans la suite. L'expression de se potentiel chimique peut se faire facilement à partie de l'Equ. \ref{pot_chim}.
+où nous avons diviser le taux de transfert en un taux de transfert source et un taux de transfert drain. Il s'agit donc de trouver dans la source (ou le drain) un électron dont le potentiel chimique correspond à la transition $0\rightarrow \pm$. Nous noterons le potentiel chimique associé à cette transition $\mu_{\pm}$ dans la suite. 
+
+Son expression peut facilement se déduire de l'Equ. \ref{pot_chim} et exprimer sous la forme suivante :
 \begin{eqnarray}
-\mu_{\pm} = \frac{1}{2}E_c - \frac{E_c}{|e]}(C_gV_g + C_sV_s + C_dV_d)~ \pm \underbrace{ \frac{1}{2}g \mu_B B}_{\text{terme Zeeman}}
+\mu_{\pm} = \frac{1}{2}E_c - \frac{E_c}{|e|}(C_gV_g + C_sV_s + C_dV_d)~ \pm \underbrace{ \frac{1}{2}g \mu_B B}_{\text{terme Zeeman}}
 \end{eqnarray}
 ou  $\mu_B$ et le magnéton de Bohr, $g$ est le facteur de Landé et $B$ est le champ magnétique appliqué au système.
 
-Si on se réfère au paragraphes précédent, le probabilité de trouver un électron dans la source ou dans le drain est donnée par :
+Si on se réfère au paragraphes précédent, le probabilité de trouver un électron dans la source ou dans le drain dont le potentiel chimique est égal à $\mu_{\pm}$ est donnée par :
 \begin{eqnarray}
 p_i(\mu_\pm) = \frac{1}{1 + \exp{(\frac{\mu_\pm - eV_i}{k_bT})}}
 \end{eqnarray}
-ou $i=source/drain$. Du fait de la présence d'une barrière tunnel entre la source ou le drain et l'ilôt, cette probabilité doit être pondéré par un terme relatif au couplage que l'on notera $\gamma_i$ ou $i=source/drain$.
+ou $i=source/drain$. 
+
+Du fait de la présence d'une barrière tunnel entre la source ou le drain et l'ilôt, cette probabilité doit être pondéré par un terme relatif au couplage que l'on notera $\gamma_i$ ou $i=source/drain$.
 On peut donc écrire:
 \begin{eqnarray}
 \Gamma_{0 \rightarrow \pm} =& \Gamma_{0 \rightarrow \pm}^s + \Gamma_{0 \rightarrow \pm}^d  \nonumber \\
  =& \gamma_s p_s(\mu_\pm) + \gamma_d p_d(\mu_\pm)
 \end{eqnarray}
-Par un raisonnement identique, l'on trouve :
+
+Par un raisonnement identique on peut déterminer $\Gamma_{\pm \rightarrow 0}$. La seule modification au raisonnement est qu'il faut cette fois-ci qu'un état soit libre dans la source ou dans le drain ce qui correspond à une probabilité de :
 \begin{eqnarray}
-\Gamma_{\pm \rightarrow 0 =& \Gamma_{\pm \rightarrow 0}^s + \Gamma_{\pm \rightarrow 0}^d  \nonumber \\
+1 - p_i(\mu_\pm) &=& 1 - \frac{1}{1 + \exp{(\frac{\mu_\pm - eV_i}{k_bT})}} \nonumber \\
+ &=& \frac{\exp{(\frac{\mu_\pm - eV_i}{k_bT})}}{1 + \exp{(\frac{\mu_\pm - eV_i}{k_bT})}}
+\end{eqnarray}
+ou $i=source/drain$.
+En effectuant cette subtitution, on trouve facilement :
+\begin{eqnarray}
+\Gamma_{\pm \rightarrow 0} =& \Gamma_{\pm \rightarrow 0}^s + \Gamma_{\pm \rightarrow 0}^d  \nonumber \\
  =& \gamma_s \{1 - p_s(\mu_\pm)\} + \gamma_d \{1-p_d(\mu_\pm)\}
 \end{eqnarray}
-
-
-
-
-
-
-\newpage 
-
-Concentrons-nous pour l'instant sur les coefficient gamma et prenons par exemple $\Gamma_{0 \rightarrow 1}$. Il s'agit de la probabilité qu'à un électron de passer d'une des électrodes à l'il\^ot. Si l'on tient compte de la la discussion précédente, cette probabilité est directement proportionnelle à celle qu'à un électron de posséder le potentiel chimique correspondant pondéré par le fait qu'on a un densité d'état donnée et une barrière tunnel. On appellera le terme de pondération $\gamma_x$ ou $x$ correspond au label de l'électrode considéré à savoir droite ou gauche. On peut donc écrite 
+Nous avons désormais tous les éléments pour exprimer le courant circulant dans notre système. C'est cette dernière étape que nous alons aborder maintenant.
+\subsubsection{Détermination du courant}
+De part la loi de conservation, on peut calculer indifféremment le courant au niveau de la source ou au niveau du drain. Si l'on se place du c\^oté de la source, on peut voir que le courant est composé d'un composante positive de part les électrons qui quittent la source pour l'il\^ot, et une composante négative  de part les électrons de l'il\^ot qui se décharge dans la source. Ces deux composantes peuvent s'exprimer de la façon suivante:
 \begin{eqnarray}
-\Gamma_{0 \rightarrow 1} = 
-\underbrace{2\gamma_d f(\epsilon - E_d^F)}_{\substack{{\Gamma_{0 \rightarrow 1}^s}\\\text{il\^ot chargé par un électron}\\\text{provenant de la source}}}
-+ 
-\underbrace{2\gamma_g f(\epsilon - E_g^F)}_{\substack{{\Gamma_{0 \rightarrow 1}^d}\\\text{il\^ot chargé par un électron}\\\text{provenant du drain}}}
+I = |e| \gamma_s [(\Gamma_{0 \rightarrow +}^s + \Gamma_{0 \rightarrow -}^s) P_0 - \{ \Gamma_{+ \rightarrow 0}^s P_{+} + \Gamma_{- \rightarrow 0}^s P_{-}  \}]
 \end{eqnarray}
-le facteur 2 rendant compte de la dégénérescence de spin. Pour ce qui est du coefficient $\Gamma_{1 \rightarrow 0}$, son expression peut être déduite en utilisant le même raisonnement :
+On peut voir dans la Fig. \ref{SimulatedCoulombMap} le courant correspondant ainsi que ça dérivé relative à la tension $V_{ds}$ dans le plan ($V_g$,$V_{ds}$). Le tracé a été fait sans et avec champs magnétique. Dans le deuxième cas, on voit clairement apparaitre des ligne supplémentaire correspondant à un état excité généré par la levé de dégénerescence par effet Zeeman.
+\begin{figure}
+\caption{Courant correspant à un état de charge (0,1) dans le plan ($V_g$,$V_{ds}$) sans champ magnétique et avec champ magnétique}
+\label{SimulatedCoulombMap}
+\end{figure}
 
-\begin{eqnarray}
-\Gamma_{1 \rightarrow 0} = 
-\underbrace{\gamma_d (1 - f(\epsilon - E_d^F))}_{\substack{{\Gamma_{1 \rightarrow 0}^s}\\\text{l'électron de l'il\^ot}\\\text{part dans la source}}}
-+ 
-\underbrace{\gamma_g (1 - f(\epsilon - E_g^F))}_{\substack{{\Gamma_{1 \rightarrow 0}^s}\\\text{l'électron de l'il\^ot}\\\text{part dans le drain}}}
-\end{eqnarray}
-Cette expression peut se comprendre facilement en la comparant à la transition inverse. Dans le deuxième cas, on a "besoin" d'un électron dans l'électrode et cette probabilité est donnée par la distribution de Fermi f, alors que dans le premier cas, on a "besoin" d'un état vide pour l'électron autrement dit 1-f.
 
-En régime permanent, les probabilité associées à l'état de charge de l'il\^ot ne dépendent plus du temps ce qui conduit à la nouvelle relation :
+\subsubsection{Quelques remarques}
+Il convient toutefois de faire quelques remarque sur cette méthode des équation pilote. Tout d'abord, nous n'avons pas tenu compte des relaxation à l'intérieur de l'il\^ot. Pour inclure de tel phénomène, il faudrait introduire des taux de transfert du type $\Gamma_{\pm \rightarrow \mp}$. De plus, afin que dans le cas d'un système isoler le système retrouve une distibution de type Bolzman, il faudra s'assurer que ces deux taux de transvers obéisse à la relation suivante :
 \begin{eqnarray}
-0 = \Gamma_{0 \rightarrow 1}P_0 - \Gamma_{1 \rightarrow 0}P_1
-\end{eqnarray}
-On peut donc en déduire les relations suivantes:
-\begin{eqnarray}
-P_1 &= \frac{\Gamma_{0 \rightarrow 1}}{\Gamma_{0 \rightarrow 1} + \Gamma_{1 \rightarrow 0}} &= \frac{2\gamma_d f_d + 2 \gamma_g f_g}{\gamma_d(1+f_d) + \gamma_g(1 + f_g)} \\
-P_0 &= \frac{\Gamma_{1 \rightarrow 0}}{\Gamma_{0 \rightarrow 1} + \Gamma_{1 \rightarrow 0}} &= \frac{\gamma_d(1-f_d) + \gamma_g(1 - f_g)}{\gamma_d(1+f_d) + \gamma_g(1 + f_g)}
-\end{eqnarray}
-Partant de raisonnement simple, nous voici avec l'expression des probabilité des l'état de charge de notre il\^ot métallique. Cependant, nous n'avons toujours pas l'expression du courant traversant notre système. Il nous faut pour cela prendre une électrode et faire le bilan des électron qui viennent de l'il\^ot et ce qui y parte.Si nous nous plaçons du c\^oté source nous avons l'expression du courant suivante :
-\begin{eqnarray}
-I = e (\Gamma_{0 \rightarrow 1}^d P_0 - \Gamma_{1 \rightarrow 0}^d P_1)
-\end{eqnarray}
-L'expression de $\Gamma_{0 \rightarrow 1}^d$ et $\Gamma_{1 \rightarrow 0}^d$ de la m\^eme façon on a 
- 
-\begin{eqnarray}
-\Gamma_{0 \rightarrow 1}^d =  2\gamma_d f(\epsilon - E_d^F)\\
-\Gamma_{1 \rightarrow 0}^d = \gamma_d (1- f(\epsilon - E_d^F)) 
-\end{eqnarray}
-Après un peu d'algèbre, on obtiend l'expression suivante pout le courant :
-
-\begin{eqnarray}
-I = 2 |e| \frac{\gamma_d \gamma_g (f_d - f_g)}{\gamma_d(1+f_r) + \gamma_g(1 + f_g)}
+\frac{\Gamma_{+ \rightarrow -}}{\Gamma_{- \rightarrow +}} = \exp(\frac{\mu_{+}- \mu_{-}}{k_bT}) \nonumber
 \end{eqnarray}
 
+Deuxième remarque, l'élargissement des niveau au sein de l'il\^ot n'est pas pris en compte. Dans le régime fortement bloqué que nous avons choisi comme modèle ici, cette hypothèse est raisonnable. 
 
-
-
-
-\subsection{Nouvelles equations pilotes}
-Jusqu'à maintenant, nous n'avons considéré que l'énergie de charge du sytème. Cependant, dans le cas de système de très petit taille et lorsque les expérinces sont faites à basse température, on ne peut plus ignorer l'aspect discret des niveau d'énergie dans l'il\^ot. Si l'on note $\Delta E$ l'espacement en énergie entre deux état (un fondamental et un excité par exemple) et que la température est telle que $\Delta E \ge k_bT$, alors l'on doit considérer le cas du blocage de Coulomb quantique et non plus classique. Si la description du phénomène exposé plus haut n'est pas complètement modifié (l'expression des pente ou des relations entre potentiel chimique restent les m\^emes), de nouveau phénomène peuvent \^etre observé dans ce régime. En particulier, l'apparition de transitions supplémentaires d\^u à la présence d'état excité donne naissance à de nouvelles signature dans le courant pouvant \^etre utiliser afin d'éffectuer un véritable spectroscopie des états d'un sytème par l'intermédiaire d'une mesure de courant.
-
-Pour illustrer ce régime, je vais prendre un cas très simple dans lequel un il\^ot est soit non-chargé, soit avec un seul état de charge. Sans champ magnétique, les deux état de spin de l'état chargé sont dégénéré. Cependant, lorsque l'on applique un champ magnétique B, la dégénérescence est levé du fait du terme Zeeman qui introduit une différence d'énergie entre l'état spin down et spin up donnée par $\Delta E_z = \mu_b B$ ou $\mu_b$ est le facteur gyromagnétique de l'électron et B est le champ magnétique appliqué. Si les partie un est deux décrite dans le blocage classique sont toujours valide, l'expression de l'équation pilote doit \^etre modifié pour rendre compte des états excités. La généralisation à des cas plus complexe est décrite dans Bonne et Al. Nous nous bornerons ici à étudié le cas simplé décrit précedemment.
-
-La première modification est dans l'expression des probabilité. Là ou nous avions deux état; l'un avec zéro électron avec la probabilité $P_0$ et un deuxième à un électron avec la probabilité $P_1$ nous avons toujours l'état vide avec la probabilité $P_0$ mais nous avons aussi l'état $P_{1^+}$ d'avoir un électron avec un état de spin up et une probabilité $P_{1^-}$ d'avoir un électron de spin down. La relation concernant $P_1$ se décompose donc en deux relations distinctes :
-\begin{eqnarray}
-\frac{dP_{0}}{dt} &=& \Gamma_{1^+ \rightarrow 0}P_{1^+} + \Gamma_{1^- \rightarrow 0}P_{1^-} - (\Gamma_{0 \rightarrow 1^-} - \Gamma_{0 \rightarrow 1^+})P_0\\
-\frac{dP_{1^+}}{dt} &=& \Gamma_{0 \rightarrow 1^+}P_0 - \Gamma_{1^+ \rightarrow 0}P_{1^+}\\
-\frac{dP_{1^-}}{dt} &=& \Gamma_{0 \rightarrow 1^-}P_0 - \Gamma_{1^- \rightarrow 0}P_{1^-}
-\end{eqnarray}
-Il est important de noter que dans cette description, l'on considère que l'électron de relaxe pas à l'intérieur de l'\^ilot mais seulement dans les électrodes. C'est une hypothèse plut\^ot forte puisque le temps passé par l'électron peut \^etre relativement grand lorsque l'on est dans des régime très bloqués. Elle a cependant le mérite de rendre la résolution du problème plus simple tout en fournissant des résultat qualitativement très satisfaisant.
-En régime permanent, on arrive donc aux relations suivantes :
-\begin{eqnarray}
-P_0 &=& \frac{\Gamma_{1^+ \rightarrow 0}P_{1^+} + \Gamma_{1^- \rightarrow 0}P_{1^-}}{\Gamma_{0 \rightarrow 1^-} + \Gamma_{0 \rightarrow 1^+} }\\
-P_{1^+} &=& \frac{\Gamma_{1^+ \rightarrow 0}}{\Gamma_{0 \rightarrow 1^+}}P_0 \\
-P_{1^-} &=& \frac{\Gamma_{1^- \rightarrow 0}}{\Gamma_{0 \rightarrow 1^-}}P_0
-\end{eqnarray}
-
-Ces trois égalités peuvent se réexprimer sous la forme :
-\begin{eqnarray}
-P_0 &=& \frac{1}{1 + \frac{\Gamma_{0 \rightarrow 1^+}}{\Gamma_{1^+ \rightarrow 0}} + \frac{\Gamma_{0 \rightarrow 1^-}}{\Gamma_{1^- \rightarrow 0}} } \\
-P_{1^+} &=& \frac{\Gamma_{1^+ \rightarrow 0}}{\Gamma_{0 \rightarrow 1^+}}P_0 \\
-P_{1^-} &=& \frac{\Gamma_{1^- \rightarrow 0}}{\Gamma_{0 \rightarrow 1^-}}P_0
-\end{eqnarray}
-
-Ne reste plus ensuite qu'à exprimer les coefficient $\Gamma$. La réécriture de ces coefficient se fait facilement et on peut écrire 
-\begin{eqnarray}
-\Gamma_{0 \rightarrow 1^\pm} &=&  \gamma_d^\pm f(\epsilon^\pm - E_d^F) + \gamma_s^\pm f(\epsilon^\pm - E_s^F)\\
-\Gamma_{1^\pm \rightarrow 0} &=& \gamma_d^\pm (1- f(\epsilon^\pm - E_d^F)) + \gamma_s^\pm (1- f(\epsilon^\pm - E_s^F)) 
-\end{eqnarray}
-On peut constater que le facteur 2 présent dans la définition de $\Gamma_{0 \rightarrow 1^\pm}$ a disparu. En effet, il n'est plus question ici de deux niveaux dégénérés. Nous pouvons maintenant exprimer le courant en considérant $\gamma_{\alpha}^+ = \gamma_{\alpha}^+ = \gamma_{\alpha}$:
-\begin{eqnarray}
-I = |e| \gamma_s [(1 - f_s^+)P_{1^+} + (1-f_s^-)P_{1^-} - (f_s^+ + f_s^-)P_0]
-\end{eqnarray}
-
-\section{Couplage d'un spin $1/2$ et d'une impureté magnétique}
+Troisième remarque, la méthode de l'équation pilote n'est valable que dans le cas d'évènement de tunnel des électron indépendant les uns de autres. Cette méthode ne peut donc pas \^etre utiliser dans le traitement du cotunneling que l'on verra plus loin.
