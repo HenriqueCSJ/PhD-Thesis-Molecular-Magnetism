@@ -32,6 +32,7 @@ U(N) = \frac{1}{2C_{\Sigma}} (-|e|N + C_sV_s + C_dV_d + C_gV_g)^2
 \end{eqnarray}
 
 \begin{figure}
+\includegraphics[scale=1]{Theorie/Transport/figure1/figure1ThTr.pdf} 
 \caption{Paramètres caractérisant un système à trois terminaux}
 \label{description_systeme}
 \end{figure}
@@ -96,7 +97,8 @@ p_i(\mu) = \frac{1}{1 + \exp{(\frac{\mu - eV_i}{k_bT})}}
 ou $i=source/drain$. Nous verrons dans la suite que cette notion est essentielle dans la détermination du courant qui traverse notre structure.
 
 \begin{figure}
-\caption{Distribution de Fermi pour une tension $V_i$ donné}
+\includegraphics[scale=0.8]{Theorie/Transport/figure2/figure2.pdf} 
+\caption{Probabilité d'avoir un électron de potentiel chimique $\mu$ sachant que le potentiel chimique du métal est $\mu_{\rm{F}}$. Le potentiel chimique $\mu_{\rm{F}}$ correspondant à une tension de $1mV$ que l'on applique habituellement dans ce genre d'éxpérience correspond à une énergie de $11.5K$.}
 \label{distrib_fermi}
 \end{figure}
 
@@ -287,11 +289,15 @@ I = |e| \gamma_s [(\Gamma_{0 \rightarrow +}^s + \Gamma_{0 \rightarrow -}^s) P_0 
 
 
 On peut voir dans la Fig. \ref{SimulatedCoulombMap} le courant correspondant ainsi que ça dérivé relative à la tension $V_{ds}$ dans le plan ($V_g$,$V_{ds}$). Le tracé a été fait sans champ magnétique appliqué. Nous verrons l'effet d'un champ magnétique sur les propriétés de transport dans le paragraphe consacré à la lecture des états excités. Mais avant d'aborder ce problème, il est important de faire quelque remarques sur la méthode que nous venons d'aborder.
+
+
 \begin{figure}
+\begin{center}
+\includegraphics[scale=0.8]{Theorie/Transport/figure4/figure4.pdf} 
 \caption{Courant correspant à un état de charge (0,1) dans le plan ($V_g$,$V_{ds}$) sans champ magnétique}
 \label{SimulatedCoulombMap}
+\end{center}
 \end{figure}
-
 
 \subsubsection{Quelques remarques}
 Il convient toutefois de faire quelques remarque sur cette méthode des équation pilote. Tout d'abord, nous n'avons pas tenu compte des relaxation à l'intérieur de l'il\^ot. Pour inclure de tel phénomène, il faudrait introduire des taux de transfert du type $\Gamma_{\pm \rightarrow \mp}$. De plus, afin que dans le cas d'un système isoler le système retrouve une distibution de type Bolzman, il faudra s'assurer que ces deux taux de transvers obéisse à la relation suivante :
