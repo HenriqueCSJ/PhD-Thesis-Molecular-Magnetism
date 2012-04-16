@@ -284,9 +284,11 @@ De part la loi de conservation, on peut calculer indifféremment le courant au n
 \begin{eqnarray}
 I = |e| \gamma_s [(\Gamma_{0 \rightarrow +}^s + \Gamma_{0 \rightarrow -}^s) P_0 - \{ \Gamma_{+ \rightarrow 0}^s P_{+} + \Gamma_{- \rightarrow 0}^s P_{-}  \}]
 \end{eqnarray}
-On peut voir dans la Fig. \ref{SimulatedCoulombMap} le courant correspondant ainsi que ça dérivé relative à la tension $V_{ds}$ dans le plan ($V_g$,$V_{ds}$). Le tracé a été fait sans et avec champs magnétique. Dans le deuxième cas, on voit clairement apparaitre des ligne supplémentaire correspondant à un état excité généré par la levé de dégénerescence par effet Zeeman.
+
+
+On peut voir dans la Fig. \ref{SimulatedCoulombMap} le courant correspondant ainsi que ça dérivé relative à la tension $V_{ds}$ dans le plan ($V_g$,$V_{ds}$). Le tracé a été fait sans champ magnétique appliqué. Nous verrons l'effet d'un champ magnétique sur les propriétés de transport dans le paragraphe consacré à la lecture des états excités. Mais avant d'aborder ce problème, il est important de faire quelque remarques sur la méthode que nous venons d'aborder.
 \begin{figure}
-\caption{Courant correspant à un état de charge (0,1) dans le plan ($V_g$,$V_{ds}$) sans champ magnétique et avec champ magnétique}
+\caption{Courant correspant à un état de charge (0,1) dans le plan ($V_g$,$V_{ds}$) sans champ magnétique}
 \label{SimulatedCoulombMap}
 \end{figure}
 
@@ -300,3 +302,21 @@ Il convient toutefois de faire quelques remarque sur cette méthode des équatio
 Deuxième remarque, l'élargissement des niveau au sein de l'il\^ot n'est pas pris en compte. Dans le régime fortement bloqué que nous avons choisi comme modèle ici, cette hypothèse est raisonnable. 
 
 Troisième remarque, la méthode de l'équation pilote n'est valable que dans le cas d'évènement de tunnel des électron indépendant les uns de autres. Cette méthode ne peut donc pas \^etre utiliser dans le traitement du cotunneling que l'on verra plus loin.
+
+\section{Etats excités et transport}
+Dans ce dernier paragraphe nous allons aborder la notion de spectroscopie par transport. Cette méthode vise à analyser les différents état du système par des mesures de transport. Cette technique à notablement été utilisé pour sonder les niveaux magnétique par l'application d'un champ et par l'étude de l'évolution des propriété de transport en fonction de ce champ magnétique.
+
+Nous allons pour aborder cette technique, nous consacrer sur le système que nous avons décrit précédemment dans le cadre de l'équation pilote. Le diagramme Zeeman de l'état de charge N=1 est représenté avec les potentiels chimique associé à la transition 0/1.
+
+A partir de ces potentiels chimique on peut déjà esquissé l'allure de la cartographie de conductance dans le plan ($V_g$,$V_{ds}$). Il suffit pour cela de tracer un double jeux de Diamant de Coulomb. On utilise ensuite les bord de Diamant correspondant à la transition état fondamental de l'état 0 à l'état fondamental de l'état de charge 1. Lorsque d'un bord de Diamant associé à un état excité, ce bord de Diamant doit \^etre stoppé et ne pas allé jusqu'à l'origine. On peut identifier deux zones de lecture pour ce qui est des états d'énergie : par la tension de grille en prolongeant les bords de diamant de Coulomb ou par la tension source drain. Dans les deux cas, une renormalisation de l'énergie est nécessaire.
+
+Une approche plus qualitative peut \^etre obtenue en utilisant les équations pilotes et confirme ce que l'on avait obtenue avec la méthode plus simple des potentiels chimique. En revanche, la technique de l'équation pilote nous donne plus d'information sur l'amplitude des différentes variations de courants.
+
+Ces deux marche successive en courant correspondent à l'entré dans la fen\^etre de tension $V_{ds}$ d'un puis de deux canaux correspondant respectivement à la transition état fondamental état fondamental et état fondamental excité. Dans des système plus complexe, ils arrivent souvent que les état N/N+1 possèdent tout deux des états fondamentaux et des états excités. Dans ce cas, la signature en transport devient plus complexe. Ces différentes configurations sont notamment traité par Hanson et Al., et un exemple peut \^etre trouvé dans l'analyse du $N@C_{60}$ proposé en fin de thèse et les références qu'il contient.
+
+\begin{figure}
+\caption{Diagramme Zeeman de l'état de charge N=1. Potentiel chimique correspondant à la transition 0/1}
+\label{charge_discharge}
+\end{figure}
+
+On peut également une autre mesure qui prendra tout son sens dans la suite quand on utilisera l'il\^ot central non plus comme le système à étudier mais comme un sonde de son environnement local. Nous vennons de voir que la position du point de dégénérescence dépend de la position du potentiel chimique dans l'échelle des énergies. On peut donc choisir une tension de grille $V_g$ proche du point de dégénérescence avec une tension source-drain $V_{ds}$ nulle. On mesure en suite la conductance en faisant varier le champ magnétique.
