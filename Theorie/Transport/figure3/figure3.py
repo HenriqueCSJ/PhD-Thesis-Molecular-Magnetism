@@ -66,7 +66,7 @@ ax.annotate("",(-0.59+offset1,0.05+offset2),(-0.4+offset1, 0.15+offset2),arrowpr
 ################
 ##plot de droite
 di = dI_Vg_dVds(-0.001,0.001,500,-0.002,0.002,500,1,2,1,20e9,20e9,0,0.4)
-imdi = ax2.imshow(matrix(di).transpose().tolist(),extent=[-1,1,-1,1],aspect = 0.9,cmap='gist_gray')
+imdi = ax2.imshow(matrix(di).transpose().tolist(),extent=[-1,1,-1,1],aspect = 0.9,cmap='hot')
 ax2.set_xlabel(r"$V_{\rm{g}} (a.u.)$")
 ax2.set_ylabel(r"$V_{\rm{ds}} (a.u.)$")
 ax2.text(-0.75,0,"N",fontsize=30,ha='center',va='center', color="white")
