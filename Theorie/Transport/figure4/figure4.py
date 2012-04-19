@@ -132,6 +132,10 @@ ax3.annotate("",(0.8,0.2),(0.8,0.6),ha="right",va="center",arrowprops=dict(arrow
 ax3.set_xlim(0,0.9)
 
 
+#Mise en page du plot
+fig.text(0.01,0.95,"a",fontsize=25,fontweight="bold",backgroundcolor="pink")
+fig.text(0.62,0.95,"b",fontsize=25,fontweight="bold",backgroundcolor="pink")
+fig.text(0.62,0.45,"c",fontsize=25,fontweight="bold",backgroundcolor="pink")
 
 #Et voila
 fig.savefig("Theorie/Transport/figure4/figure4.pdf")
