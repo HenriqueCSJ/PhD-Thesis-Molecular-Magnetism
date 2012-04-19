@@ -1,11 +1,30 @@
 #on fait d'abord 3 subplot
 import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
 
-ax1 = plt.subplot2grid((7,5),(0,0),colspan=3,rowspan=7)
-ax2 = plt.subplot2grid((7,5),(0,3),colspan=2,rowspan=3)
-ax3 = plt.subplot2grid((7,5),(3,3),colspan=2,rowspan=4)
+gs1 = gridspec.GridSpec(1,1)
+gs1.update(left=0.05,right=0.6)
+ax1 = plt.subplot(gs1[:,:])
+
+gs2 = gridspec.GridSpec(2,1)
+gs2.update(left=0.65, right=0.98,hspace=0.1,bottom=0)
+ax2 = plt.subplot(gs2[0,0])
+ax3 = plt.subplot(gs2[1,0])
+
+#ax1 = plt.subplot2grid((7,5),(0,0),colspan=3,rowspan=7)
+#ax2 = plt.subplot2grid((7,5),(0,3),colspan=2,rowspan=3)
+#ax3 = plt.subplot2grid((7,5),(3,3),colspan=2,rowspan=4)
 fig = gcf()
 fig.set_size_inches(12,7)
+
+
+
+
+
+
+
+
+
 #ax3.set_axis_off()
 ##############################
 #PANEL 1
@@ -110,14 +129,14 @@ ax3.annotate("",(0.7,0.50),(0.7,0.65),ha="right",va="center",arrowprops=dict(arr
 #Ensuite des transitions
 ax3.annotate("",(0.8,0.2),(0.8,0.8),ha="right",va="center",arrowprops=dict(arrowstyle='<|-',connectionstyle="arc3,rad=-0.25",linewidth=2,color="red"))
 ax3.annotate("",(0.8,0.2),(0.8,0.6),ha="right",va="center",arrowprops=dict(arrowstyle='<|-',connectionstyle="arc3,rad=-0.2",linewidth=2,color="blue"))
-
+ax3.set_xlim(0,0.9)
 
 
 #Mise en page du plot
-fig.subplots_adjust(left=0.09,right=0.98,wspace=0.4, hspace=0,bottom =0.17)
-fig.text(0.01,0.95,"a",fontsize=25,fontweight="bold",backgroundcolor="pink")
-fig.text(0.62,0.95,"b",fontsize=25,fontweight="bold",backgroundcolor="pink")
-fig.text(0.62,0.55,"c",fontsize=25,fontweight="bold",backgroundcolor="pink")
+#fig.subplots_adjust(left=0.09,right=0.98,wspace=0.4, hspace=0,bottom =0.17)
+#fig.text(0.01,0.95,"a",fontsize=25,fontweight="bold",backgroundcolor="pink")
+#fig.text(0.62,0.95,"b",fontsize=25,fontweight="bold",backgroundcolor="pink")
+#fig.text(0.62,0.45,"c",fontsize=25,fontweight="bold",backgroundcolor="pink")
 
 
 
