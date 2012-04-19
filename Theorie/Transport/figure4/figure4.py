@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
 gs1 = gridspec.GridSpec(1,1)
-gs1.update(left=0.05,right=0.6)
+gs1.update(left=0.08,right=0.6)
 ax1 = plt.subplot(gs1[:,:])
 
 gs2 = gridspec.GridSpec(2,1)
@@ -39,7 +39,7 @@ ax1.plot([0.5,1],[0,0.5],'r--')#sous l'etat fondamental
 #delta Ez
 ax1.plot([-0.5,0.25],[0.25,0.25],color="black",linestyle='--')
 ax1.annotate("",(-0.5,0.25),(-0.5,0),ha="center",va="center",arrowprops=dict(arrowstyle='<|-|>',connectionstyle="arc3,rad=0",linewidth=2,color="black"))
-ax1.text(-0.590,0.125,r"$\Delta E_Z$",va="center",ha="center",fontsize=25, color='black')
+ax1.text(-0.620,0.125,r"$\Delta E_Z$",va="center",ha="center",fontsize=25, color='black')
 
 
 
@@ -130,13 +130,6 @@ ax3.annotate("",(0.7,0.50),(0.7,0.65),ha="right",va="center",arrowprops=dict(arr
 ax3.annotate("",(0.8,0.2),(0.8,0.8),ha="right",va="center",arrowprops=dict(arrowstyle='<|-',connectionstyle="arc3,rad=-0.25",linewidth=2,color="red"))
 ax3.annotate("",(0.8,0.2),(0.8,0.6),ha="right",va="center",arrowprops=dict(arrowstyle='<|-',connectionstyle="arc3,rad=-0.2",linewidth=2,color="blue"))
 ax3.set_xlim(0,0.9)
-
-
-#Mise en page du plot
-#fig.subplots_adjust(left=0.09,right=0.98,wspace=0.4, hspace=0,bottom =0.17)
-#fig.text(0.01,0.95,"a",fontsize=25,fontweight="bold",backgroundcolor="pink")
-#fig.text(0.62,0.95,"b",fontsize=25,fontweight="bold",backgroundcolor="pink")
-#fig.text(0.62,0.45,"c",fontsize=25,fontweight="bold",backgroundcolor="pink")
 
 
 
