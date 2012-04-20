@@ -1,8 +1,10 @@
 
 
-\chapter{Blocage de Coulomb}
 
-Dans ce chapitre nous allons aborder le transport à travers une structure nanoscopique et nous allons nous intéresser en particulier au phénomène de blocage de Coulomb. Ce phénomène a d'abord été observé sur des échantillon métallique macroscopique composé de petit grain métallique par C.J. Gorter en 1951. En mesurant la conductance d'un de ces échantillon en fonction de la température, l'auteur a constaté une diminution inattendu à basse température. Cette diminution de la température à été attribué à l'aspect granuleux du métal. Plus précisément , pour ajouter un électron dans un des grains constituant le métal, il fallait fournir une énergie $e^2/C$ où $e$ est la charge de l'électron et $C$ est la capacité que l'on peut associé à un de ces grains. A haute température ($k_bT >> e^2/C$), cette énergie n'affecte pas la conductance du système. A basse température en revanche ($k_bT << e^2/C$), cette enérgie réduit l'habilité des électron à se mouvoir librement dans le métal ce qui entraîne une diminution de la conductance. Depuis, l'étude de ce phénomène à beaucoup évolué et de nos jours et le rôle central du grain de métal est souvent remplacé par des molécules, des point quantique de gaz d'électron à deux dimensions etc..
+\chapter{Transport mésoscopique}
+
+
+Dans ce chapitre nous allons aborder le transport à travers une structure nanoscopique et nous allons nous intéresser en particulier au phénomène de blocage de Coulomb. Ce phénomène a d'abord été observé sur des échantillon métallique macroscopique composé de petit grain métallique par C.J. Gorter en 1951. En mesurant la conductance d'un de ces échantillon en fonction de la température, l'auteur a constaté une diminution inattendu à basse température. Cette diminution de la température à été attribué à l'aspect granuleux du métal. Plus précisément , pour ajouter un électron dans un des grains constituant le métal, il fallait fournir une énergie $e^2/C$ où $e$ est la charge de l'électron et $C$ est la capacité que l'on peut associé à un de ces grains. A haute température ($k_bT \gg e^2/C$), cette énergie n'affecte pas la conductance du système. A basse température en revanche ($k_bT \ll e^2/C$), cette enérgie réduit l'habilité des électron à se mouvoir librement dans le métal ce qui entraîne une diminution de la conductance. Depuis, l'étude de ce phénomène à beaucoup évolué et de nos jours et le rôle central du grain de métal est souvent remplacé par des molécules, des point quantique de gaz d'électron à deux dimensions etc..
 
 Dans ce chapitre, nous verrons tout d'abord qu'elles sont le différent paramètres physique d'un système type. En particulier, nous donnerons quelques conditions nécessaire à l'apparition d'un phénomène de blocage de Coulomb classique et quantique. Nous aborderons ensuite la notion de potentiel chimique et nous montrerons comment cette notion peut expliquer de façon intuitive le phénomène de blocage de Coulomb. Nous déterminerons notamment comment certain paramètre du système par une simple mesure de courant. Nous développerons ensuite un modèle plus quantitatif afin de déterminer le courant circulant à travers une structure nanoscopique. Pour cela, nous nous concentrerons sur le cas particulier d'une boite quantique oscillant entre deux états de charge.
 %%%%%%%%%%%%%%%%%%%%%%%%
@@ -16,7 +18,7 @@ Dans la suite de ce chapitre, nous considérerons un système simple composé d'
 Ce système, les paramètres qui le caractérisent ainsi qu'un schéma électrique équivalent sont représentés dans la Fig. \ref{description_systeme}. Nous allons maintenant détailler chacun de ces éléments de façon plus précise.
 
 
-\subsubsection{Les capacitances du système}
+\subsection{Les capacitances du système}
 Comme expliqué précédemment, trois capacitances couples l'il\^ot central aux trois terminaux. L'application d'un tension sur l'un ou plusieurs terminaux va donc modifier l'energie des électrons situés sur le point quantique. Cette modification peut facilement s'exprimer comme suit :
 
 \begin{eqnarray}
@@ -31,7 +33,7 @@ Ces capacitance vont également induire un "co\^ut" énergétique à l'ajout d'u
 \end{eqnarray}
 
 
-C'est cette énergie qui est à l'origine de la diminution de la conductance observée par C.J. Gorter en 1951. Lorsque la température est suffisamment élevée, elle fourni l'énergie nécessaire aux électrons pour passer d'un grain à l'autre. A basse température en revanche, les électrons n'ont plus la possibilité de ce mouvoir de la sorte et la conductance mesurée diminue. On voit ici une première condition nécessaire à l'apparition du phénomène de blocage de Coulomb : $E_c \gg k_bT$.
+Cette énergie est à l'origine de la diminution de la conductance observée par C.J. Gorter en 1951. Lorsque la température est suffisamment élevée, elle fourni l'énergie nécessaire aux électrons pour passer d'un grain à l'autre. A basse température en revanche, les électrons n'ont plus la possibilité de ce mouvoir de la sorte et la conductance mesurée diminue. On voit ici une première condition nécessaire à l'apparition du phénomène de blocage de Coulomb : $E_c \gg k_bT$.
 
 En tenant compte de ces deux contributions, l'énergie d'un il\^ot contenant N électrons et soumis à trois tensions $V_g$, $V_d$ et $V_s$ est donnée par :
 \begin{eqnarray}
@@ -48,15 +50,15 @@ On rajoute parfois dans cette expression une charge $eN_0$ pour tenir compte de 
 
 
 
-\subsubsection{L'il\^ot}
+\subsection{L'il\^ot}
 De la nature de l'il\^ot vont dépendre les paramètres servant à le caractériser. Les points quantiques que l'on rencontre dans les publication sont souvent~(mais pas exclusivement) basés sur les systèmes suivants:
 \begin{itemize}
 \item \textbf{un gaz d'électron bidimensionnel:} généralement une hétérostructre de semi-conducteur est utilisé pour obtenir un gaz d'électron bidimmensionnel proche de la surface. Par des technique de lithographie, des électrodes sont ajoutées sur la surface de l'échantillon. En appliquant une tension sur ces grilles, le gaz d'électron peut \^etre manipulé pour former un ou plusieurs points quantiques connectés à plusieurs électrodes.
 \item \textbf{un grain métallique:} l'or est souvent choisi en tant que métal car non-oxydable. Ces grains d'or peuvent \^etre obtenue notamment en utilisant la technique d'électromigration que l'on verra dans la suite.
-\item \textbf{une molécule:} c'est ce type de point quantique que nous utiliserons. Les molécule pouvant \^etre utilisé pour jouer ce r\^ole sont nombreuses mais on peut cité quelques exemples : les nanotubes, les fullerène, les aimants moléculaires etc.. \newline
+\item \textbf{une molécule:} c'est ce type de point quantique que nous utiliserons. Les molécule pouvant \^etre utilisé pour jouer ce r\^ole sont trop nombreuses pour toutes \^etre cité mais on peut néanmoins donner quelques exemples : les nanotubes, les fullerène, les aimants moléculaires etc.. \newline
 \end{itemize}
 
-Dans le cas d'électrons bidimensionnel ou celui d'un grain métallique, du fait de la taille des échantillons~($\sim 100nm$ pour les premiers, $\sim 10nm$ pour les seconds), on observe une quantification des différent état du système. Les spectre énergétique de l'il\^ot peut s'exprimer en fonction de trois nombre quantique $n_x$,$n_y$ et $n_z$ à travers la relation suivante:
+Dans le cas d'électrons bidimensionnel ou celui d'un grain métallique, du fait de la taille des échantillons~($\sim 100nm$ pour les premiers, $\sim 10nm$ pour les seconds), on observe une quantification des différent états du système. Le spectre énergétique de l'il\^ot peut s'exprimer en fonction de trois nombres quantiques $n_x$,$n_y$ et $n_z$ à travers la relation suivante:
 \begin{eqnarray}
 E_n = \frac{\pi^2 \hbar^2}{2m}(\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}) \nonumber
 \end{eqnarray}
@@ -67,16 +69,17 @@ Il s'agit bien entendu ici d'une expression très simplifiée car elle suppose u
 \begin{eqnarray}
 \frac{\hbar^2}{2mL^2} \gg k_bT \nonumber
 \end{eqnarray}
+
 Si cette condition est facilement atteinte lorsque l'on utilise des gaz d'électrons bidimensionnels, elle est en revanche plus difficile à satisfaire dans le cas d'un point quantique métallique. \newline
 
 
-Lorsque des molécule sont utilisées, cette quantification apparait beaucoup plus naturellement à travers la notion d'orbitale moléculaire. En effet, c'est sur ces orbitales que vont venir s'ajouter les électrons lors de la charge de l'il\^ot. On peut donc venir sonder les différents niveaux d'énergie d'un molécule en étudiant les différentes énergie nécessaire à l'ajout d'un ou plusieurs électrons sur les différentes orbitales. 
+Lorsque des molécule sont utilisées, cette quantification apparait beaucoup plus naturellement à travers la notion d'orbitales moléculaires. En effet, c'est sur ces orbitales que vont venir s'ajouter les électrons lors de la charge de l'il\^ot. On peut donc venir sonder les différents niveaux d'énergie d'une molécule en étudiant les différentes énergies nécessaires à l'ajout d'un ou plusieurs électrons sur les différentes orbitales. 
 
-Il faut ce garder cependant de penser qu'une molécule jouant le r\^ole de point quantique conserve les m\^eme propriétés qu'une molécule isolée. Tout d'abord, les niveaux d'énergie sont fortement influencé par la présence des électrodes du fait de l'hybridisation. De plus, la présence des électrodes peut induire une déformation qui va altérer la strucure électronique de celle-ci. Ce phénomène est connu sour le nom d'effet Jhan-Teller. 
+Il faut se garder cependant de penser qu'une molécule jouant le r\^ole de point quantique conserve les m\^eme propriétés qu'une molécule isolée. Tout d'abord, les niveaux d'énergie sont fortement influencé par la présence des électrodes du fait de l'hybridisation. De plus, la présence des électrodes peut induire une déformation qui va altérer la strucure électronique de celle-ci. Ce phénomène est connu sour le nom d'effet Jhan-Teller. 
 
 Nous montrerons par la suite que dans le cadre de l'électronique moléculaire et plus particulièrement celui de la spintronique moléculaire, il est important de pouvoir évaluer l'influence de ces différents phénomènes.
 
-\subsubsection{Les paramètre de couplage tunnel $\gamma_{s/d}$}
+\subsection{Les paramètre de couplage tunnel $\gamma_{s/d}$}
 On peut voir ces coefficient comme définissant "l'aisance" avec laquelle les électrons peuvent passer par effect tunnel de la source ou du drain vers l'il\^ot et vice-versas. Les valeur $\gamma_{s/d}$ sont déterminantes dans la valeur du courant qui va \^etre mesuré dans notre système. Plus précisément, de leur valeur va dépendre la conductance $G$ de l'échantillon. Partant de cette conductance, on peut par un raisonnement simple montrer que sa valeur doit \^etre telle que :
 \begin{eqnarray}
 G \ll G_0
@@ -97,9 +100,9 @@ Cette élargissement est appelé élargissement intrinsèque par opposition à l
 \section{La notion de potentiel chimique}
 La notion de potentiel chimique est à mes yeux une des notions les plus importantes afin de comprendre de manière simple et intuitive le phénomène de blocage de Coulomb. Un exemple de son utilisation dans la cadre du transport quantique peut \^etre trouvé dans la très belle et très pédagogique revue de Hanson \textit{et Al.}. Dans cette section, nous allons tout d'abord présenté le concept de potentiel chimique. Nous exprimerons ensuite, à partir des considération exposé dans la partie précédente, le potentiel chimique de la source, du drain et surtout de l'ilôt central.
 
-\subsubsection{Définition}
+\subsection{Définition}
 
-On recontre souvent le potentiel chimique en thermodynamique lorsque l'on s'intéresse aux systèmes ouvert échangeant des particules. Cette grandeur défini la variation d'énergie d'un système du à la modification du nombre de particule qui le compose. On le trouve parfois défini comme suit :
+On recontre souvent le potentiel chimique en thermodynamique lorsque l'on s'intéresse aux systèmes ouvert échangeant des particules. Cette grandeur défini la variation d'énergie d'un système d\^u à la modification du nombre de particule qui le compose. On le trouve parfois défini comme suit :
 \begin{eqnarray}
 \mu = \frac{\partial U}{\partial N} \nonumber
 \end{eqnarray}
@@ -109,7 +112,7 @@ $U$ étant l'énergie du système et $N$ le nombre de particule. Dans la suite, 
 \end{eqnarray}
 ou $\mu(N)$ est la modification en énergie apporté par l'ajout de la $N^\text{nième}$ particules, $U(N)$ et $U(N-1)$ étant respectivement l'énergie du système avec $N$ et $N-1$ particules.
 
-\subsubsection{Expérience de pensé}
+\subsection{Expérience de pensé}
 Partant de cette définition on peut imaginer un système de trois réservoirs. Supposons que l'on puisse attribuer à chacun des ces réservoirs un potentiel chimique. On nommera ces potentiels chimiques $\mu_{droit}$, $\mu_{centre}$ et $\mu_{gauche}$. Faisons également l'hypothèse que ces trois potentiels chimiques sont égaux. Si je prends une particule dans le réservoir de droite et que je là mets au centre, l'énergie du réservoir de droite va varié de $-\mu_{droit}$ tandis que l'énergie du réservoir du centre va varier de $\mu_{centre}$. En revanche la variation totale en énergie du système est nulle. Je peut procéder de m\^eme avec le réservoir de gauche. On constate que les trois configurations ; la particule à droite au centre ou à gauche ont la m\^eme énergie ou autrement dit, sont dégénéré. De fait, la particule est libre de circuler d'un point à l'autre du système. 
 
 
@@ -119,7 +122,7 @@ Dans le cadre de notre nanostructure, les particules sont des électrons, le nom
 
 Ce raisonnement certe un peu simpliste peut \^etre formalisé aisément dans le cadre de la méthode des équations pilotes. Il faudra pour cela tenir compte du fait que pour qu'un électron de potentiel $\mu$ passe par exemple de l'électrode droite à l'électrode gauche, il faut non seulement qu'il soit présente à droite (cette probabilité est donné par la distribution de fermi) mais aussi qu'il y est un état disponible de m\^eme potentiel chimique à gauche (ceci est donné par 1 soutrait de la distribution de Fermi). L'ensemble de la procédure à suivre est détaillé dans l'annexe?!.
 
-\subsubsection{Les potentiels chimique de la source et du drain.}
+\subsection{Les potentiels chimique de la source et du drain.}
 L'expression du potentiel chimique de la source et du drain est directement donnée par $\mu_i = e V_i$ ou $i=source/drain$. Il s'agit en fait du niveau de Fermi des électron dans la source et le drain (à ne pas confondre avec l'énergie de Fermi). Si l'on veut maintenant savoir quel est la probabilité dans un métal de niveau de fermi $\mu_F$ de trouvé un électron de potentiel chimique $\mu$, je peux utiliser la distribution de fermi et cette probabilité est donc égale à :
 \begin{eqnarray}
 p(\mu) = \frac{1}{1 + \exp{(\frac{\mu - \mu_F}{k_bT})}} \nonumber
@@ -138,7 +141,7 @@ ou $i=source/drain$. Comme nous l'avons vu dans notre expérience de pensé, cet
 
 
 
-\subsubsection{Le potentiel chimique de l'il\^ot}
+\subsection{Le potentiel chimique de l'il\^ot}
 Si l'expression du potentiel chimique de la source et du drain n'a rien de compliqué (dans le cas d'életrode normale tout du moins), on ne peut pas en dire de m\^eme de celle de l'il\^ot. C'est m\^eme là que réside toute la difficulté de la compréhension d'une expérience. Heureusement, dans la partie précédente nous avons déjà fait le bilan des différentes énergie en jeux dans le système. A savoir, nous devons prendre en compte l'énergie électrostatique du système, l'énergie d'interaction électron-électron ainsi que la discrétisation des niveaux d'énergie dans l'il\^ot. Tout ceci donne :
 \begin{eqnarray}
 U(N) = \underbrace{\frac{1}{2C_{\Sigma}} (-|e|N + C_sV_s + C_dV_d + C_gV_g)^2}_{\text{couplage électrostatique et énergie de charge}}
@@ -181,10 +184,10 @@ L'énergie $E_c$ est donc la quantité d'énergie d\^u à la répulsion Coulombi
 \section{Détermination des conditions de circulation d'un courant}
 Pour rendre l'exposé qui va suivre plus clair, nous allons le décomposé en trois partie. Dans la première partie, nous allons voir quelles sont les conditions à remplir pour qu'un électron du drain puisse aller dans l'il\^ot. Dans la deuxième partie, nous ferrons de m\^eme pour la source. Enfin, dans la dernière partie, nous exploiterons les résultats obtenues pour en déduire les conditions nécessaire pour qu'un courant circule dans notre structure ainsi que le signe de ce courant en fonction des paramètres. Afin d'adapter les solutions trouvées au condition expérimentale, on posera $V_s = 0$ car dans la grande majorité des dispositif, une des électrodes est directement connecter à la masse. Ce qui donnera $V_d=V_{ds}$, $V_{ds}$ étant la tension appliqué à l'échantillon au traver de la source et du drain.
 
-\subsubsection{Charge de l'il\^ot par le drain}
+\subsection{Charge de l'il\^ot par le drain}
 Comme nous en avons discuté précédemment, pour qu'un particule (ici un électron) puisse passer d'un réservoir à l'autre, il faut que son potentiel chimique soit identique dans les deux réservoirs. Si l'on adapte se raisonnement à notre système, il faut donc qu'il y ait dans le drain des électrons dont le potentiel chimique corresponde à celui de cette électron une fois sur l'il\^ot. Supposons l'il\^ot dans l'état de charge $N-1$, pour passer à l'état de charge $N$, il faut qu'il y ait au moins un électron dans le drain dont le potentiel chimique soit égale à $\mu(N)$. Il nous suffit d'oberver la courbe de la Fig. \ref{distrib_fermi} pour comprendre que cela suppose :
 \begin{eqnarray}
--|e|V_{ds} \geq \mu(N)
+-|e|V_{ds} \geq \mu(N) \nonumber
 \end{eqnarray}
 Ce qui conduit à la relation suivante :
 \begin{eqnarray}
@@ -205,7 +208,7 @@ V_{ds} \leq \frac{1}{C_g + C_s} \{C_gV_g - \frac{C_{\Sigma}}{|e|}[E_N(B) + (N-\f
 
 La zone de transition entre charge et décharge dans le plan ($V_g$,$V_{ds}$) est délimité par une droite dont la pente est donnée par les différentes capacitances du système. Cette pente est donnée par 
 \begin{eqnarray}
-\frac{C_g}{C_g + C_s}
+\frac{C_g}{C_g + C_s} \nonumber
 \end{eqnarray}
 
 
@@ -218,7 +221,7 @@ La zone de transition entre charge et décharge dans le plan ($V_g$,$V_{ds}$) es
 
 
 
-\subsubsection{Charge de l'il\^ot par la source}
+\subsection{Charge de l'il\^ot par la source}
 Un raisonnement similaire au précédent et en se rappelant que $V_s = 0$ conduit à la relation suivante :
 
 \begin{eqnarray}
@@ -226,32 +229,28 @@ V_{ds} \geq -\frac{1}{C_d} \{C_gV_g + \frac{C_{\Sigma}}{|e|}[E_N(B) + (N-\frac{1
 \end{eqnarray}
 
 
-On peut extraire une deuxième pente qui correspond à la charge ou la décharge de l'il\^ot par la source.
+On peut extraire une deuxième pente qui correspond à la charge ou la décharge de l'il\^ot par la source :
+\begin{eqnarray}
+-\frac{C_g}{C_d} \nonumber
+\end{eqnarray}
 
-De cette formule nous pouvons en déduire deux relations importantes. Comme on peut le voir, l'état de charge $N$ décale la droite caractéristique de charge de l'il\^ot. De cette constatation, on peut en déduire que la séparation en tension de grille $\Delta V_g$ et liée à l'énergie du système par :
+
+De plus nous pouvons en déduire une deuxième relations importantes. Deux états de charge consécutifs sont séparé par une tension de grille $\Delta V_g$ que l'on peut relier aux paramètres du système par la formule suivante:
 \begin{eqnarray}
 \frac{C_g}{C_{\Sigma}} |e| \Delta V_g = E_c + \Delta E
 \end{eqnarray}
 
-\subsubsection{Condition de circulation du courant}
+\subsection{Condition de circulation du courant}
 
-Si l'on reprend les deux paragraphes précédent, on peut imaginer quatre situtation :
-\begin{enumerate}
-\item aucun électron ne peut \^etre chargé ni par la source ni par le drain. L'état de charge reste à N.
-\item un électron peut \^etre chargé à la fois par la source et par le drain. Il va donc y demerer et l'état de charge est N+1.
-\item un électron ne peut \^etre charge que par la source. Dans ce cas, il finit par se décharger dans le drain
-\item un électron ne peut \^etre chargé que par le drain. Dans ce cas, il finit par se décharger dans la source.
-\end{enumerate}
-Dans les cas un et deux, l'état de charge de l'il\^ot est bien défini et on se trouve dans le régime de blocage de Coulomb. Dans le cas 3 les électrons circulent de la source vers le drain. Un courant positif est donc mesuré. Dans le cas 4, les électrons circulent du drain vers la source. Un courant négatif est donc mesuré. L'emsemble de ces régimes est représenté dans la Fig. \ref{charge_discharge}.
+Si l'on reprend les deux paragraphes précédent, on peut imaginer quatre situtations :
+\begin{itemize}
+\item \textbf{Situation 1} : aucun électron ne peut \^etre chargé ni par la source ni par le drain. L'état de charge reste à N.
+\item \textbf{Situation 2} : un électron peut \^etre chargé à la fois par la source et par le drain. Il va donc y demerer et l'état de charge est N+1.
+\item \textbf{Situation 3} : un électron ne peut \^etre charge que par la source. Dans ce cas, il finit par se décharger dans le drain
+\item \textbf{Situation 4} : un électron ne peut \^etre chargé que par le drain. Dans ce cas, il finit par se décharger dans la source. \newline
+\end{itemize}
 
-
-
-
-
-
-
-
-
+Dans les situations un et deux, l'état de charge de l'il\^ot est bien défini et on se trouve dans le régime de blocage de Coulomb. Dans la situation 3 les électrons circulent de la source vers le drain. Un courant positif est donc mesuré. Dans la situation 4, les électrons circulent du drain vers la source. Un courant négatif est donc mesuré. L'emsemble de ces régimes est représenté dans la Fig. \ref{charge_discharge}.
 
 \section{Etats excités et transport}
 Dans ce dernier paragraphe nous allons aborder la notion de spectroscopie par transport. Cette méthode vise à analyser les différents état du système par des mesures de transport. Cette technique à notablement été utilisé pour sonder les niveaux magnétique par l'application d'un champ et par l'étude de l'évolution des propriété de transport en fonction de ce champ magnétique.
