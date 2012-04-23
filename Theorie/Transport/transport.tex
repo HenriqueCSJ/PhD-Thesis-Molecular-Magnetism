@@ -235,7 +235,7 @@ On peut extraire une deuxième pente qui correspond à la charge ou la décharge
 \end{eqnarray}
 
 
-De plus nous pouvons en déduire une deuxième relations importantes. Deux états de charge consécutifs sont séparé par une tension de grille $\Delta V_g$ que l'on peut relier aux paramètres du système par la formule suivante:
+De plus nous pouvons en déduire une deuxième relations importantes. Deux états de charge consécutifs sont séparés par une tension de grille $\Delta V_g$ que l'on peut relier aux paramètres du système par la formule suivante:
 \begin{eqnarray}
 \frac{C_g}{C_{\Sigma}} |e| \Delta V_g = E_c + \Delta E
 \end{eqnarray}
@@ -253,15 +253,15 @@ Si l'on reprend les deux paragraphes précédent, on peut imaginer quatre situta
 Dans les situations un et deux, l'état de charge de l'il\^ot est bien défini et on se trouve dans le régime de blocage de Coulomb. Dans la situation 3 les électrons circulent de la source vers le drain. Un courant positif est donc mesuré. Dans la situation 4, les électrons circulent du drain vers la source. Un courant négatif est donc mesuré. L'emsemble de ces régimes est représenté dans la Fig. \ref{charge_discharge}.
 
 \section{Etats excités et transport}
-Dans ce dernier paragraphe nous allons aborder la notion de spectroscopie par transport. Cette méthode vise à analyser les différents état du système par des mesures de transport. Cette technique à notablement été utilisé pour sonder les niveaux magnétique par l'application d'un champ et par l'étude de l'évolution des propriété de transport en fonction de ce champ magnétique.
 
-Nous allons pour aborder cette technique, nous consacrer sur le système que nous avons décrit précédemment dans le cadre de l'équation pilote. Le diagramme Zeeman de l'état de charge N=1 est représenté avec les potentiels chimique associé à la transition 0/1.
+Dans de nombreux cas, une transition d'un état de charge à l'autre ne pas être associé à un unique potentiel chimique du fait de la présence d'état excité pour l'un ou les deux états de charges. Afin de décrire le transport dans ce cas précis, nous allons prendre un exemple simple d'un boite quantique oscillant entre les états de charges $N=0/1$. Nous tiendrons de plus compte du spin de l'électron. Sans champ magnétique appliqué le potentiel chimique~($\mu_{+}$) associé à la transition d'un état de charge $N=0$ à un état de charge $N=1$ avec un état de spin up~($0\rightarrow +$) possède la m\^eme énergie que celui~($\mu_{-}$) associé la transition de l'état de charge $N=0$ à l'état de charge $N=1$ avec un état de spin down~($0\rightarrow -$).
+Si l'on applique un champ magnétique au système, la dégénérescence en d'énergie des deux états de spin est levée du fait de l'effet Zeeman (cf Fig. \ref{charge_discharge}.b). Les deux potentiels chimiques $\mu_{-}$ et $\mu_{+}$ ne sont plus égaux. Le premier correspond désormais à la transition entre deux état fondamentaux~($EF(0)\rightarrow EF(1)$). Le second en revanche correspond à la transition de l'état fondamental $N=0$ à l'état excité de l'état de charge $N=1$~($EF(0)\rightarrow EE(1)$).
 
-A partir de ces potentiels chimique on peut déjà esquissé l'allure de la cartographie de conductance dans le plan ($V_g$,$V_{ds}$). Il suffit pour cela de tracer un double jeux de Diamant de Coulomb. On utilise ensuite les bord de Diamant correspondant à la transition état fondamental de l'état 0 à l'état fondamental de l'état de charge 1. Lorsque d'un bord de Diamant associé à un état excité, ce bord de Diamant doit \^etre stoppé et ne pas allé jusqu'à l'origine. On peut identifier deux zones de lecture pour ce qui est des états d'énergie : par la tension de grille en prolongeant les bords de diamant de Coulomb ou par la tension source drain. Dans les deux cas, une renormalisation de l'énergie est nécessaire.
+On peut donc construire deux jeux de diamant de Coulomb, l'un correspondant à $\mu_{-}$ et l'autre à $\mu_{+}$~(cf Fig. \ref{charge_discharge}.a en bleu et rouge respectivement). Cependant, dans les zones de blocage associé au diamant de la transition $EF(0)\rightarrow EF(1)$, aucun courant de peut circuler (zone grisé dans la Fig.\ref{charge_discharge}.a). Les bords de diamant situé dans cette zone doivent apparaitre en pointillés car il ne corresponde pas réellement à un modification du courant.
 
-Une approche plus qualitative peut \^etre obtenue en utilisant les équations pilotes et confirme ce que l'on avait obtenue avec la méthode plus simple des potentiels chimique. En revanche, la technique de l'équation pilote nous donne plus d'information sur l'amplitude des différentes variations de courants.
+On voit que dans ce cas précis, un mesure en transport nous permet de mesurer directement le diagramme Zeeman, c.a.d la dépendence en champ magnétique des états du sytème. On peut donc utiliser cette technique pour effectuer une véritabel spectroscopie du point quantique. De plus, comme nous l'avons vu précédemment, les états de charge de l'il\^ot peuvant \^etre modifié à l'aide de la tension de grille. On peut donc chosir l'état de charge du système pour lequel on veut effectuer la spectroscopie.
 
-Ces deux marche successive en courant correspondent à l'entré dans la fen\^etre de tension $V_{ds}$ d'un puis de deux canaux correspondant respectivement à la transition état fondamental état fondamental et état fondamental excité. Dans des système plus complexe, ils arrivent souvent que les état N/N+1 possèdent tout deux des états fondamentaux et des états excités. Dans ce cas, la signature en transport devient plus complexe. Ces différentes configurations sont notamment traité par Hanson et Al., et un exemple peut \^etre trouvé dans l'analyse du $N@C_{60}$ proposé en fin de thèse et les références qu'il contient.
+ Bien s\^ur, il s'agit ici d'un système relativement simple et ceux rencontrer dans les expérience de transport sont parfois plus complexe. Ils arrivent souvent que les état N/N+1 possèdent tout deux des états fondamentaux et des états excités. Dans ce cas, l'analyse de la signature du système en transport devient plus difficile. Ces différentes configurations sont notamment traité par Hanson et Al., et un exemple peut \^etre trouvé dans l'analyse du $N@C_{60}$ proposé en fin de thèse et les références qu'il contient.
 
 \begin{figure}
 \includegraphics[scale=0.5]{Theorie/Transport/figure4/figure4.pdf} 
@@ -269,8 +269,25 @@ Ces deux marche successive en courant correspondent à l'entré dans la fen\^etr
 \label{charge_discharge}
 \end{figure}
 
-On peut également une autre mesure qui prendra tout son sens dans la suite quand on utilisera l'il\^ot central non plus comme le système à étudier mais comme un sonde de son environnement local. Nous vennons de voir que la position du point de dégénérescence dépend de la position du potentiel chimique dans l'échelle des énergies. On peut donc choisir une tension de grille $V_g$ proche du point de dégénérescence avec une tension source-drain $V_{ds}$ nulle. On mesure en suite la conductance en faisant varier le champ magnétique.$
-
 \section{Cotunneling}
+Nous avons vu jusqu'à maintenant que dans les zone de blocage de Coulomb, l'état de charge du système était fixe du fzit de l'énergie de charge. En effet, l'ajout d'un électron supplémentaire aurait un "co\^ut" énergétique trop grand pour le système. Cependant, l'on sait de part les inégalité d'Heinsenberg qu'un système peut outrepasser ce problème de "co\^ut" énergétique en "empruntant" l'énergie nécessaire pendant un temps très court. L'odre de grandeur de ce temps dépend de l'énergie nécessaire et est donnée par la relation :
+\begin{eqnarray}
+\tau \simeq \frac{\hbar}{E_c} \nonumber
+\end{eqnarray}
+
+
+\begin{figure}
+\includegraphics[scale=0.5]{Theorie/Transport/figure5/figure5.pdf} 
+\caption{Représentation du cotunneling dans le plan ($V_g$,$V_{ds}$)}
+\label{charge_discharge}
+\end{figure}
+
+
+Un façon de voir le phénomène est de dire que pendant le temps $\tau$ un électron est entré dans le point quantique pendant qu'un autre en est sorti. Si un m\^eme état de charge possède plusieurs états~(fondamentaux et excités), on peut imaginer deux situations. Dans le premier cas, l'électron entrant vient occupé un état de m\^eme énergie que celui de l'électron sortant. On parle de cotunnling inélastique. L'électron entrant occupe un état d'énergie plus grand que l'électron sortant. On parle de cotunneling inélastique. Dans le deuxième cas, on comprend donc qu'il faut fournir cette différence en énergie à l'électron pour que ce type de cotunneling est lieu. Dans la suite, l'on notera cette différence d'énergie $\Delta E_{cot}$. Dans nos sytème, cette énergie est founis par la tension $V_{\rm{ds}}$. Pour qu'un processus inélastique est lieu, il faut donc que :
+\begin{eqnarray}
+|e|V_{\rm{ds}} \geq \Delta E_{cot}
+\end{eqnarray}
+
+On comprend donc que dans ce cas que le cotunneling élastique est toujour présent. C'est ce phénomène qui donne le fond de conductance mesuré dans les expériences de blocage de Coulomb. Plus intéressant encore, en faisant varier la tension de polarisation on peut venir sonder les différents état d'énergie pour un état de charge donnée. On peut donc effectuer une spectroscopie d'un point quantique en mesurant le cotunnling inélastique pour chacun
 
 \section{Effet Kondo}

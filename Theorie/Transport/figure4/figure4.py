@@ -1,6 +1,9 @@
 #on fait d'abord 3 subplot
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
+from matplotlib.patches import Polygon
+
+
 
 gs1 = gridspec.GridSpec(1,1)
 gs1.update(left=0.08,right=0.6)
@@ -11,9 +14,6 @@ gs2.update(left=0.65, right=0.98,hspace=0.1,bottom=0)
 ax2 = plt.subplot(gs2[0,0])
 ax3 = plt.subplot(gs2[1,0])
 
-#ax1 = plt.subplot2grid((7,5),(0,0),colspan=3,rowspan=7)
-#ax2 = plt.subplot2grid((7,5),(0,3),colspan=2,rowspan=3)
-#ax3 = plt.subplot2grid((7,5),(3,3),colspan=2,rowspan=4)
 fig = gcf()
 fig.set_size_inches(12,7)
 
@@ -29,6 +29,10 @@ fig.set_size_inches(12,7)
 ##############################
 #PANEL 1
 #On commence par le pannel 1
+tr0 = Polygon([[-1,0],[-1,1],[0,0]], color="#C0C0C0")
+tr1 = Polygon([[0,0],[1,1],[1,0]], color="#C0C0C0")
+ax1.add_patch(tr0)
+ax1.add_patch(tr1)
 ax1.plot([0,1],[0,1],'b')#bord de diamant
 ax1.plot([-1,0],[1,0],'b')#bord de diaman
 ax1.plot([-0.5,0.25],[1,0.25],'r')#niveau excite
