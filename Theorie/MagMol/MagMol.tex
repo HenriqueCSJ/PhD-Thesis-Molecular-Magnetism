@@ -22,11 +22,7 @@ Cette solution a été la première adopté dans le domaine du magnétisme molé
 \subsection{La solution de l'ion métallique unique}
 Dans ce deuxième type d'aimants moléculaires, le moment magnétique total ne dépend que de celui de l'ion qui la compose. Cet ion va \^etre ensuite inséré dans un ligand pour former un aimant moléculaire. Contrairement à ce qui a été présenté précédemment, le moment magnétique total ne dépend donc pas des interactions entre différents centre magnétique. On peut dors et déjà y voir un signe de robustesse, ce type d'aimant moléculaire étant par construction, moins sensible à une déformation de sa structure~(cf chapitre précédent avec l'effet Jhan-Teller). Parmis les molécules les plus étudiées , on trouve le "double-decker"~(nommé en référence aux avions à deux ailes) où plusieurs ion peuvent \^etre choisi comme centre magnétique. Dans notre cas, nous utiliserons le TbPc$_2$ où terbium "double-decker".
 
-\begin{figure}
-\centering \includegraphics[scale=0.5]{Theorie/MagMol/figure2/figure2.png} 
-\caption{A gauche, structure générale d'un "double decker" à base de Lanthanide~(noté Ln - tiré de Ishikawa, Single molecule magnet with single lanthanide ion). A droite, vu d'artiste de cette m\^eme molécule. Les atomes d'azote sont représentés en bleu, ceux de carbone en noir, ceux hydrogènes en beige et l'atome lanthanide en mauve}
-\label{TbPc2}
-\end{figure}
+
 
 \section{Hamiltonien d'un aimant moléculaire "standard"}
 \subsection{L'axe facile}
@@ -36,6 +32,13 @@ Comme nous le disions plus haut, le ligand a aussi une influence sur le magnéti
 E_{ani} = -DS_z^2 \nonumber
 \end{eqnarray}
 où $D$ est le paramètre d'anisotropie, $S_z$ la composante en $z$ du moment magnétique et $E_{ani}$ la modification de l'énergie du système du à cette anisotropie. Si $D>0$, nous avons à faire à un axe difficile et le moment magnétique se trouvera de préférence dans le plan perpendiculaire à l'axe $z$. Si $D<0$, nous avons un axe facile et le moment magnétique sera aligné le long de l'axe z.
+
+
+\begin{figure}
+\centering \includegraphics[scale=0.3]{Theorie/MagMol/figure2/figure2.png} 
+\caption{A gauche, structure générale d'un "double decker" à base de Lanthanide~(noté Ln - tiré de Ishikawa, Single molecule magnet with single lanthanide ion). A droite, vu d'artiste de cette m\^eme molécule. Les atomes d'azote sont représentés en bleu, ceux de carbone en noir, ceux hydrogènes en beige et l'atome lanthanide en mauve}
+\label{TbPc2}
+\end{figure}
 
 \subsection{Le plan difficile}
 De m\^eme que nous pouvons avoir un axe facile( ou difficile), on peut égalment rencontrer un plan difficile(~ou facile). Il peut \^etre exprimé deux façons rigoureusement équivalente :
@@ -67,6 +70,12 @@ E =  -DS_z^2 + \frac{E}{2} ( S_+^2  + S_-^2) + g\mu_b B S_z
 
 Nous allons maintenant appliqué cet hamiltonien à l'étude d'un aimant très utiliser dans les expériences relativer au magnétisme moléculaire : le Fe$_8$. Nous avons déjà vu l'influence de l'effet Zeeman et de l'axe facile sur les spectre en énergie d'un système. Ici, nous allons nous intéresser plus particulièrement à la présence d'un plan difficile est voir comment se plan vient perturber le système. Nous avons donc tracer le diagramme Zeeman de la molécule de Fe$_8$ en ne tenant pas compte de la présence d'un plan facile et ensuite en l'introduisant dans l'hamiltonien du système. On constante tout d'abord une altération forte de l'allure générale du diagramme Zeeman. Mais plus important que cela, nous voyons apparaitre des zones où, au lieu de se croise, les niveaux d'énergie ont l'air de "s'éviter" : on parle d'anti-croisement. La présence de ces anti-croisements témoigne du couplage entre les différents état de l'aimantation du système. Nous allons à present étudier les conséquence d'un tel couplage.
 
+\begin{figure}
+\centering \includegraphics[scale=0.5]{Theorie/MagMol/figure3/figure3.pdf} 
+\caption{Sur la gauche, la molécule de Mn$_{12}$-ac. Sur la droite, le centre magnétique Mn$_{12}$O$_{12}$. Les quatre manganèses internes de spin $S=3/2$ sont antiparallèles aux huit maganèses de spin $S=2$ situés en périphérie. Le moment magnétique total résultant est $S=10$~(extrait de When Magnetism Goes Nano). Le couplage entre les différents spins est médié par les atomes d'oxygène en bleus sur la figure.}
+\label{Fe8Zeeman}
+\end{figure}
+
 \subsection{les anti-croisement}
 Au niveau d'un anti-croisement, les états propres du système ne sont plus les états magnétique ($S,S_z$) mais plutot une combinaison de ces états. Si l'on se place loin de l'anti-croisement, les états $m$ et $m'$ sont les états propre du système. Mais plus on se rapproche de l'anti-croisement plus les états sont mélange pour anteindre un maximum d'intrication quand la séparation en énergie entre les deux niveau est minimale.
 
@@ -80,6 +89,12 @@ ou P est la probabilité de passer de l'état $m$ à l'état $m'$, $\Delta_{mm'}
 
 \subsection{Origine du moment magnétique}
 Le terbium double-decker est un aimant moléculaire dont le moment magnétique est d\^u à un centre magnétique unique : l'ion Tb$^{3+}$. L'atome de Terbium possède un noyau relativement lourd et le couplage spin orbite joue donc un r\^ole prépondérant dans les propriété magnétique de ce dernier. Le moment magnétique fondamental total de cet ion peut \^etre déterminer par un calcul relativement complexe. La théorie donnent un moment total $J=6$ pour l'état fondamental ainsi qu'une séparation en énergie de plusieurs millier de Kelvin entre celui-ci et le premier état excité $J=5$. On peut donc sans trop de risque négliger les états excité et considéré uniquement la configuration $J=6$. Ce moment provient du moment angulaire électronique~($L=3$) ainsi que des six spins électroniques non appariés. 
+
+\begin{figure}
+\centering \includegraphics[scale=0.5]{Theorie/MagMol/figure4/figure4.pdf} 
+\caption{Sur la gauche, la molécule de Mn$_{12}$-ac. Sur la droite, le centre magnétique Mn$_{12}$O$_{12}$. Les quatre manganèses internes de spin $S=3/2$ sont antiparallèles aux huit maganèses de spin $S=2$ situés en périphérie. Le moment magnétique total résultant est $S=10$~(extrait de When Magnetism Goes Nano). Le couplage entre les différents spins est médié par les atomes d'oxygène en bleus sur la figure.}
+\label{TbPc2Zeeman}
+\end{figure}
 
 \subsection{Hamiltonien}
 

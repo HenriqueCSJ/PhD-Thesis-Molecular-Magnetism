@@ -1,5 +1,5 @@
 import matplotlib.image as mpimg #pour les images
-from matplotlib.patches import Polygon
+from matplotlib.patches import Polygon, Circle
 from matplotlib.offsetbox import TextArea, DrawingArea, OffsetImage, AnnotationBbox
 #loading script for Zeeman diagram
 execfile("/home/hukadan/These/Manuscript/Theorie/MagMol/scripts/Fe8.py")
