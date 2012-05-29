@@ -145,7 +145,7 @@ def O_06(S) :
 	return result
 
 
-#On calcule les elements de matrice
+#On calcule les elements de matrice pour nucleaire
 Sys = sysPau([6,1.5])
 J = Sys[0]
 I = Sys[1]
@@ -156,6 +156,20 @@ for i in range(5):
 	Ip.append(kron(eye(13),I[i]))
 J = Jp
 I = Ip
+
+
+#On calcule les elements de matrice pour spin 1/2
+Sys2 = sysPau([6,0.5])
+J1 = Sys2[0]
+I1 = Sys2[1]
+Jp1 = []
+Ip1 = []
+for i in range(5):
+    Jp1.append(kron(J1[i],eye(2)))
+    Ip1.append(kron(eye(13),I1[i]))
+J1 = Jp1
+I1 = Ip1
+
 
 
 def Tb_Pc2(B,Bx,By):
@@ -171,11 +185,40 @@ def Tb_Pc2(B,Bx,By):
     A_06 = -33 #cm-1
     HB = g * muB * J[2] * B + g * muB * (J[1] * Bx + J[0] * By)
     HL = A_02 * alpha *O_02(J) + A_04 * beta * O_04(J) +  A_06 * gamma * O_06(J) + A_44 * beta * O_44(J)
-    E = linalg.eigvals(HL+HB)
+    E,V = linalg.eig(HL+HB)
+    order = E.argsort()
+    V = V.transpose()
+    Vf = []
+    for x in order :
+        Vf.append(V[x])
     E =list(E/0.695) #convert Kelvin11
     E.sort()
-    return E
+    return E,Vf
 
+
+def Tb_Pc2_spin12(B,Bx,By):
+    I = I1
+    J = J1
+    g = 3/2
+    gn=2
+    muB = 0.465 #en cm-1
+    muN = muB
+    alpha=  1/(99.)
+    beta=  2/(11*1485.)
+    gamma =  1/(13*33*2079.)
+    A_02 = -414  #cm-1
+    A_04 = -228 #cm-1
+    A_44 = -10 #cm-1
+    A_06 = -33 #cm-1
+    Ahf = 0.163 #cm-1 ~ 350mT
+    HB = g * muB * J[2] * B + g * muB * (J[0] * Bx + J[1] * By)
+    HBn = gn * muN * I[2] * B + gn * muN * (I[0] * Bx + I[1] * By)
+    HL = A_02 * alpha *O_02(J) + A_04 * beta * O_04(J) +  A_06 * gamma * O_06(J) + A_44 * beta * O_44(J)
+    Hhf =  Ahf * (J[0]*I[0] + J[1]*I[1] + J[2]*I[2])
+    E = linalg.eigvals(HL+HB+Hhf+HBn)
+    E =list(E/0.695) #convert Kelvin
+    E.sort()
+    return E    
 
 
 def Tb_Pc2Nuclear(B,Bx,By):
@@ -205,17 +248,27 @@ def Tb_Pc2Nuclear(B,Bx,By):
 
 def Tb_Pc2_Zeeman(bmin,bmax,nbr,Bx,By) :
     B = linspace(bmin,bmax,nbr)		
-    result = []
+    resultE = []
+    resultV = []
     for i in range(size(B)) :
-        R = Tb_Pc2(B[i],Bx,By)
-        result.append(real(R))
-    return result
+        R, V = Tb_Pc2(B[i],Bx,By)
+        resultE.append(real(R))
+        resultV.append(V)
+    return resultE, resultV
 
 def Tb_Pc2_ZeemanNuclear(bmin,bmax,nbr,Bx,By) :
     B = linspace(bmin,bmax,nbr)		
     result = []
     for i in range(size(B)) :
         R = Tb_Pc2Nuclear(B[i],Bx,By)
+        result.append(real(R))
+    return result
+
+def Tb_Pc2_Zeemanspin12(bmin,bmax,nbr,Bx,By) :
+    B = linspace(bmin,bmax,nbr)     
+    result = []
+    for i in range(size(B)) :
+        R = Tb_Pc2_spin12(B[i],Bx,By)
         result.append(real(R))
     return result
 
