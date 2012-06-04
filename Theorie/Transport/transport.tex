@@ -1,19 +1,8 @@
-
-
-
 \chapter{Transport mésoscopique}
 
-Nous allons dans ce chapitre aborder quelques notions de transport mésoscopique essentielles à la compréhension des résultats présentés dans la suite de cette thèse. La physique mésoscopique traite des systèmes de petites tailles, habituellement de la dizaine ou de la centaine de nanomètres~(parfois moins). Le transport mésoscopique s'intéresse plus particulièrement à la façon dont les électrons vont pouvoir circuler mais aussi interagir dans de telles structures pour donner naissance à des phénomènes quantiques tels que l'effet Kondo ou le blocage de Coulomb. 
+La physique mésoscopique traite des systèmes de petites tailles, habituellement de la dizaine ou de la centaine de nanomètres~(parfois moins). Le transport mésoscopique s'intéresse plus particulièrement à la façon dont les électrons vont pouvoir circuler mais aussi interagir dans ces structures nanométriques pour donner naissance à des phénomènes tels que l'effet Kondo ou le blocage de Coulomb. 
 
-Il s'agit d'un domaine bien trop riche pour être traité dans un chapitre introductif et je concentrerai donc mon propos sur trois phénomènes déjà largement étudiés. Deux de ces phénomènes ont un point commun historique en cela qu'ils ont été découverts et expliqués bien avant la naissance de la physique mésoscopique telle que nous la connaissons aujourd'hui.
-
-Le blocage de Coulomb par exemple, que nous aborderons dans la première partie, a été pour la première fois mis en évidence en 1951 par C.J. Gorter. Il avait constaté qu'en mesurant la conductance d'un matériau métallique granuleux à basse température, celle-ci diminuait de façon inattendue. Il expliquait cette baisse de conductance par la répulsion coulombienne au sein des grains de métaux composant son matériau. Nous montrerons comment ce phénomène joue un rôle central dans le transport à travers des structures mésoscopiques.
-
-L'effet Kondo, que nous introduirons en fin de chapitre, a lui aussi été mis en évidence dans la première partie du siècle dernier~(dans les années 1930) par des mesures sur des échantillons de métaux massif contenant des impuretés magnétiques. Les mesures de conductances à basse température avaient montré qu'après avoir atteint un maximum, la conductance diminuait à nouveau. L'explication du phénomène n'a pas été immédiate et ce n'est qu'en 1964 que Jung Kondo a pu fournir une explication satisfaisante. Selon lui, les impuretés magnétiques agissent, à basse température, comme des centres diffuseurs très actifs diminuant d'autant la conductance de l'échantillon. Dans la suite du chapitre, je détaillerai comment l'effet Kondo se manifeste dans les systèmes mésoscopiques.
-
-Nous aborderons également un autre phénomène, le cotunneling, qui permet aux électrons de s'affranchir pendant un temps très court du régime de blocage de Coulomb. Nous verrons que ceci n'est possible que de part les lois de la physique quantique. Pour cela, nous distinguerons deux situations, l'une dans laquellle aucun apport en énergie n'est nécessaire au phénomène - le cotunneling élastique- et une seconde pour laquelle il faudra fournir un certaine énergie au système - le cotunneling inélastique.
-
-Afin d'étudier ces différents phénomènes, nous commencerons par définir les paramètres de notre système. En particulier, nous détaillerons chacun des éléments qui le composent ainsi que l'influence des paramètres qui le caractérisent. Nous poursuivrons ensuite par la définition et l'illustration du concept de potentiel chimique dans le cadre du transport mésoscopique. Nous verrons comment cette notion permet, de façon simple et intuitive, de comprendre quelles sont les conditions pour qu'un courant traverse le système.
+Nous allons dans ce chapitre aborder quelques notions de transport mésoscopique essentielles à la compréhension des résultats présentés dans la suite de cette thèse. Nous détaillerons dans un premier temps la structure d'un transistor à électron unique. Nous examinerons ensuite comment le courant circule au sein de cette structure et nous mettrons en évidence le phénomène de blocage de Coulomb. Nous aborderons également la notion de cotunneling, phénomène uniquement dû aux propriétés quantique du système. Enfin, nous introduirons l'effet Kondo en détaillant comment se dernier évolue en fonction des perturbation dû à l'environnement .
 
 Quand cela sera possible, nous préciserons pour chacun de ces phénomènes les conditions nécessaires à leur observation ainsi que les variables expérimentales dont ils dépendent.
 %%%%%%%%%%%%%%%%%%%%%%%%
@@ -21,39 +10,41 @@ Quand cela sera possible, nous préciserons pour chacun de ces phénomènes les 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section{Les paramètres du système}
+\section{Le transistor à électron unique}
 Dans le cadre de nos expériences, nous avons utilisé ce que l'on appelle un transistor à électron unique ou Single Electron Transistor~(SET). En général un tel système est composé d'un point quantique~(ou ilôt) connecté à trois terminaux que l'on nommera source, drain et grille~(en référence aux transistors à effet de champ). L'il\^ot est couplé à ces trois terminaux par trois capacitances : $C_g$ pour la grille, $C_d$ pour le drain et $C_s$ pour la source. De plus, des barrières tunnels entre le point quantique, la source et le drain permettent le passage d'électrons (sous certaines conditions) et sont caractérisées par les paramètres $\gamma_s$~(source/il\^ot) et $\gamma_d$~(drain/il\^ot). La source et le drain sont considérés comme des matériaux métalliques massifs dont les électrons obéissent à la statistique de Fermi-Dirac. Enfin, nous attribuons à l'il\^ot une taille caractéristique $L$. 
 
 Ce système, les paramètres qui le caractérisent ainsi qu'un schéma électrique équivalent, sont représentés dans la Fig. \ref{description_systeme}. Nous allons maintenant détailler chacun de ces éléments.
 
 
 \subsection{Les capacitances du système}
-Comme expliqué précédemment, trois capacitances couplent l'il\^ot central aux trois terminaux. L'application d'une tension sur l'un ou plusieurs de ces terminaux va donc modifier l'énergie du point quantique. Cette modification s'exprime comme suit :
+Comme expliqué précédemment, trois capacitances couplent l'il\^ot central aux trois terminaux. L'application d'une tension sur l'un ou plusieurs de ces terminaux va donc modifier l'énergie du point quantique qui s'écrit alors :
 
-\begin{eqnarray}
-E = \frac{(C_sV_s + C_dV_d + C_gV_g)^2}{2(C_g + C_s + C_g)}=\frac{(C_sV_s + C_dV_d + C_gV_g)^2}{2C_{\Sigma}} \nonumber
-\end{eqnarray}
+\begin{equation}
+E = \frac{(C_sV_s + C_dV_d + C_gV_g)^2}{2C_{\Sigma}}
+\text{   avec    } 
+ C_{\Sigma} = C_g + C_s + C_g \nonumber
+\end{equation}
 
 
 
 
 Ces capacitances vont également induire un "co\^ut" énergétique à l'ajout d'un électron dans l'il\^ot central. Cet ajout est associé à l'énergie $E_c$, appelée énergie de charge, dont la valeur est donnée par :
 \begin{eqnarray}
-\frac{E_c}{2} = \frac{e^2}{2(C_s+C_d+C_g)}=\frac{e^2}{2C_{\Sigma}} \nonumber
+\frac{E_c}{2} = \frac{e^2}{2C_{\Sigma}} \nonumber
 \end{eqnarray}
 
 
-Cette énergie est à l'origine de la diminution de la conductance observée par C.J. Gorter en 1951. Lorsque la température est suffisamment élevée, elle fournit l'énergie nécessaire aux électrons pour passer d'un grain à l'autre. A basse température en revanche, les électrons n'ont plus la possibilité de se mouvoir de la sorte et la conductance mesurée diminue. On voit ici une première condition nécessaire à l'apparition du phénomène de blocage de Coulomb : $E_c \gg k_bT$.
+Il est facile de comprendre ici l'origine du blocage de Coublomb. Si aucun électron de la source ou du drain de possède l'énergie correspodantes à $E_c$, les électrons ne peuvent plus circuler au sein de la structure. Le courant devient donc nul et l'on se retrouve en régime de blocage de Coulomb. Pour que cette situation puisse être observé, il faut que l'énergie thermique soit telle que $E_c \ll k_bT$.
 
-En tenant compte de ces deux contributions, l'énergie d'un il\^ot contenant $N$ électrons et soumis à trois tensions $V_g$, $V_d$ et $V_s$ est donnée par :
+En tenant compte de ces deux contributions, l'énergie d'un il\^ot contenant $N$ électrons et soumis aux tensions $V_g$, $V_d$ et $V_s$ est donnée par :
 \begin{eqnarray}
 U(N) = \frac{1}{2C_{\Sigma}} (-|e|N + C_sV_s + C_dV_d + C_gV_g)^2
 \end{eqnarray}
 
-On inclut parfois dans cette expression une charge $eN_0$ pour tenir compte de l'environnement électrostatique. Nous verrons, en abordant la notion de potentiel chimique, que seule la différence d'énergie entre les différents états de charge importe. L'offset introduit par ce dernier terme peut donc \^etre ignoré. \newline
+On inclut parfois dans cette expression une charge $eN_0$ pour tenir compte de l'environnement électrostatique. Nous verrons, en abordant la notion de potentiel chimique, que seule la différence d'énergie entre les différents états de charge importe. Le décalage de charge introduit par ce dernier terme peut donc \^etre ignoré. \newline
 
 \fbox{\begin{minipage}{0.9\textwidth}
-\textbf{Remarque :} Dans les expériences de Microscopie à Effet Tunnel ou Scanning Tunneling Microscopie~(STM), seules les tensions de source et de drain peuvent \^etre modifiées. Ce désavantage est compensé par la possibilité de modifier les paramètres de couplage $\gamma$~(que l'on détaillera dans la suite) en modulant la distance séparant la pointe de l'échantillon.
+\textbf{Remarque :} Dans les expériences de Microscopie à Effet Tunnel ou Scanning Tunneling Microscopie~(STM), seules les tensions de source et de drain peuvent \^etre modifiées. Cet inconvénient est compensé par la possibilité de modifier les paramètres de couplage $\gamma$~(que l'on détaillera dans la suite) en modulant la distance séparant la pointe de l'échantillon.
 \end{minipage}}
 
 \begin{figure}
@@ -65,20 +56,20 @@ On inclut parfois dans cette expression une charge $eN_0$ pour tenir compte de l
 
 
 \subsection{L'il\^ot}
-Les points quantiques que l'on utilise le plus fréquemment dans les expériences mésoscopiques sont souvent~(mais pas exclusivement) basés sur l'un des systèmes suivants:
+Les points quantiques les plus fréquemment utilisés dans les expériences de physique mésoscopique sont souvent~(mais pas exclusivement) basés sur l'un des systèmes suivants:
 \begin{itemize}
-\item \textbf{un gaz d'électron bidimensionnel~(ou 2DEG en anglais:} généralement une hétérostructre de semi-conducteur est utilisé pour obtenir un gaz d'électron bidimmensionnel proche de la surface. Par des techniques de lithographie, des électrodes sont ajoutées sur l'échantillon. En appliquant une tension sur ces grilles, le gaz d'électron peut \^etre manipulé pour former un ou plusieurs points quantiques connectés à plusieurs électrodes.
-\item \textbf{un grain métallique:} un grain de métal~(souvent noble) de quelques nanomètres joue le rôle de point quantique. Ces grains peuvent \^etre notamment obtenus en utilisant la technique d'électromigration que l'on verra dans la suite.
-\item \textbf{une molécule:} c'est ce type de point quantique que nous utiliserons. Les molécules pouvant \^etre utilisées pour jouer ce r\^ole sont trop nombreuses pour toutes \^etre citées. On peut cependant on donner quelques exemples célèbres : les nanotubes, les fullerènes, les aimants moléculaires etc.. \newline
+\item \textbf{un gaz d'électron bidimensionnel~(ou 2DEG en anglais):} généralement une hétérostructre de semi-conducteur est utilisé pour obtenir un gaz d'électron bidimmensionnel proche de la surface. Par des techniques de lithographie, des électrodes sont ajoutées sur l'échantillon. En appliquant une tension sur ces grilles, le gaz d'électron peut \^etre manipulé pour former un ou plusieurs points quantiques connectés à plusieurs électrodes.
+\item \textbf{un grain métallique:} un grain de métal~(souvent noble) de quelques nanomètres joue le rôle de point quantique. Ces grains peuvent \^etre notamment obtenus en utilisant les techniques d'évaporation ou d'électromigration.
+\item \textbf{une molécule:} les molécules susceptible de jouer ce r\^ole sont bien trop nombreuses pour toutes \^etre citées. On peut cependant donner quelques exemples célèbres : les nanotubes, les fullerènes, les aimants moléculaires etc.. \newline
 \end{itemize}
 
-Dans le cas d'un 2DEG ou celui d'un grain métallique, du fait de la taille des échantillons~($\sim 100nm$ pour les premiers, $\sim 10nm$ pour les seconds), on observe une quantification des différents états du système. Le spectre énergétique de l'il\^ot peut s'exprimer en fonction de trois nombres quantiques $n_x$, $n_y$ et $n_z$ à travers la relation suivante:
+Dans le cas d'un 2DEG ou celui d'un grain métallique, du fait de la taille typique des échantillons~($\sim 100nm$ pour les premiers, $\sim 10nm$ pour les seconds), on observe une quantification des différents états du système. Le spectre énergétique de l'\^ilot peut s'exprimer en fonction de trois nombres quantiques $n_x$, $n_y$ et $n_z$ à travers la relation suivante:
 \begin{eqnarray}
 E_n = \frac{\pi^2 \hbar^2}{2m}(\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}) \nonumber
 \end{eqnarray}
+où $L_x$, $L_y$ et $L_z$ sont les dimensions caractéristiques de l'échantillon suivant les axes $x$,$y$ et $z$.
 
-
-Il s'agit d'une expression très simplifiée car elle suppose une forme de potentiel de confinement difficile~(pour ne pas dire impossible) à obtenir en pratique (variation abrupte et hauteur de potentiel infini). Elle a le mérite en revanche de faire appara\^itre une deuxième condition nécessaire à l'observation de ce que l'on appelle habituellement le blocage de Coulomb quantique (par opposition au blocage de Coulomb classique où seul la quantification de la charge joue un rôle). En effet, pour résoudre le spectre de l'il\^ot, l'énergie associée à l'agitation thermique doit \^etre négligeable devant l'énergie séparant deux niveaux, à savoir:
+Il s'agit d'une expression très simplifiée car elle suppose une forme de potentiel de confinement difficile~(pour ne pas dire impossible) à obtenir en pratique (variation abrupte et hauteur de potentiel infini). Elle a le mérite en revanche de faire appara\^itre une deuxième condition nécessaire à l'observation de ce que l'on appelle habituellement le blocage de Coulomb quantique (par opposition au blocage de Coulomb classique où seul la quantification de la charge joue un rôle). En effet, pour résoudre le spectre énergétique de l'il\^ot, l'énergie thermique doit \^etre négligeable devant celle séparant deux niveaux, à savoir:
 
 \begin{eqnarray}
 \frac{\hbar^2}{2mL^2} \gg k_bT \nonumber
@@ -87,13 +78,14 @@ Il s'agit d'une expression très simplifiée car elle suppose une forme de poten
 Si cette condition est facilement atteinte lorsque l'on utilise des gaz d'électrons bidimensionnels, elle est en revanche plus difficile à satisfaire dans le cas d'un point quantique métallique~(du fait d'une masse effective de l'électron très petite dans le premier cas contrairement au second). \newline
 
 
-Lorsque des molécules sont utilisées, cette quantification apparaît beaucoup plus naturellement à travers la notion d'orbitales moléculaires. En effet, c'est sur ces orbitales que vont venir s'ajouter les électrons lors de la charge de l'il\^ot. On désigne souvent la dernière orbitale contenant un électron par HOMO~(Highest Occupied Molecular Orbital). De même, la première orbitale ne contenant aucun électron est désignée par le terme LUMO~(Lowest Unoccupied Molecular Orbital).
+Lorsque des molécules sont utilisées, cette quantification apparaît beaucoup plus naturellement à travers la notion d'orbitales moléculaires. En effet, c'est sur ces orbitales que vont venir s'ajouter et se soustraire les électrons. On désigne souvent la dernière orbitale contenant un électron par HOMO~(Highest Occupied Molecular Orbital) et la première orbitale ne contenant aucun électron est désignée par le terme LUMO~(Lowest Unoccupied Molecular Orbital).
 
-Il faut se garder cependant de penser qu'une molécule jouant le r\^ole de point quantique conserve les mêmes propriétés que cette m\^eme molécule isolée. Tout d'abord, les niveaux d'énergie sont fortement influencés par la présence des électrodes du fait de l'hybridisation. De plus, les électrodes peuvent induire une déformation qui va altérer la structure électronique de celle-ci. Ce phénomène est connu sour le nom d'effet Jhan-Teller. 
+Il faut se garder cependant de penser qu'une molécule jouant le r\^ole de point quantique conserve les mêmes propriétés que cette m\^eme molécule isolée. Tout d'abord, les niveaux d'énergie sont fortement influencés par la présence des électrodes du fait de l'hybridisation. De plus, les électrodes peuvent induire une déformation de la molécule altérant la structure électronique de celle-ci. Ce phénomène est connu sour le nom d'effet Jhan-Teller. 
 
 Nous montrerons par la suite que, dans le cadre de l'électronique moléculaire et plus particulièrement celui de la spintronique moléculaire, il est important de pouvoir évaluer l'influence de ces différents phénomènes.
 
 \subsection{Les paramètre de couplage tunnel $\gamma_{s/d}$}
+
 On peut voir ces coefficients comme définissant "l'aisance" avec laquelle les électrons peuvent passer par effet tunnel de la source ou du drain vers l'il\^ot et vice-versa. Les valeurs $\gamma_{s/d}$ sont déterminantes dans la valeur du courant qui va \^etre mesurée dans notre système. Plus précisément, de leurs valeurs va dépendre la conductance $G$ de l'échantillon. Partant de cette conductance on peut montrer, par un raisonnement simple, que celle-ci doit satisfaire la relation suivante:
 \begin{eqnarray}
 G \ll G_0 \text{ avec } G_0 = \frac{2e^2}{h}
@@ -112,34 +104,23 @@ Cette élargissement est appelé élargissement intrinsèque par opposition à l
 
 
 \section{La notion de potentiel chimique}
-La notion de potentiel chimique est à mes yeux une des notions les plus importantes afin de comprendre de manière simple et intuitive le phénomène de blocage de Coulomb. Un exemple de son utilisation dans la cadre du transport quantique peut \^etre trouvé dans la très belle et très pédagogique revue de Hanson \textit{et Al.}. Dans cette section, nous allons tout d'abord présenter le concept de potentiel chimique. Nous exprimerons ensuite, à partir des considérations exposés dans la partie précédente, le potentiel chimique de la source, du drain et surtout de l'ilôt central.
+La notion de potentiel chimique est à mes yeux une des notions les plus importantes afin de comprendre de manière simple et intuitive le phénomène de blocage de Coulomb. Un exemple de son utilisation dans la cadre du transport quantique peut \^etre trouvé dans la très belle et très pédagogique revue de Hanson \textit{et al.}. Dans cette section, nous allons tout d'abord présenter le concept de potentiel chimique. Nous exprimerons ensuite, à partir des considérations exposées dans la partie précédente, le potentiel chimique de la source, du drain et surtout de l'\^ilot central.
 
 \subsection{Définition}
 
-On recontre souvent le potentiel chimique en thermodynamique lorsque l'on s'intéresse aux systèmes ouverts échangeant des particules~(cf. ensemble Grand Canonique). Cette grandeur défini la variation d'énergie d'un système d\^u à la modification du nombre de particules qui le composent. On le trouve parfois défini comme suit :
+On recontre souvent le potentiel chimique en thermodynamique lorsqu'on s'intéresse aux systèmes ouverts échangeant des particules~(cf. ensemble Grand Canonique). Cette grandeur défini la variation d'énergie d'un système d\^u à la modification du nombre de particules qui le composent. On le trouve parfois défini comme suit :
 \begin{eqnarray}
 \mu = \frac{\partial U}{\partial N} \nonumber
 \end{eqnarray}
-$U$ étant l'énergie du système et $N$ le nombre de particules. Dans la suite, nous allons plut\^ot adopter la notation de Hanson et Al. et prendre la définition suivante :
+$U$ étant l'énergie du système et $N$ le nombre de particules. Dans la suite, nous allons plut\^ot adopter la notation de Hanson \textit{et al.} et prendre la définition suivante :
 \begin{eqnarray}
 \mu(N) = U(N) - U(N-1)
 \end{eqnarray}
 où $\mu(N)$ est le potentiel chimique de l'état de charge $N$, $U(N)$ et $U(N-1)$ étant respectivement l'énergie du système avec $N$ et $N-1$ particules.
 
-\subsection{Expérience de pensée}
-
-Partant de cette définition on peut imaginer un système de deux réservoirs contenant un grand nombre de particules, chacune d'entre elles possédant un potentiel chimique différent. Connectons les par un canal ne laissant passer qu'une particule de potentiel chimique $\mu_{canal}$. Si une particule du réservoir de droite possède ce potentiel chimique, elle peut donc passer dans le réservoir de gauche. Elle se déplace tout d'abord du réservoir de droite au canal ce qui n'entra\^ine pas de variation dans l'énergie du système~($\Delta E = -\mu_{canal} + \mu_{canal} = 0$). Elle peut ensuite passer du canal au réservoir de gauche. Les trois configurations : particule dans le réservoir de droite, de gauche ou dans le canal sont dégénérées et la particule peut circuler librement dans le système.
-
-Supposons maintenant que le nombre de particules au potentiel chimique $\mu_{canal}$ soit plus grand dans le réservoir de droite que dans le réservoir de gauche. M\^eme si les particules de gauche peuvent circuler en direction du réservoir de droite, il y aura en proportion, plus de particules venant du réservoir de droite et allant vers le réservoir de gauche. Il y a donc un flux moyen de particules de la droite vers la gauche. Au bout d'un temps plus ou moins long, le système devrait tendre vers un équilibre et le flux vers zéro. En revanche, si l'on maintient "artificiellement" cette différence en nombre de particules, le flux devrait perdurer.
-
-Dans le cadre de notre nanostructure, les particules sont des électrons, le nombre de particule au potentiel chimique $\mu$ est gouverné par la distribution de Fermi pondéré par la densité d'état. Le canal filtrant n'est rien d'autre que notre point quantique. En introduisant une tension source drain, on induit une différence entre la source et le drain dans le nombre d'électrons possédant le potentiel chimique $\mu$ tel que $\mu_s < \mu < \mu_d$~(cf Fig.\ref{distrib_fermi}.a). Un courant peut donc \^etre mesuré si le potentiel chimique du point quantique se trouve dans cette fen\^etre.
-
-Ce raisonnement, certes un peu simpliste, peut \^etre formalisé aisément dans le cadre de la méthode des équations pilotes. L'ensemble de la procédure à suivre est détaillé dans l'annexe?!.
-
-
 
 \subsection{Les potentiels chimiques de la source et du drain.}
-L'expression du potentiel chimique de la source et du drain est directement donnée par $\mu_i = e V_i$ ou $i=source/drain$. Il s'agit en fait du niveau de Fermi des électrons dans la source et le drain (à ne pas confondre avec l'énergie de Fermi). La probabilité, dans un métal de niveau de Fermi $\mu_F$, de trouver un électron de potentiel chimique $\mu$ est donnée par la distribution de Fermi:
+L'expression du potentiel chimique de la source et du drain est directement donnée par $\mu_i = e V_i$ ou $i=source/drain$. Il s'agit du niveau de Fermi des électrons dans la source et le drain (à ne pas confondre avec l'énergie de Fermi). La probabilité, dans un métal de niveau de Fermi $\mu_F$, de trouver un électron de potentiel chimique $\mu$ est donnée par la distribution de Fermi:
 \begin{eqnarray}
 p(\mu) = \frac{1}{1 + \exp{(\frac{\mu - \mu_F}{k_bT})}} \nonumber
 \end{eqnarray}
@@ -147,36 +128,29 @@ où $\mu$ est le potentiel chimique de l'électron, $\mu_F$ celui du métal, $k_
 \begin{eqnarray}
 p_i(\mu) = \frac{1}{1 + \exp{(\frac{\mu - eV_i}{k_bT})}}
 \end{eqnarray}
-ou $i$=source/drain, $V_i$ est la tension appliquée et $e$ la charge de l'électron. Comme nous l'avons vu dans notre expérience de pensée, cette notion est essentielle dans la détermination du courant qui traverse notre structure.
+Cette notion est essentielle dans la détermination du courant qui traverse notre structure.
 
 \begin{figure}
 \centering \includegraphics[scale=0.5]{Theorie/Transport/figure2/figure2.pdf} 
-\caption{Probabilité d'avoir un électron de potentiel chimique $\mu$ sachant que le potentiel chimique du métal est $\mu_{\rm{F}}$. Le potentiel chimique $\mu_{\rm{F}}$ correspondant à une tension de $1mV$ que l'on applique habituellement dans ce genre d'expérience correspond à une énergie de $11.5K$.}
+\caption{ \textbf{a} : probabilité d'avoir un électron de potentiel chimique $\mu$ sachant que le potentiel chimique du métal est $\mu_{\rm{F}}$ pour différent températures. \textbf{b} : évolution de l'énergie des états de charges $-1$, $0$ et $1$ en fonction de la tension de grille en unité de $q/e$. Pour des valeurs demi-entières de $q/e$, deux états de charge se retrouvent dégénérés. On parle de point de dégénérescence.}
 \label{distrib_fermi}
 \end{figure}
 
 
 
 \subsection{Le potentiel chimique de l'il\^ot}
-Si l'expression du potentiel chimique de la source et du drain n'a rien de compliqué~(dans le cas d'électrode normale tout du moins), on ne peut pas en dire de m\^eme de celle de l'il\^ot. C'est là que réside toute la difficulté de la compréhension d'une expérience. Heureusement, dans la partie précédente nous avons déjà fait le bilan des différentes énergies en jeux dans le système. A savoir, nous devons prendre en compte l'énergie électrostatique, l'énergie d'interaction électron-électron ainsi que la discrétisation des niveaux d'énergie dans l'il\^ot. Tout ceci donne :
+Si l'expression du potentiel chimique de la source et du drain n'a rien de compliqué~(dans le cas d'électrode normale tout du moins), on ne peut pas en dire de m\^eme de celle de l'il\^ot. C'est là que réside toute la difficulté de la compréhension d'une expérience. Dans la partie précédente nous avons déjà fait le bilan des différentes énergies en jeux dans le système. A savoir, nous devons prendre en compte l'énergie électrostatique, l'énergie d'interaction électron-électron ainsi que la discrétisation des niveaux d'énergie dans l'il\^ot. Tout ceci donne :
 \begin{eqnarray}
 U(N) = \underbrace{\frac{1}{2C_{\Sigma}} (-|e|N + C_sV_s + C_dV_d + C_gV_g)^2}_{\text{couplage électrostatique et énergie de charge}}
 + 
 \underbrace{\sum_{n=1}^{N} E_n}_{\substack{\text{énergie liée aux} \\\text{aux états discrets}}}
 \end{eqnarray}
 
-On peut également tenir compte d'un éventuel champ magnétique en faisant le remplacement suivant :
+On peut également tenir compte de l'application d'un champ magnétique en en attribuant à chaque niveau discret, une dépendance en champ magnétique :
 \begin{eqnarray}
 \sum_{n=1}^N E_n = \sum_{n=1}^N E_n(B) \nonumber
 \end{eqnarray}
-c'est à dire en attribuant à chaque niveau discret, une dépendance en champ magnétique. Nous verrons rapidement dans la suite comment cela se traduit dans le cas d'un système simple. 
-
-Une fois l'énergie en fonction de $N$ exprimée simplement, il suffit d'appliquer la définition précédente à savoir :
-\begin{eqnarray}
-\mu(N) = U(N) - U(N-1) \nonumber
-\end{eqnarray}
-
-On se retrouve avec une expression relativement simple du potentiel chimique :
+On se retrouve, en utilisant la définition du potentiel chimique de l'Eq.???, avec une expression relativement simple du potentiel chimique :
 \begin{eqnarray}
 \mu(N) = (N-\frac{1}{2})\frac{e^2}{C_{\Sigma}}
 + 
@@ -199,11 +173,11 @@ E_N(B)
 L'énergie $E_c$ est donc la quantité d'énergie d\^u à la répulsion Coulombienne qui sépare deux potentiels chimiques d'état de charge différents.
 
 
-\section{Détermination des conditions de circulation d'un courant}
-Pour rendre l'exposé qui va suivre plus clair, nous allons le décomposer en trois parties. Dans la première partie, nous allons voir quelles sont les conditions à remplir pour qu'un électron du drain puisse aller dans l'il\^ot. Dans la deuxième, nous ferrons de m\^eme pour la source. Enfin, dans la dernière, nous exploiterons les résultats obtenus pour en déduire les conditions nécessaires pour qu'un courant circule dans notre structure. Afin d'adapter les solutions trouvées aux conditions expérimentales, on posera $V_s = 0$ car dans la grande majorité des dispositifs, une des électrodes est directement connectée à la masse. Ce qui donnera $V_d=V_{ds}$, $V_{ds}$ étant la tension appliquée à l'échantillon.
+\section{Le blocage de Coulomb}
+Pour rendre l'exposé qui va suivre plus clair, nous allons le décomposer en trois parties. Dans la première partie, nous allons voir quelles sont les conditions à remplir pour qu'un électron du drain puisse aller dans l'il\^ot. Dans la deuxième, nous ferons de m\^eme pour la source. Enfin, nous exploiterons les résultats obtenus pour en déduire les conditions nécessaires pour qu'un courant circule dans notre structure. Afin d'adapter les solutions trouvées aux conditions expérimentales, on posera $V_s = 0$ car dans la grande majorité des dispositifs, une des électrodes est directement connectée à la masse. Ce qui donnera $V_d=V_{ds}$, $V_{ds}$ étant la tension appliquée à l'échantillon.
 
 \subsection{Charge de l'il\^ot par le drain}
-Comme nous en avons discuté précédemment, pour qu'une particule (ici un électron) puisse passer d'un réservoir à l'autre, il faut que son potentiel chimique soit identique dans les deux réservoirs. Supposons l'il\^ot dans l'état de charge $N-1$, pour passer à l'état de charge $N$, il faut qu'il y ait au moins un électron dans le drain dont le potentiel chimique soit égale à $\mu(N)$. Il nous suffit d'observer la courbe de la Fig. \ref{distrib_fermi} pour comprendre que cela suppose :
+Pour qu'une particule (ici un électron) puisse passer d'un réservoir à l'autre, il faut que son potentiel chimique soit identique dans les deux réservoirs. Supposons l'il\^ot dans l'état de charge $N-1$, pour passer à l'état de charge $N$, il faut qu'il y ait au moins un électron dans le drain dont le potentiel chimique soit égale à $\mu(N)$. Il nous suffit d'observer la courbe de la Fig. \ref{distrib_fermi}.a pour comprendre que cela suppose :
 \begin{eqnarray}
 p(\mu) > 0 \Longrightarrow  -|e|V_{ds} \geq \mu(N) \nonumber
 \end{eqnarray}
@@ -222,12 +196,12 @@ En tenant compte des conditions $V_s= 0$ et $V_{ds} = V_d$ évoquées plus haut,
 V_{ds} \leq \frac{1}{C_g + C_s} \left\lbrace C_gV_g - \frac{C_{\Sigma}}{|e|}\left(E_N(B) + (N-\frac{1}{2})E_c \right) \right\rbrace 
 \end{eqnarray}
 
-La zone de transition entre charge et décharge dans le plan ($V_g$,$V_{ds}$) est délimité par une droite dont la pente $\dfrac{C_g}{C_g + C_s}$ dépend des différentes valeurs de capacitances du système.
+La zone de transition entre charge et décharge de l'\^ilot dans le plan ($V_g$,$V_{ds}$) est délimité par une droite dont la pente $\dfrac{C_g}{C_g + C_s}$ dépend des différentes valeurs de capacitances du système.
 
 
 \begin{figure}
 \includegraphics[scale=0.5]{Theorie/Transport/figure3/figure3.pdf} 
-\caption{Représentation de la charge et de la décharge de l'il\^ot dans le plan ($V_g$,$V_{ds}$)}
+\caption{\textbf{a} : représentation de la charge et de la décharge de l'il\^ot dans le plan ($V_g$,$V_{ds}$). Le régime de blocage de Coulomb est représenté par les situations 1 et 2. Un courant est mesuré dans les situations 3 et 4. \textbf{b} : m\^eme digramme obtenue en mesurant la conductance différentielle $dI/dV$ en fonction des tension $V_g$ et $V_{ds}$. La valeur de la conductance différentielle est basse pour les zones sombres et élevée pour les zones claires.}
 \label{charge_discharge}
 \end{figure}
 
@@ -241,26 +215,20 @@ V_{ds} \geq -\frac{1}{C_d} \left\lbrace C_gV_g + \frac{C_{\Sigma}}{|e|}\left( E_
 \end{eqnarray}
 
 
-On peut extraire une deuxième pente $-\dfrac{C_g}{C_d}$ qui correspond à la charge ou la décharge de l'il\^ot par la source.
+La pente $-\dfrac{C_g}{C_d}$ correspond alors à la charge ou la décharge de l'il\^ot par la source (cf Fig.\ref{charge_discharge})
 
-Nous pouvons également déduire de ce qui précède une deuxième relation importante. Deux états de charge consécutifs sont séparés par une tension de grille $\Delta V_g$ que l'on peut relier aux paramètres du système par la formule suivante:
+Nous pouvons également déduire de ce qui précède une deuxième relation importante. Deux point de dégénérescence sont séparés par une tension de grille $\Delta V_g$ que l'on peut relier aux paramètres du système par la formule suivante:
 \begin{eqnarray}
 \frac{C_g}{C_{\Sigma}} |e| \Delta V_g = E_c + \Delta E
 \end{eqnarray}
 où $\Delta E = E_N(B) - E_{N-1}(B)$ est l'écart entre deux niveaux d'énergie du spectre discret.
 \subsection{Condition de circulation du courant}
 
-Si l'on reprend les deux paragraphes précédents, on peut imaginer quatre situations :
-\begin{itemize}
-\item \textbf{Situation 1} : aucun électron ne peut \^etre chargé ni par la source ni par le drain. L'état de charge reste à N.
-\item \textbf{Situation 2} : un électron peut \^etre chargé à la fois par la source et par le drain. L'état de charge est donc fixé à N+1.
-\item \textbf{Situation 3} : un électron ne peut \^etre chargé que par la source. Dans ce cas, il finit par se décharger dans le drain
-\item \textbf{Situation 4} : un électron ne peut \^etre chargé que par le drain. Dans ce cas, il finit par se décharger dans la source. \newline
-\end{itemize}
+Si l'on reprend les deux paragraphes précédents, on peut imaginer les quatre situations représenté sur la Fig. \ref{charge_discharge}.
 
-Dans les situations un et deux, l'état de charge de l'il\^ot est bien défini et on se trouve dans le régime de blocage de Coulomb. Dans la situation 3 les électrons circulent de la source vers le drain. Un courant positif est donc mesuré. Dans la situation 4, les électrons circulent du drain vers la source. Un courant négatif est donc mesuré. L'ensemble de ces régimes est représenté dans la Fig. \ref{charge_discharge}.a. 
+Dans les situations un et deux, l'état de charge de l'il\^ot est bien défini et on se trouve dans le régime de blocage de Coulomb. Dans la situation 3 les électrons circulent de la source vers le drain. Un courant positif est donc mesuré. Dans la situation 4, les électrons circulent du drain vers la source. Un courant négatif est mesuré.
 
-Souvent, les mesures ne se font non pas en courant, mais en conductance différentielle $dI/dV$. Une simulation d'une telle mesure obtenue par la méthode des équations pilotes est présenté dans la  Fig.\ref{charge_discharge}.b. Les différentes zones décrites précédemment sont séparées par de grandes variations dans la conductance différentielle mesurée.\newline
+Souvent, les mesures ne se font non pas en courant, mais en conductance différentielle $dI/dV$. Ce type de mesure est préféré à le mesure en courant DC car elle peut \^etre faite par un technique de détection synchrone~(lock-in en anglais). Cette dernière à l'avantage de fournir des mesures plus "propre" et donc plus facilement exploitable.Une simulation d'une telle mesure obtenue par la méthode des équations pilotes est présenté dans la  Fig.\ref{charge_discharge}.b. Les différentes zones décrites précédemment sont séparées par de grandes variations dans la conductance différentielle mesurée.\newline
 
 
 \fbox{\begin{minipage}{0.90\textwidth}
@@ -271,26 +239,26 @@ Souvent, les mesures ne se font non pas en courant, mais en conductance différe
 
 \section{Etats excités et transport}
 
-Dans de nombreux cas, une transition d'un état de charge à l'autre ne peut pas être associée à un unique potentiel chimique du fait de la présence d'états excités pour l'un ou les deux états de charges. Il faut donc prendre en compte toutes les transitions afin de déterminer correctement la signature transport. Pour illustrer ceci, nous allons prendre un exemple simple dans lequel une boite quantique oscille entre les états de charges $N=0/1$. De plus, nous tiendrons compte du spin de l'électron. 
+Dans de nombreux cas, une transition d'un état de charge à l'autre ne peut pas être associée à un unique potentiel chimique du fait de la présence d'états excités pour l'un ou les deux états de charges. Il faut donc prendre en compte toutes les transitions afin de déterminer correctement la signature du transport. Pour illustrer ceci, nous allons prendre un exemple simple dans lequel une boite quantique oscille entre les états de charges $N=0/1$. De plus, nous tiendrons compte du spin de l'électron. 
 
-On va distinguer deux transitions. La transition d'un état de charge $N=0$ à un état de charge $N=1$ avec un état de spin up~($0\rightarrow +$) sera associée au potentiel chimique $\mu_{+}$. La transition d'un état de charge $N=0$ à un état de charge $N=1$ avec un état de spin down~($0\rightarrow -$) sera quant à elle associée au potentiel chimique $\mu_{-}$. Sans champ magnétique appliqué, le potentiel chimique $\mu_{+}$ possède la m\^eme énergie que le potentiel chimique  $\mu_{-}$.
+On va distinguer deux transitions : la transition d'un état de charge $N=0$ à un état de charge $N=1$ avec un état de spin up~($0\rightarrow +$) sera associée au potentiel chimique $\mu_{+}$; la transition d'un état de charge $N=0$ à un état de charge $N=1$ avec un état de spin down~($0\rightarrow -$) sera quant à elle associée au potentiel chimique $\mu_{-}$. Sans champ magnétique appliqué, le potentiel chimique $\mu_{+}$ possède la m\^eme énergie que le potentiel chimique  $\mu_{-}$.
 
 Si l'on applique un champ magnétique au système, du fait de l'effet Zeeman, la dégénérescence des deux états de spin est levée (cf Fig. \ref{charge_discharge}.b). Les deux potentiels chimiques $\mu_{-}$ et $\mu_{+}$ ne sont plus égaux. Le premier correspond désormais à la transition entre deux états fondamentaux~($EF(0)\rightarrow EF(1)$). Le second en revanche correspond à la transition de l'état fondamental de $N=0$ à l'état excité de $N=1$~($EF(0)\rightarrow EE(1)$).
 
 On peut donc construire deux jeux de diamants de Coulomb, l'un correspondant à $\mu_{-}$ et l'autre à $\mu_{+}$~(cf Fig. \ref{charge_discharge}.a en bleu et rouge respectivement). Cependant, dans les zones de blocage associé au diamant de la transition $EF(0)\rightarrow EF(1)$ (représenté ici par le potentiel chimique $\mu_{-}$) , aucun courant ne peut circuler (zone grisée dans la Fig.\ref{charge_discharge}.a). Les bords de diamant situés dans cette zone doivent apparaître en pointillés car ils ne correspondent pas réellement à une modification du courant.
 
-De part cette construction, on constate que l'intersection entre les bords de diamants de la transition $EF(0)\rightarrow EE(1)$ et ceux de la transition $EF(0)\rightarrow EF(1)$ donne une lecture directe de l'effet Zeeman (cf Fig. \ref{charge_discharge}.a). On peut donc, par une mesure de transport, faire la spectroscopie du point quantique en fonction du champ magnétique. Dans ce cas précis, celle-ci est fort simple.
+De part cette construction, on constate que l'intersection entre les bords de diamants de la transition $EF(0)\rightarrow EE(1)$ et ceux de la transition $EF(0)\rightarrow EF(1)$ donne une lecture directe de l'effet Zeeman (cf Fig. \ref{charge_discharge}.a). On peut, par une mesure de transport, faire la spectroscopie du point quantique en fonction du champ magnétique.
 
- Cependant, dans la plupart des cas, les états N/N+1 possèdent tous deux des états fondamentaux et des états excités et l'analyse de la signature du système en transport devient plus difficile. Ces différentes configurations sont notamment traitées par Hanson et Al., et un exemple peut \^etre trouvé dans l'analyse du $N@C_{60}$ proposée dans l'article en fin de thèse.
+ Cependant, dans la plupart des cas, les états N/N+1 possèdent tous deux des états fondamentaux et des états excités et l'analyse de la signature du système en transport devient plus difficile. Ces différentes configurations sont notamment traitées par Hanson \textit{et al.}, et un exemple peut \^etre trouvé dans l'analyse du $N@C_{60}$ proposée dans l'article en fin de thèse.
 
 \begin{figure}
 \includegraphics[scale=0.5]{Theorie/Transport/figure4/figure4.pdf} 
-\caption{Diagramme Zeeman de l'état de charge N=1. Potentiel chimique correspondant à la transition 0/1}
-\label{charge_discharge}
+\caption{ \textbf{a} : diagramme de stabilité tenant compte des états fondamentaux et excités. L'influence du champ magnétique est directement mesurable au niveau des croisement des bords de diamant qui nous donnent une lecture directe de l'énergie de Zeeman $E_z$. \textbf{b} : diagramme Zeeman de l'état de charge N=1. L'application d'un champ magnétique lève la dégénérescence entre les deux spins de l'énergie Zeeman $E_z$. \textbf{c} : potentiel chimique correspondant à la transition 0/1. L'influence du champ magnétique vient levé la dégénérescence des deux états de spin et donc des deux potentiels chimiques correspondants.}
+\label{etat_excite}
 \end{figure}
 
 \section{Cotunneling}
-Nous avons vu jusqu'à maintenant que dans les zones de blocage de Coulomb, l'état de charge du système est fixe du fait de l'énergie de charge. En effet, l'ajout d'un électron supplémentaire aurait un "co\^ut" énergétique trop grand pour le système. Cependant, de part les inégalités d'Heinsenberg, un système peut outrepasser ce problème de "co\^ut" énergétique pendant un temps très court. L'ordre de grandeur de ce temps dépend de l'énergie nécessaire et est donné par la relation :
+Nous avons vu jusqu'à maintenant que dans les zones de blocage de Coulomb, l'état de charge du système est fixe du fait de l'énergie de charge. En effet, l'ajout d'un électron supplémentaire aurait un "co\^ut" énergétique trop grand pour le système. Cependant, de part les inégalités d'Heinsenberg, un système peut outrepasser cette limitation pendant un temps très court. L'ordre de grandeur de ce temps dépend de l'énergie nécessaire et est donné par la relation :
 \begin{eqnarray}
 \tau \simeq \frac{\hbar}{E_c} \nonumber
 \end{eqnarray}
@@ -298,46 +266,46 @@ Nous avons vu jusqu'à maintenant que dans les zones de blocage de Coulomb, l'é
 
 \begin{figure}
 \includegraphics[scale=0.5]{Theorie/Transport/figure5/figure5.pdf} 
-\caption{Représentation du cotunneling dans le plan ($V_g$,$V_{ds}$)}
-\label{charge_discharge}
+\caption{\textbf{a} : représentation du cotunneling dans le plan ($V_g$,$V_{ds}$). Ce dernier est responsable de la présence de courant dans les zones de blocage. Ce courant peut varier au sein de cette zone comme le montre les deux niveaux de gris. \textbf{b} : représentation des trois temps du cotunneling inélastique. L'état final de l'il\^ot est de plus haute énergie que l'état initial. \textbf{c} :  représentation des trois temps du contunneling élastique. L'énergie de l'il\^ot entre l'état initial et l'état final est identique.}
+\label{cotun}
 \end{figure}
 
 
-Une façon de voir le phénomène est de dire que pendant le temps $\tau$ un électron est entré dans le point quantique pendant qu'un autre en est sorti. Si un m\^eme état de charge possède plusieurs états~(fondamentaux et excités), on peut imaginer deux situations. Dans le premier cas, l'électron entrant vient occuper un état de m\^eme énergie que celui de l'électron sortant et dans ce cas on parle de cotunnling élastique. L'électron entrant occupe un état d'énergie plus élevée que l'électron sortant et dans ce cas on parle de cotunneling inélastique. Dans le deuxième cas, cette différence en énergie que l'on notera $\Delta E_{cot}$ dans la suite doit être fournie au système. Ce rôle est assuré par la tension $V_{\rm{ds}}$ et pour qu'un processus inélastique est lieu, il faut donc que :
+Une façon de voir le phénomène est de dire que pendant le temps $\tau$ un électron est entré dans le point quantique pendant qu'un autre en est sorti, d'où l'appellation de "cotunneling". Si un m\^eme état de charge possède plusieurs états~(fondamentaux et excités), on peut imaginer deux situations. Dans le premier cas, l'électron entrant vient occuper un état de m\^eme énergie que celui de l'électron sortant et dans ce cas on parle de cotunneling élastique. Si l'électron entrant occupe un état d'énergie plus élevée que l'électron sortant, alors on parle de cotunneling inélastique. Dans le deuxième cas, cette différence en énergie que l'on notera $\Delta E_{cot}$ dans la suite doit être fournie au système. Ce rôle est assuré par la tension $V_{\rm{ds}}$ et pour qu'un processus inélastique ait lieu, il faut donc que :
 \begin{eqnarray}
 |e|V_{\rm{ds}} \geq \Delta E_{cot}
 \end{eqnarray}
 
-Dans le cas du cotunneling élastique cette condition est toujours remplie. C'est ce phénomène qui donne le fond de conductance mesuré dans les expériences de blocage de Coulomb. Plus intéressant encore, en faisant varier la tension de polarisation on peut venir sonder les différents états d'énergie pour un état de charge donnée.  Dans la zone de blocage de Coulomb, on va donc observer des zones avec des valeurs de courant différentes~(cf nuance de gris Fig.\ref{charge_discharge}.a). Dans le cas présenté ici, la limite entre les deux zones permet une lecture directe de l'effet Zeeman $\Delta E_z$. Encore une fois, il s'agit ici d'un cas simple avec seulement un état excité. Un étude plus complexe de la molécule endofullerène est présentée dans l'article en fin de thèse.\newline
+Dans le cas du cotunneling élastique cette condition est toujours remplie. C'est ce phénomène qui donne le fond de conductance. Dans la zone de blocage de Coulomb, on va donc observer des zones avec des valeurs de courant différentes~(cf nuance de gris Fig.\ref{charge_discharge}.a). Dans le cas présenté ici, la limite entre les deux zones permet une lecture directe de l'effet Zeeman $\Delta E_z$. Encore une fois, il s'agit ici d'un cas simple avec un unique état excité. Un étude plus complexe de la molécule endofullerène est présentée dans l'article en fin de thèse.\newline
 
 \fbox{\begin{minipage}{0.9\textwidth}
-\textbf{Remarque :} Je voudrais ici insister sur la différence entre la spectroscopie en tunneling et celle en cotunneling. La première s'intéresse aux transitions entre des états relatifs à deux états énergies de charges différents. Il faut donc "deconvoluer" le signal pour pouvoir analyser le spectre des deux états de charge. Dans le cas du cotunneling, on peut accéder directement aux spectres d'un état de charge donné. De part cette différence, les règles de sélection des transitions sont également différentes. Dans le cas du tunneling, on doit avoir $\Delta m = \pm 1/2$. Pour le cotunneling, cette règle de sélection devient $\Delta m = 0 \text{ ou } \pm 1$. Il peut arriver que des états inaccessibles par une spectroscopie en régime de tunneling soient en revanche accessibles par une mesure en régime de cotunneling. Une comparaison des deux méthodes peut \^etre trouvée dans l'article en fin de thèse ainsi que dans la thèse de Nicolas Roch.
+\textbf{Remarque :} Je voudrais ici insister sur la différence entre la spectroscopie en tunneling et celle en cotunneling. La première s'intéresse aux transitions entre deux états d'énergie relatif à deux états de charges différents. Il faut donc "deconvoluer" le signal pour pouvoir analyser le spectre des deux états de charge. Dans le cas du cotunneling, on peut accéder directement aux spectres d'un état de charge donné. Les règles de sélection des transitions sont également différentes. Dans le cas du tunneling, on doit avoir $\Delta m = \pm 1/2$. Pour le cotunneling, cette règle de sélection devient $\Delta m = 0 \text{ ou } \pm 1$. Il peut arriver que des états inaccessibles par une spectroscopie en régime de tunneling soient en revanche accessibles par une mesure en régime de cotunneling. Une comparaison des deux méthodes peut \^etre trouvée dans l'article en fin de thèse ainsi que dans la thèse de Nicolas Roch.
 \end{minipage}}
 
 
 \section{Effet Kondo}
 
-Tout comme le blocage de Coulomb, l'effet Kondo a d'abord été mesuré sur des échantillons macroscopiques consistant en un metal massif contenant des impuretés magnétiques. En mesurant la conductance d'un tel échantillon, on avait constaté  qu'en dessous d'une certaine température la conductance avait tendance non plus à augmenter, mais à atteindre un maximum pour diminuer à nouveau et tendre vers une limite inférieure à celle attendue par les modèles de l'époque. Ce problème est resté insoluble pendant quelques années jusqu'au modèle proposé par Jung Kondo en 1964. Ce modèle est relativement simple à concevoir mais en revanche très difficile à résoudre car faisant appel à la physique à $N$ corps. Dans ce modèle, les électrons de conduction viennent se coupler de façon antiférromagnétique aux impuretés du métal de telle sorte que le moment magnétique total devient nul. Chaque impureté agit donc comme un centre de diffusion très actif diminuant d'autant la conductance du système. La physique à $N$ corps apparait au travers des électrons de conduction. En effet, l'impureté magnétique n'interagit pas avec un seul électron du métal mais plutôt avec ce que l'on appelle un nuage Kondo. Il s'agit d'un phénomène hautement cohérent. Le seul problème du modèle à l'époque, c'est qu'il prevoit une divergence de la conductance quand la température tend vers zéro. Il faudra attendre encore quelques années avec la théorie de renormalization proposée par Wilson, pour résoudre complètement le problème.
+Tout comme le blocage de Coulomb, l'effet Kondo a d'abord été mesuré sur des échantillons macroscopiques consistant en un metal massif contenant des impuretés magnétiques. En mesurant la conductance de ces échantillons, les expériences avaient montré une anomalie. Celle-ci qui aurait d\^u diminuer durant le refroidissement ne suivait cette tendance que jusqu'à une certaine température pour augmenter à nouveau. Ce problème est resté insoluble pendant quelques années jusqu'au modèle proposé par Jung Kondo en 1964. Ce modèle est relativement simple à concevoir mais en revanche très difficile à résoudre car faisant appel à la physique à $N$ corps. Dans ce modèle, les électrons de conduction viennent se coupler de façon antiférromagnétique aux impuretés du métal de telle sorte que le moment magnétique total devient nul. Chaque impureté agit donc comme un centre de diffusion très actif diminuant d'autant la conductance du système. La physique à $N$ corps apparait au travers des électrons de conduction. En effet, l'impureté magnétique n'interagit pas avec un seul électron du métal mais plutôt à un grand nombre d'électron que l'on désigne par le terme de "nuage Kondo". Il s'agit d'un phénomène hautement cohérent. Le seul problème du modèle à l'époque, c'est qu'il prevoit une divergence de la conductance quand la température tend vers zéro. Il faudra attendre encore quelques années avec la théorie de renormalisation~(NRG en anglais) proposée par Wilson, pour résoudre complètement le problème.
 
-Ce problème est réapparu récemment dans ce que certain ont appelé "The revival of the Kondo Effect" (mettre la référence). La physique mésoscopique a permis de mettre à la disposition des théoriciens, des modèles bien plus simples à résoudre dans lesquels le nombre d'impuretés magnétiques pouvait être réduit à l'unité et le couplage aux électrons pouvait être contrôlé de manière précise. Les 2DEGs, par exemple, permettent un contrôle quasi-parfait de ces différents paramètres. La littérature est riche en articles et revues de toutes sortes couvrant de nombreux aspects de l'effet Kondo. Notre groupe à notablement contribuer à l'investigation de cette physique au travers notamment de l'étude de la transition de phase quantique et de l'effet Kondo sous écranté. Cependant, je ne traiterai pas en détail ici de ces effets.
+Récemment la physique mésoscopique a permis de mettre à la disposition des théoriciens des modèles bien plus simples à résoudre dans lesquels le nombre d'impuretés magnétiques pouvait être réduit à l'unité et le couplage aux électrons pouvait être contrôlé de manière précise. Les 2DEGs, par exemple, permettent un contrôle quasi-parfait de ces différents paramètres. La littérature est riche en articles et revues de toutes sortes couvrant de nombreux aspects de l'effet Kondo. Notre groupe à notablement contribuer à l'investigation de cette physique au travers notamment de l'étude de la transition de phase quantique et de l'effet Kondo sous écranté. Cependant, je ne traiterai pas en détail de ces effets.
 
 \begin{figure}
 \includegraphics[scale=0.5]{Theorie/Transport/figure6/figure6.pdf} 
-\caption{Kondo}
+\caption{\textbf{a} : évolution de la température Kondo en fonction du paramètre $\epsilon_0$. Celle-ci est minimale pour une valeur $\epsilon_0=-0.5$, ce qui correspond au centre d'un diamant de Coulomb. Elle est maximale pour $\epsilon_0=0$ ou $-1$, c'est à dire au niveau des points de dégénérescence. \textbf{b} : représentation schématique des différents paramètres du phénomène Kondo.}
 \label{Kondo_param}
 \end{figure}
 
 
-Je voudrais en revanche dresser quelques généralités de l'effet Kondo dans les transistors moléculaires. Comme je le disais précedemment, l'effet Kondo~(de spin) réside dans le couplage entre une impureté magnétique et les électrons de conduction. Dans notre système, cette impureté peut être jouée par un niveau ne contenant qu'un seul électron non apparié. Il s'agit donc d'une impureté de spin $1/2$. Cette impureté est couplée aux électrons de la source et du drain. Le couplage anti-ferromagnétique n'est effectif qu'en dessous d'une température caractéristique nommée température Kondo et noté $T_K$ dans la suite. Cette température $T_K$ dépend principalement de trois paramètres : l'énergie de charge $E_c$, le couplage aux électrodes $\gamma$ et la différence en énergie entre le potentiel chimique du point quantique et le niveau de Fermi des électrodes. Ces trois paramètres sont représentés sur la Fig.\ref{Kondo_param}.b et sont liés par la relation suivante:
+Je voudrais en revanche dresser quelques généralités de l'effet Kondo dans les transistors moléculaires. Comme j'ai expliqué précédemment, l'effet Kondo~(de spin) réside dans le couplage entre une impureté magnétique et les électrons de conduction. Dans notre système, cette impureté peut être jouée par un niveau ne contenant qu'un seul électron non apparié. Il s'agit donc d'une impureté de spin $1/2$. Cette impureté est couplée aux électrons de la source et du drain. Le couplage anti-ferromagnétique n'est effectif qu'en dessous d'une température caractéristique nommée température Kondo et noté $T_K$ dans la suite. Cette température $T_K$ dépend principalement de trois paramètres : l'énergie de charge $E_c$, le couplage aux électrodes $\gamma$ et la différence en énergie entre le potentiel chimique du point quantique et le niveau de Fermi des électrodes. Ces trois paramètres sont représentés sur la Fig.\ref{Kondo_param}.b et sont liés par la relation suivante:
 \begin{eqnarray}
 T_K \sim \frac{\sqrt{\gamma E_c}}{2} \exp(\frac{\pi \epsilon_0(\epsilon_0 + E_c)}{2\gamma E_c})
 \end{eqnarray}
 
 Première constatation, plus l'énergie de charge $E_c$ est grande, plus la température Kondo sera élevée. C'est ici que réside un des avantages des transistors moléculaires comparativement aux 2DEGs. Les énergies de charge sont en général beaucoup plus élevées ce qui peut conduire à des $T_K$ de l'ordre de quelques dizaines de Kelvin. On remarque également que lorsqu'on s'éloigne d'un point de dégénérescence~(quand les trois potentiels chimiques sont alignés), $\epsilon_0$ augmente et donc la témpérature Kondo diminue pour atteindre son minimum au centre du diamant~(cf Fig.\ref{Kondo_param}.a). On peut donc moduler $T_K$ par l'intermédiaire de la tension de grille.
 
-De plus, l'effet Kondo se traduit dans nos structures par une augmentation de la conductance, contrairement à ce qui avait été observé dans les matériaux massifs. En effet, la forte interaction des électrons de conduction avec le point quantique va grandement augmenter les évènements tunnels d'ordre plus élevé~(cotunneling d'ordre supérieur). Ceci peut être vu comme l'apparition d'une densité virtuelle d'état dans l'ilôt alignée avec le niveau de Fermi des électrodes. Cela se traduit dans les mesures de transport par une conductance non nulle à tension source-drain proche de zéro à l'intérieur des zones des blocage. 
+L'effet Kondo se traduit dans nos structures par une augmentation de la conductance, contrairement à ce qui avait été observé dans les matériaux massifs. En effet, la forte interaction des électrons de conduction avec le point quantique va grandement augmenter les évènements tunnels d'ordre plus élevé~(cotunneling d'ordre supérieur). Ceci peut être vu comme l'apparition d'une densité virtuelle d'état dans l'ilôt alignée avec le niveau de Fermi des électrodes. Cela se traduit dans les mesures de transport par une conductance non nulle à tension source-drain proche de zéro à l'intérieur des zones des blocage. 
 
-L'effet Kondo est sensible à des perturbations extérieures comme la tension source/drain~($E \sim eV_{\rm{ds}}$), la température~($E \sim k_bT$) ou bien encore le champ magnétique~($E \sim g \mu_bB$). On peut discerner deux régimes :
+Des perturbations extérieures comme la tension source/drain~($E \sim eV_{\rm{ds}}$), la température~($E \sim k_bT$) ou bien encore le champ magnétique~($E \sim g \mu_bB$) peuvent venir modifier la conductance mesurée. On peut discerner deux régimes :
 \begin{itemize}
 \item $E \ll k_bT_K$ : dans ce cas, la conductance est donnée par $G(E) = G_0(1-C (E/k_bT_K))^2$, $C$ étant un nombre qui dépend de la perturbation appliquée ainsi que de la géométrie du système.
 \item $E \gg k_bT_K$ : on obtient la dépendance suivante : $G(E) = 1/\ln^2(E/k_bT_K)$. C'est ce régime qu'avait décrit Kondo.
