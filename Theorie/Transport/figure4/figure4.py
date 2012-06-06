@@ -142,6 +142,5 @@ fig.text(0.62,0.95,"b",fontsize=25,fontweight="bold")#,backgroundcolor="m")
 fig.text(0.62,0.45,"c",fontsize=25,fontweight="bold")#,backgroundcolor="m")
 
 #Et voila
-fig.savefig("Theorie/Transport/figure4/figure4.pdf")
-
-#close(fig)
+fig.savefig("/home/hukadan/These/Manuscript/Theorie/Transport/figure4/figure4.pdf")
+close(fig)

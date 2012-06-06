@@ -1,0 +1,144 @@
+% This file was created with JabRef 2.7b.
+% Encoding: UTF8
+
+@ARTICLE{Cronenwett1998,
+  author = {Cronenwett, Sara M. and Oosterkamp, Tjerk H. and Kouwenhoven, Leo
+	P.},
+  title = {A Tunable Kondo Effect in Quantum Dots},
+  journal = {Science},
+  year = {1998},
+  volume = {281},
+  pages = {540--544},
+  number = {5376},
+  month = jul,
+  abstract = {A tunable Kondo effect has been realized in small quantum dots. A
+	dot can be switched from a Kondo system to a non-Kondo system as
+	the number of electrons on the dot is changed from odd to even. The
+	Kondo temperature can be tuned by means of a gate voltage as a single-particle
+	energy state nears the Fermi energy. Measurements of the temperature
+	and magnetic field dependence of a Coulomb-blockaded dot show good
+	agreement with predictions of both equilibrium and nonequilibrium
+	Kondo effects.},
+  comment = {10.1126/science.281.5376.540},
+  owner = {hukadan},
+  timestamp = {2012.06.06},
+  url = {http://www.sciencemag.org/content/281/5376/540.abstract}
+}
+
+@ARTICLE{Gordon1,
+  author = {Goldhaber-Gordon, D. and Shtrikman, Hadas and Mahalu, D. and Abusch-Magder,
+	David and Meirav, U. and Kastner, M. A.},
+  title = {Kondo effect in a single-electron transistor},
+  journal = {Nature},
+  year = {1998},
+  volume = {391},
+  pages = {156--159},
+  number = {6663},
+  month = jan,
+  comment = {10.1038/34373},
+  issn = {0028-0836},
+  owner = {hukadan},
+  timestamp = {2012.06.06},
+  url = {http://dx.doi.org/10.1038/34373}
+}
+
+@ARTICLE{Haas1934,
+  author = {de Haas, W.J. and de Boer, J. and van dÃ«n Berg, G.J.},
+  title = {The electrical resistance of gold, copper and lead at low temperatures},
+  journal = {Physica},
+  year = {1934},
+  volume = {1},
+  pages = {1115--1124},
+  number = {7â12},
+  month = may,
+  issn = {0031-8914},
+  owner = {hukadan},
+  timestamp = {2012.06.06},
+  url = {http://www.sciencedirect.com/science/article/pii/S0031891434803102}
+}
+
+@ARTICLE{Jahn1937,
+  author = {Jahn, H. A. and Teller, E.},
+  title = {Stability of Polyatomic Molecules in Degenerate Electronic States.
+	I. Orbital Degeneracy},
+  journal = {Proceedings of the Royal Society of London. Series A, Mathematical
+	and Physical Sciences},
+  year = {1937},
+  volume = {161},
+  pages = {pp. 220-235},
+  number = {905},
+  __markedentry = {[hukadan:6]},
+  copyright = {Copyright © 1937 The Royal Society},
+  issn = {00804630},
+  jstor_articletype = {research-article},
+  jstor_formatteddate = {Jul. 15, 1937},
+  language = {English},
+  owner = {hukadan},
+  publisher = {The Royal Society},
+  timestamp = {2012.06.06},
+  url = {http://www.jstor.org/stable/96911}
+}
+
+@ARTICLE{Kondo,
+  author = {Kondo, Jun},
+  title = {Resistance Minimum in Dilute Magnetic Alloys},
+  journal = {Prog. Theor. Phys.},
+  year = {1964},
+  volume = {32},
+  pages = {37},
+  number = {1},
+  owner = {hukadan},
+  publisher = {Progress of Theoretical Physics},
+  refid = {10.1143/PTP.32.37},
+  timestamp = {2012.06.06}
+}
+
+@ARTICLE{Reed1997,
+  author = {Reed, M. A. and Zhou, C. and Muller, C. J. and Burgin, T. P. and
+	Tour, J. M.},
+  title = {Conductance of a Molecular Junction},
+  journal = {Science},
+  year = {1997},
+  volume = {278},
+  pages = {pp. 252-254},
+  number = {5336},
+  abstract = {Molecules of benzene-1,4-dithiol were self-assembled onto the two
+	facing gold electrodes of a mechanically controllable break junction
+	to form a statically stable gold-sulfur-aryl-sulfur-gold system,
+	allowing for direct observation of charge transport through the molecules.
+	Current-voltage measurements at room temperature demonstrated a highly
+	reproducible apparent gap at about 0.7 volt, and the conductance-voltage
+	curve showed two steps in both bias directions. This study provides
+	a quantative measure of the conductance of a junction containing
+	a single molecule, which is a fundamental step in the emerging area
+	of molecular-scale electronics.},
+  copyright = {Copyright © 1997 American Association for the Advancement of Science},
+  issn = {00368075},
+  jstor_articletype = {research-article},
+  jstor_formatteddate = {Oct. 10, 1997},
+  language = {English},
+  owner = {hukadan},
+  publisher = {American Association for the Advancement of Science},
+  series = {New Series},
+  timestamp = {2012.06.06},
+  url = {http://www.jstor.org/stable/2894709}
+}
+
+@ARTICLE{Schmid1998,
+  author = {Schmid, JÃ¶rg and Weis, JÃ¼rgen and Eberl, Karl and v. Klitzing,
+	Klaus},
+  title = {A quantum dot in the limit of strong coupling to reservoirs},
+  journal = {Physica B: Condensed Matter},
+  year = {1998},
+  volume = {256-258},
+  pages = {182-185},
+  number = {0},
+  month = dec,
+  __markedentry = {[hukadan:]},
+  issn = {0921-4526},
+  keywords = {Quantum dot, Anderson model, Kondo resonance, Spin splitting},
+  owner = {hukadan},
+  timestamp = {2012.06.06},
+  url = {http://www.sciencedirect.com/science/article/pii/S092145269800533X}
+}
+
