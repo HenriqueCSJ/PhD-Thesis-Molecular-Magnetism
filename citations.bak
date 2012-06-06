@@ -1,17 +1,6 @@
 % This file was created with JabRef 2.7b.
 % Encoding: UTF8
 
-@BOOK{NazaBook,
-  title = {Quantum transport : introduction to Nanoscience},
-  publisher = {Cambridge University Press},
-  year = {2009},
-  author = {Yuli V. Nazarov
-	
-	Yaroslav M. Blanter},
-  owner = {hukadan},
-  timestamp = {2012.06.06}
-}
-
 @ARTICLE{Cronenwett1998,
   author = {Cronenwett, Sara M. and Oosterkamp, Tjerk H. and Kouwenhoven, Leo
 	P.},
@@ -34,6 +23,23 @@
   owner = {hukadan},
   timestamp = {2012.06.06},
   url = {http://www.sciencemag.org/content/281/5376/540.abstract}
+}
+
+@ARTICLE{DeFranceschi2001,
+  author = {De Franceschi, S. and Sasaki, S. and Elzerman, J. M. and van der
+	Wiel, W. G. and Tarucha, S. and Kouwenhoven, L. P.},
+  title = {Electron Cotunneling in a Semiconductor Quantum Dot},
+  journal = {Phys. Rev. Lett.},
+  year = {2001},
+  volume = {86},
+  pages = {878--881},
+  number = {5},
+  month = jan,
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevLett.86.878},
+  timestamp = {2012.06.06},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.86.878}
 }
 
 @ARTICLE{Gordon1,
@@ -64,7 +70,6 @@
   pages = {884--889},
   number = {11},
   month = nov,
-  __markedentry = {[hukadan:6]},
   comment = {10.1038/nmat2300},
   issn = {1476-1122},
   owner = {hukadan},
@@ -98,7 +103,6 @@
   pages = {1217--1265},
   number = {4},
   month = oct,
-  __markedentry = {[hukadan:]},
   owner = {hukadan},
   publisher = {American Physical Society},
   refid = {10.1103/RevModPhys.79.1217},
@@ -172,6 +176,24 @@
   url = {http://www.jstor.org/stable/2894709}
 }
 
+@ARTICLE{Roch2009,
+  author = {Roch, Nicolas and Florens, Serge and Costi, Theo A. and Wernsdorfer,
+	Wolfgang and Balestro, Franck},
+  title = {Observation of the Underscreened Kondo Effect in a Molecular Transistor},
+  journal = {Phys. Rev. Lett.},
+  year = {2009},
+  volume = {103},
+  pages = {197202--},
+  number = {19},
+  month = nov,
+  __markedentry = {[hukadan:6]},
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevLett.103.197202},
+  timestamp = {2012.06.06},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.103.197202}
+}
+
 @ARTICLE{Schmid1998,
   author = {Schmid, Jörg and Weis, Jürgen and Eberl, Karl and v. Klitzing, Klaus},
   title = {A quantum dot in the limit of strong coupling to reservoirs},
@@ -186,5 +208,31 @@
   owner = {hukadan},
   timestamp = {2012.06.06},
   url = {http://www.sciencedirect.com/science/article/pii/S092145269800533X}
+}
+
+@ARTICLE{Wilson1975,
+  author = {Wilson, Kenneth G.},
+  title = {The renormalization group: Critical phenomena and the Kondo problem},
+  journal = {Rev. Mod. Phys.},
+  year = {1975},
+  volume = {47},
+  pages = {773--840},
+  number = {4},
+  month = oct,
+  __markedentry = {[hukadan:]},
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/RevModPhys.47.773},
+  timestamp = {2012.06.06},
+  url = {http://link.aps.org/doi/10.1103/RevModPhys.47.773}
+}
+
+@BOOK{NazaBook,
+  title = {Quantum transport : introduction to Nanoscience},
+  publisher = {Cambridge University Press},
+  year = {2009},
+  author = {Yuli V. Nazarov,Yaroslav M. Blanter},
+  owner = {hukadan},
+  timestamp = {2012.06.06}
 }
 
