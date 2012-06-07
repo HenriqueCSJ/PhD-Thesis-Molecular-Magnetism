@@ -1,6 +1,6 @@
 \chapter{Transport mésoscopique}
 
-La physique mésoscopique traite des systèmes de petites tailles, habituellement de la dizaine ou de la centaine de nanomètres~(parfois moins). Le transport mésoscopique s'intéresse plus particulièrement à la façon dont les électrons vont pouvoir circuler mais aussi interagir dans ces structures nanométriques pour donner naissance à des phénomènes tels que l'effet Kondo ou le blocage de Coulomb. 
+La physique mésoscopique traite des systèmes de petites tailles, habituellement de la dizaine ou de la centaine de nanomètres~(parfois moins). Le transport mésoscopique s'intéresse plus particulièrement à la façon dont les électrons vont pouvoir circuler mais aussi interagir dans ces structures nanométriques pour donner naissance à des phénomènes tels que l'effet Kondo~\cite{JKondo1} ou le blocage de Coulomb~\cite{Beenakker1991}. 
 
 Nous allons dans ce chapitre aborder quelques notions de transport mésoscopique essentielles à la compréhension des résultats présentés dans la suite de cette thèse. Nous détaillerons dans un premier temps la structure d'un transistor à électron unique. Nous examinerons ensuite comment le courant circule au sein de cette structure et nous mettrons en évidence le phénomène de blocage de Coulomb. Nous aborderons également la notion de cotunneling, phénomène uniquement dû aux propriétés quantique du système. Enfin, nous introduirons l'effet Kondo en détaillant comment se dernier évolue en fonction des perturbation dû à l'environnement .
 
@@ -58,9 +58,9 @@ On inclut parfois dans cette expression une charge $eN_0$ pour tenir compte de l
 \subsection{L'il\^ot}
 Les points quantiques les plus fréquemment utilisés dans les expériences de physique mésoscopique sont souvent~(mais pas exclusivement) basés sur l'un des systèmes suivants:
 \begin{itemize}
-\item \textbf{un gaz d'électron bidimensionnel~(ou 2DEG en anglais):} généralement une hétérostructre de semi-conducteur est utilisé pour obtenir un gaz d'électron bidimmensionnel proche de la surface. Par des techniques de lithographie, des électrodes sont ajoutées sur l'échantillon. En appliquant une tension sur ces grilles, le gaz d'électron peut \^etre manipulé pour former un ou plusieurs points quantiques connectés à plusieurs électrodes.
-\item \textbf{un grain métallique:} un grain de métal~(souvent noble) de quelques nanomètres joue le rôle de point quantique. Ces grains peuvent \^etre notamment obtenus en utilisant les techniques d'évaporation ou d'électromigration.
-\item \textbf{une molécule:} les molécules susceptible de jouer ce r\^ole sont bien trop nombreuses pour toutes \^etre citées. On peut cependant donner quelques exemples célèbres : les nanotubes, les fullerènes, les aimants moléculaires etc.. \newline
+\item \textbf{un gaz d'électron bidimensionnel~(ou 2DEG en anglais)~\cite{Gordon1}:} généralement une hétérostructre de semi-conducteur est utilisé pour obtenir un gaz d'électron bidimmensionnel proche de la surface. Par des techniques de lithographie, des électrodes sont ajoutées sur l'échantillon. En appliquant une tension sur ces grilles, le gaz d'électron peut \^etre manipulé pour former un ou plusieurs points quantiques connectés à plusieurs électrodes.
+\item \textbf{un grain métallique~\cite{Deshmukh2002}:} un grain de métal~(souvent noble) de quelques nanomètres joue le rôle de point quantique. Ces grains peuvent \^etre notamment obtenus en utilisant les techniques d'évaporation ou d'électromigration.
+\item \textbf{une molécule \cite{Reed1,Park1}:}les molécules susceptible de jouer ce r\^ole sont bien trop nombreuses pour toutes \^etre citées. On peut cependant donner quelques exemples célèbres : les nanotubes, les fullerènes, les aimants moléculaires etc.. \newline
 \end{itemize}
 
 Dans le cas d'un 2DEG ou celui d'un grain métallique, du fait de la taille typique des échantillons~($\sim 100nm$ pour les premiers, $\sim 10nm$ pour les seconds), on observe une quantification des différents états du système. Le spectre énergétique de l'\^ilot peut s'exprimer en fonction de trois nombres quantiques $n_x$, $n_y$ et $n_z$ à travers la relation suivante:
@@ -80,7 +80,7 @@ Si cette condition est facilement atteinte lorsque l'on utilise des gaz d'élect
 
 Lorsque des molécules sont utilisées, cette quantification apparaît beaucoup plus naturellement à travers la notion d'orbitales moléculaires. En effet, c'est sur ces orbitales que vont venir s'ajouter et se soustraire les électrons. On désigne souvent la dernière orbitale contenant un électron par HOMO~(Highest Occupied Molecular Orbital) et la première orbitale ne contenant aucun électron est désignée par le terme LUMO~(Lowest Unoccupied Molecular Orbital).
 
-Il faut se garder cependant de penser qu'une molécule jouant le r\^ole de point quantique conserve les mêmes propriétés que cette m\^eme molécule isolée. Tout d'abord, les niveaux d'énergie sont fortement influencés par la présence des électrodes du fait de l'hybridisation. De plus, les électrodes peuvent induire une déformation de la molécule altérant la structure électronique de celle-ci. Ce phénomène est connu sour le nom d'effet Jhan-Teller. 
+Il faut se garder cependant de penser qu'une molécule jouant le r\^ole de point quantique conserve les mêmes propriétés que cette m\^eme molécule isolée. Tout d'abord, les niveaux d'énergie sont fortement influencés par la présence des électrodes du fait de l'hybridisation. De plus, les électrodes peuvent induire une déformation de la molécule altérant la structure électronique de celle-ci. Ce phénomène est connu sour le nom d'effet Jhan-Teller~\cite{Jahn1937}. 
 
 Nous montrerons par la suite que, dans le cadre de l'électronique moléculaire et plus particulièrement celui de la spintronique moléculaire, il est important de pouvoir évaluer l'influence de ces différents phénomènes.
 
@@ -104,7 +104,7 @@ Cette élargissement est appelé élargissement intrinsèque par opposition à l
 
 
 \section{La notion de potentiel chimique}
-La notion de potentiel chimique est à mes yeux une des notions les plus importantes afin de comprendre de manière simple et intuitive le phénomène de blocage de Coulomb. Un exemple de son utilisation dans la cadre du transport quantique peut \^etre trouvé dans la très belle et très pédagogique revue de Hanson \textit{et al.}. Dans cette section, nous allons tout d'abord présenter le concept de potentiel chimique. Nous exprimerons ensuite, à partir des considérations exposées dans la partie précédente, le potentiel chimique de la source, du drain et surtout de l'\^ilot central.
+La notion de potentiel chimique est à mes yeux une des notions les plus importantes afin de comprendre de manière simple et intuitive le phénomène de blocage de Coulomb. Un exemple de son utilisation dans la cadre du transport quantique peut \^etre trouvé dans la très belle et très pédagogique revue de Hanson \textit{et al.}~\cite{Hanson2007}. Dans cette section, nous allons tout d'abord présenter le concept de potentiel chimique. Nous exprimerons ensuite, à partir des considérations exposées dans la partie précédente, le potentiel chimique de la source, du drain et surtout de l'\^ilot central.
 
 \subsection{Définition}
 
@@ -112,7 +112,7 @@ On recontre souvent le potentiel chimique en thermodynamique lorsqu'on s'intére
 \begin{eqnarray}
 \mu = \frac{\partial U}{\partial N} \nonumber
 \end{eqnarray}
-$U$ étant l'énergie du système et $N$ le nombre de particules. Dans la suite, nous allons plut\^ot adopter la notation de Hanson \textit{et al.} et prendre la définition suivante :
+$U$ étant l'énergie du système et $N$ le nombre de particules. Dans la suite, nous allons plut\^ot adopter la notation de \cite{Hanson2007} et prendre la définition suivante :
 \begin{eqnarray}
 \mu(N) = U(N) - U(N-1)
 \end{eqnarray}
@@ -132,7 +132,7 @@ Cette notion est essentielle dans la détermination du courant qui traverse notr
 
 \begin{figure}
 \centering \includegraphics[scale=0.5]{Theorie/Transport/figure2/figure2.pdf} 
-\caption{ \textbf{a} : probabilité d'avoir un électron de potentiel chimique $\mu$ sachant que le potentiel chimique du métal est $\mu_{\rm{F}}$ pour différent températures. \textbf{b} : évolution de l'énergie des états de charges $-1$, $0$ et $1$ en fonction de la tension de grille en unité de $q/e$. Pour des valeurs demi-entières de $q/e$, deux états de charge se retrouvent dégénérés. On parle de point de dégénérescence.}
+\caption{ \textbf{a} : probabilité d'avoir un électron de potentiel chimique $\mu$ sachant que le potentiel chimique du métal est $\mu_{\rm{F}}$ pour différent températures. \textbf{b} : évolution de l'énergie des états de charges $-1$, $0$ et $1$ en fonction de $q = -C_gV_g$. Pour des valeurs demi-entières de $q/e$, deux états de charge se retrouvent dégénérés. On parle de point de dégénérescence~(inspiré de \cite{NazaBook}).}
 \label{distrib_fermi}
 \end{figure}
 
@@ -249,7 +249,7 @@ On peut donc construire deux jeux de diamants de Coulomb, l'un correspondant à 
 
 De part cette construction, on constate que l'intersection entre les bords de diamants de la transition $EF(0)\rightarrow EE(1)$ et ceux de la transition $EF(0)\rightarrow EF(1)$ donne une lecture directe de l'effet Zeeman (cf Fig. \ref{charge_discharge}.a). On peut, par une mesure de transport, faire la spectroscopie du point quantique en fonction du champ magnétique.
 
- Cependant, dans la plupart des cas, les états N/N+1 possèdent tous deux des états fondamentaux et des états excités et l'analyse de la signature du système en transport devient plus difficile. Ces différentes configurations sont notamment traitées par Hanson \textit{et al.}, et un exemple peut \^etre trouvé dans l'analyse du $N@C_{60}$ proposée dans l'article en fin de thèse.
+ Cependant, dans la plupart des cas, les états N/N+1 possèdent tous deux des états fondamentaux et des états excités et l'analyse de la signature du système en transport devient plus difficile. Ces différentes configurations sont notamment traitées par Hanson \textit{et al.}, et un exemple peut \^etre trouvé dans l'analyse du $N@C_{60}$ proposée dans \cite{Grose2008}.
 
 \begin{figure}
 \includegraphics[scale=0.5]{Theorie/Transport/figure4/figure4.pdf} 
@@ -276,7 +276,7 @@ Une façon de voir le phénomène est de dire que pendant le temps $\tau$ un él
 |e|V_{\rm{ds}} \geq \Delta E_{cot}
 \end{eqnarray}
 
-Dans le cas du cotunneling élastique cette condition est toujours remplie. C'est ce phénomène qui donne le fond de conductance. Dans la zone de blocage de Coulomb, on va donc observer des zones avec des valeurs de courant différentes~(cf nuance de gris Fig.\ref{charge_discharge}.a). Dans le cas présenté ici, la limite entre les deux zones permet une lecture directe de l'effet Zeeman $\Delta E_z$. Encore une fois, il s'agit ici d'un cas simple avec un unique état excité. Un étude plus complexe de la molécule endofullerène est présentée dans l'article en fin de thèse.\newline
+Dans le cas du cotunneling élastique cette condition est toujours remplie. C'est ce phénomène qui donne le fond de conductance. Dans la zone de blocage de Coulomb, on va donc observer des zones avec des valeurs de courant différentes~(cf nuance de gris Fig.\ref{charge_discharge}.a). Dans le cas présenté ici, la limite entre les deux zones permet une lecture directe de l'effet Zeeman $\Delta E_z$. Encore une fois, il s'agit ici d'un cas simple avec un unique état excité. Un étude plus complexe peut \^etre trouvés dans \cite{DeFranceschi2001} ains que dans l'article en fin de thèse concernant la molécule d'endofullrène.\newline
 
 \fbox{\begin{minipage}{0.9\textwidth}
 \textbf{Remarque :} Je voudrais ici insister sur la différence entre la spectroscopie en tunneling et celle en cotunneling. La première s'intéresse aux transitions entre deux états d'énergie relatif à deux états de charges différents. Il faut donc "deconvoluer" le signal pour pouvoir analyser le spectre des deux états de charge. Dans le cas du cotunneling, on peut accéder directement aux spectres d'un état de charge donné. Les règles de sélection des transitions sont également différentes. Dans le cas du tunneling, on doit avoir $\Delta m = \pm 1/2$. Pour le cotunneling, cette règle de sélection devient $\Delta m = 0 \text{ ou } \pm 1$. Il peut arriver que des états inaccessibles par une spectroscopie en régime de tunneling soient en revanche accessibles par une mesure en régime de cotunneling. Une comparaison des deux méthodes peut \^etre trouvée dans l'article en fin de thèse ainsi que dans la thèse de Nicolas Roch.
@@ -285,9 +285,9 @@ Dans le cas du cotunneling élastique cette condition est toujours remplie. C'es
 
 \section{Effet Kondo}
 
-Tout comme le blocage de Coulomb, l'effet Kondo a d'abord été mesuré sur des échantillons macroscopiques consistant en un metal massif contenant des impuretés magnétiques. En mesurant la conductance de ces échantillons, les expériences avaient montré une anomalie. Celle-ci qui aurait d\^u diminuer durant le refroidissement ne suivait cette tendance que jusqu'à une certaine température pour augmenter à nouveau. Ce problème est resté insoluble pendant quelques années jusqu'au modèle proposé par Jung Kondo en 1964. Ce modèle est relativement simple à concevoir mais en revanche très difficile à résoudre car faisant appel à la physique à $N$ corps. Dans ce modèle, les électrons de conduction viennent se coupler de façon antiférromagnétique aux impuretés du métal de telle sorte que le moment magnétique total devient nul. Chaque impureté agit donc comme un centre de diffusion très actif diminuant d'autant la conductance du système. La physique à $N$ corps apparait au travers des électrons de conduction. En effet, l'impureté magnétique n'interagit pas avec un seul électron du métal mais plutôt à un grand nombre d'électron que l'on désigne par le terme de "nuage Kondo". Il s'agit d'un phénomène hautement cohérent. Le seul problème du modèle à l'époque, c'est qu'il prevoit une divergence de la conductance quand la température tend vers zéro. Il faudra attendre encore quelques années avec la théorie de renormalisation~(NRG en anglais) proposée par Wilson, pour résoudre complètement le problème.
+Tout comme le blocage de Coulomb, l'effet Kondo a d'abord été mesuré sur des échantillons macroscopiques consistant en un metal massif contenant des impuretés magnétiques. En mesurant la conductance de ces échantillons, les expériences avaient montré une anomalie. Celle-ci qui aurait d\^u diminuer durant le refroidissement ne suivait cette tendance que jusqu'à une certaine température pour augmenter à nouveau. Ce problème est resté insoluble pendant quelques années jusqu'au modèle proposé par Jung Kondo en 1964~\cite{JKondo1}. Ce modèle est relativement simple à concevoir mais en revanche très difficile à résoudre car faisant appel à la physique à $N$ corps. Dans ce modèle, les électrons de conduction viennent se coupler de façon antiférromagnétique aux impuretés du métal de telle sorte que le moment magnétique total devient nul. Chaque impureté agit donc comme un centre de diffusion très actif diminuant d'autant la conductance du système. La physique à $N$ corps apparait au travers des électrons de conduction. En effet, l'impureté magnétique n'interagit pas avec un seul électron du métal mais plutôt à un grand nombre d'électron que l'on désigne par le terme de "nuage Kondo". Il s'agit d'un phénomène hautement cohérent. Le seul problème du modèle à l'époque, c'est qu'il prevoit une divergence de la conductance quand la température tend vers zéro. Il faudra attendre encore quelques années avec la théorie de renormalisation~(NRG en anglais) proposée par Wilson~\cite{Wilson1975}, pour résoudre complètement le problème.
 
-Récemment la physique mésoscopique a permis de mettre à la disposition des théoriciens des modèles bien plus simples à résoudre dans lesquels le nombre d'impuretés magnétiques pouvait être réduit à l'unité et le couplage aux électrons pouvait être contrôlé de manière précise. Les 2DEGs, par exemple, permettent un contrôle quasi-parfait de ces différents paramètres. La littérature est riche en articles et revues de toutes sortes couvrant de nombreux aspects de l'effet Kondo. Notre groupe à notablement contribuer à l'investigation de cette physique au travers notamment de l'étude de la transition de phase quantique et de l'effet Kondo sous écranté. Cependant, je ne traiterai pas en détail de ces effets.
+Récemment la physique mésoscopique a permis de mettre à la disposition des théoriciens des modèles bien plus simples à résoudre dans lesquels le nombre d'impuretés magnétiques pouvait être réduit à l'unité et le couplage aux électrons pouvait être contrôlé de manière précise. Les 2DEGs, par exemple, permettent un contrôle quasi-parfait de ces différents paramètres. La littérature est riche en articles et revues de toutes sortes couvrant de nombreux aspects de l'effet Kondo. Notre groupe à notablement contribuer à l'investigation de cette physique au travers notamment de l'étude de la transition de phase quantique~\cite{Roch2008} et de l'effet Kondo sous écranté~\cite{Roch2009}. Cependant, je ne traiterai pas en détail de ces effets.
 
 \begin{figure}
 \includegraphics[scale=0.5]{Theorie/Transport/figure6/figure6.pdf} 

@@ -3,7 +3,6 @@
 % Last Change: Thu Oct 27 09:00 PM 2011 C
 %
 \documentclass[a4paper,12pt]{book}
-\usepackage{cite}
 \usepackage[utf8]{inputenc}
 \usepackage[francais]{babel}
 \usepackage{graphicx}
@@ -13,9 +12,11 @@
 \setstretch{1.2}
 
 \begin{document}
-\cite{NazaBook}
+\tableofcontents
+
 \input{Theorie/theorie.tex}
 
+\bibliographystyle{unsrt}
 \bibliography{citations}
-\bibliographystyle{plain}
+
 \end{document}

@@ -146,103 +146,58 @@ def O_06(S) :
 
 
 #On calcule les elements de matrice pour nucleaire
-Sys = sysPau([6,1.5])
-J = Sys[0]
-I = Sys[1]
+J = MPauli(6)
+I = MPauli(1.5)
 Jp = []
 Ip = []
 for i in range(5):
 	Jp.append(kron(J[i],eye(4)))
 	Ip.append(kron(eye(13),I[i]))
-J = Jp
-I = Ip
+Jp
+Ip
 
+#ligand field
+alpha=  1/(99.)
+beta=  2/(11*1485.)
+gamma =  1/(13*33*2079.)
+A_02 = -414  #cm-1
+A_04 = -228 #cm-1
+A_44 = -10 #cm-1
+A_06 = -33 #cm-1
+HL = A_02 * alpha *O_02(J) + A_04 * beta * O_04(J) +  A_06 * gamma * O_06(J) + A_44 * beta * O_44(J)
+HLT = kron(HL,eye(4))
 
-#On calcule les elements de matrice pour spin 1/2
-Sys2 = sysPau([6,0.5])
-J1 = Sys2[0]
-I1 = Sys2[1]
-Jp1 = []
-Ip1 = []
-for i in range(5):
-    Jp1.append(kron(J1[i],eye(2)))
-    Ip1.append(kron(eye(13),I1[i]))
-J1 = Jp1
-I1 = Ip1
 
 
 
 def Tb_Pc2(B,Bx,By):
     g = 3/2.
     muB = 0.465 #en cm-1
-    J = MPauli(6)
-    alpha=  1/(99.)
-    beta=  2/(11*1485.)
-    gamma =  1/(13*33*2079.)
-    A_02 = -414  #cm-1
-    A_04 = -228 #cm-1
-    A_44 = -10 #cm-1
-    A_06 = -33 #cm-1
     HB = g * muB * J[2] * B + g * muB * (J[1] * Bx + J[0] * By)
-    HL = A_02 * alpha *O_02(J) + A_04 * beta * O_04(J) +  A_06 * gamma * O_06(J) + A_44 * beta * O_44(J)
     E,V = linalg.eig(HL+HB)
     order = E.argsort()
     V = V.transpose()
     Vf = []
     for x in order :
         Vf.append(V[x])
-    E =list(E/0.695) #convert Kelvin11
+    E =list(E/0.695) #convert Kelvin
     E.sort()
     return E,Vf
 
 
-def Tb_Pc2_spin12(B,Bx,By):
-    I = I1
-    J = J1
-    g = 3/2
-    gn=2
-    muB = 0.465 #en cm-1
-    muN = muB
-    alpha=  1/(99.)
-    beta=  2/(11*1485.)
-    gamma =  1/(13*33*2079.)
-    A_02 = -414  #cm-1
-    A_04 = -228 #cm-1
-    A_44 = -10 #cm-1
-    A_06 = -33 #cm-1
-    Ahf = 0.163 #cm-1 ~ 350mT
-    HB = g * muB * J[2] * B + g * muB * (J[0] * Bx + J[1] * By)
-    HBn = gn * muN * I[2] * B + gn * muN * (I[0] * Bx + I[1] * By)
-    HL = A_02 * alpha *O_02(J) + A_04 * beta * O_04(J) +  A_06 * gamma * O_06(J) + A_44 * beta * O_44(J)
-    Hhf =  Ahf * (J[0]*I[0] + J[1]*I[1] + J[2]*I[2])
-    E = linalg.eigvals(HL+HB+Hhf+HBn)
-    E =list(E/0.695) #convert Kelvin
-    E.sort()
-    return E    
-
 
 def Tb_Pc2Nuclear(B,Bx,By):
-	g = 3/2
-	gn=2
-	muB = 0.465 #en cm-1
-	muN = muB*1e-3
-	alpha=  1/(99.)
-	beta=  2/(11*1485.)
-	gamma =  1/(13*33*2079.)
-	A_02 = -414  #cm-1
-	A_04 = -228 #cm-1
-	A_44 = -10 #cm-1
-	A_06 = -33 #cm-1
-	Ahf = 0.0173
-	Phf = 0.01
-	HB = g * muB * J[2] * B + g * muB * (J[0] * Bx + J[1] * By)
-	HBn = gn * muN * I[2] * B + gn * muN * (I[0] * Bx + I[1] * By)
-	HL = A_02 * alpha *O_02(J) + A_04 * beta * O_04(J) +  A_06 * gamma * O_06(J) + A_44 * beta * O_44(J)
-	Hhf =  Ahf * (J[0]*I[0] + J[1]*I[1] + J[2]*I[2]) + Phf * (I[2]**2 - 1/3. * eye(52) * 1.5*2.5 )
-	E = linalg.eigvals(HL+HB+Hhf+HBn)
-	E =list(E/0.695) #convert Kelvin
-	E.sort()
-	return E	
+    g = 3/2.
+    muB = 0.465 #en cm-1
+    Ahf = 0.0173
+    Phf = 0.01
+    HB = g * muB * J[2] * B + g * muB * (J[0] * Bx + J[1] * By)
+    HBT = kron(HB,eye(4))
+    Hhf =  Ahf * (Jp[0]*Ip[0] + Jp[1]*Ip[1] + Jp[2]*Ip[2]) + Phf * (Ip[2]**2 - 1/3. * eye(52) * 1.5*2.5 )
+    E,V = linalg.eig(HBT+HLT+Hhf)
+    E =list(E/0.695) #convert Kelvin
+    E.sort()
+    return E	
 
 
 
