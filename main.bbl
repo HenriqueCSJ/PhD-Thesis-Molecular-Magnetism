@@ -34,6 +34,12 @@ Hongkun Park, Jiwoong Park, Andrew K.~L. Lim, Erik~H. Anderson, A.~Paul
 \newblock Nanomechanical oscillations in a single-c$_{60}$ transistor.
 \newblock {\em Nature}, 407(6800):57--60, September 2000.
 
+\bibitem{Heersche2006}
+H.~Heersche, Z.~de~Groot, J.~Folk, H.~van Der~Zant, C.~Romeike, M.~Wegewijs,
+  L.~Zobbi, D.~Barreca, E.~Tondello, and A.~Cornia.
+\newblock Electron transport through single mn12 molecular magnets.
+\newblock {\em Physical Review Letters}, 96(20):1--4, May 2006.
+
 \bibitem{Jahn1937}
 H.~A. Jahn and E.~Teller.
 \newblock Stability of polyatomic molecules in degenerate electronic states. i.
@@ -81,5 +87,70 @@ Nicolas Roch, Serge Florens, Theo~A. Costi, Wolfgang Wernsdorfer, and Franck
 \newblock Observation of the underscreened kondo effect in a molecular
   transistor.
 \newblock {\em Phys. Rev. Lett.}, 103(19):197202--, November 2009.
+
+\bibitem{Thomas1996}
+L.~Thomas, F.~Lionti, R.~Ballou, D.~Gatteschi, R.~Sessoli, and B.~Barbara.
+\newblock Macroscopic quantum tunnelling of magnetization in a single crystal
+  of nanomagnets.
+\newblock {\em Nature}, 383(6596):145--147, September 1996.
+
+\bibitem{Friedman1996}
+Jonathan~R. Friedman, M.~P. Sarachik, J.~Tejada, and R.~Ziolo.
+\newblock Macroscopic measurement of resonant magnetization tunneling in
+  high-spin molecules.
+\newblock {\em Phys. Rev. Lett.}, 76(20):3830--3833, May 1996.
+
+\bibitem{Wernsdorfer1999}
+W.~Wernsdorfer and R.~Sessoli.
+\newblock Quantum phase interference and parity effects in magnetic molecular
+  clusters.
+\newblock {\em Science}, 284(5411):133--135, April 1999.
+
+\bibitem{Lis1980}
+Lis T.
+\newblock Preparation, structure, and magnetic properties of a dodecanuclear
+  mixed-valence manganese carboxylate.
+\newblock {\em Acta Crystallographica Section B}, 36(9):2042--2046, 1980.
+
+\bibitem{MagGoesNano}
+Stefan Blügel, Thomas Brückel, and Claus~M. Schneider.
+\newblock {\em Magnetism goes Nano}.
+\newblock Forschungszentrum Jülich, Zentralbibliothek, Verlag, 2005.
+
+\bibitem{Ishikawa2005}
+Naoto Ishikawa, Miki Sugita, and Wolfgang Wernsdorfer.
+\newblock Quantum tunneling of magnetization in lanthanide single-molecule
+  magnets: Bis(phthalocyaninato)terbium and bis(phthalocyaninato)dysprosium
+  anions.
+\newblock {\em Angewandte Chemie International Edition}, 44(19):2931--2935,
+  2005.
+
+\bibitem{Stevens1952}
+K~W~H Stevens.
+\newblock Matrix elements and operator equivalents connected with the magnetic
+  properties of rare earth ions.
+\newblock {\em Proceedings of the Physical Society. Section A}, 65(3):209--215,
+  March 1952.
+
+\bibitem{Barra1996}
+A.-L. Barra, P.~Debrunner, D.~Gatteschi, Ch.~E. Schulz, and R.~Sessoli.
+\newblock Superparamagnetic-like behavior in an octanuclear iron cluster.
+\newblock {\em EPL (Europhysics Letters)}, 35(2):133--, 1996.
+
+\bibitem{Bogani2008}
+Lapo Bogani and Wolfgang Wernsdorfer.
+\newblock Molecular spintronics using single-molecule magnets.
+\newblock {\em Nature materials}, 7(3):179--186, March 2008.
+
+\bibitem{Zener1932}
+C.~Zener.
+\newblock Non-adiabatic crossing of energy levels.
+\newblock {\em Proceedings of the Royal Society A: Mathematical, Physical and
+  Engineering Sciences}, 137(833):696--702, September 1932.
+
+\bibitem{Bleaney1961}
+B~Bleaney and R~W Hill.
+\newblock Hyperfine structure in terbium metal.
+\newblock {\em Proceedings of the Physical Society}, 78(2):313--, 1961.
 
 \end{thebibliography}
