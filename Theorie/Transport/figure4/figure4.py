@@ -143,4 +143,4 @@ fig.text(0.62,0.45,"c",fontsize=25,fontweight="bold")#,backgroundcolor="m")
 
 #Et voila
 fig.savefig("/home/hukadan/These/Manuscript/Theorie/Transport/figure4/figure4.pdf")
-close(fig)
+#close(fig)
