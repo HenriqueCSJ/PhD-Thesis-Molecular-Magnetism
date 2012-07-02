@@ -44,12 +44,12 @@
 \contentsline {subsection}{\numberline {3.2.2}Couplage d'\IeC {\'e}change}{35}
 \contentsline {subsection}{\numberline {3.2.3}Le couplage magn\IeC {\'e}to-Coulomb}{36}
 \contentsline {section}{\numberline {3.3}Nature et intensit\IeC {\'e} de l'interaction}{36}
-\contentsline {subsection}{\numberline {3.3.1}Amplitude du saut de conductance}{36}
+\contentsline {subsection}{\numberline {3.3.1}Amplitude du saut de conductance}{37}
 \contentsline {subsection}{\numberline {3.3.2}Intensit\IeC {\'e} de l'interaction}{37}
 \contentsline {subsubsection}{L'effet Kondo 1/2}{37}
-\contentsline {subsubsection}{Effet Kondo du syst\IeC {\`e}me coupl\IeC {\'e}}{38}
-\contentsline {section}{\numberline {3.4}Analyse des sauts en conductance}{38}
-\contentsline {subsection}{\numberline {3.4.1}M\IeC {\'e}thode de d\IeC {\'e}tection}{38}
-\contentsline {subsection}{\numberline {3.4.2}Interpr\IeC {\'e}tation physique du signe de $\Delta $G}{39}
-\contentsline {subsection}{\numberline {3.4.3}Choix du point de fonctionnement}{40}
-\contentsline {section}{\numberline {3.5}Proc\IeC {\'e}dure d'alignement}{40}
+\contentsline {subsubsection}{Effet Kondo du syst\IeC {\`e}me coupl\IeC {\'e}}{39}
+\contentsline {section}{\numberline {3.4}Analyse des sauts en conductance}{39}
+\contentsline {subsection}{\numberline {3.4.1}M\IeC {\'e}thode de d\IeC {\'e}tection}{40}
+\contentsline {subsection}{\numberline {3.4.2}Interpr\IeC {\'e}tation physique du signe de $\Delta $G}{41}
+\contentsline {subsection}{\numberline {3.4.3}Choix du point de fonctionnement}{41}
+\contentsline {section}{\numberline {3.5}Proc\IeC {\'e}dure d'alignement}{43}
