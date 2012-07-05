@@ -1,5 +1,7 @@
 \chapter{Mise en œuvre expérimentale}
 
+La mise en œuvre efficace de notre technique de mesure nécessite une bonne compréhension du couplage entre transport électronique et magnétisme moléculaire. Il nous faut tout d'abord tracer les différences entre le couplage en transport direct, jusque là utilisé dans le domaine, et le couplage en transport indirect que nous avons choisi de mettre en œuvre. Il importe également d'identifier la nature de l'interaction entre les électrons participant au courant et le magnétisme que l'on désire sonder. Pour cela, nous devons identifier toutes les interactions possibles, puis il nous faut les soumettre à l'expérience afin de déterminer celle qui est en jeu dans le mécanisme de lecture. Fort de ces connaissances, les paramètre essentiel peuvent facilement être identifié, et la méthode statistique permettant de traiter un grand nombre de mesure peut être introduite. Enfin, à partir des informations extraites des sauts de conductances, il devient possible d'identifier les différents axes magnétique de la molécule.
+
 \section{Le couplage en transport : du direct à l'indirect}
 
 Lorsque l'on souhaite sonder le magnétisme moléculaire par une mesure en courant, il faut que le "chemin" emprunté par les électrons soit très proche du centre magnétique. On peut, dans ce cadre, imaginer deux configurations : le couplage direct, où les électrons impliqués dans le transport jouent également un rôle direct dans le magnétisme de la molécule sondée; le couplage indirect, dans lequel les électrons impliqués dans le courant ne contribuent pas au magnétisme de la molécule, mais le perturbent légèrement. Suivant la configuration adoptée, le mode de mesures sera différent, tout comme le sera l'impact sur le magnétisme. C'est ce que nous allons détailler maintenant.
@@ -16,16 +18,20 @@ Cette configuration a été utilisé dans deux dispositifs légèrement différe
 \section{Le couplage magnétique}
 Dans la configuration directe présenté précédemment, le couplage entre le courant et le magnétisme est aisé à comprendre, les électrons participant au premier étant également directement impliqués dans le second. En revanche, dans la configuration indirecte, le couplage entre ces deux domaines peut avoir plusieurs origines. De plus, il a pour conséquence de rendre le potentiel chimique du point quantique dépendant du centre magnétique. Cette dépendance est fonction de la nature de l'interaction comme nous allons le montrer maintenant.
 
-\subsection{Origine dipolaire}
+\subsection{Le couplage dipolaire}
 Le couplage dipolaire est une interaction à distance entre deux moments magnétiques. Chacun de ces moments génère un champ dipolaire qui va venir agir sur le second, et vice versa. La modification en énergie induite est fonction de la distance séparant les deux dipôles, ainsi que de leur orientation relative. Ceci s'exprime par:
 \begin{eqnarray}
 E = -\frac{\mu_0 \mu_B}{4\pi r^3}(3\mathbf{SnJn} - \mathbf{SJ}) \nonumber
 \end{eqnarray}
 
 \begin{figure}
+\parbox{7cm}{
 \includegraphics[scale=0.5]{Resultats/Chap1/Figure1/figure1.pdf} 
-\caption{}
+}
+\parbox{8cm}{\caption{\textbf{a} - Schéma représentatif du couplage dipolaire entre deux spins \textbf{J} et \textbf{S} séparés par une distance $r$. \textbf{b}(\textbf{c}) - configuration anti-ferromagnétique~(ferromagnétique) induite par le couplage dipolaire. Dans le cas du TbPc$_2$, l'axe facile étant perpendiculaire au plan des ligands, la configuration \textbf{c} est la configuration la plus vraisemblable.}
 \label{dipolaire}
+}
+
 \end{figure}
 
 où $\mathbf{S}$ et $\mathbf{J}$ sont les spins associés au deux moment magnétiques, $r$ la distance qui les sépare et $\mathbf{n}$ la normale reliant les deux moments (cf Fig.\ref{dipolaire}.a). Plusieurs remarques s'imposent. Premièrement, l'intensité de l'interaction est proportionnelle à l'inverse de la distance au cube. Elle devient très rapidement négligeable : pour un spin $J=6$, elle ne vaut plus que $10$\,mT à $1$\,nm. Deuxièmement, on peut imaginer deux configurations opposées : dans la situation de la Fig.\ref{dipolaire}.b, le couplage abouti à une organisation anti-ferromagnétique; dans celle présentée dans la Fig.\ref{dipolaire}.c, le couplage est au contraire ferromagnétique. Dans le cas de TbPc$_2$, le plan des ligands est perpendiculaire à l'axe facile du moment magnétique ce qui correspond plutôt à la seconde configuration. De plus, la seule transition possible à basse température est $J_z=\pm6 \rightarrow J_z \mp 6$. Si l'on tient compte de ces remarques, la variation du potentiel chimique du point quantique sonde $\mu_{QD}$ est liée au renversement du moment magnétique par :
@@ -34,7 +40,7 @@ où $\mathbf{S}$ et $\mathbf{J}$ sont les spins associés au deux moment magnét
 \end{eqnarray}
 Celle-ci est directement proportionnelle à $\Delta J_z$.
 
-\subsection{Couplage d'échange}
+\subsection{Le couplage d'échange}
 Le couplage d'échange est une interaction de contact entre deux moments magnétiques. Elle résulte d'un recouvrement des fonctions d'onde et peut favoriser deux situations opposés : si elle est de type ferromagnétique, les spins s'alignent entre deux ; si elle est de type anti-ferromagnétique, l'orientation entre spin est opposée. Cette interaction s'exprime comme suit :
 \begin{eqnarray}
 E = A\mathbf{SJ} \nonumber
@@ -68,7 +74,7 @@ Si l'on se place dans une situation où $\frac{\partial G}{\partial \mu} = cst$,
 
 \begin{figure}
 \includegraphics[scale=0.5]{Resultats/Chap1/Figure2/figure2.pdf} 
-\caption{}
+\caption{\textbf{a} - Mesure en conductance différentielle en fonction du champ magnétique en l'absence de saut de conductance : les zones non grisées correspondent à des valeurs de champ magnétique où la variation de potentiel chimique $\Delta \mu$ est directement proportionnelle à la variation en conductance $\Delta g$. \textbf{b} - Mesure de trois sauts de conductance pour différentes valeurs de champ magnétique : celle-ci met en évidence l'indépendance de la variation $\Delta g$ vis à vis de la valeur du champ magnétique. \textbf{c}(\textbf{d}) : Mesure en conductance différentielle de l'effet Kondo 1/2 en fonction du champ magnétique et de la tension source-drain pour un système sans~(soumis à l') interaction d'échange. L'extrapolation des maxima de conductance permet d'extraire la séparation Zeeman ainsi que la valeur du champ critique $B_c$.}
 \label{analyse_interaction}
 \end{figure}
 
@@ -88,7 +94,7 @@ L'analyse des sauts de conductance est à la base de notre méthode de détectio
 
 \begin{figure}
 \includegraphics[scale=0.5]{Resultats/Chap1/Figure3/figure3.pdf} 
-\caption{}
+\caption{\textbf{a} - Mesure de deux sauts de condutance montrant deux variation $\Delta g$ de signes opposés. \textbf{b} - Signal correspondant à le mesure \textbf{a} filtrée : les sauts de conductance sont transformé en pics dont l'orientation (vers le haut ou vers le bas) dépend du signe de $\Delta g$. \textbf{c} - Statistique de la hauteur des sauts : cette dernière met en évidence deux distributions : celle contenue dans la zone grise correspond à de petites transitions relatives au bruit de mesure; la seconde distribution correspond au signal induit par le retournement de l'aimantation. \textbf{d} - Diagramme Zeeman de l'état fondamental de la molécule de TbPc$_2$ à faible champ : les anti-croisements donnant lieu au phénomène de QTM sont repérés par les cercles grisés. \textbf{e} - Statistique portant sur la position en champ des retournements de l'aimantation : quatre résonances sont clairement identifiable et correspondent aux quatre anti-croisement. Ceci consitue une preuve de la mesure directe du phénomène de QTM à l'échelle d'une molécule.}
 \label{analyse_saut}
 \end{figure}
 
@@ -107,7 +113,7 @@ Supposons que l'on se place dans l'état initial $J_z=+6$ et $B<0$. Au regard du
 
 \begin{figure}
 \includegraphics[scale=0.5]{Resultats/Chap1/Figure4/figure4.pdf} 
-\caption{}
+\caption{\textbf{a}(\textbf{c}) - Mesure d'un saut de conductance en fonction de l'état initial, la couleur de la courbe étant fonction de ce dernier. \textbf{c}(\textbf{d}) - Statistique des champs de retournement en fonction de l'état initial (signe de $\Delta g$) montrant clairement l'inversion de population des spins nucléaires. La couleur des histogrammes est donnée par l'état initial auxquels ils correspondent.}
 \label{analyse_signe_saut}
 \end{figure}
 
@@ -117,9 +123,12 @@ On peut donc affirmer de façon certaine que la variation en conductance $\Delta
 Nous avons vu dans la partie théorique consacrée au transport que la zone où la variation de conductance était la plus sensible au potentiel chimique se situe au niveau des points de dégénérescence. C'est dans cette zone que l'on va logiquement se placer. Dans un système idéal, on a $\frac{\partial G}{\partial \mu}_{\text{droite}} = -\frac{\partial G}{\partial \mu}_{\text{gauche}} $. Cela notamment était mis en évidence par~\cite{Datta2011} dans le cadre de nanoparticule magnétiques couplé par effet magnéto-Coulomb à un nanotube.
 
 \begin{figure}
+\parbox{8.2cm}{
 \includegraphics[scale=0.5]{Resultats/Chap1/Figure6/figure6.pdf} 
-\caption{}
+}
+\parbox{7cm}{\caption{\textbf{Panel haut} - Mesure de la conductance différentielle en fonction de la tension de grille $V_g$ à tension source-drain nulle. \textbf{Panel du milieu~(bas)} - Mesure du signe de $\Delta g$ en fonction de la tension de grille $V_g$ et du champ transverse $H_{//}$ durant la trace~(retrace) : les points rouges correspondent à $\Delta g >0$; les points bleus à $\Delta g <0$. Les zones blanches dénotent des valeurs de tension de grille pour lesquelles le signal magnétique n'est pas résolu.}
 \label{point_fonctio}
+}
 \end{figure}
 
 Dans notre système, cette propriétés n'est pas respecté et le résultat obtenu est plus complexe. La Fig.\ref{point_fonctio} montre la signe du changement de conductance correspondant à un retournement, en fonction de la tension de grille $V_g$. On observe trois type de zones : les zones où le signal est trop faible pour être détecté; des zones où le bruit généré par les phénomène de transport masque le signal magnétique.; enfin des zones où le signal magnétique est net et les résonances clairement visibles. Dans ces dernières, on observe des transitions d'un signe à l'autre similaire à un changement de signe de $\frac{\partial G}{\partial \mu}$. Notre système est en cela relativement éloigné du système idéal que nous avons utilisé jusqu'à maintenant. Et si ce dernier permet de comprendre facilement le couplage magnétisme-transport dans les zone ou $\frac{\partial G}{\partial \mu} = cst$, l'origine des zones de transitions ne nous apparaît toujours pas claire.
@@ -131,7 +140,7 @@ Expérimentalement, le présence d'un retournement peut se mesurer à travers l'
 
 \begin{figure}
 \includegraphics[scale=0.5]{Resultats/Chap1/Figure5/figure5.pdf} 
-\caption{}
+\caption{\textbf{a}~-~Mesure de l’hystérésis en conductance en fonction du champ magnétique entre la trace et la retrace obtenu à partir de mesure de \textbf{b}. \textbf{b}~-~Mesure de la conductance en fonction du champ magnétique pour la trace~(en vert) et la retrace~(en rouge). \textbf{c}~-~Mesure de l'hytérésis en fonction de l'angle $\theta$. Les axes facile (retournement à faible champ) et difficile (retournement impossible) sont clairement identifiable. \textbf{d}~-~Mesure de la position des résonance en champ magnétique parallèle en fonction du champ transverse. La position des résonance reste identique montrant le bon alignement de nos axes}
 \label{alignement}
 \end{figure}
 
@@ -139,3 +148,6 @@ Cependant, il faut garder à l'esprit que l'"axe facile" identifié sur cette fi
 
 
 Une méthode permet de vérifier si cet alignement est correct.  Elle consiste à mesurer la positions des résonances à faible champ en fonction d'un champ que l'on applique dans le plan difficile, et que l'on appellera dans la suite champ transverse. Si alignement est correct, la projection d'un tel champ sur l'axe facile est nulle. La position des résonances de devrait donc pas varier. La Fig.\ref{alignement}.d présente la position de ces résonances pour deux champ transverses. Cette mesure confirme le bon alignement de nos axes magnétiques avec l'axe facile de la molécule.
+
+\vspace{1cm}
+Dans ce chapitre, nous avons pu identifier l'interaction à l'origine du couplage entre transport électronique et magnétisme moléculaire. Nous avons également détaillé notre procédure de détection de sauts. En particulier, nous avons montrer comment celle-ci pouvait être utilisée afin de déterminer les axes magnétiques de notre aimant moléculaire. Dans le chapitre qui va suivre, nous allons utiliser ces éléments pour analyser la dynamique du spin nucléaire. Nous aborderons également les conséquence d'un couplage avec un deuxième système magnétique sur le mécanisme de retournement de l'aimantation.

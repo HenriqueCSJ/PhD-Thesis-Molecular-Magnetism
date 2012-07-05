@@ -35,19 +35,19 @@
 \contentsline {subsection}{\numberline {2.3.3}Mesure de l'aimantation}{27}
 \contentsline {chapter}{\numberline {3}Mise en \IeC {\oe }uvre exp\IeC {\'e}rimentale}{29}
 \contentsline {section}{\numberline {3.1}Le couplage en transport : du direct \IeC {\`a} l'indirect}{29}
-\contentsline {subsection}{\numberline {3.1.1}Le couplage direct}{29}
+\contentsline {subsection}{\numberline {3.1.1}Le couplage direct}{30}
 \contentsline {subsection}{\numberline {3.1.2}Le couplage indirect}{30}
 \contentsline {section}{\numberline {3.2}Le couplage magn\IeC {\'e}tique}{30}
-\contentsline {subsection}{\numberline {3.2.1}Origine dipolaire}{30}
-\contentsline {subsection}{\numberline {3.2.2}Couplage d'\IeC {\'e}change}{31}
+\contentsline {subsection}{\numberline {3.2.1}Le couplage dipolaire}{31}
+\contentsline {subsection}{\numberline {3.2.2}Le couplage d'\IeC {\'e}change}{32}
 \contentsline {subsection}{\numberline {3.2.3}Le couplage magn\IeC {\'e}to-Coulomb}{32}
-\contentsline {section}{\numberline {3.3}Nature et intensit\IeC {\'e} de l'interaction}{32}
+\contentsline {section}{\numberline {3.3}Nature et intensit\IeC {\'e} de l'interaction}{33}
 \contentsline {subsection}{\numberline {3.3.1}Amplitude du saut de conductance}{33}
-\contentsline {subsection}{\numberline {3.3.2}Intensit\IeC {\'e} de l'interaction}{33}
-\contentsline {subsubsection}{L'effet Kondo 1/2}{33}
-\contentsline {subsubsection}{Effet Kondo du syst\IeC {\`e}me coupl\IeC {\'e}}{35}
-\contentsline {section}{\numberline {3.4}Analyse des sauts en conductance}{35}
+\contentsline {subsection}{\numberline {3.3.2}Intensit\IeC {\'e} de l'interaction}{34}
+\contentsline {subsubsection}{L'effet Kondo 1/2}{34}
+\contentsline {subsubsection}{Effet Kondo du syst\IeC {\`e}me coupl\IeC {\'e}}{34}
+\contentsline {section}{\numberline {3.4}Analyse des sauts en conductance}{36}
 \contentsline {subsection}{\numberline {3.4.1}M\IeC {\'e}thode de d\IeC {\'e}tection}{36}
-\contentsline {subsection}{\numberline {3.4.2}Interpr\IeC {\'e}tation physique du signe de $\Delta $G}{37}
-\contentsline {subsection}{\numberline {3.4.3}Choix du point de fonctionnement}{37}
-\contentsline {section}{\numberline {3.5}Proc\IeC {\'e}dure d'alignement}{39}
+\contentsline {subsection}{\numberline {3.4.2}Interpr\IeC {\'e}tation physique du signe de $\Delta $G}{38}
+\contentsline {subsection}{\numberline {3.4.3}Choix du point de fonctionnement}{38}
+\contentsline {section}{\numberline {3.5}Proc\IeC {\'e}dure d'alignement}{40}
