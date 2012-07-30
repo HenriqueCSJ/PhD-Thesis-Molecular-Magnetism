@@ -54,3 +54,4 @@
 \contentsline {chapter}{\numberline {4}R\IeC {\'e}sultats}{53}
 \contentsline {section}{\numberline {4.1}Aimantation des aimants mol\IeC {\'e}culaires}{53}
 \contentsline {section}{\numberline {4.2}Temps de relaxation du spin nucl\IeC {\'e}aire}{55}
+\contentsline {section}{\numberline {4.3}Perturbations induites par la mesure}{56}
