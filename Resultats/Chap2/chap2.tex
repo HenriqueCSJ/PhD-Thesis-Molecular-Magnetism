@@ -28,9 +28,23 @@ A champ fort là encore, les différences sont notables : retournement assisté 
 \subsection{Temps de relaxation du spin nucléaire}
 Le spin nucléaire, du fait de son couplage relativement faible à l'environement, possède généralement un temps de vie élevé. Afin de pouvoir vérifier cette propriété, il nous faut pouvoir mesurer l'évolution des états du spin nucléaire en fonction du temps. Nous avons choisi pour cela une technique simple consistant à mesurer l'état du spin nucléaire lors de deux mesures, en faisant varier le temps séparant ces dernières. Du fait de l'aspect chronophage de nos mesures, nous avons choisi cinq temps d'attente différents : $0,5,10,20$ et $50$ secondes. Pour chacune de ces valeurs, $22000$ balayges ont été effectués afin d'obtenir une statistique significative.
 
+
+\begin{figure}
+\includegraphics[scale=0.45]{Resultats/Chap2/Figure1/figure1.pdf} 
+\caption{}
+\label{correlations}
+\end{figure}
+
 Pour représenter cette évolution, une représentation à l'aide d'un histogramme à deux dimensions a été choisie. Le champ de retournement de la première mesure est repéré en abscisse et celui mesuré lors de la seconde mesure est représentée en ordonnée. Dans une telle représentation, les éléments diagonaux rendent compte d'un état de spin nucléaire qui ne change pas entre les deux mesures. Les éléments hors-diagonaux représente quant à eux las cas où l'état de spin nucléaire varie de $\Delta m_z^I = \pm 1,2,3$ où $m_z^I$ est la projection du moment angulaire du spin nucléaire sur l'axe $z$. La Fig?? présente une telle mesure pour un temps d'attente nul. Pour faciliter la lecture, l'histogramme des champs de retournement de la première et deuxième mesures a été ajouté.
 
 La Fig?? montre l'évolution de l'histogramme en fonction du temps d'attente entre les deux mesures. Les éléments diagonaux dominent jusqu'à un temps d'attente de $20$ secondes, prouvant que le spin nucléaire demeure majoritairement inchangé sur ce laps de temps. En revanche, pour un temps d'attente de $50$ secondes, on constate que les éléments diagonaux ne sont plus prépondérant et donc l'état de spin nucléaire à changé entre les deux mesures. De plus, l'état de spin $|-3/2 \rangle$ domine largement les autres états. Cela traduit la tendance du système à évoluer vers l'équilibre thermodynamique lorsque le temps d'attente devient trop élevé. Nus reviendrons sur ce dernier point dans la suite.
+
+\begin{figure}
+\includegraphics[scale=0.45]{Resultats/Chap2/Figure2/figure2.pdf} 
+\caption{}
+\label{evolution_temps}
+\end{figure}
+
 
 \subsection{Perturbations induites par la mesure}
 De m\^eme que nous pouvons étudier l'influence du temps d'attente sur le spin nucléaire, il peut \^etre intéressant d'évaluer l'influence de la mesure sur l'état de spin nucléaire. Pour cela, nous avons choisi d'utiliser la méthode présenté précédemment, en observant non plus le temps d'attente mais le nombre de mesures entre les deux mesures de référence. Nous avons utilisé les donnée collecté sur 22000 balayages (11000 trace et autant de retrace) effectué sans temps d'attente.
@@ -38,6 +52,12 @@ De m\^eme que nous pouvons étudier l'influence du temps d'attente sur le spin n
 La Fig?? présente cette évolution pour deux mesures consécutive (a), séparé par deux mesures (b), par quatre mesures (c) et par huit mesures (d). On constate qu'après 4 mesures, les éléments diagonaux domine toujours, pour ne s'atténuer qu'au bout de 8 mesures. Il est important de noté que chaque mesure est, en moyenne, séparée de 4 secondes, et donc, dans le cas de 8 mesures, cela correspond à un temps totale de plus de 30 secondes. Aux vues des résultats présentés dans la section précédente, on peut attribuer cette diminution de corrélation dans l'état du spin nucléaire au processus de relaxation interne au système. 
 
 La méthode de mesure de l'état de spin nucléaire par l'intermédiaire du QTM se révèle donc peu invasive, ce qui permet d'étudier les propriétés du système en négligeant son influence sur ce dernier.
+
+\begin{figure}
+\includegraphics[scale=0.45]{Resultats/Chap2/Figure3/figure3.pdf} 
+\caption{}
+\label{evolution_mesures}
+\end{figure}
 
 
 \subsection{Extraction de la population des états nucléaires}

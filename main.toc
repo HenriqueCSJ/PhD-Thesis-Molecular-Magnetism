@@ -55,12 +55,12 @@
 \contentsline {section}{\numberline {4.1}Aimantation des aimants mol\IeC {\'e}culaires}{51}
 \contentsline {section}{\numberline {4.2}Dynamique du spin nucl\IeC {\'e}aire}{53}
 \contentsline {subsection}{\numberline {4.2.1}Temps de relaxation du spin nucl\IeC {\'e}aire}{53}
-\contentsline {subsection}{\numberline {4.2.2}Perturbations induites par la mesure}{54}
-\contentsline {subsection}{\numberline {4.2.3}Extraction de la population des \IeC {\'e}tats nucl\IeC {\'e}aires}{55}
-\contentsline {subsection}{\numberline {4.2.4}Influence de la tension de grille sur la relaxation}{55}
-\contentsline {subsection}{\numberline {4.2.5}Influence de la temp\IeC {\'e}rature}{56}
-\contentsline {chapter}{\numberline {A}\'Equation pilote}{63}
-\contentsline {section}{\numberline {A.1}Les diff\IeC {\'e}rents \IeC {\'e}tats du syst\IeC {\`e}me et leur probabilit\IeC {\'e}s}{63}
-\contentsline {section}{\numberline {A.2}D\IeC {\'e}termination des taux de transfert}{64}
-\contentsline {section}{\numberline {A.3}D\IeC {\'e}termination du courant}{66}
-\contentsline {subsubsection}{Quelques remarques}{66}
+\contentsline {subsection}{\numberline {4.2.2}Perturbations induites par la mesure}{55}
+\contentsline {subsection}{\numberline {4.2.3}Extraction de la population des \IeC {\'e}tats nucl\IeC {\'e}aires}{57}
+\contentsline {subsection}{\numberline {4.2.4}Influence de la tension de grille sur la relaxation}{58}
+\contentsline {subsection}{\numberline {4.2.5}Influence de la temp\IeC {\'e}rature}{59}
+\contentsline {chapter}{\numberline {A}\'Equation pilote}{65}
+\contentsline {section}{\numberline {A.1}Les diff\IeC {\'e}rents \IeC {\'e}tats du syst\IeC {\`e}me et leur probabilit\IeC {\'e}s}{65}
+\contentsline {section}{\numberline {A.2}D\IeC {\'e}termination des taux de transfert}{66}
+\contentsline {section}{\numberline {A.3}D\IeC {\'e}termination du courant}{68}
+\contentsline {subsubsection}{Quelques remarques}{68}
