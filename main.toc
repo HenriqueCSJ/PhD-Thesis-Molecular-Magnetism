@@ -1,9 +1,0 @@
-\select@language {french}
-\contentsline {chapter}{\numberline {1}R\IeC {\'e}sultats}{1}
-\contentsline {section}{\numberline {1.1}Aimantation des aimants mol\IeC {\'e}culaires}{1}
-\contentsline {section}{\numberline {1.2}Dynamique du spin nucl\IeC {\'e}aire}{3}
-\contentsline {subsection}{\numberline {1.2.1}Temps de relaxation du spin nucl\IeC {\'e}aire}{3}
-\contentsline {subsection}{\numberline {1.2.2}Perturbations induites par la mesure}{5}
-\contentsline {subsection}{\numberline {1.2.3}Extraction de la population des \IeC {\'e}tats nucl\IeC {\'e}aires}{6}
-\contentsline {subsection}{\numberline {1.2.4}Influence de la tension de grille sur la relaxation}{9}
-\contentsline {subsection}{\numberline {1.2.5}Influence de la temp\IeC {\'e}rature}{9}

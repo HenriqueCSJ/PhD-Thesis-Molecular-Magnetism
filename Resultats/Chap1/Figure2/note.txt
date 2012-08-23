@@ -1,4 +1,0 @@
-#figure a :5R/Cycle6
-courbe 123,128,131 pour les différentes hauteur de saut
-
-#courbe 102 sans saut pour identifier les zones de comparaison.
