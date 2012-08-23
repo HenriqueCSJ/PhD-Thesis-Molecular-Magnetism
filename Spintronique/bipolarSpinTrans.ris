@@ -1,0 +1,26 @@
+
+TY  - JOUR
+UR  - http://stacks.iop.org/0957-4484/7/i=4/a=015
+T1  - The bipolar spin transistor
+A1  - Mark Johnson
+Y1  - 1996
+SP  - 390
+JF  - Nanotechnology
+VL  - 7
+IS  - 4
+SN  - 0957-4484
+N2  - A novel three-terminal switching device, fabricated only from metals, has recently been
+demonstrated. Somewhat similar to a semiconductor transistor, the physical principles of operation
+are quite different. It is an active device driven by a thermodynamic force associated with the
+effective Zeeman energy of the spin polarized electrons in the base. `Bipolar' has a double meaning:
+there are two polarities of carriers, upspin and downspin electrons; and the output can be a
+positive or negative voltage (or current). The three-terminal device does not have power gain, but
+because it shows a memory effect it is natural to use it as a storage element in a nonvolatile
+memory array. Power gain can be achieved in a five-terminal embodiment, allowing fanout and the
+linking of devices in logic operations. Switching times faster than 1 ns can be expected. Because
+all the layers are metals and charge carrier densities are high, fabrication of the device at
+submicron scales is quite possible and operation at the nanometer scale is conceivable. Thus, the
+possibility of achieving high packing densities is very plausible, and is not obviated by problems
+common to semiconductors such as heat dissipation and low carrier density.
+ER  -
+	
