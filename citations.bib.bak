@@ -1,0 +1,764 @@
+% This file was created with JabRef 2.7b.
+% Encoding: UTF-8
+
+@ARTICLE{Awschalom2007,
+  author = {Awschalom, David D. and Flatte, Michael E.},
+  title = {Challenges for semiconductor spintronics},
+  journal = {Nat Phys},
+  year = {2007},
+  volume = {3},
+  pages = {153--159},
+  number = {3},
+  month = mar,
+  comment = {10.1038/nphys551},
+  issn = {1745-2473},
+  owner = {hukadan},
+  timestamp = {2012.08.23},
+  url = {http://dx.doi.org/10.1038/nphys551}
+}
+
+@ARTICLE{Baibich1988,
+  author = {Baibich, M. N. and Broto, J. M. and Fert, A. and Van Dau, F. Nguyen
+	and Petroff, F. and Etienne, P. and Creuzet, G. and Friederich, A.
+	and Chazelas, J.},
+  title = {Giant Magnetoresistance of (001){F}e/(001){C}r Magnetic Superlattices},
+  journal = {Phys. Rev. Lett.},
+  year = {1988},
+  volume = {61},
+  pages = {2472--2475},
+  number = {21},
+  month = nov,
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevLett.61.2472},
+  timestamp = {2012.08.26},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.61.2472}
+}
+
+@ARTICLE{Bogani2008,
+  author = {Bogani, Lapo and Wernsdorfer, Wolfgang},
+  title = {Molecular spintronics using single-molecule magnets},
+  journal = {Nat Mater},
+  year = {2008},
+  volume = {7},
+  pages = {179--186},
+  number = {3},
+  month = mar,
+  comment = {10.1038/nmat2133},
+  issn = {1476-1122},
+  owner = {hukadan},
+  publisher = {Nature Publishing Group},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1038/nmat2133}
+}
+
+@ARTICLE{Cleuziou2011,
+  author = {Cleuziou, Jean-Pierre and Wernsdorfer, Wolfgang and Ondarcuhu, Thierry
+	and Monthioux, Marc},
+  title = {Electrical Detection of Individual Magnetic Nanoparticles Encapsulated
+	in Carbon Nanotubes},
+  journal = {ACS Nano},
+  year = {2011},
+  volume = {5},
+  pages = {2348--2355},
+  number = {3},
+  month = feb,
+  booktitle = {ACS Nano},
+  comment = {doi: 10.1021/nn2000349},
+  issn = {1936-0851},
+  owner = {hukadan},
+  publisher = {American Chemical Society},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1021/nn2000349}
+}
+
+@ARTICLE{CleuziouJ.-P.2006,
+  author = {CleuziouJ.-P. and WernsdorferW. and BouchiatV. and OndarcuhuT. and
+	MonthiouxM.},
+  title = {Carbon nanotube superconducting quantum interference device},
+  journal = {Nat Nano},
+  year = {2006},
+  volume = {1},
+  pages = {53--59},
+  number = {1},
+  month = oct,
+  comment = {10.1038/nnano.2006.54},
+  issn = {1748-3387},
+  owner = {hukadan},
+  publisher = {Nature Publishing Group},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1038/nnano.2006.54}
+}
+
+@ARTICLE{Dadosh2005,
+  author = {Dadosh, Tali and Gordin, Yoav and Krahne, Roman and Khivrich, Ilya
+	and Mahalu, Diana and Frydman, Veronica and Sperling, Joseph and
+	Yacoby, Amir and Bar-Joseph, Israel},
+  title = {Measurement of the conductance of single conjugated molecules},
+  journal = {Nature},
+  year = {2005},
+  volume = {436},
+  pages = {677--680},
+  number = {7051},
+  month = aug,
+  comment = {10.1038/nature03898},
+  issn = {0028-0836},
+  owner = {hukadan},
+  publisher = {Nature Publishing Group},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1038/nature03898}
+}
+
+@ARTICLE{Datta1990,
+  author = {Datta, Supriyo and Das, Biswajit},
+  title = {Electronic analog of the electro-optic modulator},
+  journal = {Appl. Phys. Lett.},
+  year = {1990},
+  volume = {56},
+  pages = {665--667},
+  number = {7},
+  month = feb,
+  keywords = {OPTICAL MODULATION, SEMICONDUCTOR DEVICES, OPTICAL MODULATORS, DESIGN,
+	ELECTROOPTICAL EFFECTS, POLARIZATION},
+  owner = {hukadan},
+  publisher = {AIP},
+  timestamp = {2012.08.23},
+  url = {http://dx.doi.org/10.1063/1.102730}
+}
+
+@ARTICLE{Friedman1996,
+  author = {Friedman, Jonathan R. and Sarachik, M. P. and Tejada, J. and Ziolo,
+	R.},
+  title = {Macroscopic Measurement of Resonant Magnetization Tunneling in High-Spin
+	Molecules},
+  journal = {Phys. Rev. Lett.},
+  year = {1996},
+  volume = {76},
+  pages = {3830--3833},
+  number = {20},
+  month = may,
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevLett.76.3830},
+  timestamp = {2012.08.26},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.76.3830}
+}
+
+@BOOK{Gatteschi2006,
+  title = {Molecular Nanomagnets},
+  publisher = {OUP Oxford},
+  year = {2006},
+  author = {Gatteschi, D. and Sessoli, R. and Villain, J.},
+  pages = {--},
+  booktitle = {Mesoscopic Physics And Nanotechnology},
+  issn = {9780198567530},
+  owner = {hukadan},
+  timestamp = {2012.08.26},
+  url = {http://books.google.fr/books?id=PvZ9drxKW0oC}
+}
+
+@ARTICLE{Grose2008,
+  author = {Grose, Jacob E. and Tam, Eugenia S. and Timm, Carsten and Scheloske,
+	Michael and Ulgut, Burak and Parks, Joshua J. and Abruna, Hector
+	D. and Harneit, Wolfgang and Ralph, Daniel C.},
+  title = {Tunnelling spectra of individual magnetic endofullerene molecules},
+  journal = {Nat Mater},
+  year = {2008},
+  volume = {7},
+  pages = {884--889},
+  number = {11},
+  month = nov,
+  comment = {10.1038/nmat2300},
+  issn = {1476-1122},
+  owner = {hukadan},
+  publisher = {Nature Publishing Group},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1038/nmat2300}
+}
+
+@ARTICLE{Gruenberg1986,
+  author = {Grünberg, P. and Schreiber, R. and Pang, Y. and Brodsky, M. B. and
+	Sowers, H.},
+  title = {Layered Magnetic Structures: Evidence for Antiferromagnetic Coupling
+	of {F}e Layers across {C}r Interlayers},
+  journal = {Phys. Rev. Lett.},
+  year = {1986},
+  volume = {57},
+  pages = {2442--2445},
+  number = {19},
+  month = nov,
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevLett.57.2442},
+  timestamp = {2012.08.26},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.57.2442}
+}
+
+@ARTICLE{Heersche2006,
+  author = {Heersche, H. B. and de Groot, Z. and Folk, J. A. and van der Zant,
+	H. S. J. and Romeike, C. and Wegewijs, M. R. and Zobbi, L. and Barreca,
+	D. and Tondello, E. and Cornia, A.},
+  title = {Electron Transport through Single {M}n$_{12}$ Molecular Magnets},
+  journal = {Phys. Rev. Lett.},
+  year = {2006},
+  volume = {96},
+  pages = {206801--},
+  number = {20},
+  month = may,
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevLett.96.206801},
+  timestamp = {2012.08.26},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.96.206801}
+}
+
+@ARTICLE{Ho1989,
+  author = {Ho, P S and Kwok, T},
+  title = {Electromigration in metals},
+  journal = {Reports on Progress in Physics},
+  year = {1989},
+  volume = {52},
+  pages = {301--},
+  number = {3},
+  abstract = {This paper provides an overview on the current understanding of electromigration
+	in metals. The discussion is first focused on studies in bulk metals
+	and alloys. This part includes a thermodynamic formulation of electromigration,
+	a kinetic analysis of the atomic processes and a review of the theory.
+	In addition, experimental results in interstitial and substitutional
+	systems are summarised. The second part of the paper reviews the
+	studies in metallic thin films. This emerged as an important area
+	of electromigration studies since the late 1960s when electromigration
+	damage was found to cause failure of conductor lines in integrated
+	circuits. The discussion will review first the basic nature of electromigration
+	in thin films with emphasis on the role of grain boundaries in mass
+	transport and damage formation. Then the materials issues of electromigration
+	will be explored according to the scaling trends in VLSI technology.
+	Finally, the recent results of electromigration in fine lines and
+	device contacts of dimensions in the micrometre range are discussed.},
+  issn = {0034-4885},
+  owner = {hukadan},
+  timestamp = {2012.08.26},
+  url = {http://stacks.iop.org/0034-4885/52/i=3/a=002}
+}
+
+@ARTICLE{Horowitz1990,
+  author = {Horowitz, Gilles and Peng, Xuezhou and Fichou, Denis and Garnier,
+	Francis},
+  title = {The oligothiophene-based field-effect transistor: How it works and
+	how to improve it},
+  journal = {J. Appl. Phys.},
+  year = {1990},
+  volume = {67},
+  pages = {528--532},
+  number = {1},
+  month = jan,
+  keywords = {MISFET, ORGANIC SEMICONDUCTORS, POLYMERS, MATHEMATICAL MODELS, ACCUMULATION
+	LAYERS, MODULATION, DOPED MATERIALS, CV CHARACTERISTIC, ELECTRICAL
+	PROPERTIES},
+  owner = {hukadan},
+  publisher = {AIP},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1063/1.345238}
+}
+
+@ARTICLE{Huang2007,
+  author = {Huang, Biqin and Monsma, Douwe J. and Appelbaum, Ian},
+  title = {Experimental realization of a silicon spin field-effect transistor},
+  journal = {Appl. Phys. Lett.},
+  year = {2007},
+  volume = {91},
+  pages = {072501--3},
+  number = {7},
+  month = aug,
+  keywords = {electron spin polarisation, elemental semiconductors, field effect
+	transistors, silicon},
+  owner = {hukadan},
+  publisher = {AIP},
+  timestamp = {2012.08.23},
+  url = {http://dx.doi.org/10.1063/1.2770656}
+}
+
+@ARTICLE{Ishikawa2005,
+  author = {Ishikawa, Naoto and Sugita, Miki and Wernsdorfer, Wolfgang},
+  title = {Quantum Tunneling of Magnetization in Lanthanide Single-Molecule
+	Magnets: Bis(phthalocyaninato)terbium and Bis(phthalocyaninato)dysprosium
+	Anions},
+  journal = {Angewandte Chemie International Edition},
+  year = {2005},
+  volume = {44},
+  pages = {2931--2935},
+  number = {19},
+  issn = {1521-3773},
+  keywords = {lanthanides, magnetic properties, phthalocyanines, quantum tunneling,
+	single-molecule studies},
+  owner = {hukadan},
+  publisher = {WILEY-VCH Verlag},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1002/anie.200462638}
+}
+
+@ARTICLE{Ishikawa2005a,
+  author = {Ishikawa, Naoto and Sugita, Miki and Wernsdorfer, Wolfgang},
+  title = {Nuclear Spin Driven Quantum Tunneling of Magnetization in a New Lanthanide
+	Single-Molecule Magnet: Bis(Phthalocyaninato)holmium Anion},
+  journal = {J. Am. Chem. Soc.},
+  year = {2005},
+  volume = {127},
+  pages = {3650--3651},
+  number = {11},
+  month = feb,
+  __markedentry = {[hukadan:6]},
+  booktitle = {Journal of the American Chemical Society},
+  comment = {doi: 10.1021/ja0428661},
+  issn = {0002-7863},
+  owner = {hukadan},
+  publisher = {American Chemical Society},
+  timestamp = {2012.08.27},
+  url = {http://dx.doi.org/10.1021/ja0428661}
+}
+
+@ARTICLE{Jo2006,
+  author = {Jo, Moon-Ho and Grose, Jacob E. and Baheti, Kanhayalal and Deshmukh,
+	Mandar M. and Sokol, Jennifer J. and Rumberger, Evan M. and Hendrickson,
+	David N. and Long, Jeffrey R. and Park, Hongkun and Ralph, D. C.},
+  title = {Signatures of Molecular Magnetism in Single-Molecule Transport Spectroscopy},
+  journal = {Nano Lett.},
+  year = {2006},
+  volume = {6},
+  pages = {2014--2020},
+  number = {9},
+  month = aug,
+  booktitle = {Nano Letters},
+  comment = {doi: 10.1021/nl061212i},
+  issn = {1530-6984},
+  owner = {hukadan},
+  publisher = {American Chemical Society},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1021/nl061212i}
+}
+
+@ARTICLE{Joachim1995,
+  author = {Joachim, Christian and Gimzewski, James K. and Schlittler, Reto R.
+	and Chavy, Corinne},
+  title = {Electronic Transparence of a Single {C}$_{60}$ Molecule},
+  journal = {Phys. Rev. Lett.},
+  year = {1995},
+  volume = {74},
+  pages = {2102--2105},
+  number = {11},
+  month = mar,
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevLett.74.2102},
+  timestamp = {2012.08.26},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.74.2102}
+}
+
+@ARTICLE{Johnson1996,
+  author = {Johnson, Mark},
+  title = {The bipolar spin transistor},
+  journal = {Nanotechnology},
+  year = {1996},
+  volume = {7},
+  pages = {390--},
+  number = {4},
+  abstract = {A novel three-terminal switching device, fabricated only from metals,
+	has recently been demonstrated. Somewhat similar to a semiconductor
+	transistor, the physical principles of operation are quite different.
+	It is an active device driven by a thermodynamic force associated
+	with the effective Zeeman energy of the spin polarized electrons
+	in the base. `Bipolar' has a double meaning: there are two polarities
+	of carriers, upspin and downspin electrons; and the output can be
+	a positive or negative voltage (or current). The three-terminal device
+	does not have power gain, but because it shows a memory effect it
+	is natural to use it as a storage element in a nonvolatile memory
+	array. Power gain can be achieved in a five-terminal embodiment,
+	allowing fanout and the linking of devices in logic operations. Switching
+	times faster than 1 ns can be expected. Because all the layers are
+	metals and charge carrier densities are high, fabrication of the
+	device at submicron scales is quite possible and operation at the
+	nanometer scale is conceivable. Thus, the possibility of achieving
+	high packing densities is very plausible, and is not obviated by
+	problems common to semiconductors such as heat dissipation and low
+	carrier density.},
+  issn = {0957-4484},
+  owner = {hukadan},
+  timestamp = {2012.08.23},
+  url = {http://stacks.iop.org/0957-4484/7/i=4/a=015}
+}
+
+@MISC{Hitoshi2001,
+  author = {KANAI;Hitoshi and NOMA;Kenji and HONG;Jongill},
+  title = {Advanced spin-valve GMR head},
+  year = {2001},
+  note = {Anglais},
+  __markedentry = {[hukadan:]},
+  abstract = {Information and communication systems increasingly handle huge amounts
+	of data, placing heavy demands on hard disk storage capacity and
+	performance. Progress in the development of giant magnetoresistive
+	(GMR) spin-valve materials and high-sensitivity spin-valve read heads
+	has allowed a continuous increase of areal recording density In hard
+	disk drives. This paper describes our advanced spin-valve head technology.
+	This technology features a bottom type synthetic ferrimagnet spin-valve
+	with low magnetostriction. It comprises a magnetic layer, Ru interlayer,
+	and magnetic layer sandwich as a pinned layer. It also has a specular
+	spin-valve with specular reflection layers consisting of a layer
+	of natural oxide or another oxide material. The synthetic ferrimagnet
+	spin-valve and the specular spin-valve enable increased read-back
+	output of the spin-valve head. This paper also describes our demonstration
+	of over 100 Gbit/in[2] technologies at areal recording densities
+	achieved by a high-sensitivity, double-specular spin-valve head on
+	synthetic ferrimagnet media.},
+  address = {Kawasaki, JAPON},
+  number = {2},
+  owner = {hukadan},
+  pages = {9},
+  publisher = {Fujitsu},
+  timestamp = {2012.08.26},
+  volume = {37}
+}
+
+@BOOK{Klauk2007,
+  title = {Organic Electronics: Materials, Manufacturing, and Applications},
+  publisher = {John Wiley \& Sons},
+  year = {2007},
+  author = {Klauk, H.},
+  pages = {--},
+  issn = {9783527608621},
+  owner = {hukadan},
+  timestamp = {2012.08.26},
+  url = {http://books.google.fr/books?id=0HEPykpGky4C}
+}
+
+@ARTICLE{Lin1997,
+  author = {Lin, Y.-Y. and Gundlach, D.J. and Nelson, S.F. and Jackson, T.N.},
+  title = {Stacked pentacene layer organic thin-film transistors with improved
+	characteristics},
+  journal = {Electron Device Letters, IEEE},
+  year = {1997},
+  volume = {18},
+  pages = {606--608},
+  number = {12},
+  booktitle = {Electron Device Letters, IEEE},
+  issn = {0741-3106},
+  keywords = {carrier mobility, organic compounds, organic semiconductors, photolithography,
+	thin film transistors, Au-SiO/sub 2/-Si, Si, drain electrodes, field-effect
+	mobility, octadecyltrichlorosilane-treated SiO/sub 2/ gate dielectric,
+	on/off current ratio, pentacene stacked layer organic thin-film transistors,
+	photolithographically defined Au electrodes, photolithographically
+	defined organic TFT, source electrodes, substrate temperatures, subthreshold
+	slope, threshold voltage},
+  owner = {hukadan},
+  timestamp = {2012.08.26}
+}
+
+@ARTICLE{Mannini2010,
+  author = {Mannini, M. and Pineider, F. and Danieli, C. and Totti, F. and Sorace,
+	L. and Sainctavit, Ph. and Arrio, M.-A. and Otero, E. and Joly, L.
+	and Cezar, J. C. and Cornia, A. and Sessoli, R.},
+  title = {Quantum tunnelling of the magnetization in a monolayer of oriented
+	single-molecule magnets},
+  journal = {Nature},
+  year = {2010},
+  volume = {468},
+  pages = {417--421},
+  number = {7322},
+  month = nov,
+  comment = {10.1038/nature09478},
+  issn = {0028-0836},
+  owner = {hukadan},
+  publisher = {Nature Publishing Group, a division of Macmillan Publishers Limited.
+	All Rights Reserved.},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1038/nature09478}
+}
+
+@ARTICLE{Mannini2009,
+  author = {Mannini, Matteo and Pineider, Francesco and Sainctavit, Philippe
+	and Joly, Loïc and Fraile-Rodríguez, Arantxa and Arrio, Marie-Anne
+	and Cartier dit Moulin, Christophe and Wernsdorfer, Wolfgang and
+	Cornia, Andrea and Gatteschi, Dante and Sessoli, Roberta},
+  title = {X-Ray Magnetic Circular Dichroism Picks out Single-Molecule Magnets
+	Suitable for Nanodevices},
+  journal = {Adv. Mater.},
+  year = {2009},
+  volume = {21},
+  pages = {167--171},
+  number = {2},
+  issn = {1521-4095},
+  keywords = {magnetic materials, molecular electronics, single-molecule magnets,
+	thin films, X-ray absorption},
+  owner = {hukadan},
+  publisher = {WILEY-VCH Verlag},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1002/adma.200801883}
+}
+
+@ARTICLE{Mannini2008,
+  author = {Mannini, Matteo and Sainctavit, Philippe and Sessoli, Roberta and
+	Cartier dit Moulin, Christophe and Pineider, Francesco and Arrio,
+	Marie-Anne and Cornia, Andrea and Gatteschi, Dante},
+  title = {Cover Picture: {XAS} and {XMCD }Investigation of {M}n12 Monolayers
+	on Gold (Chem. Eur. J. 25/2008)},
+  journal = {Chem. Eur. J.},
+  year = {2008},
+  volume = {14},
+  pages = {7387--7387},
+  number = {25},
+  issn = {1521-3765},
+  keywords = {magnetic properties, manganese, monolayers, X-ray diffraction, X-ray
+	magnetic circular dichroism},
+  owner = {hukadan},
+  publisher = {WILEY-VCH Verlag},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1002/chem.200890097}
+}
+
+@ARTICLE{Park1999,
+  author = {Park, Hongkun and Lim, Andrew K. L. and Alivisatos, A. Paul and Park,
+	Jiwoong and McEuen, Paul L.},
+  title = {Fabrication of metallic electrodes with nanometer separation by electromigration},
+  journal = {Appl. Phys. Lett.},
+  year = {1999},
+  volume = {75},
+  pages = {301--303},
+  number = {2},
+  month = jul,
+  keywords = {GOLD, ELECTRODES, FABRICATION, ELECTRIC CURRENTS, EVAPORATION, WIRES,
+	TRANSISTORS, electromigration, electron beam lithography, vacuum
+	deposition},
+  owner = {hukadan},
+  publisher = {AIP},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1063/1.124354}
+}
+
+@ARTICLE{Park2000,
+  author = {Park, Hongkun and Park, Jiwoong and Lim, Andrew K. L. and Anderson,
+	Erik H. and Alivisatos, A. Paul and McEuen, Paul L.},
+  title = {Nanomechanical oscillations in a single-{C}$_{60}$ transistor},
+  journal = {Nature},
+  year = {2000},
+  volume = {407},
+  pages = {57--60},
+  number = {6800},
+  month = sep,
+  comment = {10.1038/35024031},
+  issn = {0028-0836},
+  owner = {hukadan},
+  publisher = {Macmillian Magazines Ltd.},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1038/35024031}
+}
+
+@ARTICLE{Reed1997,
+  author = {Reed, M. A. and Zhou, C. and Muller, C. J. and Burgin, T. P. and
+	Tour, J. M.},
+  title = {Conductance of a Molecular Junction},
+  journal = {Science},
+  year = {1997},
+  volume = {278},
+  pages = {252--254},
+  number = {5336},
+  month = oct,
+  comment = {10.1126/science.278.5336.252},
+  owner = {hukadan},
+  timestamp = {2012.08.26},
+  url = {http://www.sciencemag.org/content/278/5336/252.abstract N2 - Molecules of benzene-1,4-dithiol were self-assembled onto the two facing gold electrodes of a mechanically controllable break junction to form a statically stable gold-sulfur-aryl-sulfur-gold system, allowing for direct observation of charge transport through the molecules. Current-voltage measurements at room temperature demonstrated a highly reproducible apparent gap at about 0.7 volt, and the conductance-voltage curve showed two steps in both bias directions. This study provides a quantative measure of the conductance of a junction containing a single molecule, which is a fundamental step in the emerging area of molecular-scale electronics.}
+}
+
+@ARTICLE{Roch2008,
+  author = {Roch, Nicolas and Florens, Serge and Bouchiat, Vincent and Wernsdorfer,
+	Wolfgang and Balestro, Franck},
+  title = {Quantum phase transition in a single-molecule quantum dot},
+  journal = {Nature},
+  year = {2008},
+  volume = {453},
+  pages = {633--637},
+  number = {7195},
+  month = may,
+  comment = {10.1038/nature06930},
+  issn = {0028-0836},
+  owner = {hukadan},
+  publisher = {Nature Publishing Group},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1038/nature06930}
+}
+
+@ARTICLE{Roch2009,
+  author = {Roch, Nicolas and Florens, Serge and Costi, Theo A. and Wernsdorfer,
+	Wolfgang and Balestro, Franck},
+  title = {Observation of the Underscreened Kondo Effect in a Molecular Transistor},
+  journal = {Phys. Rev. Lett.},
+  year = {2009},
+  volume = {103},
+  pages = {197202--},
+  number = {19},
+  month = nov,
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevLett.103.197202},
+  timestamp = {2012.08.26},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.103.197202}
+}
+
+@ARTICLE{Roch2011,
+  author = {Roch, Nicolas and Vincent, Romain and Elste, Florian and Harneit,
+	Wolfgang and Wernsdorfer, Wolfgang and Timm, Carsten and Balestro,
+	Franck},
+  title = {Cotunneling through a magnetic single-molecule transistor based on
+	{N}@{C}$_{60}$},
+  journal = {Phys. Rev. B},
+  year = {2011},
+  volume = {83},
+  pages = {081407--},
+  number = {8},
+  month = feb,
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevB.83.081407},
+  timestamp = {2012.08.26},
+  url = {http://link.aps.org/doi/10.1103/PhysRevB.83.081407}
+}
+
+@ARTICLE{Sekitani2010,
+  author = {Sekitani, Tsuyoshi and Zschieschang, Ute and Klauk, Hagen and Someya,
+	Takao},
+  title = {Flexible organic transistors and circuits with extreme bending stability},
+  journal = {Nat Mater},
+  year = {2010},
+  volume = {9},
+  pages = {1015--1022},
+  number = {12},
+  month = dec,
+  comment = {10.1038/nmat2896},
+  issn = {1476-1122},
+  owner = {hukadan},
+  publisher = {Nature Publishing Group},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1038/nmat2896}
+}
+
+@ARTICLE{Thomas1996,
+  author = {Thomas, L. and Lionti, F. and Ballou, R. and Gatteschi, D. and Sessoli,
+	R. and Barbara, B.},
+  title = {Macroscopic quantum tunnelling of magnetization in a single crystal
+	of nanomagnets},
+  journal = {Nature},
+  year = {1996},
+  volume = {383},
+  pages = {145--147},
+  number = {6596},
+  month = sep,
+  comment = {10.1038/383145a0},
+  owner = {hukadan},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1038/383145a0}
+}
+
+@ARTICLE{Tsumura1986,
+  author = {Tsumura, A. and Koezuka, H. and Ando, T.},
+  title = {Macromolecular electronic device: Field-effect transistor with a
+	polythiophene thin film},
+  journal = {Appl. Phys. Lett.},
+  year = {1986},
+  volume = {49},
+  pages = {1210--1212},
+  number = {18},
+  month = nov,
+  keywords = {FIELD EFFECT TRANSISTORS, FABRICATION, PERFORMANCE, ELECTRICAL PROPERTIES,
+	POLYMERS, THIOPHENE, CRYSTAL DOPING, CARRIER MOBILITY, OPTIMIZATION},
+  owner = {hukadan},
+  publisher = {AIP},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1063/1.97417}
+}
+
+@ARTICLE{Tu1992,
+  author = {Tu, K. N.},
+  title = {Electromigration in stressed thin films},
+  journal = {Phys. Rev. B},
+  year = {1992},
+  volume = {45},
+  pages = {1409--1413},
+  number = {3},
+  month = jan,
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevB.45.1409},
+  timestamp = {2012.08.26},
+  url = {http://link.aps.org/doi/10.1103/PhysRevB.45.1409}
+}
+
+@ARTICLE{Urdampilleta2011,
+  author = {Urdampilleta, M. and Klyatskaya, S. and Cleuziou, J-P. and Ruben,
+	M. and Wernsdorfer, W.},
+  title = {Supramolecular spin valves},
+  journal = {Nat Mater},
+  year = {2011},
+  volume = {10},
+  pages = {502--506},
+  number = {7},
+  month = jul,
+  comment = {10.1038/nmat3050},
+  issn = {1476-1122},
+  owner = {hukadan},
+  publisher = {Nature Publishing Group},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1038/nmat3050}
+}
+
+@ARTICLE{Wernsdorfer1999,
+  author = {Wernsdorfer, W.},
+  title = {Quantum Phase Interference and Parity Effects in Magnetic Molecular
+	Clusters},
+  journal = {Science},
+  year = {1999},
+  volume = {284},
+  pages = {133--135},
+  number = {5411},
+  month = apr,
+  owner = {hukadan},
+  timestamp = {2012.08.23},
+  url = {http://www.sciencemag.org/cgi/doi/10.1126/science.284.5411.133}
+}
+
+@ARTICLE{Zhou1995,
+  author = {Zhou, C. and Muller, C. J. and Deshpande, M. R. and Sleight, J. W.
+	and Reed, M. A.},
+  title = {Microfabrication of a mechanically controllable break junction in
+	silicon},
+  journal = {Appl. Phys. Lett.},
+  year = {1995},
+  volume = {67},
+  pages = {1160--1162},
+  number = {8},
+  month = aug,
+  keywords = {TUNNELING, DISPLACEMENTS, TRANSDUCERS, NANOSTRUCTURES, STABILITY,
+	STM},
+  owner = {hukadan},
+  publisher = {AIP},
+  timestamp = {2012.08.26},
+  url = {http://dx.doi.org/10.1063/1.114994}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+
+@comment{jabref-meta: groupsversion:3;}
+
+@comment{jabref-meta: groupstree:
+0 AllEntriesGroup:;
+1 ExplicitGroup:Chapitre Spintronique\;0\;Awschalom2007\;Baibich1988\;
+Bogani2008\;Dadosh2005\;Datta1990\;Friedman1996\;Gatteschi2006\;Gruenb
+erg1986\;Heersche2006\;Ho1989\;Horowitz1990\;Huang2007\;Ishikawa2005\;
+Jo2006\;Joachim1995\;Johnson1996\;Klauk2007\;Lin1997\;Mannini2008\;Man
+nini2009\;Mannini2010\;Park2000\;Reed1997\;Sekitani2010\;Thomas1996\;T
+sumura1986\;Tu1992\;Wernsdorfer1999\;Zhou1995\;;
+}
+
