@@ -35,6 +35,24 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.61.2472}
 }
 
+@ARTICLE{Beenakker1991,
+  author = {Beenakker, C. W. J.},
+  title = {Theory of Coulomb-blockade oscillations in the conductance of a quantum
+	dot},
+  journal = {Phys. Rev. B},
+  year = {1991},
+  volume = {44},
+  pages = {1646--1656},
+  number = {4},
+  month = jul,
+  __markedentry = {[hukadan:6]},
+  owner = {hukadan},
+  publisher = {American Physical Society},
+  refid = {10.1103/PhysRevB.44.1646},
+  timestamp = {2012.09.01},
+  url = {http://link.aps.org/doi/10.1103/PhysRevB.44.1646}
+}
+
 @ARTICLE{Biercuk2003,
   author = {Biercuk, M. J. and Monsma, D. J. and Marcus, C. M. and Becker, J.
 	S. and Gordon, R. G.},
@@ -202,7 +220,6 @@
   pages = {263101--3},
   number = {26},
   month = dec,
-  __markedentry = {[hukadan:6]},
   keywords = {electromigration, gold, nanowires, circuit feedback, electric resistance},
   owner = {hukadan},
   publisher = {AIP},
@@ -713,6 +730,23 @@
   url = {http://dx.doi.org/10.1002/chem.200890097}
 }
 
+@ARTICLE{ONeill2007,
+  author = {O'Neill, K. and Osorio, E. A. and van der Zant, H. S. J.},
+  title = {Self-breaking in planar few-atom Au constrictions for nanometer-spaced
+	electrodes},
+  journal = {Appl. Phys. Lett.},
+  year = {2007},
+  volume = {90},
+  pages = {133109--3},
+  number = {13},
+  month = mar,
+  keywords = {gold, metal clusters, electromigration, electric admittance, electrodes},
+  owner = {hukadan},
+  publisher = {AIP},
+  timestamp = {2012.09.01},
+  url = {http://dx.doi.org/10.1063/1.2716989}
+}
+
 @ARTICLE{Park1999,
   author = {Park, Hongkun and Lim, Andrew K. L. and Alivisatos, A. Paul and Park,
 	Jiwoong and McEuen, Paul L.},
@@ -849,13 +883,32 @@
   pages = {043109--3},
   number = {4},
   month = jan,
-  __markedentry = {[hukadan:]},
   keywords = {gold, nanostructured materials, microelectrodes, nanolithography,
 	electromigration, tunnelling, molecular electronics, electric resistance},
   owner = {hukadan},
   publisher = {AIP},
   timestamp = {2012.09.01},
   url = {http://dx.doi.org/10.1063/1.1857095}
+}
+
+@ARTICLE{Taychatanapat2007,
+  author = {Taychatanapat, Thiti and Bolotin, Kirill I. and Kuemmeth, Ferdinand
+	and Ralph, Daniel C.},
+  title = {Imaging Electromigration during the Formation of Break Junctions},
+  journal = {Nano Lett.},
+  year = {2007},
+  volume = {7},
+  pages = {652--656},
+  number = {3},
+  month = feb,
+  __markedentry = {[hukadan:]},
+  booktitle = {Nano Letters},
+  comment = {doi: 10.1021/nl062631i},
+  issn = {1530-6984},
+  owner = {hukadan},
+  publisher = {American Chemical Society},
+  timestamp = {2012.09.01},
+  url = {http://dx.doi.org/10.1021/nl062631i}
 }
 
 @ARTICLE{Thomas1996,
@@ -873,6 +926,22 @@
   owner = {hukadan},
   timestamp = {2012.08.26},
   url = {http://dx.doi.org/10.1038/383145a0}
+}
+
+@OTHER{Trouwborst2006,
+  author = {Trouwborst, M. L. and van der Molen, S. J. and van Wees, B. J.},
+  booktitle = {Journal of Applied Physics},
+  issn = {0021-8979},
+  journal = {Journal of Applied Physics},
+  keywords = {electric admittance, electric resistance, electromigration, gold,
+	heating, melting, molecular electronics, nanoelectronics, wires},
+  number = {11},
+  owner = {hukadan},
+  pages = {114316--114316-7},
+  timestamp = {2012.09.01},
+  title = {The role of Joule heating in the formation of nanogaps by electromigration},
+  volume = {99},
+  year = {2006}
 }
 
 @ARTICLE{Tsumura1986,
@@ -1011,9 +1080,10 @@ im1995\;Johnson1996\;Klauk2007\;Lin1997\;Mannini2008\;Mannini2009\;Man
 nini2010\;Park1999\;Park2000\;Reed1997\;Roch2008\;Roch2009\;Roch2011\;
 Sekitani2010\;Thomas1996\;Tsumura1986\;Tu1992\;Urdampilleta2011\;Werns
 dorfer1999\;Zhou1995\;;
-1 ExplicitGroup:Fabrication\;0\;Biercuk2003\;Black1969\;Blech1967\;Dat
-ta2009\;Esen2005\;Fasth2005\;Gerardin1861\;Girod2012\;Ho1989\;Javey200
-2\;Leskelae2003\;Leturcq2009\;Mangin2009\;Park1999\;Park2000\;Strachan
-2005\;Zant2006\;;
+1 ExplicitGroup:Fabrication\;0\;Beenakker1991\;Biercuk2003\;Black1969\
+;Blech1967\;Datta2009\;Esen2005\;Fasth2005\;Gerardin1861\;Girod2012\;H
+o1989\;Javey2002\;Leskelae2003\;Leturcq2009\;Mangin2009\;ONeill2007\;P
+ark1999\;Park2000\;Strachan2005\;Taychatanapat2007\;Trouwborst2006\;Za
+nt2006\;;
 }
 

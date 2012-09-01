@@ -273,30 +273,65 @@ On peut classer les techniques d'électromigrations en trois grande catégorie :
 \subsubsection{A rampe unique}
 C'est la première technique qui a été mise en oeuvre dans le domaine de l'électronique moléculaire par Park \textit{et al.}~\cite{Park1999}. Elle consiste en l'application d'une rampe de tension croissante sur une fin fil de métal. La simplicité de la méthode est séduisante mais mal contrôlé, elle peut conduire à une destruction de la jonction, notamment dû au chauffage induit par effet Joule.
 
+\begin{figure}
+\parbox{7cm}{
+\includegraphics[scale=0.45]{Fabrication/ElecMigExemp/ParkFig.pdf} 
+}
+\parbox{5cm}{\caption{Evolution de la conductance d'un nanofil au court du temps lors d'une procédure d'électromigration. Extrait de~\cite{Park1999}.}
+\label{ParkExemp}
+}
+\end{figure}
+
+
+
 \subsubsection{A contre-réaction}
 Cette méthode à été développé par Strachan \textit{et al.} en 2005~\cite{Strachan2005}. Elle a pour but de réduire le chauffage de la jonction par effet Joule~\cite{Esen2005} en introduisant une boucle de contre-réaction asservie sur la résistance de la jonction. Si celle-ci dépasse une valeur critique fixée à l'avance, la tension est diminué puis augmente à nouveau depuis une valeur plus basse. Ceci à pour effet de diminuer la puissance dissipé par la jonction lors de l'électromigration (voir figure). Le principal inconvénient de cette technique est son temps de mise en œuvre : la formation d'un seul gap peu prendre quelques heures.
+
+
+\begin{figure}
+\parbox{7cm}{
+\includegraphics[scale=0.45]{Fabrication/ElecMigExemp/EseFig.pdf} 
+}
+\parbox{5cm}{\caption{Evolution de la puissance dissipée en fonction de la tension appliquée lors d'une procédure d'électromigration à contre-réaction. En encart, caractéristique courant-tension lors de cette m\^eme procédure. Extrait de~\cite{Esen2005}.}
+\label{ParkExemp}
+}
+\end{figure}
+
 
 \subsubsection{A cassure spontanée}
 Cette dernière méthode a été mise au point dans le groupe de H.S.J. van der Zant en 2007~\cite{ONeill2007}. Une première étape d'électromigration contrôlée est d'abord réalisé à l'aide d'une méthode à contre-réaction. Lorsque la conductance du nanofil atteind une valeur de quelques kilo-Ohm. On laisse ensuité évoluer la jonction qui, du fait de l'instabilité de la nanoconstriction, va se rompre naturellement. On obtient ainsi un gap de quelques nanomètres. La durée d'une telle procédure varie d'un échantillon à l'autres : de quelques minutes à plusieurs heures.
 
+\begin{figure}[h!]
+\parbox{7cm}{
+\includegraphics[scale=0.45]{Fabrication/ElecMigExemp/ZantFig.pdf} 
+}
+\parbox{5cm}{\caption{Evolution de la conductance de deux nanofils au court du temps lors d'une procédure d'électromigration à cassure spontanée. Extrait de~\cite{ONeill2007}.}
+\label{ParkExemp}
+}
+\end{figure}
+
+
+
 \subsection{Notre technique}
-Notre technique de fabrication a été développé à partir des travaux de Park \textit{et al.} puis améliorer en s'inspirant de travaux ultérieurs.
+Notre technique de fabrication a été développé à partir des travaux de Park \textit{et al.}~\cite{Park1999} puis améliorer en s'inspirant de travaux ultérieurs.
 
-Afin d'augmenter de rendement de la méthode et la qualité des interstice obtenues, il a fallu apporter quelques modifications. Tout d’abord, la résitance en série avec la jonction à été diminué au maximum. Cela permet de limiter la puissance dissipé au niveau de la jonction et donc de mieux contrôler l'électromigration.
+Afin d'augmenter le rendement de la méthode et la qualité des interstices obtenus, il a fallu apporter quelques modifications. Tout d’abord, la résistance en série avec la jonction à été diminuée au maximum~\cite{Zant2006,Trouwborst2006,Taychatanapat2007}. Cela permet de limiter la puissance dissipée au niveau de la jonction et donc de mieux contrôler l'électromigration.
 
-L'échelle de temps de l'électromigration est du domaine de la centain de $\mu s$. Afin de pouvoir contrôler parfaitement le déroulement du phénomène, il faut être capable d'agir sur ce dernier en un temps de l'ordre de la dizaine de $\mu s$. Ceci n'est possible que si la procédure d'électromigration se fait à l'aide d'une électronique en temps réel. Nous avons pour cela utilisé un ADWin contrôlé par un programme développé au sein du groupe. Grâce à ce dispositif, l'électromigration peut être détecté et la tension au borne de la jonction ramené à zéro dans un intervalle de $10\, \mu s$.
+L'échelle de temps de l'électromigration est du domaine de la centaine de $\mu s$~\cite{ONeill2007}. Afin de pouvoir contrôler parfaitement le déroulement du phénomène, il faut être capable d'agir sur ce dernier en un laps de temps du même ordre. Ceci n'est possible que si la procédure d'électromigration se fait à l'aide d'une électronique en temps réel. Nous avons pour cela utilisé un ADWin contrôlé par le programme NanoQT, développé au sein du groupe. Grâce à ce dispositif, l'électromigration peut être détectée et la tension au borne de la jonction ramenée à zéro dans un intervalle de $10\, \mu s$.
 
-De plus, l'étape d'électromigration se fait à $4\,K$ et sous atmosphère hélium ce qui prévient la contamination de l'interstice au cours mais surtout après la procédure. De plus, nous pouvons analyser le dispositif directement après la procédure.
+De plus, l'étape d'électromigration se fait à $4\,K$ et sous atmosphère hélium ce qui prévient la contamination de l'interstice. De plus, nous pouvons analyser le dispositif directement après la procédure.
 
 
 \section{Fabrication d'un transistor à molécule unique}
-Pour obtenir un transistor moléculaire, il faut procéder selon trois étape. La première consiste en la réalisation d'un nanofil reposant sur une grille. On dépose ensuite les molécules sur la puce avant de la micro-soudé et de la disposé dans un frigo à dilution. Enfin, on procède à l'électromigration. Dans la partie précédente, nous avons aborder l'étape un et trois. Nous allons maintenant voir comment on dépose les molécules ainsi que la technique de caractérisation électrique des interstices.
+Pour obtenir un transistor moléculaire, il faut procéder selon trois étapes. La première consiste en la réalisation d'un nanofil reposant sur une grille. On dépose ensuite les molécules sur la puce avant de la micro-souder et de la disposer dans un frigo à dilution. Enfin, on procède à l'électromigration. Dans la partie précédente, nous avons abordé l'étape un et trois. Nous allons maintenant voir comment on dépose les molécules ainsi que la technique de caractérisation électrique des interstices.
 
 \subsection{Dép\^ot des molécules}
 Les cristaux de TbPc$_{2}$ sont dissous dans du dichlorométhane à la concentration 10$^{-6}mol.L^{-1}$. Une goute de la solution obtenue est ensuite déposé sur l'échantillon e t séché par un flux d'azote. L'échantillon obtenu est ensuite microsoudé sur l'échantillon, disposé dans un frigo à dilution et électromigré à basse température. Les jonctions obtenues (jusqu'à 12 par échantillons) sont ensuite analysé en transport.
 
 \subsection{Les trois régimes de transport}
-%\subsubsection{Couplage faible}
+La première analyse généralement effectué consiste à mesurer la conductance du système en fonction de la tension de grille, pour une tension source-drain nulle. La présence d'un objet nanométrique fait apparaitre dans ce genre de mesures un ou plusieurs pics que l'on nomme pic de Coulomb~(cf annexe sur le transport mésoscopique)~\cite{Beenakker1991,Wiel2002,Hanson2007}. Si cette première analyse se révèle concluante, on procède a une étude plus fine à l'aide d'un diagramme de Coulomb dans lequel on trace la conductance différentielle en fonction de la tension de grille $V_{\rm{g}}$ et la tension source-drain $V_{\rm{ds}}$. On peut alors identifié trois régimes en fonction du coulage électronique entre l'objet situé dans l'interstice et les électrodes.
+\subsubsection{Couplage faible}
+Dans ce régime, le couplage aux électrodes est faible et la conductance mesuré est largement inférieur au quantum de conductance $G_0$~($\sim 72\,mS$). Cela se traduit par la présence de diamant de Coulomb au bord très bien défini comme le montre la Fig??. Ce faible couplage ne perturbe que légèrement les niveaux de l'îlot. Il conserver donc leur élargissement intrinsèque, d'où la finesse des bords de diamant. Dans cette configuration, seul le tunneling séquentiel est responsable du courant circulant à travers le système. Si l'on désire explorer les propriété intrinsèque de l'îlot, le couplage faible est le régime idéal.
 %\subsubsection{Couplage intermédiaire}
 %\subsubsection{Couplage fort}
 %\subsubsection{Présence de billes d'or}

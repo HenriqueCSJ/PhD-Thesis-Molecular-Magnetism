@@ -2,46 +2,48 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: citations.bib
+Warning--entry type for "Trouwborst2006" isn't style-file defined
+--line 947 of file citations.bib
 Warning--empty title in Gerardin1861
-You've used 17 entries,
+You've used 23 entries,
             1791 wiz_defined-function locations,
-            584 strings with 7078 characters,
-and the built_in function-call counts, 4558 in all, are:
-= -- 390
-> -- 262
+            622 strings with 8145 characters,
+and the built_in function-call counts, 6047 in all, are:
+= -- 520
+> -- 339
 < -- 0
-+ -- 94
-- -- 77
-* -- 428
-:= -- 759
-add.period$ -- 50
-call.type$ -- 17
-change.case$ -- 15
++ -- 122
+- -- 99
+* -- 563
+:= -- 996
+add.period$ -- 67
+call.type$ -- 23
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 151
-empty$ -- 396
-format.name$ -- 77
-if$ -- 940
+cite$ -- 24
+duplicate$ -- 201
+empty$ -- 536
+format.name$ -- 99
+if$ -- 1254
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 16
-newline$ -- 87
-num.names$ -- 17
-pop$ -- 19
+int.to.str$ -- 23
+missing$ -- 21
+newline$ -- 116
+num.names$ -- 23
+pop$ -- 31
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 53
+skip$ -- 72
 stack$ -- 0
-substring$ -- 402
-swap$ -- 17
+substring$ -- 533
+swap$ -- 23
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 48
-width$ -- 19
-write$ -- 187
-(There was 1 warning)
+while$ -- 64
+width$ -- 25
+write$ -- 250
+(There were 2 warnings)
