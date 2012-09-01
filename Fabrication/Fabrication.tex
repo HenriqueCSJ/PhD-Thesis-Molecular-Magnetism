@@ -1,9 +1,18 @@
 \chapter{Fabrication d'un transistor moléculaire}
 
 \section{Lithographie optique}
-La lithographie se déroule en deux étapes et vise à produire les éléments de grande taille telle les plots de connexion et les lignes d'amené, ainsi que la grille. Pour ces deux premières étape, une méthode bi-couche à base de LOR3A et de UV3 a été mise au point. Elle a l'avantage de prévenir la formation de bord lors de l'étape de lift-off~(cf Fig.\ref{lift-off}) qui pourrait entraîner une perte de contact entre la grille et le plot correspondant lors du passage de marche.
 
-La première étape de lithographie vise tout d'abord à fabriquer les plots d'or nécessaire à la micro-soudure de notre échantillon ainsi que les lignes d'amené de courant~(cf partie orange de la Fig.\ref{LithoOptique}). La recette du Tab.\ref{tab_recette}  est utilisée pour obtenir un dép\^ot de 100$\,nm$ d'or avec une couche d'accroche en titane. Cette première étape nous permet également d'obtenir les marques d'alignements pour la fabrication de la grille. Une première série de marque (cf carré bleu de la Fig.\ref{LithoOptique}) permet d'effectuer un alignement grossier. Ce dernier est ensuite affiné à l'aide d'un seconde série de marques~(cf carré vert de la Fig.\ref{LithoOptique}).
+
+\begin{figure}
+\centering \includegraphics[scale=0.45]{Fabrication/BatmanGrille/BatmanGrille.pdf}
+\caption{\textbf{a} : image AFM présentant des bords trop relevé d\^u à un problème de lift-off. \textbf{b} : image AFM montrant une grille n'ayant pas eu de problème de lift-off (extrait de la thèse de Nico).}
+\label{lift-off}
+\end{figure}
+
+
+La lithographie optique se déroule en deux étapes et vise à produire les éléments de grande taille tels que les plots de connexion et les lignes d'amené, ainsi que la grille. Pour ces deux premières étapes, une méthode bi-couches à base de LOR3A et de UV3 a été mise au point. Elle a l'avantage de prévenir la formation de bords lors de l'étape de lift-off~(cf Fig.\ref{lift-off}) qui pourraient entraîner une perte de contact entre la grille et le plot correspondant lors du passage de marche.
+
+
 
 
 \begin{figure}
@@ -15,7 +24,16 @@ La première étape de lithographie vise tout d'abord à fabriquer les plots d'o
 }
 \end{figure}
 
-La seconde étape permet d'obtenir la grille locale de notre dispositif. La méthode présentée dans le Tab.\ref{tab_recette} est également utilisé avec pour seule différence l'épaisseur d'or déposée : $20\,nm$. Le résultat final est présenté dans la Fig.\ref{LithoOptique} où la partie orange désigne les lignes d'amené de courant et la partie grise la grille locale. La partie centrale, encore vide, va venir accueillir les nanofils d'or comme nous allons le voir dans la suite.
+La première étape permet d'obtenir la grille locale de notre dispositif. La méthode présentée dans le Tab.\ref{tab_recette} est utilisée, avec pour seule différence, l'épaisseur d'or déposée : $20\,nm$. 
+Cette première étape nous permet également d'obtenir les marques d'alignement pour la fabrication des lignes d'amené. Une première série de marques (cf carré bleu de la Fig.\ref{LithoOptique}) permet d'effectuer un alignement grossier. Ce dernier est ensuite affiné à l'aide d'une seconde série de marques~(cf carré vert de la Fig.\ref{LithoOptique}). Cette première étape est suivie du dépôt d'oxyde par une méthode de dépôt par couche atomique ou ALD~(Atomic Layer Déposition) que nous détaillerons plus loin.
+
+
+
+La seconde étape de lithographie vise à fabriquer les plots d'or nécessaires à la micro-soudure de notre échantillon, ainsi que les lignes d'amené de courant~(cf partie orange de la Fig.\ref{LithoOptique}). La recette du Tab.\ref{tab_recette}  est utilisée pour obtenir un dép\^ot de 100$\,nm$ d'or avec une couche d'accroche en titane. 
+
+
+Le résultat final est présenté dans la Fig.\ref{LithoOptique} où la partie orange désigne les lignes d'amené de courant et la partie grise la grille locale. La partie centrale va venir accueillir les nanofils d'or comme nous allons le voir dans la suite.
+
 
 
 \begin{table}
@@ -68,41 +86,40 @@ La seconde étape permet d'obtenir la grille locale de notre dispositif. La mét
 
 
 \section{Réalisation d'une grille locale}
-La grille est un élément essentiel du transistor et c'est également vrai d'un transistor moléculaire. Dans ce dernier cas, elle permet notamment de moduler le potentiel chimique de la molécule allant jusqu'à modifier son état de charge~(cf annexe sur le transport mésoscopique). Elle permet également de contrôler la conductance du système~(avec le concours de la tension source-drain) ce qui permet de choisir des points de fonctionnement adaptés, comme nous le verrons dans la partie résultat. 
+La grille est un élément essentiel du transistor et c'est également vrai d'un transistor moléculaire~\cite{Datta2009,Zant2006}. Dans ce dernier cas, elle permet notamment de moduler le potentiel chimique de la molécule allant jusqu'à modifier son état de charge~(cf annexe sur le transport mésoscopique). Elle permet également de contrôler la conductance du système~(avec le concours de la tension source-drain), ce qui permet de choisir des points de fonctionnement adaptés. Nous détaillerons ce dernier point dans le chapitre résultat. 
 
-L'efficacité intrinsèque d'une grille peut être résumé en un critère : la charge induite. Celle-ci s'exprime simplement par $Q = CV_g^{max}$ où $Q$ est le charge induite et $C$ est la capacité associée à la grille, $V_g^{max}$ étant la tension maximale applicable à la grille. Un dernier élément importe également : la proximité de la grille avec la molécule composant le transistor. Plus celle-ci est proche, plus son efficacité est maximisée. Nous allons voir ceci à travers quelques exemples de grille mise en oeuvre dans différentes expériences. Puis nous présenterons notre technique de fabrication en introduisant notamment le dêpot par couche atomique~(ALD - Atomic Layer Deposition).
+L'efficacité intrinsèque d'une grille peut être résumé en un critère : la charge induite. Celle-ci s'exprime simplement par $Q = CV_g^{max}$ où $Q$ est le charge induite et $C$ est la capacité associée à la grille, $V_g^{max}$ étant la tension maximale applicable à la grille. La charge induite dépend essentiellement de trois paramètres physiques : le champ électrique maximum applicable, l'épaisseur et la permittivité de l'oxyde ~\cite{Biercuk2003}. 
+
+Outre ces paramètres, il existe plusieurs géométries de grille susceptibles d'avoir une influence sur l’efficacité de cette dernière.
 
 \subsection{Quelques exemples}
-Si l'on exclue les grilles non-locales, on peut identifier trois géométries possibles : la grille au-dessus ou  ``\textit{top-gate}'', la grille latérale et la grille arrière ou  ``\textit{back-gate}''.
+On peut identifier trois géométries possibles : la grille au-dessus ou  ``\textit{top-gate}'', la grille latérale et la grille arrière ou  ``\textit{back-gate}''.
 
 \subsubsection{La ``\textit{top-gate"}}
-Cette configuration est celle utilisé dans l'industrie en ce qui concerne les transistors à effet de champ conventionnels. On la retrouve également dans les dispositifs expérimentaux faisant appel à des nanofils ou bien encore à des nanotubes. Elle a également pu être implémenté dans le cas de nanotubes suspendus donnant des résultats plus que convaincant.
+Cette configuration est celle utilisée dans l'industrie en ce qui concerne les transistors à effet de champ conventionnels. On la retrouve également dans les dispositifs expérimentaux faisant appel à des nanofils~\cite{Fasth2005} ou bien encore à des nanotubes~\cite{Javey2002}. Elle a également pu être implémentée dans le cas de nanotubes suspendus donnant des résultats plus que convaincant~\cite{Leturcq2009}.
 
-Cette configuration est cependant difficilement compatible avec l'électromigration. En effet, dans ce cas, le gap formant la source et le drain se fait après les étapes de lithographie. Ceci serait impossible si le fil d'or était recouvert par une grille avant électromigration.
+Cette configuration est cependant difficilement compatible avec l'électromigration. En effet, dans ce cas, le gap formant la source et le drain se fait après les étapes de lithographie, ce qui serait impossible si le fil d'or était recouvert par une grille avant électromigration.
 
 \subsubsection{La grille latérale}
-Cette configuration consiste à placer la grille latéralement vis à vis du gap obtenu par électromigration. De plus, accompagné d'une ``Back-Gate", elle permet d'avoir un moyen supplémentaire de faire varier le potentiel chimique de la molécule située dans la gap. Il est en revanche très difficile de contr\^oler précisement la position de cette grille et elle se trouve donc souvent situé à plusieurs dizaine de nanomètre du gap. De plus, le r\^ole de l'oxyde est dans ce cas joué par l'air qui possède une permittivité de l'ordre de l'unité. Ceci a pour conséquence de diminuer fortement le couplage de la grille.
+Cette configuration consiste à placer la grille latéralement vis à vis du gap obtenu par électromigration~\cite{Mangin2009}. De plus, accompagné d'une ``Back-Gate", elle permet d'avoir un moyen supplémentaire de faire varier le potentiel chimique de la molécule située dans la gap. Il est en revanche très difficile de contr\^oler précisement la position de cette grille et elle se trouve donc souvent situé à plusieurs dizaine de nanomètre du gap. De plus, le r\^ole de l'oxyde est dans ce cas joué par l'air qui possède une permittivité de l'ordre de l'unité. Ceci a pour conséquence de diminuer fortement le couplage de la grille.
 
 
 \subsubsection{La grille arrière}
-Dans cette configuration, la grille se situe sous le dispositif. C'est cette configuration qui a été choisie lors de la fabrication du premier transistor à molécule unique. Elle est bien s\^ur compatible avec l'électromigration et c'est d'ailleurs cette configuration que nous avons également choisi d'adopter. La fabrication de cette dernière est grandement facilité par l'utilisation de la technique ALD que nous allons présenter dans la suite.
-
-\begin{figure}
-\centering \includegraphics[scale=0.45]{Fabrication/BatmanGrille/BatmanGrille.pdf}
-\caption{\textbf{a} : image AFM présentant des bords trop relevé d\^u à un problème de lift-off. \textbf{b} : image AFM montrant une grille n'ayant pas eu de problème de lift-off (extrait de la thèse de Nico).}
-\label{lift-off}
-\end{figure}
-
+Dans cette configuration, la grille se situe sous le dispositif. C'est cette configuration qui a été choisie lors de la fabrication du premier transistor à molécule unique~\cite{Park2000}. Elle est bien s\^ur compatible avec l'électromigration et c'est d'ailleurs cette configuration que nous avons également choisi d'adopter, optant pour une grille locale. La fabrication de cette dernière est grandement facilité par l'utilisation de la technique ALD que nous allons présenter dans la suite.
 
 
 \subsection{Le choix de l'oxyde}
-Dans la section précédente, nous avons aborder les différentes géométrie possible ainsi que les avantages et les inconvénients de chacune d'elles. L'aspect géométrique n'est pas le seul paramètre impliqué dans l’efficacité de la grille. Le choix de l'oxyde est également très important et pour que le couplage soit maximum, la permittivité de ce dernier doit être la plus élevée possible.
+Comme nous l'avons déjà précisé en introduction, le choix de l'oxyde est très important et, en particulier, la permittivité de ce dernier doit être la plus élevée possible.
 
-Parmis les oxydes à haute permittivité, l'alumine~($\kappa=8$) et l'hafnia~($\kappa=25$) sont parmis les plus utilisés. De manière générale, le premier est obtenue par dépôt d'une électrode d'aluminium, puis exposition à une atmosphère riche en oxygène. C'est d'ailleurs cette technique qui était en usage lorsque je suis arrivé en thèse. Bien que facile à mettre en œuvre, il est difficile de connaître avec exactitude l'épaisseur d'oxyde. De plus, nous avons observé une grande variabilité dans la qualité des grilles obtenue par ce procédé. Nous avons donc développer un nouveau procédé en utilisant une méthode de déposition par couche atomique~(ALD), nous permettant d'obtenir une grille avec un hafnia de $8\,nm$ environs.
+Parmi les oxydes à haute permittivité, les plus couramment utilisés sont l'alumine~($\kappa \sim 8$), l'hafnia~($\kappa \sim 17$) et l'oxyde de zirconium~($\kappa \sim 26$)~\cite{Biercuk2003}. De manière générale, le premier est obtenue par dépôt d'une électrode d'aluminium, puis exposition à une atmosphère riche en oxygène ou bien par ALD. Lorsque je suis arrivé en thèse, la technique par oxydation naturelle était celle en usage. Bien que relativement facile à mettre en œuvre, il est difficile de connaître avec exactitude l'épaisseur d'oxyde. De plus, nous avons observé une grande variabilité dans la qualité des grilles obtenue par ce procédé.
+
+Parmi les trois oxydes précédemment cité, nous avons choisi l'oxyde d'hafnium. Celui si à l'avantage d'être fortement documenté et présente des performances supérieures à l'alumine pour ce qui est de la charge induite~\cite{Biercuk2003}. Nous avons donc développé un nouveau procédé inspiré de~\cite{Biercuk2003} , en utilisant une méthode de déposition par couche atomique~(ALD), nous permettant d'obtenir une grille avec un hafnia de $8\,nm$ environs.
+
+
 
 
 \subsection{Le dép\^ot par ALD}
-La technique d'ALD originellement appelée ALE~(pour Atomic Layer Epitaxie) a été breveté dans les années 1970~(référence du brevet+revue anguewante) et remise au goût du jour par les besoin toujours plus exigeant de la microélectronique. Elle consiste à une succession de deux réaction auto-limitante, aboutissant à la formation d'un oxyde.Une description détaillée est donnée dans la Fig.\ref{ALD}.
+La technique d'ALD originellement appelée ALE~(pour Atomic Layer Epitaxie) a été breveté dans les années 1970 et remise au goût du jour pour les besoins toujours plus grands de la microélectronique~\cite{Leskelae2003}. Elle consiste en une succession de deux réactions auto-limitantes, aboutissant à la formation d'un oxyde comme le montre la Fig.\ref{ALD}.
 
 \begin{figure}
 \centering \includegraphics[scale=0.45]{Fabrication/ALD/ALD.pdf}
@@ -111,15 +128,50 @@ La technique d'ALD originellement appelée ALE~(pour Atomic Layer Epitaxie) a é
 \end{figure}
 
 
-Le premier avantage de la technique est sa facilité de mise en œuvre. Le contrôle du procédé, couche par couche, permet de choisir l'épaisseur d'oxyde avec une grande précision. De plus, le type d'oxyde est seulement déterminé par les précurseurs, ce qui donne un large choix.
+Le premier avantage de la technique est sa facilité de mise en œuvre. Le contrôle du procédé, couche par couche, permet de choisir l'épaisseur d'oxyde déposé avec une grande précision. De plus, la nature de l'oxyde est seulement déterminée par les précurseurs utilisés, ce qui donne un large choix de matériaux. Afin d'obtenir un oxyde de qualité pour les applications électroniques, celui-ci doit remplir deux critères : il doit contenir peu d'impuretés et être de préférence amorphe.
 
-En ce qui nous concerne, après quelques tests sur l'alumine, nous avons choisi de nous orienter sur un oxyde d'hafnium ou hafnia car ce dernier offre une permitivité plus élevé et donc un meilleur couplage. Ceci n'est cependant vrai que si la tension que l'on peut appliqué sur notre grille reste du même ordre de grandeur que celle utilisé avec les grille d'alumine, à savoir quelques volts. Pour cela, nous avons identifié deux qualité que devait avoir notre oxyde : peu d'impureté et être de préférence amorphe. 
+\begin{table}
+\begin{center}
+\begin{tabular}{|p{0.5cm}|p{6cm}|p{6cm}|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Réglages}} \tabularnewline
+\hline
+\multicolumn{2}{|l|}{\textbf{élement}} & \textbf{paramètres} \tabularnewline
+\hline
+\multicolumn{2}{|l|}{température du précurseur} & $90\, \degres C$ \tabularnewline
+\hline
+\multicolumn{2}{|l|}{température du \textit{Tee}} & $150\, \degres C$ \tabularnewline
+\hline
+\multicolumn{2}{|l|}{température de la chambre~(\textit{inner} et \textit{outer})} & $100\, \degres C$ \tabularnewline
+\hline
+\multicolumn{2}{|l|}{température du \textit{Bellow}} & $150\, \degres C$ \tabularnewline
+\hline
+\multicolumn{2}{|l|}{\multirow{2}{*}{flux d'azote}} & $20\, sccm$ \newline (pression d'environs $0.5\,Torr$) \tabularnewline
+\hline
+\hline
+\multicolumn{3}{|c|}{\textbf{Procédé}} \tabularnewline
+\hline
+\,& \textbf{étape} & \textbf{paramètres} \tabularnewline
+\hline
+1 & pluse de TDMAH & $0.015\,s$ \tabularnewline
+\hline
+2 & temps d'attente & $120\,s$ \tabularnewline
+\hline
+3 & pulse d'eau & $0.015\,s$ \tabularnewline
+\hline
+4 & temps d'attente & $120\,s$ \tabularnewline
+\hline
+\end{tabular}
+\caption{Paramètres et réglages du procédé ALD.}
+\label{recette_ALD}
+\end{center}
+\end{table}
 
-Pour remplir le premier critère, l'idéal est de chauffer de façon suffisante le substrat afin de désorbé efficacement les déchet produit lors de la fixation du précurseur~(cf Fig.\ref{ALD}). La nature de ces dernier dépend du type de précurseur utilisé. Ce choix revet d'ailleurs une importance crucial car la qualité de l'oxyde varie grandement avec le choix des précursseurs et même de l'agent oxydant~(en général de l'eau ou de l'ozone). Pour certain application, une étape supplémentaire peut être inséré pour facilité la fixation des premières couches. C'est notamment le cas de nanotube ou une étape de fonctionnalisation à l'aide de NO$_2$ est nécessaire au bon déroulement de l'ALD.
 
-Afin d'obtenir une structure amorphe, il est, au contraire, préférable d'effectuer le dép\^ot à basse température. Ceci a également l'avantage de rendre ce dernier compatible avec une étape de lithographie~(évitant à la résine de brûler). Il faut donc arriver à trouver un compromis avec ces deux conditions contradictoire.
 
-Celui-ci été trouvé en laissant un temps conséquent entre les différentes étapes du dépôt, permettant aux produits de réaction de désorber. Cela se traduit par un temps d'attente entre chaque étape de cycle de 5 minutes. Un dépôt de $8\,nm$ d'hafnia prend donc un peu moins de six heures. Si ce temps peut paraître long au premier abord, il ne représente qu'un temps négligeable au regard des autres étapes et notamment de lithographie électronique que nous allons aborder maintenant.
+Pour remplir le premier critère, l'idéal est de chauffer de façon suffisante le substrat afin de désorber efficacement les déchets produits lors de la fixation du précurseur~(cf Fig.\ref{ALD}). Afin d'obtenir une structure amorphe, il est, au contraire, préférable d'effectuer le dép\^ot à basse température, ce qui a également l'avantage de rendre le procédé compatible avec une étape de lithographie~\cite{Biercuk2003}~(évitant à la résine de brûler). Il faut donc arriver à trouver un compromis entre ces deux conditions contradictoires.
+
+Celui-ci été trouvé en laissant un temps conséquent entre les différentes étapes du dépôt, permettant aux produits de réaction de désorber~\cite{Biercuk2003}. Cela se traduit par un temps d'attente entre chaque étape de cycle de 2 minutes. Un dépôt de $8\,nm$~(environs 80\,cycles) d'hafnia prend donc un peu plus de cinq heures~(pour les détails concernant le dépôt ALD, le lecteur peut se référer au Tab.\ref{recette_ALD}). Si ce temps peut paraître long au premier abord, il ne représente qu'un temps négligeable au regard des autres étapes et notamment, celle de lithographie électronique que nous allons aborder maintenant.
 
 \section{Réalisation d'un nanofil}
 Comme nous l'avons présenté dans l'introduction, notre méthode de fabrication repose sur la technique d'électromigration. Cette dernière, pour fonctionner correctement, à besoin d'\^etre opérée sur des fils d'or très fins, présentant une section de quelque dizaine de nanomètre pour une épaisseur de quelque nanomètre en ce qui concerne la partie la plus fine~(cf Fig.\ref{EvapAngle}). 
@@ -130,9 +182,7 @@ Comme nous l'avons présenté dans l'introduction, notre méthode de fabrication
 \label{EvapAngle}
 \end{figure}
 
-Le nanofil va également avoir un impact sur le couplage de la molécule à la grille. Cette dépendance se fait de deux manière. Tout d'abord, la forme de pointe donné au niveau de la partie fine du nanofilm va minimiser l'écrantage une fois le gap obtenue. Ensuite, en ayant une largeur faible, les films miniminise la surface en vis à vis avec la grille et donc le risque de fuit de grille à travers un défaut de l'oxyde, augmentant la tension maximale applicable.
-
-Afin d'obtenir des fils répondant à ces critère, nous avons utilisé une méthode dite d'évaporation sous-angle. 
+Le nanofil va également avoir un impact sur le couplage de la molécule à la grille. Cette dépendance se fait de deux manière. Tout d'abord, la forme de pointe donné au niveau de la partie fine du nanofilm va minimiser l'écrantage une fois le gap obtenue~\cite{Datta2009}. Ensuite, en ayant une largeur faible, les films miniminise la surface en vis à vis avec la grille et donc le risque de fuit de grille à travers un défaut de l'oxyde, augmentant la tension maximale applicable.
 
 \begin{table}
 \begin{center}
@@ -192,11 +242,9 @@ Afin d'obtenir des fils répondant à ces critère, nous avons utilisé une mét
 \end{table}
 
 
+Afin d'obtenir des fils répondant à ces critère, nous avons utilisé une méthode dite d'évaporation sous-angle. Pour cela, il faut tout d'abord déposer deux couches de résine, la partie supérieure étant constituée de PMMA et la partie inférieure de PMMA-MAA, plus sensible aux électrons. On procède ensuite à la lithographie électronique puis au développement de la résine. Du fait de la plus grande sensibilité de la partie inférieure et la présence d'électron rétrodiffusés, on obtient une partie sur-insolé venant former un pont comme décrit sur la Fig.\ref{EvapAngle}.
 
-
-Pour cela, il faut tout d'abord déposé deux couches de résine, la partie supérieur étant constitué de PMMA et la partir inférieur de PMMA-MAA, plus sensible aux électrons. On procède ensuite à la lithographie électronique puis au développement de la résine. Du fait de la plus grande sensibilité de la partie inférieure et la présence d'électron rétrodiffusés, on obtient une partie sur-insolé venant former un pont comme décrit sur la Fig.\ref{EvapAngle}.
-
-On évapore ensuite une fine couche de titane~(5$\, nm$) avec un angle de $0\,\degres$ pour constituer un couche d'accroche. Puis on évapore, sous un angle de $\pm30\,\degres$, $10\, nm$ d'or  constituant la constriction. Enfin, $100\,nm$ d'or sont ensuite évaporé à $0\,\degres$ afin de venir relier la constriction aux plots de connexion. Cet épaisseur doit être également suffisant pour assurer un bon passage entre le partie se situant sur la grille et celle se trouvant sur la surface même du wafer. La structure finale est présenté dans la Fig.\ref{ZoomFinal}.
+On évapore ensuite une fine couche de titane~(5$\, nm$) avec un angle de $0\,\degres$ pour constituer un couche d'accroche. Puis on évapore, sous un angle de $\pm30\,\degres$, $10\, nm$ d'or  constituant la constriction. Enfin, $100\,nm$ d'or sont évaporés à $0\,\degres$ afin de venir relier la constriction aux plots de connexion. Cet épaisseur doit être également suffisant pour assurer un bon passage entre la partie se situant sur la grille et celle se trouvant sur la surface même du wafer. La structure finale est présentée dans la Fig.\ref{ZoomFinal}.
 
 \begin{figure}
 \centering \includegraphics[scale=0.45]{Fabrication/ZoomFinal/ZoomFinal.pdf}
@@ -206,30 +254,30 @@ On évapore ensuite une fine couche de titane~(5$\, nm$) avec un angle de $0\,\d
 
 
 \section{Réalisation d'un interstice nanométrique}
-Une fois que nous avons obtenue nos constriction métallique, il faut procéder à la dernière étape de fabrication : l'électromigration. Cette dernière, qui est effectué à basse température, va nous permettre d'obtenir les interstices de quelques nanomètres de largeur nécessaire à la fabrication d'un transistor moléculaire. Dans ce chapitre, nous présenterons dans un premier temps la technique d'électromigration ainsi que les différents méthode de sa mise en oeuvre. Nous finirons par une description de notre technique à basse température.
+Une fois que nous avons obtenue nos constrictions métalliques, il faut procéder à la dernière étape de fabrication : l'électromigration. Cette dernière, qui est effectuée à basse température, va nous permettre d'obtenir les interstices de quelques nanomètres de largeur nécessaires à la fabrication d'un transistor moléculaire. Dans ce chapitre, nous présenterons dans un premier temps la technique d'électromigration ainsi que les différentes méthodes de mise en œuvre. Nous finirons par une description de notre technique de contre-réaction rapide à basse température.
 
 \subsection{L'électromigration}
-L'électromigration est un phénomène connu depuis plus d'un siècle maintenant. Ce phénomène a connu un regain int\^eré avec le développement de la micro-électronique notamment parce qu'il a été identifié comme étant une cause de panne.
+L'électromigration est un phénomène connu depuis plus d'un siècle maintenant~\cite{Gerardin1861}. Ce phénomène a connu un regain int\^eré avec le développement de la micro-électronique notamment parce qu'il a été identifié comme étant une cause de panne récurrente~\cite{Blech1967,Black1969}.
 
-Le phénomène d'électromigration se produit lorsqu'une forte densité de courant traverse un conducteur. Les ions du réseau sont alors soumis à deux forces : la première est induite par le champ électrique induisant le courant, la seconde est d\^u aux électrons qui, du fait de la diffusion, viennent céder un peu de leur moment cinétique. L'action de ces deux forces de résume par la formule suivante :
+Le phénomène d'électromigration se produit lorsqu'une forte densité de courant traverse un conducteur. Les ions du réseau sont alors soumis à deux forces : la première est induite par le champ électrique induisant le courant, la seconde est d\^u aux électrons qui, du fait de la diffusion, viennent céder un peu de leur moment cinétique~\cite{Ho1989}. L'action de ces deux forces de résume par la formule suivante :
 \begin{eqnarray}
 \textbf{F} = \textbf{F}_d + \textbf{F}_v = Z^*e\textbf{E} \nonumber
 \end{eqnarray}
-où $\textbf{F}_d$ est la force induite par le champ électrique et $\textbf{F}_v$ celle induite par la diffusion des électrons. Le terme $Z^*$ est en général utilisé pour représenté la charge effective des ions soumis à un champ électrique et rend compte de l'interaction ions/électrons.
+où $\textbf{F}_d$ est la force induite par le champ électrique et $\textbf{F}_v$ celle induite par la diffusion des électrons. Le terme $Z^*$ est en général utilisé pour représenter la charge effective des ions soumis à un champ électrique et rend compte de l'interaction ions/électrons.
 
-Ce phénomène a été pour la première fois utilisé en électronique moléculaire par le groupe de D.C. Ralph à Cornell. La technique a notamment était mis en oeuvre pour réalisé le premier transistor à molécule unique. Depuis, la technique à connu de nombreuse évolution comme nous allons le voir maintenant
+Ce phénomène a été pour la première fois utilisé en électronique moléculaire par le groupe de D.C. Ralph à Cornell~\cite{Park1999}. La technique a notamment était mis en oeuvre pour réalisé le premier transistor à molécule unique~\cite{Park2000}. Depuis, elle a connu de nombreuses évolutions comme nous allons le voir maintenant
 
 \subsection{Etat de l'art}
-On peut classer les techniques d'électromigration en trois grande catégorie : a rampe unique, à contre-réaction et à cassure-spontanée (référence thèse de Stéphanie Girod).
+On peut classer les techniques d'électromigrations en trois grande catégorie : a rampe unique, à contre-réaction et à cassure-spontanée~\cite{Girod2012}.
 
 \subsubsection{A rampe unique}
-C'est la première technique qui a été mise en oeuvre dans le domaine de l'électronique moléculaire par Park \textit{et al.}(ref). Elle consiste en l'application d'une rampe de tension croissante sur une fin fil de métal. La simplicité de la méthode est séduisante mais mal contrôlé, elle peut conduire à une destruction de la jonction, notamment dû au chauffage induit par effet Joule.
+C'est la première technique qui a été mise en oeuvre dans le domaine de l'électronique moléculaire par Park \textit{et al.}~\cite{Park1999}. Elle consiste en l'application d'une rampe de tension croissante sur une fin fil de métal. La simplicité de la méthode est séduisante mais mal contrôlé, elle peut conduire à une destruction de la jonction, notamment dû au chauffage induit par effet Joule.
 
 \subsubsection{A contre-réaction}
-Cette méthode à été développé par Strachan \textit{et al.} en 2005. Elle a pour but de réduire le chauffage de la jonction par effet Joule en introduisant une boucle de contre-réaction asservie sur la résistance de la jonction. Si celle-ci dépasse une valeur critique fixée à l'avance, la tension est diminué puis augmente à nouveau depuis une valeur plus basse. Ceci à pour effet de diminuer la puissance dissipé par la jonction lors de l'électromigration (voir figure). Le principal inconvénient de cette technique est son temps de mise en œuvre : la formation d'un seul gap peu prendre quelques heures.
+Cette méthode à été développé par Strachan \textit{et al.} en 2005~\cite{Strachan2005}. Elle a pour but de réduire le chauffage de la jonction par effet Joule~\cite{Esen2005} en introduisant une boucle de contre-réaction asservie sur la résistance de la jonction. Si celle-ci dépasse une valeur critique fixée à l'avance, la tension est diminué puis augmente à nouveau depuis une valeur plus basse. Ceci à pour effet de diminuer la puissance dissipé par la jonction lors de l'électromigration (voir figure). Le principal inconvénient de cette technique est son temps de mise en œuvre : la formation d'un seul gap peu prendre quelques heures.
 
 \subsubsection{A cassure spontanée}
-Cette dernière méthode a été mise au point dans le groupe de H.S.J. van der Zant en 2007. Une première étape d'électromigration contrôlée est d'abord réalisé à l'aide d'une méthode à contre-réaction. Lorsque la conductance du nanofil atteind une valeur de quelques kilo-Ohm. On laisse ensuité évoluer la jonction qui, du fait de l'instabilité de la nanoconstriction, va se rompre naturellement. On obtient ainsi un gap de quelques nanomètres. La durée d'une telle procédure varie d'un échantillon à l'autres : de quelques minutes à plusieurs heures.
+Cette dernière méthode a été mise au point dans le groupe de H.S.J. van der Zant en 2007~\cite{ONeill2007}. Une première étape d'électromigration contrôlée est d'abord réalisé à l'aide d'une méthode à contre-réaction. Lorsque la conductance du nanofil atteind une valeur de quelques kilo-Ohm. On laisse ensuité évoluer la jonction qui, du fait de l'instabilité de la nanoconstriction, va se rompre naturellement. On obtient ainsi un gap de quelques nanomètres. La durée d'une telle procédure varie d'un échantillon à l'autres : de quelques minutes à plusieurs heures.
 
 \subsection{Notre technique}
 Notre technique de fabrication a été développé à partir des travaux de Park \textit{et al.} puis améliorer en s'inspirant de travaux ultérieurs.

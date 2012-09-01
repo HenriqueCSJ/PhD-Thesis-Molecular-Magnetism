@@ -2,44 +2,46 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: citations.bib
-You've used 39 entries,
+Warning--empty title in Gerardin1861
+You've used 17 entries,
             1791 wiz_defined-function locations,
-            733 strings with 11515 characters,
-and the built_in function-call counts, 10797 in all, are:
-= -- 914
-> -- 647
+            584 strings with 7078 characters,
+and the built_in function-call counts, 4558 in all, are:
+= -- 390
+> -- 262
 < -- 0
-+ -- 230
-- -- 191
-* -- 1033
-:= -- 1773
-add.period$ -- 117
-call.type$ -- 39
-change.case$ -- 37
++ -- 94
+- -- 77
+* -- 428
+:= -- 759
+add.period$ -- 50
+call.type$ -- 17
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 349
-empty$ -- 938
-format.name$ -- 191
-if$ -- 2237
+cite$ -- 18
+duplicate$ -- 151
+empty$ -- 396
+format.name$ -- 77
+if$ -- 940
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 40
-newline$ -- 198
-num.names$ -- 39
-pop$ -- 57
+int.to.str$ -- 17
+missing$ -- 16
+newline$ -- 87
+num.names$ -- 17
+pop$ -- 19
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 118
+skip$ -- 53
 stack$ -- 0
-substring$ -- 951
-swap$ -- 39
+substring$ -- 402
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 111
-width$ -- 41
-write$ -- 428
+warning$ -- 1
+while$ -- 48
+width$ -- 19
+write$ -- 187
+(There was 1 warning)
