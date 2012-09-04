@@ -3,47 +3,47 @@ The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: citations.bib
 Warning--entry type for "Trouwborst2006" isn't style-file defined
---line 947 of file citations.bib
+--line 1007 of file citations.bib
 Warning--empty title in Gerardin1861
-You've used 23 entries,
+You've used 27 entries,
             1791 wiz_defined-function locations,
-            622 strings with 8145 characters,
-and the built_in function-call counts, 6047 in all, are:
-= -- 520
-> -- 339
+            647 strings with 9145 characters,
+and the built_in function-call counts, 7001 in all, are:
+= -- 594
+> -- 411
 < -- 0
-+ -- 122
-- -- 99
-* -- 563
-:= -- 996
-add.period$ -- 67
-call.type$ -- 23
-change.case$ -- 21
++ -- 148
+- -- 121
+* -- 649
+:= -- 1170
+add.period$ -- 79
+call.type$ -- 27
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 201
-empty$ -- 536
-format.name$ -- 99
-if$ -- 1254
+cite$ -- 28
+duplicate$ -- 233
+empty$ -- 608
+format.name$ -- 121
+if$ -- 1444
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 21
-newline$ -- 116
-num.names$ -- 23
-pop$ -- 31
+int.to.str$ -- 27
+missing$ -- 23
+newline$ -- 136
+num.names$ -- 27
+pop$ -- 37
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 72
+skip$ -- 82
 stack$ -- 0
-substring$ -- 533
-swap$ -- 23
+substring$ -- 589
+swap$ -- 27
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 64
-width$ -- 25
-write$ -- 250
+while$ -- 72
+width$ -- 29
+write$ -- 294
 (There were 2 warnings)

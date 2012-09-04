@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{RochPhD}
+Nicolas Roch.
+\newblock {\em Transistors à molécule unique : des effets Kondo exotiques à
+  la spintronique moléculaire}.
+\newblock PhD thesis, Université de Grenoble - Insitut Néel, 2009.
+
 \bibitem{Datta2009}
 Sujit~S. Datta, Douglas~R. Strachan, and A.~T.~Charlie Johnson.
 \newblock Gate coupling to nanoscale electronics.
@@ -12,6 +18,24 @@ Herre S.~J. van~der Zant, Yann-Vai Kervennic, Menno Poot, Kevin O'Neill, Zeger
   Jenneskens.
 \newblock Molecular three-terminal devices: fabrication and measurements.
 \newblock {\em Faraday Discuss.}, 131:347--356, 2006.
+
+\bibitem{Beenakker1991}
+C.~W.~J. Beenakker.
+\newblock Theory of coulomb-blockade oscillations in the conductance of a
+  quantum dot.
+\newblock {\em Phys. Rev. B}, 44(4):1646--1656, July 1991.
+
+\bibitem{Wiel2002}
+W.~G. van~der Wiel, S.~De~Franceschi, J.~M. Elzerman, T.~Fujisawa, S.~Tarucha,
+  and L.~P. Kouwenhoven.
+\newblock Electron transport through double quantum dots.
+\newblock {\em Rev. Mod. Phys.}, 75(1):1--22, December 2002.
+
+\bibitem{Hanson2007}
+R.~Hanson, L.~P. Kouwenhoven, J.~R. Petta, S.~Tarucha, and L.~M.~K.
+  Vandersypen.
+\newblock Spins in few-electron quantum dots.
+\newblock {\em Rev. Mod. Phys.}, 79(4):1217--1265, October 2007.
 
 \bibitem{Biercuk2003}
 M.~J. Biercuk, D.~J. Monsma, C.~M. Marcus, J.~S. Becker, and R.~G. Gordon.
@@ -45,6 +69,13 @@ A.~Mangin, A.~Anthore, M.~L. Della~Rocca, E.~Boulat, and P.~Lafarge.
   geometry.
 \newblock {\em J. Appl. Phys.}, 105(1):014313--5, January 2009.
 
+\bibitem{Aurore2009}
+Aurore Mangin.
+\newblock {\em Transport électronique dans des nanocassures pour la
+  réalisation de transistors à molécule unique}.
+\newblock PhD thesis, Université Paris Diderot - Laboratoire Matériaux et
+  Phénomènes Quantiques, 2009.
+
 \bibitem{Park2000}
 Hongkun Park, Jiwoong Park, Andrew K.~L. Lim, Erik~H. Anderson, A.~Paul
   Alivisatos, and Paul~L. McEuen.
@@ -57,6 +88,21 @@ Markku Leskelä and Mikko Ritala.
   challenges.
 \newblock {\em Angewandte Chemie International Edition}, 42(45):5548--5554,
   2003.
+
+\bibitem{Kim2003}
+Hyoungsub Kim, Paul~C. McIntyre, and Krishna~C. Saraswat.
+\newblock Effects of crystallization on the electrical properties of ultrathin
+  hfo[sub 2] dielectrics grown by atomic layer deposition.
+\newblock {\em Appl. Phys. Lett.}, 82(1):106--108, January 2003.
+
+\bibitem{Triyoso2004}
+D.~Triyoso, R.~Liu, D.~Roan, M.~Ramon, N.~V. Edwards, R.~Gregory, D.~Werho,
+  J.~Kulik, G.~Tam, E.~Irwin, X.-D. Wang, L.~B. La, C.~Hobbs, R.~Garcia,
+  J.~Baker, B.~E. White, and P.~Tobin.
+\newblock Impact of deposition and annealing temperature on material and
+  electrical characteristics of ald hfo2.
+\newblock {\em Journal of The Electrochemical Society}, 151(10):F220--F227,
+  January 2004.
 
 \bibitem{Gerardin1861}
 M.~Gerardin.
@@ -121,23 +167,5 @@ Thiti Taychatanapat, Kirill~I. Bolotin, Ferdinand Kuemmeth, and Daniel~C.
   Ralph.
 \newblock Imaging electromigration during the formation of break junctions.
 \newblock {\em Nano Lett.}, 7(3):652--656, February 2007.
-
-\bibitem{Beenakker1991}
-C.~W.~J. Beenakker.
-\newblock Theory of coulomb-blockade oscillations in the conductance of a
-  quantum dot.
-\newblock {\em Phys. Rev. B}, 44(4):1646--1656, July 1991.
-
-\bibitem{Wiel2002}
-W.~G. van~der Wiel, S.~De~Franceschi, J.~M. Elzerman, T.~Fujisawa, S.~Tarucha,
-  and L.~P. Kouwenhoven.
-\newblock Electron transport through double quantum dots.
-\newblock {\em Rev. Mod. Phys.}, 75(1):1--22, December 2002.
-
-\bibitem{Hanson2007}
-R.~Hanson, L.~P. Kouwenhoven, J.~R. Petta, S.~Tarucha, and L.~M.~K.
-  Vandersypen.
-\newblock Spins in few-electron quantum dots.
-\newblock {\em Rev. Mod. Phys.}, 79(4):1217--1265, October 2007.
 
 \end{thebibliography}
