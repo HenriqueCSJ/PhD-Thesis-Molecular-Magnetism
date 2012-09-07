@@ -6,31 +6,30 @@
 \contentsline {subsubsection}{Le moment magn\IeC {\'e}tique \IeC {\'e}lectronique}{2}
 \contentsline {subsubsection}{Les anti-croisements}{4}
 \contentsline {subsubsection}{Le spin nucl\IeC {\'e}aire}{5}
-\contentsline {subsubsection}{L'Hamiltonien de l'aimant mol\IeC {\'e}culaire}{6}
 \contentsline {subsection}{\numberline {1.1.3}Mesure de l'aimantation d'une assembl\IeC {\'e}}{6}
-\contentsline {subsection}{\numberline {1.1.4}TbPc$_2$ et la spintronique}{7}
-\contentsline {section}{\numberline {1.2}Mesure du retournement de l'aimantation}{7}
+\contentsline {subsection}{\numberline {1.1.4}TbPc$_2$ et la spintronique}{6}
+\contentsline {section}{\numberline {1.2}Mesure du retournement \newline de l'aimantation}{7}
 \contentsline {subsection}{\numberline {1.2.1}Transport \IeC {\`a} travers une boite quantique}{7}
-\contentsline {subsection}{\numberline {1.2.2}Le couplage magn\IeC {\'e}tisme-transport}{7}
-\contentsline {subsubsection}{Le couplage dipolaire}{7}
-\contentsline {subsubsection}{Le couplage d'\IeC {\'e}change}{7}
-\contentsline {subsubsection}{Le couplage magn\IeC {\'e}to-Coulomb}{7}
-\contentsline {subsection}{\numberline {1.2.3}Le couplage m\IeC {\'e}canique}{7}
-\contentsline {subsection}{\numberline {1.2.4}Intensit\IeC {\'e} et nature de l'interaction}{7}
-\contentsline {subsubsection}{Amplitude des sauts de conductance}{7}
-\contentsline {subsubsection}{Intensit\IeC {\'e} de l'interaction}{7}
-\contentsline {subsection}{\numberline {1.2.5}Analyse des sauts en conductance}{7}
-\contentsline {subsubsection}{M\IeC {\'e}thode de d\IeC {\'e}tection}{7}
-\contentsline {subsubsection}{Interpr\IeC {\'e}tation physique de $\Delta g$}{7}
-\contentsline {subsubsection}{Choix du point de fonctionnement}{7}
-\contentsline {subsubsection}{Proc\IeC {\'e}dure d'alignement}{7}
-\contentsline {subsection}{\numberline {1.2.6}Cycle d\IeC {\textquoteright }hyst\IeC {\'e}r\IeC {\'e}sis d'une assembl\IeC {\'e}e versus une mol\IeC {\'e}cule isol\IeC {\'e}}{7}
-\contentsline {subsubsection}{A champ faible}{7}
-\contentsline {subsubsection}{A champ moyen}{7}
-\contentsline {subsubsection}{A champ fort}{7}
-\contentsline {subsection}{\numberline {1.2.7}Dynamique du spin nucl\IeC {\'e}aire}{7}
-\contentsline {subsubsection}{Temps de relaxation}{7}
-\contentsline {subsubsection}{Perturbations induites par la mesure}{7}
-\contentsline {subsubsection}{Influence de la tension de grille}{7}
-\contentsline {subsubsection}{D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{7}
-\contentsline {subsection}{\numberline {1.2.8}Perspectives}{7}
+\contentsline {subsection}{\numberline {1.2.2}La configuration directe}{8}
+\contentsline {subsection}{\numberline {1.2.3}La configuration indirecte}{9}
+\contentsline {subsection}{\numberline {1.2.4}Le couplage magn\IeC {\'e}tisme-transport}{10}
+\contentsline {subsubsection}{Le couplage dipolaire}{10}
+\contentsline {subsubsection}{Le couplage d'\IeC {\'e}change}{11}
+\contentsline {subsubsection}{Le couplage magn\IeC {\'e}to-Coulomb}{12}
+\contentsline {section}{\numberline {1.3}Description de notre \IeC {\'e}chantillon}{12}
+\contentsline {subsection}{\numberline {1.3.1}Intensit\IeC {\'e} et nature de l'interaction}{12}
+\contentsline {subsubsection}{Amplitude des sauts de conductance}{13}
+\contentsline {subsubsection}{Intensit\IeC {\'e} de l'interaction}{15}
+\contentsline {paragraph}{L'effet Kondo $1/2$ :}{15}
+\contentsline {paragraph}{Effet Kondo du syst\IeC {\`e}me coupl\IeC {\'e} :}{15}
+\contentsline {section}{\numberline {1.4}Analyse des sauts en conductance}{16}
+\contentsline {subsubsection}{M\IeC {\'e}thode de d\IeC {\'e}tection}{16}
+\contentsline {subsubsection}{Interpr\IeC {\'e}tation physique de $\Delta g$}{18}
+\contentsline {subsubsection}{Choix du point de fonctionnement}{20}
+\contentsline {subsubsection}{Proc\IeC {\'e}dure d'alignement}{21}
+\contentsline {section}{\numberline {1.5}Cycle d\IeC {\textquoteright }hyst\IeC {\'e}r\IeC {\'e}sis d'une assembl\IeC {\'e}e versus une mol\IeC {\'e}cule isol\IeC {\'e}}{23}
+\contentsline {section}{\numberline {1.6}Dynamique du spin nucl\IeC {\'e}aire}{25}
+\contentsline {subsubsection}{Temps de relaxation}{25}
+\contentsline {subsubsection}{Perturbations induites par la mesure}{26}
+\contentsline {subsubsection}{Influence de la tension de grille}{30}
+\contentsline {subsubsection}{D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{31}
