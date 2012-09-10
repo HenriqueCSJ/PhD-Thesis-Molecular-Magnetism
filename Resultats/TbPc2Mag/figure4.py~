@@ -78,7 +78,8 @@ ax3.add_patch(r1)
 
 ################################
 #figure 3.d
-Fe = mpimg.imread("/home/hukadan/These/Manuscript/Resultats/TbPc2Mag/TbCycle.png")
+ax4.set_axis_off()
+Fe = mpimg.imread("/home/hukadan/These/Manuscript/Resultats/TbPc2Mag/Coordination-page001.png")
 Fe = Fe.tolist()
 Fe.reverse()
 ax4.imshow(Fe, extent = [-1.2,1.2,-1,1])
@@ -150,5 +151,5 @@ fig.text(0.51,0.47,"d",fontsize=25,fontweight="bold")
 
 
 
-fig.savefig("/home/hukadan/These/Manuscript/Theorie/MagMol/figure4/figure4.pdf")
+fig.savefig("/home/hukadan/These/Manuscript/Resultats/TbPc2Mag/TbPc2Mag.pdf")
 close(fig)

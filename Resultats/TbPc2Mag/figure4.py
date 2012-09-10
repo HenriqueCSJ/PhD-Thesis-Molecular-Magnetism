@@ -12,13 +12,13 @@ arrowpropsboth=dict(arrowstyle='<|-|>',connectionstyle="arc3,rad=-0.0",linewidth
 #on fait les figures
 fig = figure()
 fig.set_size_inches(12,10)
-ax1 = fig.add_subplot(221)
-ax2 = fig.add_subplot(222)
-ax3 = fig.add_subplot(223)
-ax4 = fig.add_subplot(224)
+ax4 = fig.add_subplot(221)
+ax1 = fig.add_subplot(222)
+ax2 = fig.add_subplot(223)
+ax3 = fig.add_subplot(224)
 ###########
 #figure3.a
-R = Tb_Pc2_Zeeman(-10,10,1000,0,0)
+R, V = Tb_Pc2_Zeeman(-10,10,1000,0,0)
 B = linspace(-10,10,1000)
 ax1.plot(B,R,color="red")
 YMIN = -645-50
@@ -30,7 +30,7 @@ ax1.text(0.25,-300,r"$\sim 600\,$K",fontsize=25,horizontalalignment='left', vert
 
 ############################
 #figure3.b
-R = Tb_Pc2_Zeeman(-0.5e-6,0.5e-6,200,0,0)
+R,V = Tb_Pc2_Zeeman(-0.5e-6,0.5e-6,200,0,0)
 R = R - (R[100][0]+R[100][1])/2.
 B = linspace(-0.5e-6,0.5e-6,200)
 ax2.plot(B,R,color="red")
@@ -49,40 +49,41 @@ ax2.text(0.35e-6,2.5e-6,r"$|+6 \rangle$",fontweight="bold",fontsize=20,color = "
 
 ############################
 #figure3.c
-R = Tb_Pc2_ZeemanNuclear(-0.1,0.1,100,0,0)
-B = linspace(-0.1,0.1,100)
+R = Tb_Pc2_ZeemanNuclear(-0.07,0.07,100,0,0)
+B = linspace(-0.07,0.07,100)
 ax3.plot(B,R,color="red")
-ax3.set_xlim(-0.1,0.205)
+ax3.set_xlim(-0.07,0.175)
 ax3.set_ylim(-645.3,-643.75)
 
-ax3.text(0.105,-643.9,r"$|+6\rangle |+3/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
-ax3.text(0.105,-644.05,r"$|+6\rangle |+1/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
-ax3.text(0.105,-644.20,r"$|+6\rangle |-1/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
-ax3.text(0.105,-644.35,r"$|+6\rangle |-3/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
+ax3.text(0.075,-643.9,r"$|+6\rangle |+3/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
+ax3.text(0.075,-644.05,r"$|+6\rangle |+1/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
+ax3.text(0.075,-644.20,r"$|+6\rangle |-1/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
+ax3.text(0.075,-644.35,r"$|+6\rangle |-3/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
 
-ax3.text(0.105,-644.75,r"$|-6\rangle |-3/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
-ax3.text(0.105,-644.9,r"$|-6\rangle |-1/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
-ax3.text(0.105,-645.05,r"$|-6\rangle |+1/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
-ax3.text(0.105,-645.2,r"$|-6\rangle |+3/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
+ax3.text(0.075,-644.75,r"$|-6\rangle |-3/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
+ax3.text(0.075,-644.9,r"$|-6\rangle |-1/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
+ax3.text(0.075,-645.05,r"$|-6\rangle |+1/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
+ax3.text(0.075,-645.2,r"$|-6\rangle |+3/2 \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='left', verticalalignment='center')
 
 ax3.text(0.0,-643.9,r"$|J_z\rangle |I_z \rangle$",fontweight="bold",fontsize=20,color = "blue",horizontalalignment='center', verticalalignment='center')
 
-r1 = Ellipse((-0.056,-644.55),0.02,0.02/0.197,facecolor="#C0C0C0")
+r1 = Ellipse((-0.037,-644.55),0.02,0.02/0.197,facecolor="#C0C0C0")
 ax3.add_patch(r1)
-r1 = Ellipse((-0.019,-644.58),0.02,0.02/0.197,facecolor="#C0C0C0")
+r1 = Ellipse((-0.012,-644.58),0.02,0.02/0.197,facecolor="#C0C0C0")
 ax3.add_patch(r1)
-r1 = Ellipse((+0.056,-644.55),0.02,0.02/0.197,facecolor="#C0C0C0")
+r1 = Ellipse((+0.037,-644.55),0.02,0.02/0.197,facecolor="#C0C0C0")
 ax3.add_patch(r1)
-r1 = Ellipse((+0.019,-644.58),0.02,0.02/0.197,facecolor="#C0C0C0")
+r1 = Ellipse((+0.012,-644.58),0.02,0.02/0.197,facecolor="#C0C0C0")
 ax3.add_patch(r1)
 
 ################################
 #figure 3.d
-Fe = mpimg.imread("/home/hukadan/These/Manuscript/Resultats/TbPc2Mag/TbCycle.png")
+ax4.set_axis_off()
+Fe = mpimg.imread("/home/hukadan/These/Manuscript/Resultats/TbPc2Mag/Coordination-page001.png")
 Fe = Fe.tolist()
 Fe.reverse()
-ax4.imshow(Fe, extent = [-1.2,1.2,-1,1])
-ax4.set_ylim(-1.1,1.1)
+ax4.imshow(Fe)#, extent = [-1.2,1.2,-1,1])
+#ax4.set_ylim(-1.1,1.1)
 
 
 ###########################
@@ -108,7 +109,7 @@ a4 = 1.0 * abs((xmin[0]-xmin[1])/(ymin[0]-ymin[1]))
 ax1.set_aspect(a1*0.8,)
 ax2.set_aspect(a2*0.8,)
 ax3.set_aspect(a3*0.8,)
-ax4.set_aspect(a4*0.8,)
+ax4.set_aspect(1)
 
 
 #label des axes
@@ -135,10 +136,10 @@ ax3.xaxis.set_ticks([-0.05,0,0.05])
 ax3.yaxis.set_ticks([-645,-644])
 
 #d
-ax4.set_xlabel(r"$B$ (T)")
-ax4.set_ylabel(r"$M/M_{\rm{s}}$")
-ax4.xaxis.set_ticks([-1,0,1])
-ax4.yaxis.set_ticks([-1,0,1])
+#ax4.set_xlabel(r"$B$ (T)")
+#ax4.set_ylabel(r"$M/M_{\rm{s}}$")
+#ax4.xaxis.set_ticks([-1,0,1])
+#ax4.yaxis.set_ticks([-1,0,1])
 
 #label de la figure
 fig.subplots_adjust(left=0.09,right=1,wspace=0.15,hspace=0.30, top = 0.95, bottom = 0.08)
@@ -149,6 +150,4 @@ fig.text(0.01,0.47,"c",fontsize=25,fontweight="bold")
 fig.text(0.51,0.47,"d",fontsize=25,fontweight="bold")
 
 
-
-fig.savefig("/home/hukadan/These/Manuscript/Resultats/TbPc2Mag/TbPc2Mag.pdf")
-close(fig)
+#fig.savefig("/home/hukadan/These/Manuscript/Resultats/TbPc2Mag/TbPc2Mag.pdf",dpi=600)

@@ -77,6 +77,13 @@ Afin d'explorer les propriétés magnétique des aimants moléculaire, plusieurs
 
 Lorsque l'on mesure un cristal moléculaire, la variation d'aimantation moyenne, induite par le retournement du moment magnétique des molécules qui le compose, peut être mesurée. A partir de cette mesure, et en considérant chaque aimant moléculaire comme isolé, on peut remonter au propriété magnétique de ces derniers.
 
+\begin{figure}
+\centering \includegraphics[scale=0.45]{Resultats/MesureAimant/MesureAimant.pdf} 
+\caption{\textbf{a} : Mesure de l'aimantation d'un cristal de TbPc$_2$ à 10\,\% pour différente vitesse de balayage. \textbf{b} : grossissement de la partie centrale mettant en évidence l'influence de la vitesse de balayage sur la hauteur des marches associées au retournement par QTM.(extrait de \cite{Ishikawa2005}).}
+\label{TbPc2Zeeman}
+\end{figure}
+
+
 Une mesure de l'aimantation d'un cristal de TbPc$_2$ pour différentes vitesses de balayage est présentée dans la Fig.\ref{TbPc2Zeeman}.d. Une analyse détaillée peut \^etre trouvée dans \cite{Ishikawa2005}. On peut diviser la courbe en deux zones. 
 
 A faible champ, les molécules constituant le cristal se retournent par QTM. Les marches que l'on devine correspondent à la zone du diagramme Zeeman présentée dans la Fig.\ref{TbPc2Zeeman}.c et le retournement est gouverné par la formule de Landau-Zener. Il dépend donc de la vitesse ce qui conduit à une variation de la hauteur des marches en fonction de la vitesse de balayage. 
@@ -86,12 +93,18 @@ A plus fort champ, l'aimantation ne peut se retourner qu'en émettant un phonon~
 \subsection{TbPc$_2$ et la spintronique}
 Le choix du TbP$_{2}$ comme composant central de notre transistor de spin a été motivé par plusieurs études. Pour qu'un aimant moléculaire puisse être utilisé dans le cadre de la spintronique moléculaire, il doit remplir plusieurs critères : il doit conserver ces propriétés magnétique lorsqu'il se trouve déposé sur une surface métallique; dans le cas de l'électromigration, il doit pourvoir résister à des température de plusieurs centaine de degrés Celsius.
 
+\begin{figure}
+\centering \includegraphics[scale=0.45]{Resultats/TbPcResTemp/TbPcResTemp.pdf} 
+\caption{Spectromètre obtenue par évaporation à différente température d'une poudre de TbPc$_2$. Un échantillon de cette même poudre dissoute dans du dichlormethane et de l'ethanol à servi de référence. (extrait de ??).}
+\label{SpectMass}
+\end{figure}
+
 L'analyse des propriétés magnétique du TbPc$_{2}$ sur des surfaces de cuivre a été étudié par XMCD. Cette étude à confirmer la robustesse des propriété magnétique vis à vis de l’absorption sur surface conductrice. De plus, la technique de déposition impliquait de chauffer la poudre d'aimant moléculaire à des température de plusieurs centaines de degrés. Une analyse de spectre de masse a montrer que la structure tu TbPc$_{2}$ pouvait demeurer intacte jusqu'à une température de $820\,K$. Enfin, si elle reste sensible aux déformations en compression, elle se montre en revanche peut dépendante de la déformation en torsion, cette dernière ne venant modifier que légèrement le terme $A_4^4 \langle r^2 \rangle$ dans la description du système~(et donc la probabilité de retournement par QTM).
 
 Cet aimant moléculaire a, en outre, l'avantage de mettre en jeux magnétisme électronique et magnétisme nucléaire, ce qui rend la physique plus riche, et donc les applications éventuelles plus nombreuses. Mais avant d'étudier en détail le magnétisme du TbPc$_{2}$, il est important de comprendre comment le retournement d'un moment magnétique peut être détecté par une mesure de courant.
 
 
-\section{Mesure du retournement \newline de l'aimantation}
+\section{Mesure du retournement de l'aimantation}
 Tout comme avec la technique micro-SQUID, notre mesure se base sur la détection du retournement de l'aimantation. Dans le cadre du transport moléculaire, on peut envisager deux configurations différentes permettant de détecter une variation dans le moment magnétique d'un système. Mais auparavant, il est important de comprendre quel est l'origine du courant circulant à travers une boite quantique.
 
 \subsection{Transport à travers une boite quantique}
@@ -167,6 +180,8 @@ Contrairement aux expressions précédentes, la variation du potentiel chimique 
 
 \section{Description de notre échantillon}
 
+\subsection{Signature en transport}
+
 \subsection{Intensité et nature de l'interaction}
 L'analyse de nos résultats passe par l'identification de l'interaction mise en jeu dans notre méthode de détection. Deux paramètres sont à évaluer pour clairement en identifier la nature : la dépendance en champ magnétique de la variation du potentiel chimique et l'intensité de l'interaction. Nous allons nous attacher à quantifier ces deux paramètres à l'aide de mesures en transport. La première étape sera consacrée à l'analyse de la hauteur des sauts de conductance. La seconde s'appuiera sur une étude de l'effet Kondo et sur l'influence de l'interaction sur ce dernier.
 
@@ -202,14 +217,14 @@ L'analyse des sauts de conductance est à la base de notre méthode de détectio
 \caption{\textbf{a} - Mesure de deux sauts de conductance montrant deux variation $\Delta g$ de signes opposés. \textbf{b} - Signal correspondant à la mesure \textbf{a} filtrée : les sauts de conductance sont transformés en pics dont l'orientation (vers le haut ou vers le bas) dépend du signe de $\Delta g$. \textbf{c} - Statistique de la hauteur des sauts : cette dernière met en évidence deux distributions : celle contenue dans la zone grise correspond à de petites transitions relatives au bruit de mesure; la seconde distribution correspond au signal induit par le retournement de l'aimantation. \textbf{d} - Diagramme Zeeman de l'état fondamental de la molécule de TbPc$_2$ à faible champ : les anti-croisements donnant lieu au phénomène de QTM sont repérés par les cercles grisés. \textbf{e} - Statistique portant sur la position en champ des retournements de l'aimantation : quatre résonances sont clairement identifiables et correspondent aux quatre anti-croisements. Ceci consitue une preuve de la mesure directe du phénomène de QTM à l'échelle d'une molécule.}
 \label{analyse_saut}
 \end{figure}
-\subsubsection{Méthode de détection}
+\subsection{Méthode de détection}
 La première étape de notre méthode de mesure est de détecter chaque saut en conductance relative à un retournement de l'aimantation. Une mesure type d'un saut de conductance est présenté dans la Fig.\ref{analyse_saut}.b. Il faut, dans un premier temps, rendre le signal plus facilement exploitable par l'application d'un filtre détaillé en annexe. La Fig.\ref{analyse_saut}.a correspond au signal de la Fig.\ref{analyse_saut}.b après son application. Les sauts de conductances ont été convertis en pics qu'il est facile d'extraire par une méthode des extrema. Le signe du saut de conductance est donné par l'orientation des pics : un changement positif correspond à un maximum; un changement négatif à un minimum.
 
 Il faut ensuite procéder à l'analyse statistique de ces sauts. Pour cela, il faut garder à l'esprit qu'il peut y avoir des mesures sans saut, le retournement étant un événement probabiliste. Dans ce cas, les extrema détectés ne correspondront pas à un signal véritable mais à un artefact. Pour ne prendre en compte que le signal, on effectue une statistique de la hauteur des pics du signal filtré. La Fig.\ref{analyse_signe_saut}.d présente le résultat d'une telle statistique pour 12000 mesures. Deux distributions sont clairement identifiables : une distribution avec de faibles sauts correspondant au bruit de mesure~(zone grisée); une distribution de sauts marqués correspondant à des retournements de l'aimantation. Cette statistique permet de fixer un seuil~(limite entre zone grisée et non grisée), et de filtrer les sauts détectés en conséquence, afin de remonter à la distribution des retournements de l'aimantation.
 
 A partir des sauts sélectionnés, on effectue une étude statistique des champs de retournement de l'aimantation. La Fig.\ref{analyse_saut}.e présente une telle statistique effectuée sur 6000 mesures faites à faible champ. On peut facilement identifier quatre résonances, c'est à dire, quatre valeurs du champ pour lesquelles l'aimantation de la molécule a une forte probabilité de se retourner. En comparant cette mesure avec le diagramme Zeeman de la molécule de TbPc$_2$~(cf Fig.\ref{analyse_saut}.c et chapitre sur le magnétisme moléculaire), on peut associer chaque résonance à un des anti-croisements repérés par des cercles. Sachant que chacun d'eux croisement à une situation où le QTM est possible, on peut en déduire que la présence de ces résonances est la mesure \textbf{directe} du phénomène de QTM à l'échelle d'une seule molécule. De plus, chaque anti-croisement est associé à un unique état de spin nucléaire. La mesure de la position en champ magnétique du retournement de l'aimantation est donc une mesure \textbf{indirecte} de l'état de spin du noyau de terbium. C'est cette dernière propriété que nous utiliserons dans la suite pour étudier la dynamique du spin nucléaire.
 
-\subsubsection{Interprétation physique de $\Delta g$}
+\subsection{Interprétation physique de $\Delta g$}
 Jusqu'à présent, nous n'avons pas utilisé le signe de $\Delta G$ comme élément d'analyse. Pourtant, dans le cadre de notre modèle, celui-ci donne accès à la nature de la transition : $J_z = \pm6 \rightarrow J_z = \mp 6$. Il existe une méthode expérimentale, basée sur la population thermique des spins nucléaires, permettant de vérifier notre hypothèse.
 
 Supposons que l'on se place dans l'état initial $J_z=+6$ et $B<0$. Au regard du digramme Zeeman de la Fig.\ref{TbPc2Zeeman} et du fait de la relaxation, l'état de spin $I_z = -3/2$ devrait être le plus probablement mesuré, $I_z = +3/2$ étant le moins probable. L'inverse est vrai pour l'état initial $J_z=-6$ et $B<0$. La Fig.\ref{analyse_signe_saut} présente une étude statistique des champs de retournement pour les cas où $\Delta G> 0$ et $\Delta G< 0$. Au vu des considérations que l'on vient d'énoncer, on peut identifier $\Delta G> 0$ comme correspondant à la transition $J_z = +6 \rightarrow J_z =  - 6$ et $\Delta G> 0$ à $J_z = -6 \rightarrow J_z =  + 6$. Mais alors, pour les mêmes raisons, l'état initial $J_z=+6$ devrait être plus probable que $Jz=-6$ puisque $B<0$. Ceci est évidemment confirmé par l'expérience qui donne le premier deux fois plus probable que le second. A fort champ, seul un état initial est possible, et donc, une seule transition. 
@@ -223,7 +238,7 @@ Supposons que l'on se place dans l'état initial $J_z=+6$ et $B<0$. Au regard du
 On peut donc affirmer de façon certaine que la variation en conductance $\Delta G$ est directement liée au retournement de l'aimantation et que son signe nous renseigne sur le sens de la transition.
 
 
-\subsubsection{Choix du point de fonctionnement}
+\subsection{Choix du point de fonctionnement}
 Nous avons vu dans la partie théorique consacrée au transport que la zone où la variation de conductance était la plus sensible au potentiel chimique se situe au niveau des points de dégénérescence. C'est dans cette zone que l'on va logiquement se placer. Dans un système idéal, on a $\frac{\partial G}{\partial \mu}_{\text{droite}} = -\frac{\partial G}{\partial \mu}_{\text{gauche}} $. Cela notamment était mis en évidence par~\cite{Datta2011} dans le cadre de nanoparticules magnétiques couplées par effet magnéto-Coulomb à un nanotube.
 
 \begin{figure}
@@ -238,7 +253,7 @@ Nous avons vu dans la partie théorique consacrée au transport que la zone où 
 Dans notre système, cette propriété n'est pas respectée et le résultat obtenu est plus complexe. La Fig.\ref{point_fonctio} montre le signe du changement de conductance correspondant à un retournement, en fonction de la tension de grille $V_g$. On observe trois type de zones : les zones où le signal est trop faible pour être détecté; des zones où le bruit généré par les phénomènes de transport masque le signal magnétique.; enfin des zones où le signal magnétique est net et les résonances clairement visibles. Dans ces dernières, on observe des transitions d'un signe à l'autre similaire à un changement de signe de $\frac{\partial G}{\partial \mu}$. Notre système est en cela relativement éloigné du système idéal que nous avons utilisé jusqu'à maintenant. Et si ce dernier permet de comprendre facilement le couplage magnétisme-transport dans les zone ou $\frac{\partial G}{\partial \mu} = cst$, l'origine des zones de transitions ne nous apparaît toujours pas claire.
 
 
-\subsubsection{Procédure d'alignement}
+\subsection{Procédure d'alignement}
 
 L'une des caractéristiques principales d'un aimant moléculaire est de posséder un axe facile, c'est à dire, un axe le long duquel le moment magnétique "préfère" s'aligner. C'est suivant cet axe que le champ magnétique nécessaire au retournement de l'aimantation est le plus faible. Pour cette raison, il est indispensable de l'identifier de façon à minimiser le champ magnétique à appliquer à l'échantillon. Dans le cas d'un mauvais alignement, seule la projection suivant l'axe facile du champ magnétique contribue au retournement. Dans le cas extrême où le champ appliqué serait perpendiculaire à cet axe, aucun retournement ne pourrait être observé.
 
@@ -285,7 +300,7 @@ A champ fort là encore, les différences sont notables : retournement assisté 
 \section{Dynamique du spin nucléaire}
 
 
-\subsubsection{Temps de relaxation}
+\subsection{Temps de relaxation}
 Le spin nucléaire, du fait de son couplage relativement faible à l'environement, possède généralement un temps de vie élevé. Afin de pouvoir vérifier cette propriété, il nous faut pouvoir mesurer l'évolution des états du spin nucléaire en fonction du temps. Nous avons choisi pour cela une technique simple consistant à mesurer l'état du spin nucléaire lors de deux mesures, en faisant varier le temps séparant ces dernières. Du fait de l'aspect chronophage de cette procédure~(jusqu'à plusieurs jours par mesure), nous avons choisi cinq temps d'attente différents : $0,5,10,20$ et $50$ secondes. Pour chacune de ces valeurs, $22000$ balayges ont été effectués afin d'obtenir une statistique significative.
 
 
@@ -305,7 +320,7 @@ La Fig.\ref{evolution_temps} montre l'évolution de l'histogramme en fonction du
 \label{evolution_temps}
 \end{figure}
 
-\subsubsection{Perturbations induites par la mesure}
+\subsection{Perturbations induites par la mesure}
 De m\^eme que nous pouvons étudier l'influence du temps d'attente sur le spin nucléaire, il peut \^etre intéressant d'évaluer l'influence de la mesure sur l'état de spin nucléaire. Pour cela, nous avons choisi d'utiliser la méthode présenté précédemment, en observant non plus l'évolution de l'état nucléaire en fonction du temps mais en fonction du nombre de mesures. Nous avons utilisé les donnée collecté sur 22000 balayages (11000 trace et autant de retrace) effectué sans temps d'attente.
 
 La Fig.\ref{evolution_mesures} présente cette évolution après deux~(\textbf{a}), trois~(\textbf{b}), quatre~(\textbf{c}), cinq~(\textbf{d}) et six~(\textbf{e}) mesures. On constate qu'après 4 mesures, les éléments diagonaux domine toujours, pour ne commencer à s'atténuer qu'au bout de 6 mesures. Il est important de noté que chaque mesure est, en moyenne, séparée de 4 secondes, et donc, dans le cas de 6 mesures, cela correspond à un temps totale de plus de 20 secondes. Aux vues des résultats présentés dans la section précédente, on peut attribuer cette diminution de corrélation dans l'état du spin nucléaire au processus de relaxation interne au système, la procédure de mesure elle-même n'affectant qu'à la marge le système. 
@@ -318,7 +333,7 @@ La méthode de mesure de l'état de spin nucléaire par l'intermédiaire du QTM 
 \label{evolution_mesures}
 \end{figure}
 
-\subsubsection{Influence de la tension de grille}
+\subsection{Influence de la tension de grille}
 Au chapitre précédent, nous avons montré qu'à travers un histogramme des positions en champ des renversements, on pouvait facilement identifier les différents états de spin.Nous allons utiliser cette m\^eme mesure en la présentant différemment. En effet, chaque retournement au voisinage d'une résonance peut \^etre attribuée à un état de spin précis, les différents résonances ne se recouvrant pas. En intégrant et en normalisant le nombre de mesures obtenues pour chaque état de spin nucléaire, on peut reconstruire leur distribution. C'est ce qui est présenté dans la Fig. \ref{extract_pop} ou l'histogramme original est montré en \textbf{a} et la population qui en est extraite en \textbf{b}.
 
 Cependant, cette dernière contient en fait deux distributions, l'une relative à $J_z=-6$ et l'autre à $J_z=+6$ comme nous l'avons déjà montré. Il est cependant possible de les différencié à partir du signe du changement en conductance relatif à chaque mesure $\Delta g$. Dans la suite, du fait d'un initialisation à champ négatif, nous prendrons toujours pour référence la situation où $J_z=-6$ car il s'agit de l'état fondamental, donc plus probable, et il fournis donc une meilleure statistique.
@@ -332,7 +347,7 @@ Cependant, cette dernière contient en fait deux distributions, l'une relative �
 Nous allons maintenant utiliser cette technique d'extraction des populations pour étudier son évolution en fonction du temps pour deux environnements électrostatiques différents.
 
 
-\subsubsection{Détermination de la température nucléaire}
+\subsection{Détermination de la température nucléaire}
 La température du spin nucléaire a également été mesuré. Pour cela, nous avons choisi de nous placer sur le second point de fonctionnement pour lequel l'équilibre est atteint plus rapidement, ce qui nous  a permis de choisir un temps d'attente relativement faible pour effectuer notre étude. En effet, au vu du nombre de mesures nécessaire (22000 mesures), on ne peut pas attendre le temps nécessaire à l'équilibre thermodynamique. Nous avons choisi un compromis en prenant un temps d'attente de 10 secondes. Bien attendu, comme le montre l'étude précédente, l'abscence d'équilibre ne nous permet pas de déduire, directement à partir de la distribution, la température du spin nucléaire.
 
 Pour contourner cette limitation, nous avons choisi d'utiliser une méthode indirecte. Pour cela, la distribution des état nucléaire a été mesuré pour plusieurs température. La distribution observé pour $100\,mK$ a servie de référence, car celle-ci est très proche de la température électronique ($\sim 80\,mK$). La distribution ne va différé de la distribution de référence qu'à condition que la température imposé au système soit supérieur à la température nucléaire de référence obtenue à $100\,mK$.
