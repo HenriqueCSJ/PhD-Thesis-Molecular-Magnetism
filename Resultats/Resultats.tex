@@ -112,6 +112,13 @@ Une boite quantique peut se définir comme un système de petite taille dans leq
 
 Lorsque le potentiel chimique de la boite quantique se trouve dans la fen\^etre ouverte par la tension source-drain, un courant est mesuré. Les électrons peuvent circuler en passant un à un à travers la boite quantique. Si le potentiel chimique sort de cette fen\^etre, l'état de charge de la boite quantique est de nouveaux parfaitement défini, et aucun courant ne traverse le système.
 
+\begin{figure}
+\centering \includegraphics[scale=0.45]{Resultats/DotSchem/DotSchem.pdf} 
+\caption{Représentation schématique d'une boite quantique. \textbf{a} : Lorsque les potentiels chimique de la source et du drain~($\mu_s$ et $\mu_d$) ne sont pas alignés avec ceux du point quantique aucun courant circule et l'état de charge du point quantique est bien défini~(ici N). \textbf{b} : en appliquant une tension source drain, on ouvre une fenêtre de potentiel chimique. Si le potentiel chimique du point quantique se trouve dans cette fenêtre, un courant peut circuler. En appliquant une tension sur l'électrode de grille, on peut amené un potentiel chimique, initialement en dehors de la fenêtre~(\textbf{c}), à l'intérieur de celle-ci~(\textbf{d}).}
+\label{DotSchem}
+\end{figure}
+
+
 Afin de pouvoir moduler le potentiel chimique de la boite quantique, on peut ajouter une électrode de grille qui ne vas être couplé que capacitivement à cette dernière. En appliquant une tension sur cette électrode, l'échelle des potentiel chimique peut être décalé et donc le courant modulé. 
 
 On peut maintenant imaginer deux configurations. Dans la première la boite quantique est défini par la centre magnétique et ce dernier va osciller entre deux états de charge et donc deux configuration magnétique. Dans ce premier cas, la position du potentiel chimique dépend directement des propriétés magnétique, et ces dernière peuvent être déduite d'après les mesures en courant. On définira cette situation comme étant la configuration directe. 
@@ -127,6 +134,13 @@ Le couplage direct implique que les électrons responsables du courant, jouent �
 Dans le cas du couplage indirect, les électrons responsables du courant ne participent qu'indirectement au magnétisme de la molécule. La mesure se fait par l'analyse statistique des modifications de conductance du système en fonction du champ magnétique, la polarisation en tension source-drain et grille étant en général fixée~(par opposition à la spectroscopie en tunneling séquentiel). Dans cette configuration, le nombre d'électrons impliqués dans le magnétisme moléculaire ne peut pas être modifié. En revanche, la technique de mesure par couplage indirect se révèle beaucoup moins invasive. Cela garantie d'une part, la préservation des propriétés magnétiques et d'autre part, l'observation de longs temps de vie. 
 
 Cette configuration a été utilisée dans deux dispositifs légèrement différents. Dans le premier, une deuxième molécule~(un nanotube) a été utilisée comme point quantique sonde, l'aimant moléculaire étant déposé sur sa surface \cite{Urdampilleta2011}. Dans le deuxième dispositif, le cœur magnétique étant fortement découplé des ligands périphériques, ces derniers ont joué le rôle de point quantique sonde[nous]. Cette dernière configuration correspond au dispositif que nous nous proposons d'étudier dans la suite. Quelques outils théoriques sont venus faciliter l'interprétation des résultats [papier sur nanotube] mais également proposer de nouvelles expériences~\cite{Jaafar2010} +[article du les ligand qu'il faut que je retrouve..].
+
+
+\begin{figure}
+\centering \includegraphics[scale=0.45]{Resultats/DirVsInd/DirVsInd.pdf} 
+\caption{\textbf{a} : configuration directe. Le centre magnétique est directement impliqué dans le transport électronique. Son état de charge oscille entre les états de charges $N$ et $N+1$. Cette oscillation entraîne une alternance entre les états magnétiques $S_{N}$ et $S_{N+1}$. \textbf{b} : configuration indirecte. Le centre magnétique n'est pas directement couplé au transport électronique mais par l'intermédiaire d'une boite quantique. Cette dernière oscille entre deux états de charge $N$ et $N+1$, ces derniers étant influencé par l'état magnétique du centre magnétique du fait d'une interaction~(exchange, dipolaire etc.).}
+\label{DirVsInd}
+\end{figure}
 
 
 \subsection{Le couplage magnétisme-transport}
@@ -182,10 +196,9 @@ Contrairement aux expressions précédentes, la variation du potentiel chimique 
 
 \subsection{Signature en transport}
 
-\subsection{Intensité et nature de l'interaction}
-L'analyse de nos résultats passe par l'identification de l'interaction mise en jeu dans notre méthode de détection. Deux paramètres sont à évaluer pour clairement en identifier la nature : la dépendance en champ magnétique de la variation du potentiel chimique et l'intensité de l'interaction. Nous allons nous attacher à quantifier ces deux paramètres à l'aide de mesures en transport. La première étape sera consacrée à l'analyse de la hauteur des sauts de conductance. La seconde s'appuiera sur une étude de l'effet Kondo et sur l'influence de l'interaction sur ce dernier.
 
-\subsubsection{Amplitude des sauts de conductance}
+
+\subsection{Amplitude des sauts de conductance}
 Dans le chapitre théorique, nous avons montré que le potentiel chimique du point quantique était directement relié à la conductance différentielle mesurée. On peut résumer cette tendance par la relation suivante:
 \begin{eqnarray}
 \text{d}G = \frac{\partial G}{\partial \mu} \text{d} \mu
@@ -198,13 +211,13 @@ En se plaçant dans une situation où $\frac{\partial G}{\partial \mu} = cst$, l
 \label{analyse_interaction}
 \end{figure}
 
-\subsubsection{Intensité de l'interaction}
+\subsection{Intensité de l'interaction}
 L'intensité de l'interaction peut s'obtenir en comparant un système découplé de l'interaction avec le même système la subissant. Pour cela, on peut s'appuyer sur un phénomène universel tel l'effet Kondo de spin 1/2.
 
-\paragraph{L'effet Kondo $1/2$ :}
+\subsubsection{L'effet Kondo $1/2$}
 La Fig.\ref{analyse_interaction}.c, tirée de \cite{Roch2009}, présente la mesure d'un effet Kondo 1/2 en fonction du champ magnétique et de la tension source drain. \`A champ magnétique et  à tension source-drain nuls, on observe un pic de conductance. Lorsque l'on applique un champ magnétique, ce pic s'étale, puis se divise en deux pics de conductance distincts. Cette séparation est directement induite par l'effet Zeeman. En extrapolant les maxima pour différentes valeurs du champ magnétique, on obtient une lecture de l'écartement Zeeman. En revanche, contrairement à ce que l'on pourrait attendre, les droites ne se croisent pas en $B=0$, mais en une valeur de champ fini $B_c$ supérieure à zéro. La valeur de $B_c$ est directement reliée à la température Kondo $T_K$ par $k_bT_K = \mu_B B_c$~\cite{Roch2009}. Autrement dit, il est nécessaire de fournir une énergie supérieure à celle de la température Kondo pour "casser" le singlet formé par le nuage Kondo et l'électron du point quantique. Regardons maintenant ce qu'il en est de notre système couplé.
 
-\paragraph{Effet Kondo du système couplé :}
+\subsubsection{Effet Kondo du système couplé}
 Si l'on effectue cette étude dans le cas du Kondo 1/2 couplé, on observe le même comportement général. Les pentes des droites extraites des extrema confirment qu'il s'agit d'un Kondo de spin 1/2. En revanche, la valeur de $B_c$ est maintenant négative. Tout se passe comme si le singlet était déjà "cassé" à champ magnétique nul. Cette première observation nous permet d'éliminer l'interaction d'échange anti-ferromagnétique. En effet, cette dernière aurait tendance, tout comme l'effet Kondo, à décaler $B_c$ vers des valeurs plus élevées de champ magnétique. On a donc à faire, soit à une interaction dipolaire, soit à une interaction d'échange ferromagnétique.
 
 Si on néglige le décalage vers les valeurs de champ positives du champ critique $B_c$ induit par l'effet Kondo, une estimation basse de l'intensité de l'interaction peut être donnée directement par la valeur absolue de ce dernier. Cela donne une interaction de l'ordre de plusieurs dizaines de milliKelvin. Au regard des dimensions du système qui place le ligand à environs 1\,nm du centre magnétique, et s'agissant d'une valeur minimale, l'interaction dominante est l'interaction d'échange ferromagnétique.
