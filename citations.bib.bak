@@ -35,6 +35,36 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.61.2472}
 }
 
+@ARTICLE{Barra1996,
+  author = {Barra, A.-L. and Debrunner, P. and Gatteschi, D. and Schulz, Ch.
+	E. and Sessoli, R.},
+  title = {Superparamagnetic-like behavior in an octanuclear iron cluster},
+  journal = {EPL (Europhysics Letters)},
+  year = {1996},
+  volume = {35},
+  pages = {--133},
+  number = {2},
+  __markedentry = {[hukadan:6]},
+  abstract = {Using high-frequency EPR spectroscopy we have found that a cluster
+	comprising eight iron(III) ions, Fe 8 , which is essentially flat,
+	has a ground S = 10 state and an Ising-type anisotropy. For the first
+	time both ac susceptibility and MÃ¶ssbauer spectroscopy could be
+	used in order to monitor the relaxation time of the magnetization,
+	which was found to follow a thermally activated behavior, as in a
+	superparamagnet, with Ï 0 = 1.9 Ã 10 â7 s and an energy barrier
+	of 22.2 K. The set of data allowed us to conclude that the origin
+	of the anisotropy in nanosize molecular clusters is associated with
+	the single ion contributions and not with the shape of the clusters.},
+  comment = {0295-5075
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.06.08},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://stacks.iop.org/0295-5075/35/i=2/a=133}
+}
+
 @ARTICLE{Beenakker1991,
   author = {Beenakker, C. W. J.},
   title = {Theory of Coulomb-blockade oscillations in the conductance of a quantum
@@ -87,6 +117,25 @@
   url = {http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1449270}
 }
 
+@ARTICLE{Bleaney1961,
+  author = {Bleaney, B and Hill, R W},
+  title = {Hyperfine Structure in Terbium Metal},
+  journal = {Proceedings of the Physical Society},
+  year = {1961},
+  volume = {78},
+  pages = {--313},
+  number = {2},
+  __markedentry = {[hukadan:6]},
+  comment = {0370-1328
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.06.08},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://stacks.iop.org/0370-1328/78/i=2/a=120}
+}
+
 @ARTICLE{Blech1967,
   author = {Blech, I. A. and Meieran, E. S.},
   title = {DIRECT TRANSMISSION ELECTRON MICROSCOPE OBSERVATION OF ELECTROTRANSPORT
@@ -101,6 +150,20 @@
   publisher = {AIP},
   timestamp = {2012.09.01},
   url = {http://dx.doi.org/10.1063/1.1755127}
+}
+
+@BOOK{Bluegel2005,
+  title = {Magnetism goes Nano},
+  publisher = {Forschungszentrum Jülich, Zentralbibliothek, Verlag},
+  year = {2005},
+  author = {Blügel, Stefan and Brückel, Thomas and Schneider, Claus M.},
+  pages = {--},
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.08},
+  owner = {hukadan},
+  timestamp = {2012.09.19}
 }
 
 @ARTICLE{Bogani2008,
@@ -158,6 +221,35 @@
   url = {http://dx.doi.org/10.1038/nnano.2006.54}
 }
 
+@ARTICLE{Cronenwett1998,
+  author = {Cronenwett, Sara M. and Oosterkamp, Tjerk H. and Kouwenhoven, Leo
+	P.},
+  title = {A Tunable Kondo Effect in Quantum Dots},
+  journal = {Science},
+  year = {1998},
+  volume = {281},
+  pages = {540--544},
+  number = {5376},
+  month = jul,
+  __markedentry = {[hukadan:6]},
+  abstract = {A tunable Kondo effect has been realized in small quantum dots. A
+	dot can be switched from a Kondo system to a non-Kondo system as
+	the number of electrons on the dot is changed from odd to even. The
+	Kondo temperature can be tuned by means of a gate voltage as a single-particle
+	energy state nears the Fermi energy. Measurements of the temperature
+	and magnetic field dependence of a Coulomb-blockaded dot show good
+	agreement with predictions of both equilibrium and nonequilibrium
+	Kondo effects.},
+  comment = {10.1126/science.281.5376.540
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://www.sciencemag.org/content/281/5376/540.abstract}
+}
+
 @ARTICLE{Dadosh2005,
   author = {Dadosh, Tali and Gordin, Yoav and Krahne, Roman and Khivrich, Ilya
 	and Mahalu, Diana and Frydman, Veronica and Sperling, Joseph and
@@ -194,6 +286,25 @@
   url = {http://dx.doi.org/10.1063/1.102730}
 }
 
+@ARTICLE{Datta2011,
+  author = {Datta, S. and Marty, L. and Cleuziou, J. P. and Tilmaciu, C. and
+	Soula, B. and Flahaut, E. and Wernsdorfer, W.},
+  title = {Magneto-Coulomb Effect in Carbon Nanotube Quantum Dots Filled with
+	Magnetic Nanoparticles},
+  journal = {Phys. Rev. Lett.},
+  year = {2011},
+  volume = {107},
+  pages = {--186804},
+  number = {18},
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.07.03},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.107.186804}
+}
+
 @ARTICLE{Datta2009,
   author = {Datta, Sujit S. and Strachan, Douglas R. and Johnson, A. T. Charlie},
   title = {Gate coupling to nanoscale electronics},
@@ -208,6 +319,45 @@
   refid = {10.1103/PhysRevB.79.205404},
   timestamp = {2012.09.01},
   url = {http://link.aps.org/doi/10.1103/PhysRevB.79.205404}
+}
+
+@ARTICLE{DeFranceschi2001,
+  author = {De Franceschi, S. and Sasaki, S. and Elzerman, J. M. and van der
+	Wiel, W. G. and Tarucha, S. and Kouwenhoven, L. P.},
+  title = {Electron Cotunneling in a Semiconductor Quantum Dot},
+  journal = {Phys. Rev. Lett.},
+  year = {2001},
+  volume = {86},
+  pages = {878--881},
+  number = {5},
+  month = jan,
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.86.878}
+}
+
+@ARTICLE{Deshmukh2002,
+  author = {Deshmukh, Mandar M. and Bonet, Edgar and Pasupathy, A. N. and Ralph,
+	D. C.},
+  title = {Equilibrium and nonequilibrium electron tunneling via discrete quantum
+	states},
+  journal = {Phys. Rev. B},
+  year = {2002},
+  volume = {65},
+  pages = {--073301},
+  number = {7},
+  month = jan,
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://link.aps.org/doi/10.1103/PhysRevB.65.073301}
 }
 
 @ARTICLE{Esen2005,
@@ -299,6 +449,29 @@
   url = {http://www.theses.fr/2012LORR0008}
 }
 
+@ARTICLE{Goldhaber-Gordon1998,
+  author = {Goldhaber-Gordon, D. and Shtrikman, Hadas and Mahalu, D. and Abusch-Magder,
+	David and Meirav, U. and Kastner, M. A.},
+  title = {Kondo effect in a single-electron transistor},
+  journal = {Nature},
+  year = {1998},
+  volume = {391},
+  pages = {156--159},
+  number = {6663},
+  month = jan,
+  __markedentry = {[hukadan:6]},
+  comment = {0028-0836
+	
+	10.1038/34373
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://dx.doi.org/10.1038/34373}
+}
+
 @ARTICLE{Grose2008,
   author = {Grose, Jacob E. and Tam, Eugenia S. and Timm, Carsten and Scheloske,
 	Michael and Ulgut, Burak and Parks, Joshua J. and Abruna, Hector
@@ -336,6 +509,26 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.57.2442}
 }
 
+@ARTICLE{Haas1934,
+  author = {de Haas, W.J. and de Boer, J. and van dÃ«n Berg, G.J.},
+  title = {The electrical resistance of gold, copper and lead at low temperatures},
+  journal = {Physica},
+  year = {1934},
+  volume = {1},
+  pages = {1115--1124},
+  number = {7â12},
+  month = may,
+  __markedentry = {[hukadan:6]},
+  comment = {0031-8914
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://www.sciencedirect.com/science/article/pii/S0031891434803102}
+}
+
 @ARTICLE{Hanson2007,
   author = {Hanson, R. and Kouwenhoven, L. P. and Petta, J. R. and Tarucha, S.
 	and Vandersypen, L. M. K.},
@@ -351,6 +544,26 @@
   refid = {10.1103/RevModPhys.79.1217},
   timestamp = {2012.09.01},
   url = {http://link.aps.org/doi/10.1103/RevModPhys.79.1217}
+}
+
+@ARTICLE{Heersche2006a,
+  author = {Heersche, H. and de Groot, Z. and Folk, J. and van Der Zant, H. and
+	Romeike, C. and Wegewijs, M. and Zobbi, L. and Barreca, D. and Tondello,
+	E. and Cornia, A.},
+  title = {Electron Transport through Single Mn12 Molecular Magnets},
+  journal = {Physical Review Letters},
+  year = {2006},
+  volume = {96},
+  pages = {1--4},
+  number = {20},
+  month = may,
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.08},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.96.206801}
 }
 
 @ARTICLE{Heersche2006,
@@ -473,6 +686,53 @@
   publisher = {American Chemical Society},
   timestamp = {2012.08.27},
   url = {http://dx.doi.org/10.1021/ja0428661}
+}
+
+@ARTICLE{Jaafar2010,
+  author = {Jaafar, R. and Chudnovsky, E. M. and Garanin, D. A.},
+  title = {Single magnetic molecule between conducting leads: Effect of mechanical
+	rotations},
+  journal = {EPL (Europhysics Letters)},
+  year = {2010},
+  volume = {89},
+  pages = {--27001},
+  number = {2},
+  __markedentry = {[hukadan:6]},
+  abstract = {We study spin-rotation effects in a magnetic molecule bridged between
+	two conducting leads. The dynamics of the total angular momentum
+	couples spin tunneling to the mechanical rotations. The Landau-Zener
+	spin transition produced by the time-dependent magnetic field generates
+	a unique pattern of mechanical oscillations that can be detected
+	by measuring the electronic tunneling current through the molecule.},
+  comment = {0295-5075
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.07.03},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://stacks.iop.org/0295-5075/89/i=2/a=27001}
+}
+
+@ARTICLE{Jahn1937,
+  author = {Jahn, H. A. and Teller, E.},
+  title = {Stability of Polyatomic Molecules in Degenerate Electronic States.
+	I. Orbital Degeneracy},
+  journal = {Proceedings of the Royal Society of London. Series A, Mathematical
+	and Physical Sciences},
+  year = {1937},
+  volume = {161},
+  pages = {pp. 220--235},
+  number = {905},
+  __markedentry = {[hukadan:6]},
+  comment = {00804630
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://www.jstor.org/stable/96911}
 }
 
 @ARTICLE{Javey2002,
@@ -604,7 +864,6 @@
   pages = {106--108},
   number = {1},
   month = jan,
-  __markedentry = {[hukadan:]},
   keywords = {hafnium compounds, dielectric thin films, annealing, crystallisation,
 	transmission electron microscopy, tunnelling, capacitance, oxidation,
 	chemical vapour deposition, leakage currents},
@@ -624,6 +883,22 @@
   owner = {hukadan},
   timestamp = {2012.08.26},
   url = {http://books.google.fr/books?id=0HEPykpGky4C}
+}
+
+@ARTICLE{Kondo1964,
+  author = {Kondo, Jun},
+  title = {Resistance Minimum in Dilute Magnetic Alloys},
+  journal = {Prog. Theor. Phys.},
+  year = {1964},
+  volume = {32},
+  pages = {--37},
+  number = {1},
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19}
 }
 
 @ARTICLE{Leskelae2003,
@@ -776,6 +1051,38 @@
   url = {http://dx.doi.org/10.1002/chem.200890097}
 }
 
+@ARTICLE{Molen2006,
+  author = {van der Molen, S. J. and Tombros, N. and van Wees, B. J.},
+  title = {Magneto-Coulomb effect in spin-valve devices},
+  journal = {Phys. Rev. B},
+  year = {2006},
+  volume = {73},
+  pages = {--220406},
+  number = {22},
+  month = jun,
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.07.03},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://link.aps.org/doi/10.1103/PhysRevB.73.220406}
+}
+
+@BOOK{Nazarov2009,
+  title = {Quantum transport : introduction to Nanoscience},
+  publisher = {Cambridge University Press},
+  year = {2009},
+  author = {Nazarov, Yuli V. and Blanter, Yaroslav M.},
+  pages = {--},
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19}
+}
+
 @ARTICLE{ONeill2007,
   author = {O'Neill, K. and Osorio, E. A. and van der Zant, H. S. J.},
   title = {Self-breaking in planar few-atom Au constrictions for nanometer-spaced
@@ -830,6 +1137,29 @@
   url = {http://dx.doi.org/10.1038/35024031}
 }
 
+@ARTICLE{Park2000a,
+  author = {Park, Hongkun and Park, Jiwoong and Lim, Andrew K. L. and Anderson,
+	Erik H. and Alivisatos, A. Paul and McEuen, Paul L.},
+  title = {Nanomechanical oscillations in a single-C$_60$ transistor},
+  journal = {Nature},
+  year = {2000},
+  volume = {407},
+  pages = {57--60},
+  number = {6800},
+  month = oct,
+  __markedentry = {[hukadan:6]},
+  comment = {0028-0836
+	
+	10.1038/35024031
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://dx.doi.org/10.1038/35024031}
+}
+
 @ARTICLE{Reed1997,
   author = {Reed, M. A. and Zhou, C. and Muller, C. J. and Burgin, T. P. and
 	Tour, J. M.},
@@ -844,6 +1174,36 @@
   owner = {hukadan},
   timestamp = {2012.08.26},
   url = {http://www.sciencemag.org/content/278/5336/252.abstract N2 - Molecules of benzene-1,4-dithiol were self-assembled onto the two facing gold electrodes of a mechanically controllable break junction to form a statically stable gold-sulfur-aryl-sulfur-gold system, allowing for direct observation of charge transport through the molecules. Current-voltage measurements at room temperature demonstrated a highly reproducible apparent gap at about 0.7 volt, and the conductance-voltage curve showed two steps in both bias directions. This study provides a quantative measure of the conductance of a junction containing a single molecule, which is a fundamental step in the emerging area of molecular-scale electronics.}
+}
+
+@ARTICLE{Reed1997a,
+  author = {Reed, M. A. and Zhou, C. and Muller, C. J. and Burgin, T. P. and
+	Tour, J. M.},
+  title = {Conductance of a Molecular Junction},
+  journal = {Science},
+  year = {1997},
+  volume = {278},
+  pages = {pp. 252--254},
+  number = {5336},
+  __markedentry = {[hukadan:6]},
+  abstract = {Molecules of benzene-1,4-dithiol were self-assembled onto the two
+	facing gold electrodes of a mechanically controllable break junction
+	to form a statically stable gold-sulfur-aryl-sulfur-gold system,
+	allowing for direct observation of charge transport through the molecules.
+	Current-voltage measurements at room temperature demonstrated a highly
+	reproducible apparent gap at about 0.7 volt, and the conductance-voltage
+	curve showed two steps in both bias directions. This study provides
+	a quantative measure of the conductance of a junction containing
+	a single molecule, which is a fundamental step in the emerging area
+	of molecular-scale electronics.},
+  comment = {00368075
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://www.jstor.org/stable/2894709}
 }
 
 @PHDTHESIS{RochPhd,
@@ -891,6 +1251,24 @@
   url = {http://link.aps.org/doi/10.1103/PhysRevLett.103.197202}
 }
 
+@ARTICLE{Roch2009a,
+  author = {Roch, Nicolas and Florens, Serge and Costi, Theo A. and Wernsdorfer,
+	Wolfgang and Balestro, Franck},
+  title = {Observation of the Underscreened Kondo Effect in a Molecular Transistor},
+  journal = {Phys. Rev. Lett.},
+  year = {2009},
+  volume = {103},
+  pages = {--197202},
+  number = {19},
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.103.197202}
+}
+
 @ARTICLE{Roch2011,
   author = {Roch, Nicolas and Vincent, Romain and Elste, Florian and Harneit,
 	Wolfgang and Wernsdorfer, Wolfgang and Timm, Carsten and Balestro,
@@ -908,6 +1286,27 @@
   refid = {10.1103/PhysRevB.83.081407},
   timestamp = {2012.08.26},
   url = {http://link.aps.org/doi/10.1103/PhysRevB.83.081407}
+}
+
+@ARTICLE{Schmid1998,
+  author = {Schmid, Jörg and Weis, Jürgen and Eberl, Karl and v. Klitzing, Klaus},
+  title = {A quantum dot in the limit of strong coupling to reservoirs},
+  journal = {Physica B: Condensed Matter},
+  year = {1998},
+  volume = {256 - 258},
+  pages = {182--185},
+  number = {0},
+  month = dec,
+  __markedentry = {[hukadan:6]},
+  comment = {0921-4526
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  keywords = {Quantum dot, Anderson model, Kondo resonance, Spin splitting},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://www.sciencedirect.com/science/article/pii/S092145269800533X}
 }
 
 @ARTICLE{Sekitani2010,
@@ -928,6 +1327,25 @@
   url = {http://dx.doi.org/10.1038/nmat2896}
 }
 
+@ARTICLE{Stevens1952,
+  author = {Stevens, K W H},
+  title = {Matrix Elements and Operator Equivalents Connected with the Magnetic
+	Properties of Rare Earth Ions},
+  journal = {Proceedings of the Physical Society. Section A},
+  year = {1952},
+  volume = {65},
+  pages = {209--215},
+  number = {3},
+  month = mar,
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.08},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://stacks.iop.org/0370-1298/65/i=3/a=308?key=crossref.d16e3a96e2332fd15fb1fe4820790bb7}
+}
+
 @ARTICLE{Strachan2005,
   author = {Strachan, D. R. and Smith, D. E. and Johnston, D. E. and Park, T.-H.
 	and Therien, Michael J. and Bonnell, D. A. and Johnson, A. T.},
@@ -945,6 +1363,24 @@
   publisher = {AIP},
   timestamp = {2012.09.01},
   url = {http://dx.doi.org/10.1063/1.1857095}
+}
+
+@ARTICLE{T.1980,
+  author = {T., Lis},
+  title = {Preparation, structure, and magnetic properties of a dodecanuclear
+	mixed-valence manganese carboxylate},
+  journal = {Acta Crystallographica Section B},
+  year = {1980},
+  volume = {36},
+  pages = {2042--2046},
+  number = {9},
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.08},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://dx.doi.org/10.1107/S0567740880007893}
 }
 
 @ARTICLE{Taychatanapat2007,
@@ -983,20 +1419,58 @@
   url = {http://dx.doi.org/10.1038/383145a0}
 }
 
+@ARTICLE{Timm2007,
+  author = {Timm, Carsten},
+  title = {Tunneling through magnetic molecules with arbitrary angle between
+	easy axis and magnetic field},
+  journal = {Phys. Rev. B},
+  year = {2007},
+  volume = {76},
+  pages = {--014421},
+  number = {1},
+  month = jul,
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.07.03},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://link.aps.org/doi/10.1103/PhysRevB.76.014421}
+}
+
+@ARTICLE{Timm2006,
+  author = {Timm, Carsten and Elste, Florian},
+  title = {Spin amplification, reading, and writing in transport through anisotropic
+	magnetic molecules},
+  journal = {Phys. Rev. B},
+  year = {2006},
+  volume = {73},
+  pages = {--235304},
+  number = {23},
+  month = jun,
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.07.03},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://link.aps.org/doi/10.1103/PhysRevB.73.235304}
+}
+
 @ARTICLE{Triyoso2004,
   author = {Triyoso, D. and Liu, R. and Roan, D. and Ramon, M. and Edwards, N.
 	V. and Gregory, R. and Werho, D. and Kulik, J. and Tam, G. and Irwin,
 	E. and Wang, X.-D. and La, L. B. and Hobbs, C. and Garcia, R. and
 	Baker, J. and White, B. E. and Tobin, P.},
   title = {Impact of Deposition and Annealing Temperature on Material and Electrical
-	Characteristics of ALD  HfO2},
+	Characteristics of ALD HfO2},
   journal = {Journal of The Electrochemical Society},
   year = {2004},
   volume = {151},
   pages = {F220--F227},
   number = {10},
   month = jan,
-  __markedentry = {[hukadan:6]},
+  __markedentry = {[hukadan:]},
   abstract = {Hafnium oxide},
   comment = {10.1149/1.1784821},
   owner = {hukadan},
@@ -1087,6 +1561,24 @@
   url = {http://www.sciencemag.org/cgi/doi/10.1126/science.284.5411.133}
 }
 
+@ARTICLE{Wernsdorfer2002,
+  author = {Wernsdorfer, W. and Bhaduri, S. and Tiron, R. and Hendrickson, D.
+	N. and Christou, G.},
+  title = {Spin-Spin Cross Relaxation in Single-Molecule Magnets},
+  journal = {Phys. Rev. Lett.},
+  year = {2002},
+  volume = {89},
+  pages = {--197201},
+  number = {19},
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.08.22},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.89.197201}
+}
+
 @ARTICLE{Wiel2002,
   author = {van der Wiel, W. G. and De Franceschi, S. and Elzerman, J. M. and
 	Fujisawa, T. and Tarucha, S. and Kouwenhoven, L. P.},
@@ -1102,6 +1594,23 @@
   refid = {10.1103/RevModPhys.75.1},
   timestamp = {2012.09.01},
   url = {http://link.aps.org/doi/10.1103/RevModPhys.75.1}
+}
+
+@ARTICLE{Wilson1975,
+  author = {Wilson, Kenneth G.},
+  title = {The renormalization group: Critical phenomena and the Kondo problem},
+  journal = {Rev. Mod. Phys.},
+  year = {1975},
+  volume = {47},
+  pages = {773--840},
+  number = {4},
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.06},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://link.aps.org/doi/10.1103/RevModPhys.47.773}
 }
 
 @ARTICLE{Zant2006,
@@ -1134,6 +1643,25 @@
   url = {http://dx.doi.org/10.1039/B506240N}
 }
 
+@ARTICLE{Zener1932,
+  author = {Zener, C.},
+  title = {Non-Adiabatic Crossing of Energy Levels},
+  journal = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering
+	Sciences},
+  year = {1932},
+  volume = {137},
+  pages = {696--702},
+  number = {833},
+  month = oct,
+  __markedentry = {[hukadan:6]},
+  comment = {Owner: hukadan
+	
+	Added to JabRef: 2012.06.08},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://rspa.royalsocietypublishing.org/cgi/doi/10.1098/rspa.1932.0165}
+}
+
 @ARTICLE{Zhou1995,
   author = {Zhou, C. and Muller, C. J. and Deshpande, M. R. and Sleight, J. W.
 	and Reed, M. A.},
@@ -1151,6 +1679,31 @@
   publisher = {AIP},
   timestamp = {2012.08.26},
   url = {http://dx.doi.org/10.1063/1.114994}
+}
+
+@ARTICLE{Zyazin2010,
+  author = {Zyazin, Alexander S. and van den Berg, Johan W. G. and Osorio, Edgar
+	A. and van der Zant, Herre S. J. and Konstantinidis, Nikolaos P.
+	and Leijnse, Martin and Wegewijs, Maarten R. and May, Falk and Hofstetter,
+	Walter and Danieli, Chiara and Cornia, Andrea},
+  title = {Electric Field Controlled Magnetic Anisotropy in a Single Molecule},
+  journal = {Nano Lett.},
+  year = {2010},
+  volume = {10},
+  pages = {3307--3311},
+  number = {9},
+  month = aug,
+  __markedentry = {[hukadan:6]},
+  comment = {1530-6984
+	
+	doi: 10.1021/nl1009603
+	
+	Owner: hukadan
+	
+	Added to JabRef: 2012.07.03},
+  owner = {hukadan},
+  timestamp = {2012.09.19},
+  url = {http://dx.doi.org/10.1021/nl1009603}
 }
 
 @comment{jabref-meta: selector_publisher:}

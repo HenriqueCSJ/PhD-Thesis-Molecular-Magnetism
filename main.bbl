@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Ishikawa2005}
 Naoto Ishikawa, Miki Sugita, and Wolfgang Wernsdorfer.
@@ -7,6 +7,17 @@ Naoto Ishikawa, Miki Sugita, and Wolfgang Wernsdorfer.
   anions.
 \newblock {\em Angewandte Chemie International Edition}, 44(19):2931--2935,
   2005.
+
+\bibitem{Zener1932}
+C.~Zener.
+\newblock Non-adiabatic crossing of energy levels.
+\newblock {\em Proceedings of the Royal Society A: Mathematical, Physical and
+  Engineering Sciences}, 137(833):696--702, October 1932.
+
+\bibitem{Bleaney1961}
+B~Bleaney and R~W Hill.
+\newblock Hyperfine structure in terbium metal.
+\newblock {\em Proceedings of the Physical Society}, 78(2):--313, 1961.
 
 \bibitem{Heersche2006}
 H.~B. Heersche, Z.~de~Groot, J.~A. Folk, H.~S.~J. van~der Zant, C.~Romeike,
@@ -22,10 +33,47 @@ Moon-Ho Jo, Jacob~E. Grose, Kanhayalal Baheti, Mandar~M. Deshmukh, Jennifer~J.
   spectroscopy.
 \newblock {\em Nano Lett.}, 6(9):2014--2020, August 2006.
 
+\bibitem{Zyazin2010}
+Alexander~S. Zyazin, Johan W.~G. van~den Berg, Edgar~A. Osorio, Herre S.~J.
+  van~der Zant, Nikolaos~P. Konstantinidis, Martin Leijnse, Maarten~R.
+  Wegewijs, Falk May, Walter Hofstetter, Chiara Danieli, and Andrea Cornia.
+\newblock Electric field controlled magnetic anisotropy in a single molecule.
+\newblock {\em Nano Lett.}, 10(9):3307--3311, August 2010.
+
+\bibitem{Timm2006}
+Carsten Timm and Florian Elste.
+\newblock Spin amplification, reading, and writing in transport through
+  anisotropic magnetic molecules.
+\newblock {\em Phys. Rev. B}, 73(23):--235304, June 2006.
+
+\bibitem{Timm2007}
+Carsten Timm.
+\newblock Tunneling through magnetic molecules with arbitrary angle between
+  easy axis and magnetic field.
+\newblock {\em Phys. Rev. B}, 76(1):--014421, July 2007.
+
 \bibitem{Urdampilleta2011}
 M.~Urdampilleta, S.~Klyatskaya, J-P. Cleuziou, M.~Ruben, and W.~Wernsdorfer.
 \newblock Supramolecular spin valves.
 \newblock {\em Nat Mater}, 10(7):502--506, July 2011.
+
+\bibitem{Jaafar2010}
+R.~Jaafar, E.~M. Chudnovsky, and D.~A. Garanin.
+\newblock Single magnetic molecule between conducting leads: Effect of
+  mechanical rotations.
+\newblock {\em EPL (Europhysics Letters)}, 89(2):--27001, 2010.
+
+\bibitem{Molen2006}
+S.~J. van~der Molen, N.~Tombros, and B.~J. van Wees.
+\newblock Magneto-coulomb effect in spin-valve devices.
+\newblock {\em Phys. Rev. B}, 73(22):--220406, June 2006.
+
+\bibitem{Datta2011}
+S.~Datta, L.~Marty, J.~P. Cleuziou, C.~Tilmaciu, B.~Soula, E.~Flahaut, and
+  W.~Wernsdorfer.
+\newblock Magneto-coulomb effect in carbon nanotube quantum dots filled with
+  magnetic nanoparticles.
+\newblock {\em Phys. Rev. Lett.}, 107(18):--186804, 2011.
 
 \bibitem{Roch2009}
 Nicolas Roch, Serge Florens, Theo~A. Costi, Wolfgang Wernsdorfer, and Franck
@@ -45,5 +93,10 @@ Jonathan~R. Friedman, M.~P. Sarachik, J.~Tejada, and R.~Ziolo.
 \newblock Macroscopic measurement of resonant magnetization tunneling in
   high-spin molecules.
 \newblock {\em Phys. Rev. Lett.}, 76(20):3830--3833, May 1996.
+
+\bibitem{Wernsdorfer2002}
+W.~Wernsdorfer, S.~Bhaduri, R.~Tiron, D.~N. Hendrickson, and G.~Christou.
+\newblock Spin-spin cross relaxation in single-molecule magnets.
+\newblock {\em Phys. Rev. Lett.}, 89(19):--197201, 2002.
 
 \end{thebibliography}
