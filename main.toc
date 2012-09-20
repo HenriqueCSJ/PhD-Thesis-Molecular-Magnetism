@@ -13,25 +13,25 @@
 \contentsline {subsection}{\numberline {1.2.2}La configuration directe}{11}
 \contentsline {subsection}{\numberline {1.2.3}La configuration indirecte}{11}
 \contentsline {subsection}{\numberline {1.2.4}Le couplage magn\IeC {\'e}tisme-transport}{12}
-\contentsline {subsubsection}{Le couplage dipolaire}{12}
+\contentsline {subsubsection}{Le couplage dipolaire}{13}
 \contentsline {subsubsection}{Le couplage d'\IeC {\'e}change}{14}
 \contentsline {subsubsection}{Le couplage magn\IeC {\'e}to-Coulomb}{15}
-\contentsline {section}{\numberline {1.3}Description de notre \IeC {\'e}chantillon}{16}
-\contentsline {subsection}{\numberline {1.3.1}Signature en transport}{16}
-\contentsline {subsection}{\numberline {1.3.2}Amplitude des sauts de conductance}{16}
-\contentsline {subsection}{\numberline {1.3.3}Intensit\IeC {\'e} de l'interaction}{18}
+\contentsline {section}{\numberline {1.3}Description de notre \IeC {\'e}chantillon}{15}
+\contentsline {subsection}{\numberline {1.3.1}Signature en transport}{15}
+\contentsline {subsection}{\numberline {1.3.2}Amplitude des sauts de conductance}{15}
+\contentsline {subsection}{\numberline {1.3.3}Intensit\IeC {\'e} de l'interaction}{16}
 \contentsline {subsubsection}{L'effet Kondo : d\IeC {\'e}finition}{18}
 \contentsline {subsubsection}{L'effet Kondo $1/2$ non coupl\IeC {\'e}}{18}
 \contentsline {subsubsection}{Effet Kondo $1/2$ coupl\IeC {\'e}}{18}
 \contentsline {section}{\numberline {1.4}Analyse des sauts en conductance}{19}
 \contentsline {subsection}{\numberline {1.4.1}M\IeC {\'e}thode de d\IeC {\'e}tection}{19}
 \contentsline {subsection}{\numberline {1.4.2}Interpr\IeC {\'e}tation physique de $\Delta g$}{21}
-\contentsline {subsection}{\numberline {1.4.3}Choix du point de fonctionnement}{23}
+\contentsline {subsection}{\numberline {1.4.3}Choix du point de fonctionnement}{22}
 \contentsline {subsection}{\numberline {1.4.4}Proc\IeC {\'e}dure d'alignement}{24}
 \contentsline {section}{\numberline {1.5}Cycle d\IeC {\textquoteright }hyst\IeC {\'e}r\IeC {\'e}sis d'une assembl\IeC {\'e}e versus une mol\IeC {\'e}cule isol\IeC {\'e}}{26}
-\contentsline {section}{\numberline {1.6}Dynamique du spin nucl\IeC {\'e}aire}{28}
-\contentsline {subsection}{\numberline {1.6.1}Temps de relaxation}{28}
-\contentsline {subsection}{\numberline {1.6.2}Perturbations induites par la mesure}{30}
-\contentsline {subsection}{\numberline {1.6.3}Influence de la tension de grille}{31}
-\contentsline {subsection}{\numberline {1.6.4}Influence de la tension de grille sur la relaxation}{34}
-\contentsline {subsection}{\numberline {1.6.5}D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{34}
+\contentsline {section}{\numberline {1.6}Dynamique du spin nucl\IeC {\'e}aire}{29}
+\contentsline {subsection}{\numberline {1.6.1}Temps de relaxation}{29}
+\contentsline {subsection}{\numberline {1.6.2}Perturbations induites par la mesure}{31}
+\contentsline {subsection}{\numberline {1.6.3}Extraction des populations nucl\IeC {\'e}aires}{33}
+\contentsline {subsection}{\numberline {1.6.4}Influence de la tension de grille sur la relaxation}{33}
+\contentsline {subsection}{\numberline {1.6.5}D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{35}

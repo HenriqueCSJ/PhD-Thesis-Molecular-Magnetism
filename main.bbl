@@ -8,6 +8,26 @@ Naoto Ishikawa, Miki Sugita, and Wolfgang Wernsdorfer.
 \newblock {\em Angewandte Chemie International Edition}, 44(19):2931--2935,
   2005.
 
+\bibitem{Sorace2011}
+Lorenzo Sorace, Cristiano Benelli, and Dante Gatteschi.
+\newblock Lanthanides in molecular magnetism: old tools in a new field.
+\newblock {\em Chemical Society reviews}, (6):--, March 2011.
+
+\bibitem{Stevens1952}
+K~W~H Stevens.
+\newblock Matrix elements and operator equivalents connected with the magnetic
+  properties of rare earth ions.
+\newblock {\em Proceedings of the Physical Society. Section A}, 65(3):209--215,
+  March 1952.
+
+\bibitem{Koike1996}
+Naoto Koike, Hidehiro Uekusa, Yuji Ohashi, Chokto Harnoode, Fusao Kitamura,
+  Takeo Ohsaka, and Koichi Tokuda.
+\newblock Relationship between the skew angle and interplanar distance in four
+  bis(phthalocyaninato)lanthanide(iii) tetrabutylammonium salts ([nbu n 4 ][ln
+  iii pc 2 ]; ln = nd, gd, ho, lu).
+\newblock {\em Inorganic Chemistry}, 35(20):5798--5804, January 1996.
+
 \bibitem{Zener1932}
 C.~Zener.
 \newblock Non-adiabatic crossing of energy levels.
@@ -18,6 +38,11 @@ C.~Zener.
 B~Bleaney and R~W Hill.
 \newblock Hyperfine structure in terbium metal.
 \newblock {\em Proceedings of the Physical Society}, 78(2):--313, 1961.
+
+\bibitem{VanVleck1941}
+J.~H. Van~Vleck.
+\newblock Paramagnetic relaxation and the equilibrium of lattice oscillators.
+\newblock {\em Phys. Rev.}, 59(9):724--729, May 1941.
 
 \bibitem{Heersche2006}
 H.~B. Heersche, Z.~de~Groot, J.~A. Folk, H.~S.~J. van~der Zant, C.~Romeike,
@@ -57,6 +82,13 @@ M.~Urdampilleta, S.~Klyatskaya, J-P. Cleuziou, M.~Ruben, and W.~Wernsdorfer.
 \newblock Supramolecular spin valves.
 \newblock {\em Nat Mater}, 10(7):502--506, July 2011.
 
+\bibitem{Vincent2012}
+Romain Vincent, Svetlana Klyatskaya, Mario Ruben, Wolfgang Wernsdorfer, and
+  Franck Balestro.
+\newblock Electronic read-out of a single nuclear spin using a molecular spin
+  transistor.
+\newblock {\em Nature}, 488(7411):357--360, August 2012.
+
 \bibitem{Jaafar2010}
 R.~Jaafar, E.~M. Chudnovsky, and D.~A. Garanin.
 \newblock Single magnetic molecule between conducting leads: Effect of
@@ -81,6 +113,12 @@ Nicolas Roch, Serge Florens, Theo~A. Costi, Wolfgang Wernsdorfer, and Franck
 \newblock Observation of the underscreened kondo effect in a molecular
   transistor.
 \newblock {\em Phys. Rev. Lett.}, 103(19):197202--, November 2009.
+
+\bibitem{Y.1995}
+LIU~W. Y., MANGNIN~I. E., and GIMENEZ G.
+\newblock Un nouvel opérateur pour la détection de ruptures dans des signaux
+  bruités, 1995.
+\newblock Anglais.
 
 \bibitem{Thomas1996}
 L.~Thomas, F.~Lionti, R.~Ballou, D.~Gatteschi, R.~Sessoli, and B.~Barbara.
