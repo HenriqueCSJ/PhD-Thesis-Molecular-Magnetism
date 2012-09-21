@@ -108,7 +108,7 @@ L'analyse des propriétés magnétique du TbPc$_{2}$ sur des surfaces de cuivre 
 
 Cet aimant moléculaire a, en outre, l'avantage de mettre en jeux magnétisme électronique et magnétisme nucléaire, ce qui rend la physique plus riche, et donc les applications éventuelles plus nombreuses. D'autant que le terbium ne possède qu'un seul isotope, ce qui garantit les mêmes propriétés magnétiques, quelque soit l'aimant moléculaire.
 
-\section{Mesure du retournement de l'aimantation}
+\section{Magnétisme et transport}
 Afin de comprendre comment le magnétisme moléculaire peut se coupler au transport électronique, il est nécessaire d'identifier les mécanisme régissant ce dernier, dans le cas de structure nanométriques. La première partie de ce section sera consacré à cette étude.
 Puis, nous décrirons comment ces mécanismes peuvent \^etre sensibles au moment magnétique d'une molécule unique, à travers deux configurations différentes. Enfin, nous aborderons les différents interactions permettant de coupler le magnétisme moléculaire et le transport mésoscopique.
 
@@ -212,7 +212,13 @@ Après avoir cerné les mécanismes pouvant être en jeux dans notre système, n
 
 \section{Description de notre échantillon}
 
+
+
 \subsection{Signature en transport}
+
+Avant de caractériser en détail la réponse magnétique de notre système, il est important de savoir si l'on se trouve en configuration directe, ou bien en configuration indirecte. La première est généralement celle rencontré lorsque l'on piège une molécule au sein d'une interstice nanométrique constitué par les électrodes de source et de drain.
+Dans le cas du TbPc$_{2}$, cette hypothèse est cependant peut vraisemblable. En effet, une configuration directe signifie que l'on modifie le nombre d'électron impliqué dans le magnétisme. Dans notre cas, cela reviendrait à modifier le nombre d'électron de la couche $4f$ de l'atome de terbium, est requerrait une énergie de l'ordre de l'électron-Volt. On s'attend donc à obtenir une configuration indirecte.
+
 \begin{figure}
 \parbox{7cm}{
 \includegraphics[scale=0.45]{Resultats/CoulombMap/CoulombMap.pdf} 
@@ -222,6 +228,17 @@ Après avoir cerné les mécanismes pouvant être en jeux dans notre système, n
 }
 \end{figure}
 
+Afin de confirmer cette hypohèse, nous avons mesuré la conductance différentielle de notre échantillon en fonction des tension source-drain et de grille. La Fig.\ref{coulomb_map} présente le diagramme de stabilité obtenue dans lequel un pic de conductance. Celui-ci correspond à un changement d'état de charge de notre point quantique, ce dernier étant de $N$ à gauche et de $N+1$ à droite. Le diamant de Coulomb habituellement rencontré dans ce type de mesure n'est pas visible ici, certainement du fait d'un fort couplage au électrode, qui entraîne un élargissement des bords de diamant jusqu'à venir les masquer.
+
+Un élément important de cette mesure, est la présence d'une résonance à tension source-drain nulle, du côté droit du point de dégénérescence. Elle traduit la présence d'un moment magnétique sur notre point quantique, ce dernier venant interagir avec les électrons de la source et du drain : c'est l'effet Kondo. Initialement observé dans les matériaux massif contenant des impureté métallique, il a pour origine le couplage entre les électrons de conduction et une impureté magnétique. Dans notre cas, l'impureté magnétique n'est rien d'autre que le moment magnétique de notre point quantique, les électrons de conduction provenant de la source et du drain. Ce couplage étant anti-ferromagnétique, l'effet Kondo à pour effet de venir ``écranter'' le moment magnétique.
+
+Lorsque l'on traite se phénomène dans le cas de boite quantique, on peut rendre compte de cette effet par une densité d'état élevé au niveau de fermi de la source et du drain, et qui donne lieu à une résonance en conductance différentielle à tension source-drain nulle. Ces cette dernière que nous observons dans nos mesures.
+
+Lorsque l'on applique un champ magnétique sur une résonance Kondo, il est possible de la séparé en deux résonances, une à tension positive et l'autre à tension négative, comme le montre la Fig.\ref{analyse_interaction}.\textbf{d}. En analysant l'évolution de ces dernières, et notamment la pente à champ magnétique élevé, il est possible d'en déduire la nature du moment magnétique. Dans notre mesure, à champ magnétique élevé, on retrouve l'écart Zeeman correspondant à un spin $1/2$, ce dernier étant simplement décalé comme nous le verrons dans la suite.
+
+La présence de ce spin $1/2$ signifie tout d'abord que le transport n'implique pas directement notre centre magnétique dont le moment magnétique est de $6$. Il correspond à un boite quantique dont le niveau électronique est à motié rempli, laissant le spin de l'électron non apparié interagir avec les électrons de la source et du drain. Les états de charge du système sont $N=0$ à gauche du point de dégénérescence et $N=1$ à droite. De plus, comme nous allons le voir dans la suite, notre système est sensible au magnétisme de l'atome de terbium. \textbf{Nous sommes donc dans une configuration indirecte}. Dans ce cadre, on peut envisager trois interactions responsables du couplage entre notre centre magnétique et notre point quantique sonde : magnéto-Coulomb, couplage d'échange, et couplage dipolaire.
+
+Nous allons maintenant identifier quels sont la ou les interactions réellement en jeu dans notre système.
 
 \subsection{Amplitude des sauts de conductance}
 Précédemment, nous avons montré que le courant traversant le système, et donc, la conductance différentielle mesurée $g$, était directement relié au potentiel chimique du point quantique. On peut résumer cette tendance par la relation suivante:
@@ -240,9 +257,6 @@ La mesure présentée dans Fig.\ref{analyse_interaction}.\textbf{b} montre clair
 
 \subsection{Intensité de l'interaction}
 L'intensité d'une interaction peut être évaluée en comparant deux systèmes identiques : l'un soumis à ladite interaction; l'autre découplé de cette dernière. Pour réaliser cette expérience, on peut s'appuyer sur l'universalité d'un phénomène tel que l'effet Kondo. De part cette universalité, il nous est possible de comparer deux expériences différentes : l'une dans laquelle cet effet est mesuré sur un spin $1/2$ isolé, et une autre pour laquelle l'effet est mesuré dans la cas d'un spin $1/2$ couplé au moment magnétique de la molécule de TbPc$_2$. Mais avant de procéder à cette analyse, il nous apparaît utile d'introduire succinctement l'effet Kondo.
-
-\subsubsection{L'effet Kondo : définition}
-
 
 \subsubsection{L'effet Kondo $1/2$ non couplé}
 La Fig.\ref{analyse_interaction}.c, tirée de \cite{Roch2009}, présente la mesure d'un effet Kondo 1/2 en fonction du champ magnétique et de la tension source drain. \`A champ magnétique et  à tension source-drain nuls, on observe un pic de conductance. Lorsque l'on applique un champ magnétique, ce pic s'étale, puis se divise en deux pics de conductance distincts. Cette séparation est directement induite par l'effet Zeeman. En extrapolant les maxima pour différentes valeurs du champ magnétique, on obtient une lecture de l'écartement Zeeman. En revanche, contrairement à ce que l'on pourrait attendre, les droites ne se croisent pas en $B=0$, mais en une valeur de champ fini $B_c$, supérieure à zéro. La valeur de $B_c$ est directement reliée à la température Kondo $T_K$ par $k_bT_K = \mu_B B_c$~\cite{Roch2009}. Autrement dit, il est nécessaire de fournir une énergie supérieure à celle de la température Kondo pour "casser" le singlet formé par le nuage Kondo et l'électron du point quantique. Regardons maintenant ce qu'il en est de notre système couplé.
@@ -327,17 +341,11 @@ Cependant, il faut garder à l'esprit que ``l'axe facile" identifié sur cette f
 
 Afin de vérifier le bon alignement de nos axes magnétiques, nous avons mesuré la position des résonances à faible champ en fonction d'un champ que l'on applique dans le plan difficile, et que l'on appellera dans la suite champ transverse. Si l'alignement est correct, la projection d'un tel champ sur l'axe facile est nulle. La position des résonances ne devrait donc pas varier. La Fig.\ref{alignement}.d présente la position de ces résonances pour trois champs transverses, et confirme le bon alignement de nos axes magnétiques, avec l'axe facile de la molécule.
 
-\section{Cycle d’hystérésis d'une assemblée versus une molécule isolé}
-Avant de nous consacrer à l'étude d'une molécule isolée, nous allons nous attarder un instant sur les mesures obtenues à l'aide de cristaux moléculaires. L'aimantation en fonction du champ magnétique de ces derniers est obtenue à l'aide d'une mesure micro-SQUID. Lorsque l'aimantation d'un aimant moléculaire change, les lignes de champ qu'il génère change également, entraînant une modification de flux auquel le micro-SQUID est sensible. En amenant d'abord l'aimantation à saturation par l'application d'un fort champ magnétique, puis en balayant celui-ci vers une valeur opposée, on peut remonter à l'aimantation en fonction du champ magnétique. Les Fig.\ref{CompAimant}.\textbf{a} et \textbf{b} présentent une mesure de ce type, dans l'un cas d'un cristal de TbPc$_2$ dilué à 10\%. La dilution est obtenue en insérant des molécules de YPc$_2$ de même structure mais non magnétique.
-
-\begin{figure}
-\includegraphics[scale=0.45]{Resultats/CompCrisMolUnique/CompCrisMolUnique.pdf} 
-\caption{\textbf{a} : mesure d'un microSQUID de l'aimantation d'un cristal moléculaire de TbPC$_{2}$ à 10\% en fonction du champ magnétique. Un grossissement du signal à faible champ~(\textbf{b}), fait apparaître des marches dans la mesure de l'aimantation, signature caractéristique du phénomène de QTM. \textbf{c} : mesure de l'aimantation d'une seule molécule en fonction du champ magnétique, obtenu par une statistique de 800 mesures. Un grossissement sur les quatre marches centrale~(\textbf{d}) permet une comparaison fine avec les mesures obtenues par technique microSQUID.}
-\label{CompAimant}
-\end{figure}
+\section{Magnétisme électronique}
 
 
-Dans notre expérience, nous n'avons accès qu'à un seul aimant moléculaire. Il nous faut donc utiliser l'hypothèse ergodique à savoir : mesurer un assemblé de $N$ molécules identique, est équivalent à mesurer $N$ fois la même molécule. Pour le reste, la technique de mesure est identique. L'aimantation est amenée à saturation, ce qui revient, dans notre cas, à appliquer un champ magnétique suffisamment grand pour que l'aimantation de la molécule se retourne. Le champ magnétique est ensuite balayé et la position en champ magnétique du retournement de l'aimantation est relevée. Ce cycle est effectué $N$ fois afin de pouvoir constituer une statistique~(dans nos expérience, $N$ à pris des valeur entre 1000 et 22000 selon les cas). L'aimantation est ensuite reconstitué. Pour cela on note $\mathscr{N}(B)$ le nombre de molécules s'étant retournées avant le champ magnétique $B$ et on attribue le moment magnétique $\frac{M_s}{N}$ à chaque molécule, $M_s$ étant l'aimantation de saturation et $N$ le nombre total de mesures. L'aimantation en fonction du champ magnétique prend alors la forme suivante :
+\subsection{Reconstruction du cycle d’hystérésis}
+Dans notre expérience, nous n'avons accès qu'à un seul aimant moléculaire. Il nous faut donc utiliser l'hypothèse ergodique à savoir : mesurer un assemblé de $N$ molécules identique, est équivalent à mesurer $N$ fois la même molécule. Pour le reste, la méthode de mesure est identique à celle employé avec la technique microSQUID. L'aimantation est amenée à saturation, ce qui revient, dans notre cas, à appliquer un champ magnétique suffisamment grand pour que l'aimantation de la molécule se retourne. Le champ magnétique est ensuite balayé et la position en champ magnétique du retournement de l'aimantation est relevée. Ce cycle est effectué $N$ fois afin de pouvoir constituer une statistique~(dans nos expérience, $N$ à pris des valeur entre 1000 et 22000 selon les cas). L'histogramme correspondant est présenté dans la Fig.\ref{CompAimant}.\textbf{b} dans le cas de 800 aller-retour en champ magnétique. A partir de ce dernier, on peut ensuite reconstruire l'hystérésis de l'aimantation. Pour cela on note $\mathscr{N}(B)$ le nombre de molécules s'étant retournées avant le champ magnétique $B$ et on attribue le moment magnétique $\frac{M_s}{N}$ à chaque molécule, $M_s$ étant l'aimantation de saturation et $N$ le nombre total de mesures. L'aimantation en fonction du champ magnétique prend alors la forme suivante :
 \begin{eqnarray}
 M(B) =\pm \frac{M_s}{N}(2\mathscr{N}(B) -1)\nonumber
 \end{eqnarray}
@@ -347,16 +355,50 @@ Le signe est déterminé par celui du champ de saturation initial : positif pou 
 \frac{M}{M_s}(B) =\pm \frac{1}{N} (2\mathscr{N}(B) -1)
 \end{eqnarray}
 
-Le résultat obtenue pour un champ de saturation de $\pm 400 \, mT$, une vitesse de balyage de $50\,mT.s^{-1}$ et pour $N$ mesures, est présentée dans les Fig.\ref{CompAimant}.\textbf{c} et \textbf{d}.
 
-Afin de faciliter la comparaison des deux mesures, j'ai choisi de diviser la mesure en trois zone : champ faible pour $|B|< 100\,mT$, champ moyen pour $100\,mT<|B|< 200\,mT$ et champ fort pour $|B| > 200\,mT$.
+Le résultat obtenue pour un champ de saturation de $\pm 400 \, mT$, une vitesse de balyage de $50\,mT.s^{-1}$ et pour $N$ mesures, est présentée dans les Fig.\ref{CompAimant}.\textbf{c} et \textbf{d}. Afin de faciliter l'analyse de la mesure, j'ai choisi la de diviser en deux zones : champ faible pour $|B|< 100\,mT$, champ fort pour $|B|>100\,mT$.
 
-A faible champ, la structure en marche caractéristique du phénomène de QTM~\cite{Thomas1996,Friedman1996} est clairement visible dans les deux mesures. Une différence notable réside cependant dans le nombre de marches observées. Alors que dans nos mesures, seulement 4 marches sont présentes~(conformément aux prédictions théoriques), la mesure obtenues à partir d'un cristal moléculaire montre de nombreuses marches supplémentaires. Ces dernières sont très certainement induites par des interactions entre les différents centres magnétique du cristal~\cite{Wernsdorfer2002}, et ce, malgré la dilution à 10\%.
+\begin{figure}
+\includegraphics[scale=0.45]{Resultats/CompCrisMolUnique/CompCrisMolUnique.pdf} 
+\caption{Hysteresis de la molécule TbPc$_2$ reconstruit à partir des mesures en transports sans champ transverse~(\textbf{a}), et avec un champ transverse de $750\,mT$~(\textbf{b}).}
+\label{CompAimant}
+\end{figure}
 
-A champ moyen, les deux mesures diffèrent largement. Dans le cas des mesures micro-SQUID, le retournement de l'aimantation est continue et les marches observés à faible champ sont totalement absentes. Dans cette zone, le retournement est induit par le bain de phonons et non par un phénomène de QTM. Dans le cas de l'aimant moléculaire isolé, on observe une deuxième série de quatre marches similaires à celles obtenues dans le cas du QTM. L'évolution de ces transitions en fonction du champ transverse nous laisse penser que celles-ci sont d\^u à un couplage entre l'aimant moléculaire et un deuxième système magnétique. De plus, le couplage avec le bain de phonons, présent dans le cas d'un cristal moléculaire, est ici absent. Ceci peut s'expliquer par la petit taille du système ne permettant pas la présence de phonons aux énergies correspondantes au champ magnétique de la zone de champ moyen.
+A faible champ, la structure en marche caractéristique du phénomène de QTM~\cite{Thomas1996,Friedman1996} est clairement visible. Les 4 marches, correspondant au qautre anticroisement de la Fig.\ref{TbPc2Zeeman}.\textbf{d}, sont présentes. Il est à noté que, dans le cas de la mesure obtenues à partir d'un cristal moléculaire, un nombre plus élevés de marches est mesuré. Ces dernières sont très certainement induites par des interactions entre les différents centres magnétique du cristal~\cite{Wernsdorfer2002}, et ce, malgré la dilution à 10\%.
 
-A champ fort là encore, les différences sont notables : retournement assisté par le bain de phonons dans le cas du cristal moléculaire; presence  de marches supperposé à un retournement continue dans le cas de notre système. Ne disposant pas, pour le moment, de modèle expliquant ces caractéristiques, nous ne nous attarderons pas sur cette dernière partie du cycle d’hystérésis et nous de développerons une analyse détaillée que de la zone champ faible.
+A champ fort là encore, il subsiste quelques différences entre la mesure microSQUID et celle obtenur avec notre système. Alors que dans le cas d'un cristal moléculaire le retournement assisté par le bain de phonons est le seul mécanisme impliqué, la presence  de marches supperposé à un retournement continue est clairement visible dans le cas de notre système. Ne disposant pas, pour le moment, de modèle satisfaisant expliquant ces caractéristiques, nous ne nous attarderons pas sur cette dernière partie du cycle d’hystérésis et nous de développerons une analyse détaillée que de la zone champ faible.
 
+\subsection{Le r\^ole du champ transverse}
+
+La mesure de la Fig.\ref{CompAimant}.\textbf{b} a été réalisée pour un champ transverse de $750mT$. La présence de ce champ transverse n'est pas anodine, mais au contraire, nécessaire à l'obtention d'une mesure faiblement perturbé par l'environnement. En fait, la présence d'un champ transverse à deux conséquence : l'une physique puisqu'il réduit les perturbations du système, et l'autre de l'ordre de la mise en oeuvre de la détection. Nous allons détailler ces deux points.
+
+\subsubsection{Conséquences physiques}
+Notre aimant moléculaire, lorsqu'il est piégé dans notre interstice nanométrique, n'est pas à proprement parlé isolé. Il peut subir l'influence d'un autre molécule, d'une impureté magnétique piégé dans l'oxyde, ou tout autre système susceptible d'échanger de l'énergie. Cependant, il est possible d'isoler ce dernier de façon artificielle, en figeant les systèmes environant. Ceci peut \^etre réalisé par l'application d'un fort champ transverse, qui va venir aligner les systèmes magnétiques environnant, ne leur laissant plus la possibilité d'interagir avec l'aimant moléculaire. Les propriétés magnétique de ce dernier, sont en revanche peut perturbé par la présence de ce champ transverse.
+
+L'amélioration dans la qualité de la mesure peut être apprécié en comparant un cycle d'hystérésis reconstitué à partir d'une mesure sans champ transverse, et la même mesure réalisé avec un champ transverse de $750\,mT$. Dans le premier cas, une multitude de marche à faible champ sont visible, et rendre compte des couplages multiples entre l'aimant moléculaire et son environnement. Dans le second cas, à faible champ, on identifie clairement les marches relatives au QTM. A plus fort champ, on constate encore la présence de marches secondaires, réminiscent du couplage à l'environnement, initialement présent à faible champ.
+
+Dans la suite, l'ensemble des mesures a été fait avec un champ transverse de $750mT$.
+
+\subsubsection{Impact sur la mise en œuvre}
+
+La présence d'un champ transverse à également une conséquence sur la mise en oeuvre de la détection. Comme nous l'avons présenté dans la partie consacré à la technique de détection, il est nécessaire, pour mesurer le retournement de l'aimantation de façon efficace, de se placer sur un point tel que $\frac{\partial g}{\partial B} = cst$. Or, à faible champ, cette relation n'est plus vérifié et l'on observe un changement de signe de $\frac{\partial g}{\partial B}$  comme le montre la Fig.\ref{analyse_interaction}.\textbf{a}, ce qui n'est pas sans posé de problème. D'autant plus que le phénomène de QTM se déroule également à champ faible.
+
+Nous avons observé, pour notre échantillon, une légère anisotropie de la conductance en fonction du champ magnétique. Cela se traduit, lorsque l'on applique un champ transverse, par un décalage dans la zone d'inversion de signe de $\frac{\partial g}{\partial B}$, comme le montre la Fig.\ref{TransInfl}. On peut donc opéré des mesures avec un signe de  $\frac{\partial g}{\partial B}$ constant sur la totalité de la plage de champ magnétique nécessaire à la mesure, comme le montre la Fig.\ref{TransInfl}.
+
+
+\begin{figure}
+\parbox{7cm}{
+\includegraphics[scale=0.45]{Resultats/TransInfl/TransInfl.pdf} 
+}
+\parbox{6.5cm}{\caption{Mesure de la conductance différentielle $g$ pour un champ transverse $750mT$. La zone correspondant à $\frac{\partial g}{\partial B} \sim cst$ s'étant sur toute la zone de mesure.}
+\label{TransInfl}
+}
+\end{figure}
+
+
+
+
+Cette propriété a le mérite de faciliter considérablement l'interprétation de $\Delta g$, et améliore grandement la capacité de détection à faible champ magnétique.
 
 \section{Dynamique du spin nucléaire}
 
