@@ -95,6 +95,13 @@ R.~Jaafar, E.~M. Chudnovsky, and D.~A. Garanin.
   mechanical rotations.
 \newblock {\em EPL (Europhysics Letters)}, 89(2):--27001, 2010.
 
+\bibitem{Roch2011}
+Nicolas Roch, Romain Vincent, Florian Elste, Wolfgang Harneit, Wolfgang
+  Wernsdorfer, Carsten Timm, and Franck Balestro.
+\newblock Cotunneling through a magnetic single-molecule transistor based on
+  {N}@{C}$_{60}$.
+\newblock {\em Phys. Rev. B}, 83(8):081407--, February 2011.
+
 \bibitem{Molen2006}
 S.~J. van~der Molen, N.~Tombros, and B.~J. van Wees.
 \newblock Magneto-coulomb effect in spin-valve devices.
@@ -106,6 +113,22 @@ S.~Datta, L.~Marty, J.~P. Cleuziou, C.~Tilmaciu, B.~Soula, E.~Flahaut, and
 \newblock Magneto-coulomb effect in carbon nanotube quantum dots filled with
   magnetic nanoparticles.
 \newblock {\em Phys. Rev. Lett.}, 107(18):--186804, 2011.
+
+\bibitem{Kondo1964}
+Jun Kondo.
+\newblock Resistance minimum in dilute magnetic alloys.
+\newblock {\em Prog. Theor. Phys.}, 32(1):--37, 1964.
+
+\bibitem{Wilson1975}
+Kenneth~G. Wilson.
+\newblock The renormalization group: Critical phenomena and the kondo problem.
+\newblock {\em Rev. Mod. Phys.}, 47(4):773--840, 1975.
+
+\bibitem{Goldhaber-Gordon1998}
+D.~Goldhaber-Gordon, Hadas Shtrikman, D.~Mahalu, David Abusch-Magder,
+  U.~Meirav, and M.~A. Kastner.
+\newblock Kondo effect in a single-electron transistor.
+\newblock {\em Nature}, 391(6663):156--159, January 1998.
 
 \bibitem{Roch2009}
 Nicolas Roch, Serge Florens, Theo~A. Costi, Wolfgang Wernsdorfer, and Franck
