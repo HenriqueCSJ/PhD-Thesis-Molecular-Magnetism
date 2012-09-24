@@ -34,7 +34,7 @@
 \contentsline {subsubsection}{Impact sur la mise en \IeC {\oe }uvre}{31}
 \contentsline {section}{\numberline {1.6}Dynamique du spin nucl\IeC {\'e}aire}{32}
 \contentsline {subsection}{\numberline {1.6.1}Temps de relaxation}{32}
-\contentsline {subsection}{\numberline {1.6.2}Perturbations induites par la mesure}{34}
+\contentsline {subsection}{\numberline {1.6.2}Perturbations induites par la mesure}{33}
 \contentsline {subsection}{\numberline {1.6.3}Extraction des populations nucl\IeC {\'e}aires}{36}
-\contentsline {subsection}{\numberline {1.6.4}Influence de la tension de grille sur la relaxation}{36}
-\contentsline {subsection}{\numberline {1.6.5}D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{38}
+\contentsline {subsection}{\numberline {1.6.4}Influence de la tension de grille sur la relaxation}{38}
+\contentsline {subsection}{\numberline {1.6.5}D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{39}
