@@ -56,16 +56,6 @@ Biqin Huang, Douwe~J. Monsma, and Ian Appelbaum.
 \newblock Experimental realization of a silicon spin field-effect transistor.
 \newblock {\em Appl. Phys. Lett.}, 91(7):072501--3, August 2007.
 
-\bibitem{Bogani2008}
-Lapo Bogani and Wolfgang Wernsdorfer.
-\newblock Molecular spintronics using single-molecule magnets.
-\newblock {\em Nat Mater}, 7(3):179--186, March 2008.
-
-\bibitem{Sanvito2011}
-Stefano Sanvito.
-\newblock Molecular spintronics.
-\newblock {\em Chemical Society reviews}, (6):--, May 2011.
-
 \bibitem{Klauk2007}
 H.~Klauk.
 \newblock {\em Organic Electronics: Materials, Manufacturing, and
@@ -83,6 +73,29 @@ D.~Gatteschi, R.~Sessoli, and J.~Villain.
 \newblock {\em Molecular Nanomagnets}.
 \newblock OUP Oxford, 2006.
 
+\bibitem{Bogani2008}
+Lapo Bogani and Wolfgang Wernsdorfer.
+\newblock Molecular spintronics using single-molecule magnets.
+\newblock {\em Nat Mater}, 7(3):179--186, March 2008.
+
+\bibitem{Sanvito2011}
+Stefano Sanvito.
+\newblock Molecular spintronics.
+\newblock {\em Chemical Society reviews}, (6):--, May 2011.
+
+\bibitem{Mannini2010}
+M.~Mannini, F.~Pineider, C.~Danieli, F.~Totti, L.~Sorace, Ph. Sainctavit, M.-A.
+  Arrio, E.~Otero, L.~Joly, J.~C. Cezar, A.~Cornia, and R.~Sessoli.
+\newblock Quantum tunnelling of the magnetization in a monolayer of oriented
+  single-molecule magnets.
+\newblock {\em Nature}, 468(7322):417--421, November 2010.
+
+\bibitem{Friedman1996}
+Jonathan~R. Friedman, M.~P. Sarachik, J.~Tejada, and R.~Ziolo.
+\newblock Macroscopic measurement of resonant magnetization tunneling in
+  high-spin molecules.
+\newblock {\em Phys. Rev. Lett.}, 76(20):3830--3833, May 1996.
+
 \bibitem{Thomas1996}
 L.~Thomas, F.~Lionti, R.~Ballou, D.~Gatteschi, R.~Sessoli, and B.~Barbara.
 \newblock Macroscopic quantum tunnelling of magnetization in a single crystal
@@ -94,12 +107,6 @@ W.~Wernsdorfer.
 \newblock Quantum phase interference and parity effects in magnetic molecular
   clusters.
 \newblock {\em Science}, 284(5411):133--135, April 1999.
-
-\bibitem{Friedman1996}
-Jonathan~R. Friedman, M.~P. Sarachik, J.~Tejada, and R.~Ziolo.
-\newblock Macroscopic measurement of resonant magnetization tunneling in
-  high-spin molecules.
-\newblock {\em Phys. Rev. Lett.}, 76(20):3830--3833, May 1996.
 
 \bibitem{Ishikawa2005}
 Naoto Ishikawa, Miki Sugita, and Wolfgang Wernsdorfer.
@@ -114,13 +121,6 @@ Naoto Ishikawa, Miki Sugita, and Wolfgang Wernsdorfer.
 \newblock Nuclear spin driven quantum tunneling of magnetization in a new
   lanthanide single-molecule magnet: Bis(phthalocyaninato)holmium anion.
 \newblock {\em J. Am. Chem. Soc.}, 127(11):3650--3651, February 2005.
-
-\bibitem{Mannini2010}
-M.~Mannini, F.~Pineider, C.~Danieli, F.~Totti, L.~Sorace, Ph. Sainctavit, M.-A.
-  Arrio, E.~Otero, L.~Joly, J.~C. Cezar, A.~Cornia, and R.~Sessoli.
-\newblock Quantum tunnelling of the magnetization in a monolayer of oriented
-  single-molecule magnets.
-\newblock {\em Nature}, 468(7322):417--421, November 2010.
 
 \bibitem{Mannini2008}
 Matteo Mannini, Philippe Sainctavit, Roberta Sessoli, Christophe Cartier~dit
@@ -160,6 +160,13 @@ Tali Dadosh, Yoav Gordin, Roman Krahne, Ilya Khivrich, Diana Mahalu, Veronica
 \newblock Measurement of the conductance of single conjugated molecules.
 \newblock {\em Nature}, 436(7051):677--680, August 2005.
 
+\bibitem{Leary2011}
+Edmund Leary, M~Teresa Gonz, Cornelia Van~Der Pol, Martin~R Bryce, and
+  Salvatore Filippone.
+\newblock Unambiguous one-molecule conductance measurements under ambient
+  conditions.
+\newblock {\em Nano}, pages~--, 2011.
+
 \bibitem{Park2000}
 Hongkun Park, Jiwoong Park, Andrew K.~L. Lim, Erik~H. Anderson, A.~Paul
   Alivisatos, and Paul~L. McEuen.
@@ -175,6 +182,13 @@ P~S Ho and T~Kwok.
 K.~N. Tu.
 \newblock Electromigration in stressed thin films.
 \newblock {\em Phys. Rev. B}, 45(3):1409--1413, January 1992.
+
+\bibitem{Jain2009}
+Titoo Jain, Fredrik Westerlund, Erik Johnson, Kasper Moth-Poulsen, and Thomas
+  Bjørnholm.
+\newblock Self-assembled nanogaps via seed-mediated growth of end-to-end linked
+  gold nanorods.
+\newblock {\em ACS Nano}, 3(4):828--834, March 2009.
 
 \bibitem{Heersche2006}
 H.~B. Heersche, Z.~de~Groot, J.~A. Folk, H.~S.~J. van~der Zant, C.~Romeike,
@@ -208,6 +222,18 @@ Jean-Pierre Cleuziou, Wolfgang Wernsdorfer, Thierry Ondarcuhu, and Marc
   encapsulated in carbon nanotubes.
 \newblock {\em ACS Nano}, 5(3):2348--2355, February 2011.
 
+\bibitem{Urdampilleta2011}
+M.~Urdampilleta, S.~Klyatskaya, J-P. Cleuziou, M.~Ruben, and W.~Wernsdorfer.
+\newblock Supramolecular spin valves.
+\newblock {\em Nat Mater}, 10(7):502--506, July 2011.
+
+\bibitem{Roch2011}
+Nicolas Roch, Romain Vincent, Florian Elste, Wolfgang Harneit, Wolfgang
+  Wernsdorfer, Carsten Timm, and Franck Balestro.
+\newblock Cotunneling through a magnetic single-molecule transistor based on
+  {N}@{C}$_{60}$.
+\newblock {\em Phys. Rev. B}, 83(8):081407--, February 2011.
+
 \bibitem{Park1999}
 Hongkun Park, Andrew K.~L. Lim, A.~Paul Alivisatos, Jiwoong Park, and Paul~L.
   McEuen.
@@ -227,17 +253,5 @@ Nicolas Roch, Serge Florens, Vincent Bouchiat, Wolfgang Wernsdorfer, and Franck
   Balestro.
 \newblock Quantum phase transition in a single-molecule quantum dot.
 \newblock {\em Nature}, 453(7195):633--637, May 2008.
-
-\bibitem{Roch2011}
-Nicolas Roch, Romain Vincent, Florian Elste, Wolfgang Harneit, Wolfgang
-  Wernsdorfer, Carsten Timm, and Franck Balestro.
-\newblock Cotunneling through a magnetic single-molecule transistor based on
-  {N}@{C}$_{60}$.
-\newblock {\em Phys. Rev. B}, 83(8):081407--, February 2011.
-
-\bibitem{Urdampilleta2011}
-M.~Urdampilleta, S.~Klyatskaya, J-P. Cleuziou, M.~Ruben, and W.~Wernsdorfer.
-\newblock Supramolecular spin valves.
-\newblock {\em Nat Mater}, 10(7):502--506, July 2011.
 
 \end{thebibliography}

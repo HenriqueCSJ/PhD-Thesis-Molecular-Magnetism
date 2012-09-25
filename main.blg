@@ -3,45 +3,45 @@ The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: citations.bib
 Warning--there's a number but no volume in Sanvito2011
-You've used 40 entries,
+You've used 42 entries,
             1791 wiz_defined-function locations,
-            738 strings with 11599 characters,
-and the built_in function-call counts, 10969 in all, are:
-= -- 931
-> -- 651
-< -- 0
-+ -- 232
-- -- 192
-* -- 1047
-:= -- 1801
-add.period$ -- 120
-call.type$ -- 40
-change.case$ -- 38
+            748 strings with 12006 characters,
+and the built_in function-call counts, 11506 in all, are:
+= -- 976
+> -- 685
+< -- 1
++ -- 244
+- -- 202
+* -- 1092
+:= -- 1890
+add.period$ -- 126
+call.type$ -- 42
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 358
-empty$ -- 956
-format.name$ -- 192
-if$ -- 2273
+cite$ -- 43
+duplicate$ -- 379
+empty$ -- 1000
+format.name$ -- 202
+if$ -- 2388
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 41
-newline$ -- 203
-num.names$ -- 40
-pop$ -- 59
+int.to.str$ -- 42
+missing$ -- 43
+newline$ -- 213
+num.names$ -- 42
+pop$ -- 63
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 119
+skip$ -- 128
 stack$ -- 0
-substring$ -- 958
-swap$ -- 40
-text.length$ -- 0
+substring$ -- 991
+swap$ -- 45
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 114
-width$ -- 42
-write$ -- 439
+while$ -- 121
+width$ -- 44
+write$ -- 461
 (There was 1 warning)
