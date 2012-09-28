@@ -734,7 +734,7 @@
   pages = {828--834},
   number = {4},
   month = mar,
-  __markedentry = {[hukadan:6]},
+  __markedentry = {[hukadan:]},
   booktitle = {ACS Nano},
   comment = {doi: 10.1021/nn900066w},
   issn = {1936-0851},
@@ -923,6 +923,20 @@
 	Added to JabRef: 2012.06.06},
   owner = {hukadan},
   timestamp = {2012.09.19}
+}
+
+@ARTICLE{Leary2011,
+  author = {Leary, Edmund and Gonz, M Teresa and Pol, Cornelia Van Der and Bryce,
+	Martin R and Filippone, Salvatore},
+  title = {Unambiguous One-Molecule Conductance Measurements under Ambient Conditions},
+  journal = {Nano},
+  year = {2011},
+  pages = {--},
+  __markedentry = {[hukadan:6]},
+  keywords = {break junction, fullerene, molecular electronics, nanoelectronics,
+	single molecule conductance, stm},
+  owner = {hukadan},
+  timestamp = {2012.09.25}
 }
 
 @ARTICLE{Leskelae2003,
@@ -1315,7 +1329,6 @@
   pages = {--},
   number = {6},
   month = may,
-  __markedentry = {[hukadan:]},
   abstract = {The electron spin made its debut in the device world only two decades
 	ago but today our ability of detecting the spin state of a moving
 	electron underpins the entire magnetic data storage industry. This

@@ -1,9 +1,24 @@
 \select@language {french}
-\contentsline {chapter}{\numberline {1}Spintronique mol\IeC {\'e}culaire}{1}
-\contentsline {section}{\numberline {1.1}Spintronique et \IeC {\'E}lectronique mol\IeC {\'e}culaire}{1}
-\contentsline {subsection}{\numberline {1.1.1}La spintronique}{1}
-\contentsline {subsection}{\numberline {1.1.2}L'\IeC {\'e}lectronique organique}{2}
-\contentsline {section}{\numberline {1.2}Le magn\IeC {\'e}tisme mol\IeC {\'e}culaire}{4}
-\contentsline {section}{\numberline {1.3}La spintronique mol\IeC {\'e}culaire}{7}
-\contentsline {subsection}{\numberline {1.3.1}\IeC {\'E}tat de l'art}{7}
-\contentsline {subsection}{\numberline {1.3.2}La spintronique dans notre groupe}{12}
+\contentsline {chapter}{\numberline {1}Fabrication d'un transistor mol\IeC {\'e}culaire}{1}
+\contentsline {section}{\numberline {1.1}Lithographie optique}{1}
+\contentsline {section}{\numberline {1.2}R\IeC {\'e}alisation d'une grille locale}{3}
+\contentsline {subsection}{\numberline {1.2.1}Quelques exemples}{3}
+\contentsline {subsubsection}{La ``\textit {top-gate"}}{3}
+\contentsline {subsubsection}{La grille lat\IeC {\'e}rale}{5}
+\contentsline {subsubsection}{La grille arri\IeC {\`e}re}{5}
+\contentsline {subsection}{\numberline {1.2.2}Le choix de l'oxyde}{6}
+\contentsline {subsection}{\numberline {1.2.3}Le d\IeC {\'e}p\^ot par ALD}{6}
+\contentsline {section}{\numberline {1.3}R\IeC {\'e}alisation d'un nanofil}{9}
+\contentsline {section}{\numberline {1.4}R\IeC {\'e}alisation d'un interstice nanom\IeC {\'e}trique}{10}
+\contentsline {subsection}{\numberline {1.4.1}L'\IeC {\'e}lectromigration}{13}
+\contentsline {subsection}{\numberline {1.4.2}Etat de l'art}{13}
+\contentsline {subsubsection}{\IeC {\`A} rampe unique}{13}
+\contentsline {subsubsection}{\IeC {\`A} contre-r\IeC {\'e}action}{14}
+\contentsline {subsubsection}{\IeC {\`A} cassure spontan\IeC {\'e}e}{15}
+\contentsline {subsection}{\numberline {1.4.3}Notre technique}{15}
+\contentsline {section}{\numberline {1.5}Fabrication d'un transistor \IeC {\`a} mol\IeC {\'e}cule unique}{17}
+\contentsline {subsection}{\numberline {1.5.1}D\IeC {\'e}p\^ot des mol\IeC {\'e}cules}{17}
+\contentsline {subsection}{\numberline {1.5.2}Les trois r\IeC {\'e}gimes de transport}{17}
+\contentsline {subsubsection}{Couplage faible}{18}
+\contentsline {subsubsection}{Couplage interm\IeC {\'e}diaire}{18}
+\contentsline {subsection}{\numberline {1.5.3}Couplage fort}{18}
