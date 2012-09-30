@@ -4,46 +4,48 @@ The style file: unsrt.bst
 Database file #1: citations.bib
 Warning--entry type for "Trouwborst2006" isn't style-file defined
 --line 1587 of file citations.bib
+Warning--there's a number but no volume in Sanvito2011
 Warning--empty title in Gerardin1861
-You've used 27 entries,
+Warning--there's a number but no volume in Sorace2011
+You've used 85 entries,
             1791 wiz_defined-function locations,
-            647 strings with 9145 characters,
-and the built_in function-call counts, 7001 in all, are:
-= -- 594
-> -- 411
-< -- 0
-+ -- 148
-- -- 121
-* -- 649
-:= -- 1170
-add.period$ -- 79
-call.type$ -- 27
-change.case$ -- 23
+            1022 strings with 20274 characters,
+and the built_in function-call counts, 22463 in all, are:
+= -- 1930
+> -- 1284
+< -- 1
++ -- 462
+- -- 377
+* -- 2096
+:= -- 3687
+add.period$ -- 253
+call.type$ -- 85
+change.case$ -- 79
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 233
-empty$ -- 608
-format.name$ -- 121
-if$ -- 1444
+cite$ -- 88
+duplicate$ -- 752
+empty$ -- 1980
+format.name$ -- 377
+if$ -- 4667
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 23
-newline$ -- 136
-num.names$ -- 27
-pop$ -- 37
+int.to.str$ -- 85
+missing$ -- 81
+newline$ -- 426
+num.names$ -- 85
+pop$ -- 123
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 82
+skip$ -- 258
 stack$ -- 0
-substring$ -- 589
-swap$ -- 27
-text.length$ -- 0
+substring$ -- 1940
+swap$ -- 88
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 72
-width$ -- 29
-write$ -- 294
-(There were 2 warnings)
+warning$ -- 3
+while$ -- 239
+width$ -- 87
+write$ -- 928
+(There were 4 warnings)

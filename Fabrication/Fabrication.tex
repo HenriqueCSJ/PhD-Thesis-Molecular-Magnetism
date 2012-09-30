@@ -1,40 +1,46 @@
 \chapter{Fabrication d'un transistor moléculaire}
 
-\section{Lithographie optique}
+L'une des étapes essentielles dans la caractérisation d'un aimant moléculaire consiste a fabriquer un transistor à molécule unique~(SMT - Single Molecule Transistor). Du fait de la petite taille de ces dernières~($1\,nm$ environ), il est impossible de faire appel à des techniques lithographiques classiques. Nous avons déjà abordé les différentes solutions développées dans le cadre de la spintronique. Nous avons fait le choix d'utiliser la technique d'électromigration développé par H. Park \textit{et al.} avec quelques adaptations.
 
-
-\begin{figure}
-\centering \includegraphics[scale=0.45]{Fabrication/BatmanGrille/BatmanGrille.pdf}
-\caption{\textbf{a} : image AFM d'une électrode de grille présentant des bords trop relevés d\^u fait d'un problème de lift-off. \textbf{b} : image AFM montrant une électrode de grille après lift-off ne présentant pas d'anomalie après lift-off~(extrait de~\cite{RochPhD}).}
-\label{lift-off}
-\end{figure}
-
-
-La lithographie optique se déroule en deux étapes et vise à produire les éléments de grandes tailles tels que les plots de connexion, les lignes d'amené, ainsi que la grille. Pour ces deux premières étapes, une méthode bi-couches à base de LOR3A et de UV3 a été mise au point. Elle a l'avantage de prévenir la formation de bords lors de l'étape de lift-off~(cf Fig.\ref{lift-off}) qui pourraient entraîner une perte de contact entre la jonction et le plot correspondant lors du passage de marche~(i.e. lorsque la ligne d'amené passe de la surface de silicium à la grille, la hauteur de marche étant donnée par l'épaisseur de la grille).
-
-
+Deux éléments sont prépondérants dans la qualité d'un SMT : l’efficacité de la grille et la bonne qualité des interstices. Nous présenterons dans une première partie les différentes étapes nous permettant d'obtenir une grille efficace, après avoir défini les critères définissant cette efficacité. Ensuite, nous montrerons comment il est possible, en utilisant le phénomène d'électromigration, de produire des interstices nanométriques. Nous verrons enfin la technique de déposition ainsi que les premières étapes de caractérisation électrique des dispositifs obtenus.
 
 
 \begin{figure}
 \parbox{6.5cm}{
-\includegraphics[scale=0.45]{Fabrication/LithoOptique/LithoOptique.pdf} 
+\includegraphics[scale=0.45]{Fabrication/ImageTrans/ImageTrans.pdf} 
 }
-\parbox{7cm}{\caption{Échantillon après les deux étapes de lithographie optique. Les lignes d'amené de courant sont visibles en orange et la grille locale en gris. Les deux carrés repèrent les marques d'alignement~(extrait de~\cite{RochPhD}).}
-\label{LithoOptique}
+\parbox{7cm}{\caption{Extrapolation 3D d'une image obtenue par microscopie électronique à balayage. Elle correspond à la structure finale que l'on souhaite obtenir : les électrodes de source et de drain, l'électrode de grille, ainsi qu'un interstice nanométrique dans lequel une molécule est piégée~(extrait de~\cite{Vincent2012}).}
+\label{ImageTrans}
 }
 \end{figure}
 
-La première étape permet d'obtenir la grille locale de notre dispositif. La méthode présentée dans le Tab.\ref{tab_recette} est utilisée, avec pour seule différence, l'épaisseur d'or déposée : $20\,nm$. 
-Cette première étape nous permet également d'obtenir les marques d'alignement pour la fabrication des lignes d'amené. Une première série de marques (cf carré bleu de la Fig.\ref{LithoOptique}) permet d'effectuer un alignement grossier. Ce dernier est ensuite affiné à l'aide d'une seconde série de repères~(cf carré vert de la Fig.\ref{LithoOptique}). Cette première étape est suivie du dépôt d'oxyde par une méthode de dépôt par couche atomique ou ALD~(Atomic Layer Déposition) que nous détaillerons plus loin.
+\section{Réalisation d'une grille locale}
+La grille est un élément essentiel du transistor et c'est également vrai d'un transistor moléculaire~\cite{Datta2009,Zant2006}. Dans ce dernier cas, elle permet notamment de moduler le potentiel chimique de la molécule allant jusqu'à modifier son état de charge~\cite{Beenakker1991,Wiel2002,Hanson2007}~(cf annexe sur le transport mésoscopique). Elle permet également de contrôler la conductance du système~(avec le concours de la tension source-drain), et donc de choisir des points de fonctionnement adaptés. Nous détaillerons ce dernier point dans le chapitre résultat. 
+
+L'efficacité intrinsèque d'une grille peut être résumée en un seul critère~:~la charge induite. Celle-ci s'exprime simplement par $Q = CV_g^{max}$ où $Q$ est le charge induite et $C$ est la capacité associée à la grille, $V_g^{max}$ étant la tension maximale applicable à la grille. Elle dépend essentiellement de trois paramètres physiques : le champ électrique maximum applicable, l'épaisseur et la permittivité de l'oxyde ~\cite{Biercuk2003}. 
+
+Outre les paramètres que l'on vient de voir, il existe plusieurs géométries de grille susceptibles d'avoir une influence sur l’efficacité de cette dernière. On peut identifier trois géométries : la grille au-dessus ou  ``\textit{top-gate}'', la grille latérale et la grille arrière ou  ``\textit{back-gate}''.
+
+\subsection{Les différentes géométries}
+Je ne donnerai ici qu'un rapide présentation des différents grilles existantes. Pour une comparaison plus détaillé entre ces différentes géométrie est disponible dans la thèse de ??.
+\subsubsection{La ``\textit{top-gate"}}
+Cette configuration est utilisée dans l'industrie en ce qui concerne les transistors à effet de champ conventionnels. On la retrouve également dans les dispositifs expérimentaux faisant appel à des nanofils~\cite{Fasth2005} ou bien encore à des nanotubes~\cite{Javey2002}. Elle a également pu être implémentée dans le cas de nanotubes suspendus donnant des résultats plus que convaincant~\cite{Leturcq2009}.
+
+Cette configuration est cependant difficilement compatible avec l'électromigration. En effet, dans ce cas, le gap formant la source et le drain se fait après les étapes de lithographie, ce qui serait impossible si le fil d'or était recouvert par une grille. Pour produire une grille compatible avec l'électromigration, il faut se tourner vers d'autres géométries comme la configuration latérale.
+
+\subsubsection{La grille latérale}
+Cette configuration consiste à placer la grille latéralement vis à vis du gap obtenu par électromigration~\cite{Mangin2009}. De plus, accompagnée d'une grille arrière, elle permet d'avoir deux moyens d'action sur le potentiel chimique de la molécule située dans la gap. 
+
+Il est en revanche très difficile de contr\^oler précisément la position de cette grille et elle se trouve donc souvent située à plusieurs dizaines de nanomètres du gap. De plus, le r\^ole de l'oxyde est, dans ce cas, joué par l'air qui possède une permittivité proche de l'unité. Cette configuration abouti donc, de manière générale, à une grille moins efficace que la configuration grille arrière~\cite{Aurore2009} que nous allons voir maintenant.
 
 
-
-La seconde étape de lithographie vise à fabriquer les plots d'or nécessaires à la micro-soudure de notre échantillon, ainsi que les lignes d'amené de courant~(cf partie orange de la Fig.\ref{LithoOptique}). La recette du Tab.\ref{tab_recette}  est utilisée pour obtenir un dép\^ot de 100$\,nm$ d'or avec une couche d'accroche en titane. 
-
-
-Le résultat final est présenté dans la Fig.\ref{LithoOptique} où la partie orange désigne les lignes d'amené de courant et la partie grise la grille locale. La partie centrale va venir accueillir les nanofils d'or comme nous allons le voir dans la suite.
+\subsubsection{La grille arrière}
+Dans cette configuration, la grille se situe sous le dispositif. Cette configuration a notamment été adoptée pour la réalisation du premier transistor à molécule unique~\cite{Park2000}. Elle est bien s\^ur compatible avec l'électromigration et, implémentée en grille locale, elle permet d'obtenir des grilles très efficaces. Pour ces raison, nous avons choisie d’adopter cette configuration pour nos échantillons. De plus, sa fabrication peut \^etre grandement facilitée par l'utilisation de la technique ALD que nous allons présenter dans la suite.
 
 
+\subsection{Création de l'électrode de grille}
+
+La première étape de la fabrication de notre grille locale consiste en l'obtention de l'électrode de grille. Compte tenu des tailles caractéristiques de cette dernière, cette électrode peut \^etre obtenu à l'aide d'une lithographie optique ultra-violet profond (DUV - Deep Ulta-Violet). A cette fin, une méthode bicouche LOR3A/UV3 est utilisée en suivant les instructions du Tab.\ref{tab_recette}, avec pour seule différence, l'épaisseur d'or déposé : $20\,nm$.
 
 \begin{table}
 \begin{center}
@@ -81,46 +87,27 @@ Le résultat final est présenté dans la Fig.\ref{LithoOptique} où la partie o
 \end{table}
 
 
+Cette étape permet également d'obtenir les marques d'alignements nécessaire à la fabrication des lignes d'amenés. Une première série de marques~(cf carré bleu de la Fig.??) permet d'effectuer un alignement grossier. Ce dernier est ensuite affiné à l'aide d'une deuxième série de repères~(cf carré vert de la Fig??).
+
+La technique bicouche a été préféré à la technique usuelle monocouche, car elle a l'avantage de prévenir la formation de bords lors de l'étape de lift-off~(cf Fig.\ref{lift-off}) qui pourraient entraîner une perte de contact entre la jonction et le plot correspondant lors du passage de marche~(i.e. lorsque la ligne d'amené passe de la surface de silicium à la grille, la hauteur de marche étant donnée par l'épaisseur de la grille).
 
 
+\begin{figure}
+\centering \includegraphics[scale=0.45]{Fabrication/BatmanGrille/BatmanGrille.pdf}
+\caption{\textbf{a} : image AFM d'une électrode de grille présentant des bords trop relevés d\^u fait d'un problème de lift-off. \textbf{b} : image AFM montrant une électrode de grille après lift-off ne présentant pas d'anomalie après lift-off~(extrait de~\cite{RochPhD}).}
+\label{lift-off}
+\end{figure}
 
+Cette première étape est suivie du dépôt d'oxyde par une méthode de dépôt par couche atomique ou ALD~(Atomic Layer Déposition) que nous allons détailler maintenant.
 
-\section{Réalisation d'une grille locale}
-La grille est un élément essentiel du transistor et c'est également vrai d'un transistor moléculaire~\cite{Datta2009,Zant2006}. Dans ce dernier cas, elle permet notamment de moduler le potentiel chimique de la molécule allant jusqu'à modifier son état de charge~\cite{Beenakker1991,Wiel2002,Hanson2007}~(cf annexe sur le transport mésoscopique). Elle permet également de contrôler la conductance du système~(avec le concours de la tension source-drain), et donc de choisir des points de fonctionnement adaptés. Nous détaillerons ce dernier point dans le chapitre résultat. 
+\subsection{Le dép\^ot par ALD}
 
-L'efficacité intrinsèque d'une grille peut être résumée en un seul critère~:~la charge induite. Celle-ci s'exprime simplement par $Q = CV_g^{max}$ où $Q$ est le charge induite et $C$ est la capacité associée à la grille, $V_g^{max}$ étant la tension maximale applicable à la grille. Elle dépend essentiellement de trois paramètres physiques : le champ électrique maximum applicable, l'épaisseur et la permittivité de l'oxyde ~\cite{Biercuk2003}. 
-
-Outre ces paramètres, il existe plusieurs géométries de grille susceptibles d'avoir une influence sur l’efficacité de cette dernière.
-
-\subsection{Quelques exemples}
-On peut identifier trois géométries : la grille au-dessus ou  ``\textit{top-gate}'', la grille latérale et la grille arrière ou  ``\textit{back-gate}''.
-
-\subsubsection{La ``\textit{top-gate"}}
-Cette configuration est utilisée dans l'industrie en ce qui concerne les transistors à effet de champ conventionnels. On la retrouve également dans les dispositifs expérimentaux faisant appel à des nanofils~\cite{Fasth2005} ou bien encore à des nanotubes~\cite{Javey2002}. Elle a également pu être implémentée dans le cas de nanotubes suspendus donnant des résultats plus que convaincant~\cite{Leturcq2009}.
-
-Cette configuration est cependant difficilement compatible avec l'électromigration. En effet, dans ce cas, le gap formant la source et le drain se fait après les étapes de lithographie, ce qui serait impossible si le fil d'or était recouvert par une grille. Pour produire une grille compatible avec l'électromigration, il faut se tourner vers d'autres géométries comme la configuration latérale.
-
-\subsubsection{La grille latérale}
-Cette configuration consiste à placer la grille latéralement vis à vis du gap obtenu par électromigration~\cite{Mangin2009}. De plus, accompagnée d'une grille arrière, elle permet d'avoir deux moyens d'action sur le potentiel chimique de la molécule située dans la gap. 
-
-Il est en revanche très difficile de contr\^oler précisément la position de cette grille et elle se trouve donc souvent située à plusieurs dizaines de nanomètres du gap. De plus, le r\^ole de l'oxyde est, dans ce cas, joué par l'air qui possède une permittivité proche de l'unité. Cette configuration abouti donc, de manière générale, à une grille moins efficace que la configuration grille arrière~\cite{Aurore2009} que nous allons voir maintenant.
-
-
-\subsubsection{La grille arrière}
-Dans cette configuration, la grille se situe sous le dispositif. Cette configuration a notamment été adoptée pour la réalisation du premier transistor à molécule unique~\cite{Park2000}. Elle est bien s\^ur compatible avec l'électromigration et, implémentée en grille locale, elle permet d'obtenir des grilles très efficaces. Pour ces raison, nous avons choisie d’adopter cette configuration pour nos échantillons. De plus, sa fabrication peut \^etre grandement facilitée par l'utilisation de la technique ALD que nous allons présenter dans la suite.
-
-
-\subsection{Le choix de l'oxyde}
 Comme nous l'avons déjà précisé en introduction, le choix de l'oxyde est très important et, en particulier, la permittivité de ce dernier doit être la plus élevée possible.
 
 Parmi les oxydes à haute permittivité, les plus couramment utilisés sont l'alumine~($\kappa \sim 8$), l'hafnia~($\kappa \sim 17$) et l'oxyde de zirconium~($\kappa \sim 26$)~\cite{Biercuk2003}. De manière générale, le premier est obtenu par dépôt d'une électrode d'aluminium, puis exposition à une atmosphère riche en oxygène ou bien par ALD. Les deux derniers sont en général obtenus par ALD ou, plus rarement, par MOCVD~(Metalorganic Chemical Vapour Deposition). Lorsque je suis arrivé en thèse, la technique par oxydation naturelle était en usage. Bien que relativement facile à mettre en œuvre, il est difficile de connaître avec exactitude l'épaisseur d'oxyde. De plus, nous avons observé une grande variabilité dans la qualité des grilles obtenues par ce procédé.
 
 Nous avons donc développé un nouveau procédé inspiré de~\cite{Biercuk2003} , en utilisant une méthode ALD, nous permettant d'obtenir une grille avec un oxyde de $8\,nm$ environs. Parmi les trois oxydes précédemment cités, nous avons choisi l'oxyde d'hafnium. Celui si à l'avantage d'être fortement documenté et présente des performances supérieures à l'alumine pour ce qui est de la charge induite~\cite{Biercuk2003}. 
 
-
-
-
-\subsection{Le dép\^ot par ALD}
 La technique d'ALD originellement appelée ALE~(pour Atomic Layer Epitaxie) a été breveté dans les années 1970 et remise au goût du jour pour les besoins toujours plus grands de la microélectronique~\cite{Leskelae2003}. Elle consiste en une succession de deux réactions auto-limitantes, aboutissant à la formation d'un oxyde comme le montre la Fig.\ref{ALD}.
 
 \begin{figure}
@@ -175,7 +162,39 @@ Pour remplir le premier critère, l'idéal est de chauffer de façon suffisante 
 
 Celui-ci été trouvé en laissant un délai conséquent entre les différentes étapes du dépôt, permettant aux produits de réaction de désorber~\cite{Biercuk2003}. Cela se traduit par un temps d'attente entre chaque étape de cycle de 2 minutes. Un dépôt de $8\,nm$~(environs 80\,cycles) d'hafnia prend donc un peu plus de cinq heures~(pour les détails concernant le dépôt ALD, le lecteur peut se référer au Tab.\ref{recette_ALD}). Si ce temps peut paraître long au premier abord, il ne représente qu'un temps négligeable au regard des autres étapes, et notamment, celle de lithographie électronique que nous allons aborder maintenant.
 
+\begin{figure}
+\centering \includegraphics[scale=0.45]{Fabrication/FinalResult/FinalResult.pdf}
+\caption{\textbf{a} : Échantillon après les deux étapes de lithographie optique. Les lignes d'amené de courant sont visibles en orange et la grille locale en gris. Les deux carrés repèrent les marques d'alignement. \textbf{b} : Image obtenu par microscopie électronique à balayage montrant la structure centrale de nos échantillons. \textbf{c} grossissement présentant une constriction obtenue à l'aide de l'évaporation sous angle. La grille, colorée en gris, est clairement visible au centre (extrait de \cite{RochPhD}).}
+\label{FinalResult}
+\end{figure}
+
+
+%\begin{figure}
+%\parbox{6.5cm}{
+%\includegraphics[scale=0.45]{Fabrication/LithoOptique/LithoOptique.pdf} 
+%}
+%\parbox{7cm}{\caption{Échantillon après les deux étapes de lithographie optique. Les lignes d'amené de courant sont visibles en orange et la grille locale en gris. Les deux carrés repèrent les marques d'alignement~(extrait de~\cite{RochPhD}).}
+%\label{LithoOptique}
+%}
+%\end{figure}
+
+
+
+
 \section{Réalisation d'un nanofil}
+
+\subsection{Lithographie optique}
+
+La seconde étape de lithographie vise à fabriquer les plots d'or nécessaires à la micro-soudure de notre échantillon, ainsi que les lignes d'amené de courant~(cf partie orange de la Fig.\ref{LithoOptique}). La recette du Tab.\ref{tab_recette}  est utilisée pour obtenir un dép\^ot de 100$\,nm$ d'or avec une couche d'accroche en titane. 
+
+
+Le résultat final est présenté dans la Fig.\ref{LithoOptique} où la partie orange désigne les lignes d'amené de courant et la partie grise la grille locale. La partie centrale va venir accueillir les nanofils d'or comme nous allons le voir dans la suite.
+
+
+\subsection{Lithographie électronique}
+
+
+
 Comme nous l'avons présenté dans l'introduction, notre méthode de fabrication repose sur la technique d'électromigration. Cette dernière, pour fonctionner correctement, a besoin d'\^etre opérée sur des fils d'or très fins, présentant une section de quelques dizaines de nanomètres pour une épaisseur de quelques nanomètres en ce qui concerne la partie la plus fine~(cf Fig.\ref{EvapAngle}). 
 
 \begin{figure}[h!]
@@ -248,11 +267,11 @@ Afin d'obtenir des fils répondant à ces critères, nous avons utilisé une mé
 
 On évapore ensuite une fine couche de titane~(3$\, nm$) avec un angle de $0\,\degres$ pour constituer un couche d'accroche, puis sous un angle de $\pm30\,\degres$, $10\, nm$ d'or  constituant la constriction. Enfin, $100\,nm$ d'or sont évaporés à $0\,\degres$ afin de venir relier la constriction aux plots de connexion. Cet épaisseur doit être suffisant pour assurer un bon passage entre la partie se situant sur la grille et celle se trouvant sur la surface même du wafer. La structure finale est présentée dans la Fig.\ref{ZoomFinal}.
 
-\begin{figure}
-\centering \includegraphics[scale=0.45]{Fabrication/ZoomFinal/ZoomFinal.pdf}
-\caption{Image obtenu par microscopie électronique à balayage montrant la structure centrale de nos échantillons. Le grossissement présente une constriction obtenue à l'aide de l'évaporation sous angle. La grille, colorée en gris, est clairement visible au centre (extrait de \cite{RochPhD}).}
-\label{ZoomFinal}
-\end{figure}
+%\begin{figure}
+%\centering \includegraphics[scale=0.45]{Fabrication/ZoomFinal/ZoomFinal.pdf}
+%\caption{Image obtenu par microscopie électronique à balayage montrant la structure centrale de nos échantillons. Le grossissement présente une constriction obtenue à l'aide de l'évaporation sous angle. La grille, colorée en gris, est clairement visible au centre (extrait de \cite{RochPhD}).}
+%\label{ZoomFinal}
+%\end{figure}
 
 
 \section{Réalisation d'un interstice nanométrique}
@@ -339,23 +358,23 @@ Pour obtenir un transistor moléculaire, il faut procéder selon trois étapes. 
 \subsection{Dép\^ot des molécules}
 Les cristaux de TbPc$_{2}$ sont dissous dans du dichlorométhane à la concentration 10$^{-6}mol.L^{-1}$. Une goutte de la solution obtenue est ensuite déposée sur l'échantillon et séchée par un flux d'azote. L'échantillon obtenu est ensuite microsoudé sur le porte échantillon, disposé dans un frigo à dilution et électromigré à basse température. Les jonctions obtenues (jusqu'à 12 par échantillons) sont ensuite analysées en transport.
 
-\subsection{Les trois régimes de transport}
-La première analyse généralement effectuée consiste à mesurer la conductance du système en fonction de la tension de grille, pour une tension source-drain nulle. La présence d'un objet nanométrique fait apparaître un ou plusieurs pics que l'on nomme pics de Coulomb~\cite{Beenakker1991,Wiel2002,Hanson2007}~(cf annexe sur le transport mésoscopique). Si cette première analyse se révèle concluante, on procède à une étude plus fine à l'aide d'un diagramme de Coulomb dans lequel on trace la conductance différentielle en fonction de la tension de grille $V_{\rm{g}}$ et la tension source-drain $V_{\rm{ds}}$. On peut alors identifier trois régimes en fonction du coulage électronique entre l'objet situé dans l'interstice et les électrodes.
-
-\subsubsection{Couplage faible}
-Dans ce régime, la conductance mesurée est largement inférieur au quantum de conductance $G_0$~($\sim 72\,mS$). Cela se traduit par la présence de diamant de Coulomb aux bords très bien définis comme le montre la Fig.\ref{CouplageInt}.\textbf{a}. Ce faible couplage ne perturbe que légèrement les niveaux de l'îlot. Ils conservent donc leur élargissement intrinsèque, d'où la finesse des bords de diamant. Dans cette configuration, seul le tunneling séquentiel est responsable du courant circulant à travers le système. Si l'on désire explorer les propriétés intrinsèques de l'îlot, le couplage faible est le régime idéal.
-
-\subsubsection{Couplage intermédiaire}
-Lorsque la conductance du système est proche du quantum de conductance, le couplage est qualifié d'intermédiaire. De nouveaux processus de transport peuvent alors être observés comme le cotunneling par exemple. Ce régime est notamment observé dans la Fig.\ref{CouplageInt}.\textbf{b} où des variations de conductance à l'intérieur même des diamants de Coulomb sont mesurés. Celle-ci correspondent à des processus du second ordre permettant aux électrons de circuler, même lorsque le système se trouve en régime de blocage de Coulomb~(Pour plus de détail, le lecteur peut se référer à l'annexe sur le transport mésoscopique). Ce régime entraîne également un élargissement des niveaux de l'îlot central du fait de la forte hybridation de ces derniers avec les niveaux électronique de la source et/ou du drain.
-
-\begin{figure}
-\centering \includegraphics[scale=0.45]{Fabrication/CouplageInt/CouplageInt.pdf}
-\caption{\textbf{a} : diamant de Coulomb correspondant à un couplage faible. Les bords de diamants sont bien définis et aucune ligne de cotunneling n'est présente. \textbf{b} : diamant de Coulomb correspondant à un couplage intermédiaire. Les bords de diamant reste bien définie mais des lignes de cotunneling sont clairement visible à l'intérieur du régime de blocage.}
-\label{CouplageInt}
-\end{figure}
-
-
-\subsection{Couplage fort}
-Lorsque l'hybridation des niveaux est telle qu'ils deviennent indiscernables, le couplage est qualifié de fort et les propriétés intrinsèques de l'îlot central sont fortement altérées. En général, ce régime est présent lorsque la conduction ou, autrement dit, le taux d’événements tunnels $\Gamma$ est plus grand que l'énergie séparant deux états de charge de l'îlot.
-
-Ce régime est à éviter si l'on souhaite étudier les propriétés intrinsèque de l'\^ilot central.
+\subsection{Caractérisation des jonctions}
+%La première analyse généralement effectuée consiste à mesurer la conductance du système en fonction de la tension de grille, pour une tension source-drain nulle. La présence d'un objet nanométrique fait apparaître un ou plusieurs pics que l'on nomme pics de Coulomb~\cite{Beenakker1991,Wiel2002,Hanson2007}~(cf annexe sur le transport mésoscopique). Si cette première analyse se révèle concluante, on procède à une étude plus fine à l'aide d'un diagramme de Coulomb dans lequel on trace la conductance différentielle en fonction de la tension de grille $V_{\rm{g}}$ et la tension source-drain $V_{\rm{ds}}$. On peut alors identifier trois régimes en fonction du coulage électronique entre l'objet situé dans l'interstice et les électrodes.
+%
+%\subsubsection{Couplage faible}
+%Dans ce régime, la conductance mesurée est largement inférieur au quantum de conductance $G_0$~($\sim 72\,mS$). Cela se traduit par la présence de diamant de Coulomb aux bords très bien définis comme le montre la Fig.\ref{CouplageInt}.\textbf{a}. Ce faible couplage ne perturbe que légèrement les niveaux de l'îlot. Ils conservent donc leur élargissement intrinsèque, d'où la finesse des bords de diamant. Dans cette configuration, seul le tunneling séquentiel est responsable du courant circulant à travers le système. Si l'on désire explorer les propriétés intrinsèques de l'îlot, le couplage faible est le régime idéal.
+%
+%\subsubsection{Couplage intermédiaire}
+%Lorsque la conductance du système est proche du quantum de conductance, le couplage est qualifié d'intermédiaire. De nouveaux processus de transport peuvent alors être observés comme le cotunneling par exemple. Ce régime est notamment observé dans la Fig.\ref{CouplageInt}.\textbf{b} où des variations de conductance à l'intérieur même des diamants de Coulomb sont mesurés. Celle-ci correspondent à des processus du second ordre permettant aux électrons de circuler, même lorsque le système se trouve en régime de blocage de Coulomb~(Pour plus de détail, le lecteur peut se référer à l'annexe sur le transport mésoscopique). Ce régime entraîne également un élargissement des niveaux de l'îlot central du fait de la forte hybridation de ces derniers avec les niveaux électronique de la source et/ou du drain.
+%
+%\begin{figure}
+%\centering \includegraphics[scale=0.45]{Fabrication/CouplageInt/CouplageInt.pdf}
+%\caption{\textbf{a} : diamant de Coulomb correspondant à un couplage faible. Les bords de diamants sont bien définis et aucune ligne de cotunneling n'est présente. \textbf{b} : diamant de Coulomb correspondant à un couplage intermédiaire. Les bords de diamant reste bien définie mais des lignes de cotunneling sont clairement visible à l'intérieur du régime de blocage.}
+%\label{CouplageInt}
+%\end{figure}
+%
+%
+%\subsection{Couplage fort}
+%Lorsque l'hybridation des niveaux est telle qu'ils deviennent indiscernables, le couplage est qualifié de fort et les propriétés intrinsèques de l'îlot central sont fortement altérées. En général, ce régime est présent lorsque la conduction ou, autrement dit, le taux d’événements tunnels $\Gamma$ est plus grand que l'énergie séparant deux états de charge de l'îlot.
+%
+%Ce régime est à éviter si l'on souhaite étudier les propriétés intrinsèque de l'\^ilot central.
