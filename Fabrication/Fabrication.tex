@@ -60,11 +60,11 @@ La première étape de la fabrication de notre grille locale consiste en l'obten
 \hline
  2 & étalement de LOR 3A pour une épaisseur de $400\,$nm& tournette & v\,:\,$2000\,$tr.min$^{-1}$, a\,:\,$2000\,$tr.min$^{-2}$, t\,:\,$30\,$s \tabularnewline
 \hline
- 3 & cuisson & plaque chauffante & $1\,$min à $170\,\degres$C \tabularnewline
+ 3 & recuit & plaque chauffante & $1\,$min à $170\,\degres$C \tabularnewline
 \hline
 4 & étalement de UV3 & tournette & v\,:\,$4000\,$tr.min$^{-1}$, a\,:\,$2000\,$tr.min$^{-2}$, t\,:\,$30\,$s \tabularnewline
 \hline
-5 & cuisson & plaque chauffante & $1\,$min à $130\,\degres$C \tabularnewline
+5 & recuit & plaque chauffante & $1\,$min à $130\,\degres$C \tabularnewline
 \hline
 6 & insolation & aligneur dUV MJB3 & $5.5\,$s à $0.3\,$mW.cm$^{-2}$\tabularnewline
 \hline
@@ -89,7 +89,7 @@ La première étape de la fabrication de notre grille locale consiste en l'obten
 16 & nettoyage & plasma oxygène (RIE)& $10\,$min\tabularnewline
 \hline
 \end{tabular}
-\caption{Recette du double couche LOR3A/UV3 : celle-ci permet de ne plus avoir d'effet de bord lors des lift-off.}
+\caption{Recette du bi-couche LOR3A/UV3 : celle-ci permet de ne plus avoir d'effet de bord lors des lift-off.}
 \label{tab_recette}
 \end{center}
 \end{table}
@@ -97,12 +97,12 @@ La première étape de la fabrication de notre grille locale consiste en l'obten
 
 Cette étape permet également d'obtenir les marques d'alignements nécessaire à la fabrication des lignes d'amenés. Une première série de marques~(cf carré bleu de la Fig.\ref{FinalResult}.\textbf{a}) permet d'effectuer un alignement grossier. Ce dernier est ensuite affiné à l'aide d'une deuxième série de repères~(cf carré vert de la Fig.\ref{FinalResult}.\textbf{a}).
 
-La technique bicouche a été préféré à la technique usuelle monocouche, car elle a l'avantage de prévenir la formation de bords lors de l'étape de lift-off~(cf Fig.\ref{lift-off}) qui pourraient entraîner une perte de contact entre la jonction et le plot correspondant lors du passage de marche~(i.e. lorsque la ligne d'amené passe de la surface de silicium à la grille, la hauteur de marche étant donnée par l'épaisseur de la grille).
+La technique bicouche a été préféré à la technique usuelle monocouche, car elle a l'avantage de prévenir la formation de bords lors de l'étape de lift-off~(cf Fig.\ref{lift-off}) qui pourraient entraîner une perte de contact entre la jonction et le plot correspondant lors du passage de marche~(i.e. lorsque la ligne d'amené, réalisée par lithographie électronique, passe de la surface de silicium à la grille, la hauteur de marche étant donnée par l'épaisseur de la grille).
 
 
 \begin{figure}
 \centering \includegraphics[scale=0.45]{Fabrication/BatmanGrille/BatmanGrille.pdf}
-\caption{\textbf{a} : image AFM d'une électrode de grille présentant des bords trop relevés d\^u fait d'un problème de lift-off. \textbf{b} : image AFM montrant une électrode de grille après lift-off ne présentant pas d'anomalie après lift-off~(extrait de~\cite{RochPhD}).}
+\caption{\textbf{a} : image AFM d'une électrode de grille présentant des bords trop relevés d\^u fait d'un problème de lift-off, obtenue par une technique monocouche. \textbf{b} : image AFM montrant une électrode de grille après lift-off ne présentant pas d'anomalie après lift-off en utilisant la technique bicouche~(extrait de~\cite{RochPhD}).}
 \label{lift-off}
 \end{figure}
 
@@ -143,7 +143,7 @@ Le premier avantage de la technique est sa facilité de mise en œuvre. Le contr
 \hline
 \multicolumn{2}{|l|}{température du \textit{Bellow}} & $150\, \degres C$ \tabularnewline
 \hline
-\multicolumn{2}{|l|}{\multirow{2}{*}{flux d'azote}} & $20\, sccm$ \newline (pression d'environs $0.5\,Torr$) \tabularnewline
+\multicolumn{2}{|l|}{\multirow{2}{*}{flux d'azote}} & $20\, sccm$ \newline (pression d'environ $0.5\,Torr$) \tabularnewline
 \hline
 \hline
 \multicolumn{3}{|c|}{\textbf{Procédé}} \tabularnewline
@@ -166,9 +166,9 @@ Le premier avantage de la technique est sa facilité de mise en œuvre. Le contr
 
 
 
-Pour remplir le premier critère, l'idéal est de chauffer de façon suffisante le substrat afin de désorber efficacement les déchets produits lors de la fixation du précurseur~(cf Fig.\ref{ALD}). Afin d'obtenir une structure amorphe, il est, au contraire, préférable d'effectuer le dép\^ot à basse température~\cite{Triyoso2004}, ce qui a également l'avantage de rendre le procédé compatible avec une étape de lithographie~\cite{Biercuk2003}~(évitant à la résine de brûler) et de diminuer la rugosité de l'oxyde~\cite{Triyoso2004}. Il faut donc arriver à trouver un compromis entre ces deux conditions contradictoires.
+Pour remplir le premier critère, l'idéal est de chauffer de façon suffisante le substrat afin de désorber efficacement les déchets produits lors de la fixation du précurseur~(cf Fig.\ref{ALD}). Afin d'obtenir une structure amorphe, il est, au contraire, préférable d'effectuer le dép\^ot à basse température~\cite{Triyoso2004}, ce qui a également l'avantage de rendre le procédé compatible avec une étape de lithographie~\cite{Biercuk2003}~(évitant une détérioration de la résine) et de diminuer la rugosité de l'oxyde~\cite{Triyoso2004}. Il faut donc arriver à trouver un compromis entre ces deux conditions contradictoires.
 
-Celui-ci été trouvé en laissant un délai conséquent entre les différentes étapes du dépôt, permettant aux produits de réaction de désorber~\cite{Biercuk2003}. Cela se traduit par un temps d'attente entre chaque étape de cycle de 2 minutes. Un dépôt de $8\,nm$~(environs 80\,cycles) d'hafnia prend donc un peu plus de cinq heures~(pour les détails concernant le dépôt ALD, le lecteur peut se référer au Tab.\ref{recette_ALD}). Si ce temps peut paraître long au premier abord, il ne représente qu'un temps négligeable au regard des autres étapes, et notamment, celle de lithographie électronique que nous allons aborder maintenant.
+Celui-ci a été trouvé en laissant un délai conséquent entre les différentes étapes du dépôt, permettant aux produits de réaction de désorber~\cite{Biercuk2003}. Cela se traduit par un temps d'attente entre chaque étape de cycle de 2 minutes. Un dépôt de $8\,nm$~(environ 80\,cycles) d'hafnia prend donc un peu plus de cinq heures~(pour les détails concernant le dépôt ALD, le lecteur peut se référer au Tab.\ref{recette_ALD}). Si ce temps peut paraître long au premier abord, il ne représente qu'un temps négligeable au regard des autres étapes, et notamment, celle de lithographie électronique que nous allons aborder maintenant.
 
 \begin{figure}
 \centering \includegraphics[scale=0.45]{Fabrication/FinalResult/FinalResult.pdf}
@@ -219,10 +219,10 @@ Le nanofil va également avoir un impact sur le couplage de la molécule à la g
 4 & recuit & plaque chauffante & 5 minutes à 180$\, \degres C$
 \tabularnewline
 \hline
-5 & insolation & MEB & dose de 350\,$\mu C.cm^{-2}$
+5 & insolation & MEB & dose de 240\,$\mu C.cm^{-2}$
 \tabularnewline
 \hline
-6 & développement & becher MIBK/IPA (1:3) & 30 secondes
+6 & développement & becher MIBK/IPA ($1:3$) & 30 secondes
 \tabularnewline
 \hline
 7 & rinçage & bécher IPA & 2 secondes
@@ -231,15 +231,15 @@ Le nanofil va également avoir un impact sur le couplage de la molécule à la g
 8 & surdéveloppement & bécher IPA & 1\,minute
 \tabularnewline
 \hline
-9 & neutralisation du développeur &bécher d'eau désioninée & $1\,$minute\tabularnewline
+9 & neutralisation du développeur &bécher d'eau désionisée & $1\,$minute\tabularnewline
 \hline
-10 & dépot de la couche d'accroche & évaporateur à canon à électron PLASSYS & $3\,$nm de Ti à $0.05\,$nm.s$^{-1}$, angle=$0\,\degres$
+10 & dép\^ot de la couche d'accroche & évaporateur à canon à électron PLASSYS & $3\,$nm de Ti à $0.05\,$nm.s$^{-1}$, angle=$0\,\degres$
 \tabularnewline
 \hline
-11 & dépôt de la constriction & évaporateur à canon à électron PLASSYS & $10\,$nm de Au à $0.1\,$nm.s$^{-1}$, angle=$\pm 30\degres$
+11 & dépôt de la constriction & évaporateur à canon à électron PLASSYS & $10\,$nm de Au à $0.03\,$nm.s$^{-1}$, angle=$\pm 30\degres$
 \tabularnewline
 \hline
-12 &  dépôt des nanofils &  évaporateur à canon à électron PLASSYS  &  $100\,$nm de Au à $0.15\,$nm.s$^{-1}$, angle=$\pm 0\degres$
+12 &  dépôt des nanofils &  évaporateur à canon à électron PLASSYS  &  $80\,$nm de Au à $0.15\,$nm.s$^{-1}$, angle=$\pm 0\degres$
 \tabularnewline
 \hline
  13 & lift-off & bécher d'acétone & 1\,heure minimum 
@@ -262,13 +262,7 @@ Le nanofil va également avoir un impact sur le couplage de la molécule à la g
 
 Afin d'obtenir des fils répondant à ces critères, nous avons utilisé une méthode dite d'évaporation sous-angle. Pour cela, il faut tout d'abord déposer deux couches de résine, la partie supérieure étant constituée de PMMA et la partie inférieure de PMMA-MAA, plus sensible aux électrons~(cf Fig.\ref{EvapAngle}). On procède ensuite à la lithographie électronique puis au développement de la résine. Du fait de la plus grande sensibilité de la partie inférieure et la présence d'électrons rétrodiffusés, on obtient une partie sur-insolée entraînant la formation d'un ``pont" comme décrit sur la Fig.\ref{EvapAngle}.
 
-On évapore ensuite une fine couche de titane~(3$\, nm$) avec un angle de $0\,\degres$ pour constituer un couche d'accroche, puis sous un angle de $\pm30\,\degres$, $10\, nm$ d'or  constituant la constriction. Enfin, $100\,nm$ d'or sont évaporés à $0\,\degres$ afin de venir relier la constriction aux plots de connexion. Cet épaisseur doit être suffisant pour assurer un bon passage entre la partie se situant sur la grille et celle se trouvant sur la surface même du wafer. La structure finale est présentée dans la Fig.\ref{FinalResult}.\textbf{b} et \textbf{c}.
-
-%\begin{figure}
-%\centering \includegraphics[scale=0.45]{Fabrication/ZoomFinal/ZoomFinal.pdf}
-%\caption{Image obtenu par microscopie électronique à balayage montrant la structure centrale de nos échantillons. Le grossissement présente une constriction obtenue à l'aide de l'évaporation sous angle. La grille, colorée en gris, est clairement visible au centre (extrait de \cite{RochPhD}).}
-%\label{ZoomFinal}
-%\end{figure}
+On évapore ensuite une fine couche de titane~(3$\, nm$) avec un angle de $0\,\degres$ pour constituer un couche d'accroche, puis sous un angle de $\pm30\,\degres$, $10\, nm$ d'or  constituant la constriction. Enfin, $80\,nm$ d'or sont évaporés à $0\,\degres$ afin de venir relier la constriction aux plots de connexion. Cette épaisseur doit être suffisante pour assurer un bon passage entre la partie se situant sur la grille et celle se trouvant sur la surface même du wafer. La structure finale est présentée dans la Fig.\ref{FinalResult}.\textbf{b} et \textbf{c}.
 
 
 \section{Réalisation d'un interstice nanométrique}
@@ -285,7 +279,7 @@ où $\textbf{F}_d$ est la force induite par le champ électrique et $\textbf{F}_
 Ce phénomène a été pour la première fois utilisé en électronique moléculaire par le groupe de D.C. Ralph à Cornell~\cite{Park1999}. La technique a notamment été mis en oeuvre pour réaliser le premier transistor à molécule unique~\cite{Park2000}. Depuis, elle a connu de nombreuses évolutions comme nous allons le voir maintenant
 
 \subsection{Etat de l'art}
-On peut classer les techniques d'électromigrations en trois grandes catégories : à rampe unique, à contre-réaction et à cassure-spontanée~\cite{Girod2012}.
+On peut classer les techniques d'électromigrations en trois grandes catégories : à rampe unique, à contre-réaction et à cassure-spontanée. Une analyse plus fine des différentes méthodes est disponible dans~\cite{Girod2012}.
 
 \subsubsection{À rampe unique}
 C'est la première technique a avoir été mise en œuvre dans le domaine de l'électronique moléculaire par Park \textit{et al.}~\cite{Park1999}. Elle consiste en l'application d'une rampe de tension croissante sur une fin fil de métal (voir Fig.\ref{ParkExemp}). La simplicité de la méthode est séduisante, mais mal contrôlée, elle peut conduire à une destruction de la jonction, notamment dû au chauffage induit par effet Joule.
@@ -316,7 +310,6 @@ Cette méthode à été développée par Strachan \textit{et al.} en 2005~\cite{
 
 
 \subsubsection{À cassure spontanée}
-Cette dernière méthode a été mise au point dans le groupe de H.S.J. van der Zant en 2007~\cite{ONeill2007}. Une première étape d'électromigration contrôlée est d'abord réalisée à l'aide d'une méthode à contre-réaction jusqu'à ce que la conductance du nanofil atteigne une valeur de quelques kilo-Ohms. On laisse ensuite évoluer la jonction qui, du fait de l'instabilité de la nanoconstriction, va se rompre naturellement. On obtient ainsi un gap de quelques nanomètres. La durée d'une telle procédure varie d'un échantillon à l'autres : de quelques minutes à plusieurs heures (voir Fig.\ref{ZantExemp}).
 
 \begin{figure}
 \parbox{7cm}{
@@ -326,12 +319,11 @@ Cette dernière méthode a été mise au point dans le groupe de H.S.J. van der 
 \label{ZantExemp}
 }
 \end{figure}
-
+Cette dernière méthode a été mise au point dans le groupe de H.S.J. van der Zant en 2007~\cite{ONeill2007}. Une première étape d'électromigration contrôlée est d'abord réalisée à l'aide d'une méthode à contre-réaction jusqu'à ce que la conductance du nanofil atteigne une valeur de quelques kilo-Ohms. On laisse ensuite évoluer la jonction qui, du fait de l'instabilité de la nanoconstriction, va se rompre naturellement. On obtient ainsi un gap de quelques nanomètres. La durée d'une telle procédure varie d'un échantillon à l'autres : de quelques minutes à plusieurs heures (voir Fig.\ref{ZantExemp}).
 
 
 \subsection{Notre technique}
 Notre technique de fabrication a été développée à partir des travaux de Park \textit{et al.}~\cite{Park1999} puis améliorée en s'inspirant de travaux ultérieurs.
-
 Afin d'augmenter le rendement de la méthode et la qualité des interstices obtenus, il a fallu apporter quelques modifications. Tout d’abord, la résistance en série avec la jonction à été diminuée au maximum~\cite{Zant2006,Trouwborst2006,Taychatanapat2007}. Cela permet de limiter la puissance dissipée au niveau de la jonction et donc de mieux contrôler l'électromigration.
 
 \begin{figure}
@@ -341,7 +333,7 @@ Afin d'augmenter le rendement de la méthode et la qualité des interstices obte
 \end{figure}
 
 
-L'échelle de temps de l'électromigration est du domaine de la centaine de $\mu s$~\cite{ONeill2007}. Afin de pouvoir contrôler parfaitement le déroulement du phénomène, il faut être capable d'agir sur ce dernier en un intervalle de temps du même ordre. Ceci n'est possible que si la procédure d'électromigration se fait à l'aide d'une électronique en temps réel. Nous avons pour cela utilisé un ADWin contrôlé par le programme NanoQT, développé au sein du groupe. Grâce à ce dispositif, l'électromigration peut être détectée et la tension au borne de la jonction ramenée à zéro dans un intervalle de $10\, \mu s$.
+Afin de pouvoir contrôler parfaitement le déroulement du phénomène, il faut être capable d'agir sur ce dernier en un intervalle de temps du même ordre. L'échelle de temps de l'électromigration est du domaine de la centaine de $\mu s$~\cite{ONeill2007}. Ceci n'est donc possible que si la procédure d'électromigration se fait à l'aide d'une électronique en temps réel. Nous avons pour cela utilisé un ADWin contrôlé par le programme NanoQT, développé au sein du groupe. Grâce à ce dispositif, l'électromigration peut être détectée et la tension au borne de la jonction ramenée à zéro dans un intervalle de $10\, \mu s$. Ainsi, nous pouvons obtenir des interstices de la taille souhaitée ($\sim 1\,nm$) de façon reproductible. 
 
 
 \begin{figure}
@@ -353,7 +345,7 @@ L'échelle de temps de l'électromigration est du domaine de la centaine de $\mu
 \end{figure}
 
 
-Ainsi, nous pouvons obtenir des interstices de la taille souhaitée ($\sim 1\,nm$) de façon reproductible. La Fig.\ref{NotreElecMig} présente la mesure en conductance lors d'un procédure d'électromigration. On observe trois régimes : dans un premier temps, la conductance diminue du fait de l'effet Joule; puis celle-ci augmente à nouveau du fait d'un réarangement de la jonction; enfin, la conductance chute brutalement et le phénomène d'électromigration commence. On peut notamment observer, en fin de procédure, les derniers plateaux de conductance, démontrant que l'électromigration est parfaitement contrôlée.
+La Fig.\ref{NotreElecMig} présente la mesure en conductance lors d'un procédure d'électromigration. On observe trois régimes : dans un premier temps, la conductance diminue du fait de l'effet Joule; puis celle-ci augmente à nouveau du fait d'un réarangement de la jonction; enfin, la conductance chute brutalement et le phénomène d'électromigration commence. On peut notamment observer, en fin de procédure, les derniers plateaux de conductance, démontrant que l'électromigration est parfaitement contrôlée.
 
 De plus, l'étape d'électromigration se fait à $4\,K$ et sous atmosphère hélium ce qui prévient la contamination de l'interstice et permet d'analyser le dispositif obtenu directement après la procédure.
 
