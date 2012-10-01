@@ -17,19 +17,27 @@ Deux éléments sont prépondérants dans la qualité d'un SMT : l’efficacité
 \section{Réalisation d'une grille locale}
 La grille est un élément essentiel du transistor et c'est également vrai d'un transistor moléculaire~\cite{Datta2009,Zant2006}. Dans ce dernier cas, elle permet notamment de moduler le potentiel chimique de la molécule allant jusqu'à modifier son état de charge~\cite{Beenakker1991,Wiel2002,Hanson2007}~(cf annexe sur le transport mésoscopique). Elle permet également de contrôler la conductance du système~(avec le concours de la tension source-drain), et donc de choisir des points de fonctionnement adaptés. Nous détaillerons ce dernier point dans le chapitre résultat. 
 
-L'efficacité intrinsèque d'une grille peut être résumée en un seul critère~:~la charge induite. Celle-ci s'exprime simplement par $Q = CV_g^{max}$ où $Q$ est le charge induite et $C$ est la capacité associée à la grille, $V_g^{max}$ étant la tension maximale applicable à la grille. Elle dépend essentiellement de trois paramètres physiques : le champ électrique maximum applicable, l'épaisseur et la permittivité de l'oxyde ~\cite{Biercuk2003}. 
+L'efficacité intrinsèque d'une grille peut être résumée en un seul critère~:~la charge induite. Celle-ci s'exprime simplement par $Q = CV_g^{max}$ où $Q$ est le charge induite et $C$ est la capacité associée à la grille, $V_g^{max}$ étant la tension maximale applicable à la grille. Elle dépend essentiellement de trois paramètres physiques : le champ électrique maximum applicable, l'épaisseur et la permittivité de l'oxyde~\cite{Biercuk2003}. 
 
 Outre les paramètres que l'on vient de voir, il existe plusieurs géométries de grille susceptibles d'avoir une influence sur l’efficacité de cette dernière. On peut identifier trois géométries : la grille au-dessus ou  ``\textit{top-gate}'', la grille latérale et la grille arrière ou  ``\textit{back-gate}''.
 
 \subsection{Les différentes géométries}
-Je ne donnerai ici qu'un rapide présentation des différents grilles existantes. Pour une comparaison plus détaillé entre ces différentes géométrie est disponible dans la thèse de ??.
-\subsubsection{La ``\textit{top-gate"}}
-Cette configuration est utilisée dans l'industrie en ce qui concerne les transistors à effet de champ conventionnels. On la retrouve également dans les dispositifs expérimentaux faisant appel à des nanofils~\cite{Fasth2005} ou bien encore à des nanotubes~\cite{Javey2002}. Elle a également pu être implémentée dans le cas de nanotubes suspendus donnant des résultats plus que convaincant~\cite{Leturcq2009}.
+Je ne donnerai ici qu'une rapide présentation des différentes grilles existantes. Une comparaison plus détaillée entre ces différentes géométries est disponible dans la thèse d'Aurore Mangin~\cite{Aurore2009}.
 
-Cette configuration est cependant difficilement compatible avec l'électromigration. En effet, dans ce cas, le gap formant la source et le drain se fait après les étapes de lithographie, ce qui serait impossible si le fil d'or était recouvert par une grille. Pour produire une grille compatible avec l'électromigration, il faut se tourner vers d'autres géométries comme la configuration latérale.
+\begin{figure}
+\centering \includegraphics[scale=0.45]{Fabrication/Gateconf/GateConf.pdf}
+\caption{Images obtenues par microscopie électronique à balayage. \textbf{a} : nanotube sur lequel on est venu positionner 9 grilles afin de réaliser un double point quantique ainsi qu'un détecteur de charge ~(extrait de \cite{Churchill2009}). \textbf{b} : configuration en grille latérale réalisé dans la cadre de jonctions électromigrés~(extrait de~\cite{Aurore2009}).}
+\label{GateConf}
+\end{figure}
+
+
+\subsubsection{La ``\textit{top-gate"}}
+Cette configuration est utilisée dans l'industrie en ce qui concerne les transistors à effet de champ conventionnels. On la retrouve également dans les dispositifs expérimentaux faisant appel à des nanofils~\cite{Fasth2005} ou bien encore à des nanotubes~\cite{Javey2002}~(cf Fig.\ref{GateConf}.\textbf{a}). Elle a également pu être implémentée dans le cas de nanotubes suspendus donnant des résultats plus que convaincant~\cite{Leturcq2009}.
+
+Cette configuration est cependant difficilement compatible avec l'électromigration. En effet, dans ce cas, l'électromigration est effectuée après les étapes de lithographie, ce qui serait impossible si le fil d'or était recouvert par une grille. Pour produire une grille compatible avec l'électromigration, il faut se tourner vers d'autres géométries comme la configuration latérale.
 
 \subsubsection{La grille latérale}
-Cette configuration consiste à placer la grille latéralement vis à vis du gap obtenu par électromigration~\cite{Mangin2009}. De plus, accompagnée d'une grille arrière, elle permet d'avoir deux moyens d'action sur le potentiel chimique de la molécule située dans la gap. 
+Cette configuration consiste à placer la grille latéralement vis à vis du gap obtenu par électromigration~\cite{Mangin2009}~(cf Fig.\ref{GateConf}.\textbf{b}). De plus, accompagnée d'une grille arrière, elle permet d'avoir deux moyens d'action sur le potentiel chimique de la molécule située dans la gap. 
 
 Il est en revanche très difficile de contr\^oler précisément la position de cette grille et elle se trouve donc souvent située à plusieurs dizaines de nanomètres du gap. De plus, le r\^ole de l'oxyde est, dans ce cas, joué par l'air qui possède une permittivité proche de l'unité. Cette configuration abouti donc, de manière générale, à une grille moins efficace que la configuration grille arrière~\cite{Aurore2009} que nous allons voir maintenant.
 
@@ -87,7 +95,7 @@ La première étape de la fabrication de notre grille locale consiste en l'obten
 \end{table}
 
 
-Cette étape permet également d'obtenir les marques d'alignements nécessaire à la fabrication des lignes d'amenés. Une première série de marques~(cf carré bleu de la Fig.??) permet d'effectuer un alignement grossier. Ce dernier est ensuite affiné à l'aide d'une deuxième série de repères~(cf carré vert de la Fig??).
+Cette étape permet également d'obtenir les marques d'alignements nécessaire à la fabrication des lignes d'amenés. Une première série de marques~(cf carré bleu de la Fig.\ref{FinalResult}.\textbf{a}) permet d'effectuer un alignement grossier. Ce dernier est ensuite affiné à l'aide d'une deuxième série de repères~(cf carré vert de la Fig.\ref{FinalResult}.\textbf{a}).
 
 La technique bicouche a été préféré à la technique usuelle monocouche, car elle a l'avantage de prévenir la formation de bords lors de l'étape de lift-off~(cf Fig.\ref{lift-off}) qui pourraient entraîner une perte de contact entre la jonction et le plot correspondant lors du passage de marche~(i.e. lorsque la ligne d'amené passe de la surface de silicium à la grille, la hauteur de marche étant donnée par l'épaisseur de la grille).
 
@@ -169,26 +177,15 @@ Celui-ci été trouvé en laissant un délai conséquent entre les différentes 
 \end{figure}
 
 
-%\begin{figure}
-%\parbox{6.5cm}{
-%\includegraphics[scale=0.45]{Fabrication/LithoOptique/LithoOptique.pdf} 
-%}
-%\parbox{7cm}{\caption{Échantillon après les deux étapes de lithographie optique. Les lignes d'amené de courant sont visibles en orange et la grille locale en gris. Les deux carrés repèrent les marques d'alignement~(extrait de~\cite{RochPhD}).}
-%\label{LithoOptique}
-%}
-%\end{figure}
-
-
-
-
 \section{Réalisation d'un nanofil}
+
+Afin de réaliser les nanofils d'or, on procède en deux étapes. Dans la première, une lithographie optique est effectué afin d'obtenir les plots de connexion. Dans la seconde, une lithographie électronique est réalisé en vue de la fabrication des nanofils.
 
 \subsection{Lithographie optique}
 
-La seconde étape de lithographie vise à fabriquer les plots d'or nécessaires à la micro-soudure de notre échantillon, ainsi que les lignes d'amené de courant~(cf partie orange de la Fig.\ref{LithoOptique}). La recette du Tab.\ref{tab_recette}  est utilisée pour obtenir un dép\^ot de 100$\,nm$ d'or avec une couche d'accroche en titane. 
+Cette étape de lithographie vise à fabriquer les plots d'or nécessaires à la micro-soudure de notre échantillon, ainsi que les lignes d'amené de courant~(cf partie orange de la Fig.\ref{FinalResult}.\textbf{a}). La recette du Tab.\ref{tab_recette}  est utilisée pour obtenir un dép\^ot de 100$\,nm$ d'or avec une couche d'accroche en titane.
 
-
-Le résultat final est présenté dans la Fig.\ref{LithoOptique} où la partie orange désigne les lignes d'amené de courant et la partie grise la grille locale. La partie centrale va venir accueillir les nanofils d'or comme nous allons le voir dans la suite.
+Le résultat final est présenté dans la Fig.\ref{FinalResult}.\textbf{a} où la partie orange désigne les lignes d'amené de courant et la partie grise la grille locale. La partie centrale va venir accueillir les nanofils d'or comme nous allons le voir dans la suite.
 
 
 \subsection{Lithographie électronique}
@@ -263,9 +260,9 @@ Le nanofil va également avoir un impact sur le couplage de la molécule à la g
 \end{table}
 
 
-Afin d'obtenir des fils répondant à ces critères, nous avons utilisé une méthode dite d'évaporation sous-angle. Pour cela, il faut tout d'abord déposer deux couches de résine, la partie supérieure étant constituée de PMMA et la partie inférieure de PMMA-MAA, plus sensible aux électrons. On procède ensuite à la lithographie électronique puis au développement de la résine. Du fait de la plus grande sensibilité de la partie inférieure et la présence d'électrons rétrodiffusés, on obtient une partie sur-insolée entraînant la formation d'un ``pont" comme décrit sur la Fig.\ref{EvapAngle}.
+Afin d'obtenir des fils répondant à ces critères, nous avons utilisé une méthode dite d'évaporation sous-angle. Pour cela, il faut tout d'abord déposer deux couches de résine, la partie supérieure étant constituée de PMMA et la partie inférieure de PMMA-MAA, plus sensible aux électrons~(cf Fig.\ref{EvapAngle}). On procède ensuite à la lithographie électronique puis au développement de la résine. Du fait de la plus grande sensibilité de la partie inférieure et la présence d'électrons rétrodiffusés, on obtient une partie sur-insolée entraînant la formation d'un ``pont" comme décrit sur la Fig.\ref{EvapAngle}.
 
-On évapore ensuite une fine couche de titane~(3$\, nm$) avec un angle de $0\,\degres$ pour constituer un couche d'accroche, puis sous un angle de $\pm30\,\degres$, $10\, nm$ d'or  constituant la constriction. Enfin, $100\,nm$ d'or sont évaporés à $0\,\degres$ afin de venir relier la constriction aux plots de connexion. Cet épaisseur doit être suffisant pour assurer un bon passage entre la partie se situant sur la grille et celle se trouvant sur la surface même du wafer. La structure finale est présentée dans la Fig.\ref{ZoomFinal}.
+On évapore ensuite une fine couche de titane~(3$\, nm$) avec un angle de $0\,\degres$ pour constituer un couche d'accroche, puis sous un angle de $\pm30\,\degres$, $10\, nm$ d'or  constituant la constriction. Enfin, $100\,nm$ d'or sont évaporés à $0\,\degres$ afin de venir relier la constriction aux plots de connexion. Cet épaisseur doit être suffisant pour assurer un bon passage entre la partie se situant sur la grille et celle se trouvant sur la surface même du wafer. La structure finale est présentée dans la Fig.\ref{FinalResult}.\textbf{b} et \textbf{c}.
 
 %\begin{figure}
 %\centering \includegraphics[scale=0.45]{Fabrication/ZoomFinal/ZoomFinal.pdf}
@@ -275,12 +272,11 @@ On évapore ensuite une fine couche de titane~(3$\, nm$) avec un angle de $0\,\d
 
 
 \section{Réalisation d'un interstice nanométrique}
-Une fois que nous avons obtenu nos constrictions métalliques, il faut procéder à la dernière étape de fabrication : l'électromigration. Cette dernière, qui est effectuée à basse température, va nous permettre d'obtenir les interstices de quelques nanomètres de largeur, nécessaires à la fabrication d'un transistor moléculaire. Dans ce chapitre, nous présenterons dans un premier temps la technique d'électromigration ainsi que les différentes méthodes de mise en œuvre. Nous finirons par une description de notre technique de contre-réaction rapide à basse température.
+Une fois que nous avons obtenu nos constrictions métalliques, il faut procéder à la dernière étape de fabrication : l'électromigration. Celle-ci est effectuée à basse température, et va nous permettre d'obtenir les interstices de quelques nanomètres de largeur, nécessaires à la fabrication d'un transistor moléculaire. Dans ce chapitre, nous présenterons dans un premier temps la technique d'électromigration ainsi que les différentes méthodes de mise en œuvre. Nous finirons par une description de notre technique de contre-réaction rapide à basse température.
 
 \subsection{L'électromigration}
 L'électromigration est un phénomène connu depuis plus d'un siècle maintenant~\cite{Gerardin1861}. Ce phénomène a connu un regain intérêt avec le développement de la micro-électronique, notamment parce qu'il a été identifié comme étant une cause de panne récurrente~\cite{Blech1967,Black1969}.
-
-Il se produit lorsqu'une forte densité de courant traverse un conducteur. Les ions du réseau sont alors soumis à deux forces : la première est induite par le champ électrique générant le courant, la seconde est d\^u aux électrons qui, du fait de la diffusion, viennent céder un peu de leur moment cinétique~\cite{Ho1989}. L'action de ces deux forces se résume par la formule suivante :
+Il se produit lorsqu'une forte densité de courant traverse un conducteur. Les ions du réseau sont alors soumis à deux forces : la première est induite par le champ électrique générant le courant, la seconde est d\^u aux électrons qui, du fait de la diffusion, viennent céder un peu de leur moment cinétique aux ions du réseau~\cite{Ho1989}. L'action de ces deux forces se résume par la formule suivante :
 \begin{eqnarray}
 \textbf{F} = \textbf{F}_d + \textbf{F}_v = Z^*e\textbf{E} \nonumber
 \end{eqnarray}
@@ -347,34 +343,29 @@ Afin d'augmenter le rendement de la méthode et la qualité des interstices obte
 
 L'échelle de temps de l'électromigration est du domaine de la centaine de $\mu s$~\cite{ONeill2007}. Afin de pouvoir contrôler parfaitement le déroulement du phénomène, il faut être capable d'agir sur ce dernier en un intervalle de temps du même ordre. Ceci n'est possible que si la procédure d'électromigration se fait à l'aide d'une électronique en temps réel. Nous avons pour cela utilisé un ADWin contrôlé par le programme NanoQT, développé au sein du groupe. Grâce à ce dispositif, l'électromigration peut être détectée et la tension au borne de la jonction ramenée à zéro dans un intervalle de $10\, \mu s$.
 
-De plus, l'étape d'électromigration se fait à $4\,K$ et sous atmosphère hélium ce qui prévient la contamination de l'interstice et permet d'analyser le dispositif obtenu directement après la procédure.
+
+\begin{figure}
+\parbox{7cm}{
+\includegraphics[scale=0.45]{Fabrication/JonctionElecromig/JonctionElecromig.pdf} 
+}
+\parbox{5cm}{\caption{Image obtenue par microscopie électronique à balayage d'une jonction électromigrée pour laquelle l'interstice nanométrique est clairement visible.}
+}
+\end{figure}
+
 
 Ainsi, nous pouvons obtenir des interstices de la taille souhaitée ($\sim 1\,nm$) de façon reproductible. La Fig.\ref{NotreElecMig} présente la mesure en conductance lors d'un procédure d'électromigration. On observe trois régimes : dans un premier temps, la conductance diminue du fait de l'effet Joule; puis celle-ci augmente à nouveau du fait d'un réarangement de la jonction; enfin, la conductance chute brutalement et le phénomène d'électromigration commence. On peut notamment observer, en fin de procédure, les derniers plateaux de conductance, démontrant que l'électromigration est parfaitement contrôlée.
 
+De plus, l'étape d'électromigration se fait à $4\,K$ et sous atmosphère hélium ce qui prévient la contamination de l'interstice et permet d'analyser le dispositif obtenu directement après la procédure.
 
 \section{Fabrication d'un transistor à molécule unique}
-Pour obtenir un transistor moléculaire, il faut procéder selon trois étapes. La première consiste en la réalisation d'un nanofil reposant sur une grille. On dépose ensuite les molécules sur la puce avant de la micro-souder et de la disposer dans un frigo à dilution. Enfin, on procède à l'électromigration. Dans la partie précédente, nous avons abordé l'étape un et trois. Nous allons maintenant voir comment les molécules sont déposées ainsi que la technique de caractérisation électrique des interstices.
+Les étapes que nous avons présenté jusqu'à maintenant permettent d'obtenir une structure tri-terminaux~(source, drain et grille). Il nous faut maintenant disposer une molécule unique dans cette structure afin d'obtenir un aimant moléculaire. Pour cela, nous verrons tout d'abord comment les molécules sont déposées avant électromigration. Cette dernière étant effectué à $4\,K$, elle autorise une caractérisation électrique immédiatement après. Nous détaillerons cette dernière afin de voir quels indices trahissent la présence d'un objet dans l'interstice nanométrique.
 
-\subsection{Dép\^ot des molécules}
-Les cristaux de TbPc$_{2}$ sont dissous dans du dichlorométhane à la concentration 10$^{-6}mol.L^{-1}$. Une goutte de la solution obtenue est ensuite déposée sur l'échantillon et séchée par un flux d'azote. L'échantillon obtenu est ensuite microsoudé sur le porte échantillon, disposé dans un frigo à dilution et électromigré à basse température. Les jonctions obtenues (jusqu'à 12 par échantillons) sont ensuite analysées en transport.
+Les cristaux de TbPc$_{2}$ sont dissous dans du dichlorométhane à la concentration 10$^{-6}mol.L^{-1}$. Cette dernière est soumise à un bain d'ultrason afin de prévenir la formation de grappes. La présence de ces dernière pourrait interféré avec l'électromigration en empéchant les molécules de se faire piéger dans l'interstice. Une goutte de la solution obtenue est ensuite déposée sur l'échantillon et séchée par un flux d'azote. L'échantillon obtenu est ensuite microsoudé sur le porte échantillon, disposé dans un frigo à dilution et électromigré à basse température. Les jonctions obtenues (jusqu'à 12 par échantillons) sont ensuite analysées en transport.
 
-\subsection{Caractérisation des jonctions}
-%La première analyse généralement effectuée consiste à mesurer la conductance du système en fonction de la tension de grille, pour une tension source-drain nulle. La présence d'un objet nanométrique fait apparaître un ou plusieurs pics que l'on nomme pics de Coulomb~\cite{Beenakker1991,Wiel2002,Hanson2007}~(cf annexe sur le transport mésoscopique). Si cette première analyse se révèle concluante, on procède à une étude plus fine à l'aide d'un diagramme de Coulomb dans lequel on trace la conductance différentielle en fonction de la tension de grille $V_{\rm{g}}$ et la tension source-drain $V_{\rm{ds}}$. On peut alors identifier trois régimes en fonction du coulage électronique entre l'objet situé dans l'interstice et les électrodes.
-%
-%\subsubsection{Couplage faible}
-%Dans ce régime, la conductance mesurée est largement inférieur au quantum de conductance $G_0$~($\sim 72\,mS$). Cela se traduit par la présence de diamant de Coulomb aux bords très bien définis comme le montre la Fig.\ref{CouplageInt}.\textbf{a}. Ce faible couplage ne perturbe que légèrement les niveaux de l'îlot. Ils conservent donc leur élargissement intrinsèque, d'où la finesse des bords de diamant. Dans cette configuration, seul le tunneling séquentiel est responsable du courant circulant à travers le système. Si l'on désire explorer les propriétés intrinsèques de l'îlot, le couplage faible est le régime idéal.
-%
-%\subsubsection{Couplage intermédiaire}
-%Lorsque la conductance du système est proche du quantum de conductance, le couplage est qualifié d'intermédiaire. De nouveaux processus de transport peuvent alors être observés comme le cotunneling par exemple. Ce régime est notamment observé dans la Fig.\ref{CouplageInt}.\textbf{b} où des variations de conductance à l'intérieur même des diamants de Coulomb sont mesurés. Celle-ci correspondent à des processus du second ordre permettant aux électrons de circuler, même lorsque le système se trouve en régime de blocage de Coulomb~(Pour plus de détail, le lecteur peut se référer à l'annexe sur le transport mésoscopique). Ce régime entraîne également un élargissement des niveaux de l'îlot central du fait de la forte hybridation de ces derniers avec les niveaux électronique de la source et/ou du drain.
-%
-%\begin{figure}
-%\centering \includegraphics[scale=0.45]{Fabrication/CouplageInt/CouplageInt.pdf}
-%\caption{\textbf{a} : diamant de Coulomb correspondant à un couplage faible. Les bords de diamants sont bien définis et aucune ligne de cotunneling n'est présente. \textbf{b} : diamant de Coulomb correspondant à un couplage intermédiaire. Les bords de diamant reste bien définie mais des lignes de cotunneling sont clairement visible à l'intérieur du régime de blocage.}
-%\label{CouplageInt}
-%\end{figure}
-%
-%
-%\subsection{Couplage fort}
-%Lorsque l'hybridation des niveaux est telle qu'ils deviennent indiscernables, le couplage est qualifié de fort et les propriétés intrinsèques de l'îlot central sont fortement altérées. En général, ce régime est présent lorsque la conduction ou, autrement dit, le taux d’événements tunnels $\Gamma$ est plus grand que l'énergie séparant deux états de charge de l'îlot.
-%
-%Ce régime est à éviter si l'on souhaite étudier les propriétés intrinsèque de l'\^ilot central.
+Une fois la jonction électromigrée, il faut s'assurer que l'interstice obtenue contienne un objet. La première analyse généralement effectuée consiste à mesurer la conductance du système en fonction de la tension de grille, pour une tension source-drain nulle. La présence d'un objet nanométrique fait apparaître un ou plusieurs pics que l'on nomme pics de Coulomb~\cite{Beenakker1991,Wiel2002,Hanson2007}~(cf annexe sur le transport mésoscopique). 
+
+Mais il faut aussi s'intéresser à la nature de l'objet piégé et s'assurer qu'il s'agit bien de la molécule déposée. C'est une question cruciale dans le domaine de l'électronique moléculaire, et en particulier lorsque l'on utilise la technique d'électromigration. En effet, de nombreuses configuration peuvent donné une signature en transport plus ou moins similaire. Une boite quantique peut \^etre formé par une bille d'or formée lors de l'électromigration, par un élement polluant introduit lors de la fabrication ou du dép\^ot de molécule, ou bien encore \^etre simplement d\^u à la molécule que l'on chercher à étudier. C'est bien s\^ur seulement à ce dernier cas que l'on souhaite s'intéresser.
+
+Dans notre cas, nous connaissons la signature magnétique de la molécule que nous souhaitons étudier. Cela facilite considérablement l'interprétation de la mesure. Nous n'avons en qu'à analyser les propriétés magnétiques de l'objet piégé au sein de l'interstice pour en déduire la nature et la configuration en transport. La méthode détaillé que nous avons utilisé sera décrite dans le chapitre suivant, consacré aux résultats expérimentaux.  S'il s'avère que la molécule est bien responsable du transport dans notre système, alors nous avons obtenue un transistor moléculaire tel que celui décrit Fig.\ref{ImageTrans}.
+
+

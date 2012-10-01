@@ -4,19 +4,17 @@
 \contentsline {subsection}{\numberline {1.1.1}Les diff\IeC {\'e}rentes g\IeC {\'e}om\IeC {\'e}tries}{2}
 \contentsline {subsubsection}{La ``\textit {top-gate"}}{3}
 \contentsline {subsubsection}{La grille lat\IeC {\'e}rale}{3}
-\contentsline {subsubsection}{La grille arri\IeC {\`e}re}{3}
+\contentsline {subsubsection}{La grille arri\IeC {\`e}re}{4}
 \contentsline {subsection}{\numberline {1.1.2}Cr\IeC {\'e}ation de l'\IeC {\'e}lectrode de grille}{4}
 \contentsline {subsection}{\numberline {1.1.3}Le d\IeC {\'e}p\^ot par ALD}{6}
-\contentsline {section}{\numberline {1.2}R\IeC {\'e}alisation d'un nanofil}{8}
-\contentsline {subsection}{\numberline {1.2.1}Lithographie optique}{8}
-\contentsline {subsection}{\numberline {1.2.2}Lithographie \IeC {\'e}lectronique}{8}
-\contentsline {section}{\numberline {1.3}R\IeC {\'e}alisation d'un interstice nanom\IeC {\'e}trique}{12}
-\contentsline {subsection}{\numberline {1.3.1}L'\IeC {\'e}lectromigration}{12}
-\contentsline {subsection}{\numberline {1.3.2}Etat de l'art}{13}
-\contentsline {subsubsection}{\IeC {\`A} rampe unique}{13}
-\contentsline {subsubsection}{\IeC {\`A} contre-r\IeC {\'e}action}{13}
-\contentsline {subsubsection}{\IeC {\`A} cassure spontan\IeC {\'e}e}{14}
+\contentsline {section}{\numberline {1.2}R\IeC {\'e}alisation d'un nanofil}{10}
+\contentsline {subsection}{\numberline {1.2.1}Lithographie optique}{10}
+\contentsline {subsection}{\numberline {1.2.2}Lithographie \IeC {\'e}lectronique}{10}
+\contentsline {section}{\numberline {1.3}R\IeC {\'e}alisation d'un interstice nanom\IeC {\'e}trique}{13}
+\contentsline {subsection}{\numberline {1.3.1}L'\IeC {\'e}lectromigration}{13}
+\contentsline {subsection}{\numberline {1.3.2}Etat de l'art}{14}
+\contentsline {subsubsection}{\IeC {\`A} rampe unique}{14}
+\contentsline {subsubsection}{\IeC {\`A} contre-r\IeC {\'e}action}{14}
+\contentsline {subsubsection}{\IeC {\`A} cassure spontan\IeC {\'e}e}{15}
 \contentsline {subsection}{\numberline {1.3.3}Notre technique}{15}
-\contentsline {section}{\numberline {1.4}Fabrication d'un transistor \IeC {\`a} mol\IeC {\'e}cule unique}{16}
-\contentsline {subsection}{\numberline {1.4.1}D\IeC {\'e}p\^ot des mol\IeC {\'e}cules}{16}
-\contentsline {subsection}{\numberline {1.4.2}Caract\IeC {\'e}risation des jonctions}{17}
+\contentsline {section}{\numberline {1.4}Fabrication d'un transistor \IeC {\`a} mol\IeC {\'e}cule unique}{17}
