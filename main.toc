@@ -1,20 +1,28 @@
 \select@language {french}
-\contentsline {chapter}{\numberline {1}Fabrication d'un transistor mol\IeC {\'e}culaire}{1}
-\contentsline {section}{\numberline {1.1}R\IeC {\'e}alisation d'une grille locale}{1}
-\contentsline {subsection}{\numberline {1.1.1}Les diff\IeC {\'e}rentes g\IeC {\'e}om\IeC {\'e}tries}{2}
-\contentsline {subsubsection}{La ``\textit {top-gate"}}{3}
-\contentsline {subsubsection}{La grille lat\IeC {\'e}rale}{3}
-\contentsline {subsubsection}{La grille arri\IeC {\`e}re}{4}
-\contentsline {subsection}{\numberline {1.1.2}Cr\IeC {\'e}ation de l'\IeC {\'e}lectrode de grille}{4}
-\contentsline {subsection}{\numberline {1.1.3}Le d\IeC {\'e}p\^ot par ALD}{6}
-\contentsline {section}{\numberline {1.2}R\IeC {\'e}alisation d'un nanofil}{9}
-\contentsline {subsection}{\numberline {1.2.1}Lithographie optique}{9}
-\contentsline {subsection}{\numberline {1.2.2}Lithographie \IeC {\'e}lectronique}{10}
-\contentsline {section}{\numberline {1.3}R\IeC {\'e}alisation d'un interstice nanom\IeC {\'e}trique}{12}
-\contentsline {subsection}{\numberline {1.3.1}L'\IeC {\'e}lectromigration}{13}
-\contentsline {subsection}{\numberline {1.3.2}Etat de l'art}{13}
-\contentsline {subsubsection}{\IeC {\`A} rampe unique}{13}
-\contentsline {subsubsection}{\IeC {\`A} contre-r\IeC {\'e}action}{14}
-\contentsline {subsubsection}{\IeC {\`A} cassure spontan\IeC {\'e}e}{15}
-\contentsline {subsection}{\numberline {1.3.3}Notre technique}{15}
-\contentsline {section}{\numberline {1.4}Fabrication d'un transistor \IeC {\`a} mol\IeC {\'e}cule unique}{17}
+\contentsline {chapter}{\numberline {1}Spintronique mol\IeC {\'e}culaire}{1}
+\contentsline {section}{\numberline {1.1}Spintronique et \IeC {\'E}lectronique mol\IeC {\'e}culaire}{1}
+\contentsline {subsection}{\numberline {1.1.1}La spintronique}{1}
+\contentsline {subsection}{\numberline {1.1.2}L'\IeC {\'e}lectronique organique}{2}
+\contentsline {section}{\numberline {1.2}Le magn\IeC {\'e}tisme mol\IeC {\'e}culaire}{4}
+\contentsline {section}{\numberline {1.3}La spintronique mol\IeC {\'e}culaire}{7}
+\contentsline {subsection}{\numberline {1.3.1}\IeC {\'E}tat de l'art}{8}
+\contentsline {subsection}{\numberline {1.3.2}La spintronique dans notre groupe}{12}
+\contentsline {chapter}{\numberline {2}Fabrication d'un transistor mol\IeC {\'e}culaire}{17}
+\contentsline {section}{\numberline {2.1}R\IeC {\'e}alisation d'une grille locale}{17}
+\contentsline {subsection}{\numberline {2.1.1}Les diff\IeC {\'e}rentes g\IeC {\'e}om\IeC {\'e}tries}{18}
+\contentsline {subsubsection}{La ``\textit {top-gate"}}{19}
+\contentsline {subsubsection}{La grille lat\IeC {\'e}rale}{19}
+\contentsline {subsubsection}{La grille arri\IeC {\`e}re}{20}
+\contentsline {subsection}{\numberline {2.1.2}Cr\IeC {\'e}ation de l'\IeC {\'e}lectrode de grille}{20}
+\contentsline {subsection}{\numberline {2.1.3}Le d\IeC {\'e}p\^ot par ALD}{22}
+\contentsline {section}{\numberline {2.2}R\IeC {\'e}alisation d'un nanofil}{25}
+\contentsline {subsection}{\numberline {2.2.1}Lithographie optique}{25}
+\contentsline {subsection}{\numberline {2.2.2}Lithographie \IeC {\'e}lectronique}{26}
+\contentsline {section}{\numberline {2.3}R\IeC {\'e}alisation d'un interstice nanom\IeC {\'e}trique}{29}
+\contentsline {subsection}{\numberline {2.3.1}L'\IeC {\'e}lectromigration}{29}
+\contentsline {subsection}{\numberline {2.3.2}Etat de l'art}{30}
+\contentsline {subsubsection}{\IeC {\`A} rampe unique}{30}
+\contentsline {subsubsection}{\IeC {\`A} contre-r\IeC {\'e}action}{30}
+\contentsline {subsubsection}{\IeC {\`A} cassure spontan\IeC {\'e}e}{31}
+\contentsline {subsection}{\numberline {2.3.3}Notre technique}{31}
+\contentsline {section}{\numberline {2.4}Fabrication d'un transistor \IeC {\`a} mol\IeC {\'e}cule unique}{33}
