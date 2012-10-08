@@ -28,13 +28,13 @@
 \contentsline {subsection}{\numberline {1.4.3}Choix du point de fonctionnement}{24}
 \contentsline {subsection}{\numberline {1.4.4}Proc\IeC {\'e}dure d'alignement}{26}
 \contentsline {section}{\numberline {1.5}Magn\IeC {\'e}tisme \IeC {\'e}lectronique}{28}
-\contentsline {subsection}{\numberline {1.5.1}Reconstruction du cycle d\IeC {\textquoteright }hyst\IeC {\'e}r\IeC {\'e}sis}{28}
-\contentsline {subsection}{\numberline {1.5.2}Le r\^ole du champ transverse}{30}
+\contentsline {subsection}{\numberline {1.5.1}Reconstruction du cycle d\IeC {\textquoteright }hyst\IeC {\'e}r\IeC {\'e}sis}{29}
+\contentsline {subsection}{\numberline {1.5.2}Le r\^ole du champ transverse}{31}
 \contentsline {subsubsection}{Cons\IeC {\'e}quences physiques}{31}
-\contentsline {subsubsection}{Impact sur la mise en \IeC {\oe }uvre}{31}
-\contentsline {section}{\numberline {1.6}Dynamique du spin nucl\IeC {\'e}aire}{32}
+\contentsline {subsubsection}{Impact sur la mise en \IeC {\oe }uvre}{32}
+\contentsline {section}{\numberline {1.6}Dynamique du spin nucl\IeC {\'e}aire}{33}
 \contentsline {subsection}{\numberline {1.6.1}Temps de relaxation}{33}
-\contentsline {subsection}{\numberline {1.6.2}Perturbations induites par la mesure}{36}
-\contentsline {subsection}{\numberline {1.6.3}Extraction des populations nucl\IeC {\'e}aires}{36}
-\contentsline {subsection}{\numberline {1.6.4}Influence de la tension de grille sur la relaxation}{38}
+\contentsline {subsection}{\numberline {1.6.2}Perturbations induites par la mesure}{35}
+\contentsline {subsection}{\numberline {1.6.3}Extraction des populations nucl\IeC {\'e}aires}{38}
+\contentsline {subsection}{\numberline {1.6.4}Influence de la tension de grille sur la relaxation}{39}
 \contentsline {subsection}{\numberline {1.6.5}D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{39}
