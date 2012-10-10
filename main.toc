@@ -36,5 +36,5 @@
 \contentsline {subsection}{\numberline {1.6.1}Temps de relaxation}{33}
 \contentsline {subsection}{\numberline {1.6.2}Perturbations induites par la mesure}{35}
 \contentsline {subsection}{\numberline {1.6.3}Extraction des populations nucl\IeC {\'e}aires}{38}
-\contentsline {subsection}{\numberline {1.6.4}Influence de la tension de grille sur la relaxation}{39}
+\contentsline {subsection}{\numberline {1.6.4}Influence de la tension de grille sur la relaxation}{38}
 \contentsline {subsection}{\numberline {1.6.5}D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{39}
