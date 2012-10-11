@@ -2,46 +2,55 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: citations.bib
+Warning--entry type for "Trouwborst2006" isn't style-file defined
+--line 1606 of file citations.bib
+Warning--I didn't find a database entry for "JKondo1"
+Warning--I didn't find a database entry for "Gordon1"
+Warning--I didn't find a database entry for "Reed1"
+Warning--I didn't find a database entry for "Park1"
+Warning--I didn't find a database entry for "NazaBook"
+Warning--there's a number but no volume in Sanvito2011
+Warning--empty title in Gerardin1861
 Warning--there's a number but no volume in Sorace2011
-You've used 26 entries,
+You've used 89 entries,
             1791 wiz_defined-function locations,
-            649 strings with 8987 characters,
-and the built_in function-call counts, 6932 in all, are:
-= -- 601
-> -- 385
-< -- 0
-+ -- 139
-- -- 113
-* -- 653
-:= -- 1137
-add.period$ -- 78
-call.type$ -- 26
-change.case$ -- 26
+            1056 strings with 21210 characters,
+and the built_in function-call counts, 23621 in all, are:
+= -- 2030
+> -- 1352
+< -- 1
++ -- 486
+- -- 397
+* -- 2209
+:= -- 3875
+add.period$ -- 265
+call.type$ -- 89
+change.case$ -- 83
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 230
-empty$ -- 615
-format.name$ -- 113
-if$ -- 1437
+cite$ -- 92
+duplicate$ -- 788
+empty$ -- 2080
+format.name$ -- 397
+if$ -- 4907
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 25
-newline$ -- 133
-num.names$ -- 26
-pop$ -- 33
+int.to.str$ -- 89
+missing$ -- 85
+newline$ -- 446
+num.names$ -- 89
+pop$ -- 127
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 77
+skip$ -- 271
 stack$ -- 0
-substring$ -- 613
-swap$ -- 26
-text.length$ -- 0
+substring$ -- 2052
+swap$ -- 92
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 76
-width$ -- 28
-write$ -- 287
-(There was 1 warning)
+warning$ -- 3
+while$ -- 251
+width$ -- 91
+write$ -- 972
+(There were 9 warnings)
