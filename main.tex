@@ -3,17 +3,27 @@
 % Last Change: Thu Oct 27 09:00 PM 2011 C
 %
 \documentclass[a4paper,12pt]{book}
+
 \usepackage[pdfpagelabels,draft,implicit=false]{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[francais]{babel}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage[Sonny]{fncychap}
 %\usepackage{fullpage}
 \usepackage{setspace}
 \usepackage{mathrsfs} %lettre ronde
 \usepackage{multirow}
+\usepackage{fancyhdr}
+\pagestyle{plain}
+\usepackage{pdfpages}
+
 
 \setstretch{1.2}
+\lhead{\nouppercase{\rightmark}}
+\rhead{\nouppercase{\leftmark}}
+
+\renewcommand{\sectionmark}[1]{}
 
 \begin{document}
 
@@ -41,6 +51,14 @@
 %\input{Annexe1/Annexe1.tex}
 %\input{Annexe2/Annexe2.tex}
 %\input{Annexe3/Annexe3.tex}
+
+%\chapter{Article Phys. Rev. B : Cotunneling through a magnetic single-molecule transistor based on N@C$_{60}$}
+%\includepdf[pages = {1-4}]{Articles/prb_83_081407.pdf}
+
+
+%\chapter{Article Nature : Electronic read-out of a single nuclear spin using a
+%molecular spin transistor}
+%\includepdf[pages = {1-4}]{Articles/nature11341.pdf}
 
 \bibliographystyle{unsrt}
 \bibliography{citations}
