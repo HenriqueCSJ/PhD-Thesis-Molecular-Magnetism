@@ -2,46 +2,52 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: citations.bib
-Warning--I didn't find a database entry for "JKondo1"
-You've used 15 entries,
+Warning--entry type for "Trouwborst2006" isn't style-file defined
+--line 1695 of file citations.bib
+Warning--there's a number but no volume in Sanvito2011
+Warning--empty title in Gerardin1861
+Warning--there's a number but no volume in Sorace2011
+Warning--there's a number but no volume in Stepanow
+Warning--empty year in Hong2012
+You've used 95 entries,
             1791 wiz_defined-function locations,
-            570 strings with 6484 characters,
-and the built_in function-call counts, 4065 in all, are:
-= -- 348
-> -- 231
-< -- 0
-+ -- 83
-- -- 68
-* -- 383
-:= -- 671
-add.period$ -- 45
-call.type$ -- 15
-change.case$ -- 14
+            1081 strings with 22335 characters,
+and the built_in function-call counts, 24967 in all, are:
+= -- 2142
+> -- 1433
+< -- 1
++ -- 515
+- -- 420
+* -- 2320
+:= -- 4100
+add.period$ -- 283
+call.type$ -- 95
+change.case$ -- 88
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 136
-empty$ -- 358
-format.name$ -- 68
-if$ -- 842
+cite$ -- 100
+duplicate$ -- 842
+empty$ -- 2200
+format.name$ -- 420
+if$ -- 5190
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 16
-newline$ -- 78
-num.names$ -- 15
-pop$ -- 21
+int.to.str$ -- 95
+missing$ -- 92
+newline$ -- 476
+num.names$ -- 95
+pop$ -- 141
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 45
+skip$ -- 291
 stack$ -- 0
-substring$ -- 356
-swap$ -- 15
-text.length$ -- 0
+substring$ -- 2125
+swap$ -- 98
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 43
-width$ -- 17
-write$ -- 166
-(There was 1 warning)
+warning$ -- 5
+while$ -- 265
+width$ -- 97
+write$ -- 1036
+(There were 6 warnings)
