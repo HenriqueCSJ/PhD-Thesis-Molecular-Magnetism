@@ -177,6 +177,6 @@ fig.text(0.51,0.45,"c",fontsize=25,fontweight="bold")#,backgroundcolor="#FF0000"
 
 
 #Et voila
-fig.savefig("figure5.pdf")
+fig.savefig("Annexe2/figure5/figure5.pdf")
 
 #close(fig)

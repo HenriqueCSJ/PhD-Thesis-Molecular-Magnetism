@@ -1,40 +1,17 @@
 \select@language {french}
-\contentsline {chapter}{\numberline {1}R\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{1}
-\contentsline {section}{\numberline {1.1}L'aimant mol\IeC {\'e}culaire TbPc$_2$}{1}
-\contentsline {subsection}{\numberline {1.1.1}Origine du moment magn\IeC {\'e}tique}{1}
-\contentsline {subsection}{\numberline {1.1.2}Hamiltonien}{2}
-\contentsline {subsubsection}{Le moment magn\IeC {\'e}tique \IeC {\'e}lectronique}{2}
-\contentsline {subsubsection}{Les anti-croisements}{4}
-\contentsline {subsubsection}{Le spin nucl\IeC {\'e}aire}{5}
-\contentsline {subsection}{\numberline {1.1.3}Mesure de l'aimantation d'une assembl\IeC {\'e}e}{6}
-\contentsline {subsection}{\numberline {1.1.4}TbPc$_2$ et la spintronique}{7}
-\contentsline {section}{\numberline {1.2}Magn\IeC {\'e}tisme et transport}{9}
-\contentsline {subsection}{\numberline {1.2.1}Transport \IeC {\`a} travers un point quantique}{9}
-\contentsline {subsection}{\numberline {1.2.2}La configuration directe}{11}
-\contentsline {subsection}{\numberline {1.2.3}La configuration indirecte}{11}
-\contentsline {subsection}{\numberline {1.2.4}Le couplage magn\IeC {\'e}tisme-transport}{12}
-\contentsline {subsubsection}{Le couplage dipolaire}{13}
-\contentsline {subsubsection}{Le couplage d'\IeC {\'e}change}{14}
-\contentsline {subsubsection}{Le couplage magn\IeC {\'e}to-Coulomb}{15}
-\contentsline {section}{\numberline {1.3}Description de notre \IeC {\'e}chantillon}{15}
-\contentsline {subsection}{\numberline {1.3.1}Signature en transport}{16}
-\contentsline {subsection}{\numberline {1.3.2}Amplitude des sauts de conductance}{18}
-\contentsline {subsection}{\numberline {1.3.3}Intensit\IeC {\'e} de l'interaction}{19}
-\contentsline {subsubsection}{L'effet Kondo $1/2$ non coupl\IeC {\'e}}{19}
-\contentsline {subsubsection}{Effet Kondo $1/2$ coupl\IeC {\'e}}{19}
-\contentsline {section}{\numberline {1.4}Analyse des sauts en conductance}{21}
-\contentsline {subsection}{\numberline {1.4.1}M\IeC {\'e}thode de d\IeC {\'e}tection}{23}
-\contentsline {subsection}{\numberline {1.4.2}Interpr\IeC {\'e}tation physique de $\Delta g$}{24}
-\contentsline {subsection}{\numberline {1.4.3}Choix du point de fonctionnement}{24}
-\contentsline {subsection}{\numberline {1.4.4}Proc\IeC {\'e}dure d'alignement}{26}
-\contentsline {section}{\numberline {1.5}Magn\IeC {\'e}tisme \IeC {\'e}lectronique}{29}
-\contentsline {subsection}{\numberline {1.5.1}Reconstruction du cycle d\IeC {\textquoteright }hyst\IeC {\'e}r\IeC {\'e}sis}{29}
-\contentsline {subsection}{\numberline {1.5.2}Le r\^ole du champ transverse}{31}
-\contentsline {subsubsection}{Cons\IeC {\'e}quences physiques}{31}
-\contentsline {subsubsection}{Impact sur la mise en \IeC {\oe }uvre}{32}
-\contentsline {section}{\numberline {1.6}Dynamique du spin nucl\IeC {\'e}aire}{33}
-\contentsline {subsection}{\numberline {1.6.1}Temps de relaxation}{33}
-\contentsline {subsection}{\numberline {1.6.2}Perturbations induites par la mesure}{37}
-\contentsline {subsection}{\numberline {1.6.3}Extraction des populations nucl\IeC {\'e}aires}{37}
-\contentsline {subsection}{\numberline {1.6.4}Influence de la tension de grille sur la relaxation}{39}
-\contentsline {subsection}{\numberline {1.6.5}D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{40}
+\contentsline {chapter}{\numberline {A}Transport m\IeC {\'e}soscopique}{1}
+\contentsline {section}{\numberline {A.1}Le transistor \IeC {\`a} \IeC {\'e}lectron unique}{2}
+\contentsline {subsection}{\numberline {A.1.1}Les capacitances du syst\IeC {\`e}me}{2}
+\contentsline {subsection}{\numberline {A.1.2}L'\^ilot}{4}
+\contentsline {subsection}{\numberline {A.1.3}Les param\IeC {\`e}tre de couplage tunnel $\gamma _{s/d}$}{5}
+\contentsline {section}{\numberline {A.2}La notion de potentiel chimique}{6}
+\contentsline {subsection}{\numberline {A.2.1}D\IeC {\'e}finition}{7}
+\contentsline {subsection}{\numberline {A.2.2}Les potentiels chimiques de la source et du drain}{7}
+\contentsline {subsection}{\numberline {A.2.3}Le potentiel chimique de l'\^ilot}{8}
+\contentsline {section}{\numberline {A.3}Le blocage de Coulomb}{9}
+\contentsline {subsection}{\numberline {A.3.1}Charge de l'\^ilot par le drain}{10}
+\contentsline {subsection}{\numberline {A.3.2}Charge de l'\^ilot par la source}{10}
+\contentsline {subsection}{\numberline {A.3.3}Condition de circulation du courant}{11}
+\contentsline {section}{\numberline {A.4}Etats excit\IeC {\'e}s et transport}{12}
+\contentsline {section}{\numberline {A.5}Cotunneling}{13}
+\contentsline {section}{\numberline {A.6}Effet Kondo}{16}
