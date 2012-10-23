@@ -1,7 +1,3 @@
-%        File: main.tex
-%     Created: Thu Oct 27 09:00 PM 2011 C
-% Last Change: Thu Oct 27 09:00 PM 2011 C
-%
 \documentclass[a4paper,12pt]{book}
 
 \usepackage[pdfpagelabels,draft,implicit=false]{hyperref}
@@ -9,32 +5,71 @@
 \usepackage[francais]{babel}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{appendix} % pour une ligne dans TOC pour les annexes
 \usepackage[Sonny]{fncychap}
-%\usepackage{fullpage}
 \usepackage{setspace}
 \usepackage{mathrsfs} %lettre ronde
 \usepackage{multirow}
 \usepackage{fancyhdr}
 \pagestyle{plain}
 \usepackage{pdfpages}
+\usepackage[a4paper]{meta-donnees} %nécessaire pour la page de garde
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setstretch{1.2}
-\lhead{\nouppercase{\rightmark}}
-\rhead{\nouppercase{\leftmark}}
+
 
 \renewcommand{\sectionmark}[1]{}
 
 \begin{document}
 
-\frontmatter 
 
-\author{Romain Vincent} 
-\title{\Huge Détection d'un spin nucléaire unique à l'aide d'un transistor de spin} 
-\date{Décembre 2012}
-\maketitle
-\thispagestyle{empty}
+% headrer style
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\sectionmark}[1]{\markright{\emph{#1}}{}}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername \thechapter.\ #1}{}} 
+
+\fancyhead[LO]{\rightmark}
+\fancyhead[RE]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\Sethpageshift{???mm}   %%optionnel : à décommenter si besoin pour ajout d'espace afin de center la couvérture horizontalement (valeur par défaut est -5.5mm)
+%\Setvpageshift{???mm}   %%optionnel : à décommenter si besoin pour ajout d'espace afin de center la couvérture verticalement (valeur par défaut est -15.5mm)
+
+\Specialite{Physique}
+\Arrete{7 Août 2012}
+\Auteur{Romain VINCENT}
+\Directeur{Wolfgang WERNSDORFER}
+\CoDirecteur{Franck BALESTRO}
+\Laboratoire{de l'Institut Néel, CNRS/UJF}
+\EcoleDoctorale{l'école doctorale de Physique}         
+\Titre{Lecture d'un spin nucléaire unique à l'aide d'un transistor moléculaire à base de molécules aimants}
+%\Soustitre{}      %%optionnel : à décommenter et à renseigenr si présence d'un sous-titre de thèse
+\Depot{6 Décembre 2012}       
+
+
+
+\Jury{
+\UGTPresident{Monsieur Alain SCHUHL}{Professeur, Institut Néel, CNRS/UJF}
+
+\UGTRapporteur{Monsieur Denis VION}{Docteur, CEA}    
+\UGTRapporteur{Monsieur Marco AFFRONTE}{Professeur, Università di Modena e Reggio Emilia}    
+
+\UGTExaminateur{Monsieur Herre VAN DER ZANT}{Professeur, Delft University of Technology}
+
+\UGTDirecteur{Monsieur Wolfgang WERNSDORFER}{Directeur de recherche, Insitut Néel, CNRS}       
+\UGTCoDirecteur{Monsieur Franck BALESTRO}{Maître de conférence, Insitut Néel, CNRS/UJF} 
+}
+
 \sloppy %permet de forcer certains retours à la ligne plutôt qu'un mot qui dépasse
+
+
+\frontmatter 
+\MakeUGthesePDG %génère la page de garde de la thèse
+\newpage
 
 \tableofcontents
 
@@ -47,8 +82,9 @@
 \input{Conclusion/Conclusion.tex}
 
 
-
 \appendix
+\addappheadtotoc
+
 %\input{Annexe1/Annexe1.tex}
 \input{Annexe2/Annexe2.tex}
 \input{Annexe3/Annexe3.tex}

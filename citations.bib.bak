@@ -907,6 +907,23 @@
   volume = {37}
 }
 
+@ARTICLE{Kane1998,
+  author = {Kane, B. E.},
+  title = {A silicon-based nuclear spin quantum computer},
+  journal = {Nature},
+  year = {1998},
+  volume = {393},
+  pages = {133--137},
+  number = {6681},
+  month = may,
+  __markedentry = {[hukadan:6]},
+  comment = {10.1038/30156},
+  issn = {0028-0836},
+  owner = {hukadan},
+  timestamp = {2012.10.22},
+  url = {http://dx.doi.org/10.1038/30156}
+}
+
 @ARTICLE{Kim2003,
   author = {Kim, Hyoungsub and McIntyre, Paul C. and Saraswat, Krishna C.},
   title = {Effects of crystallization on the electrical properties of ultrathin
@@ -1389,7 +1406,6 @@
   pages = {180408--},
   number = {18},
   month = nov,
-  __markedentry = {[hukadan:]},
   owner = {hukadan},
   publisher = {American Physical Society},
   refid = {10.1103/PhysRevB.84.180408},
@@ -1443,7 +1459,7 @@
   pages = {147203--},
   number = {14},
   month = oct,
-  __markedentry = {[hukadan:6]},
+  __markedentry = {[hukadan:]},
   owner = {hukadan},
   publisher = {American Physical Society},
   refid = {10.1103/PhysRevLett.101.147203},
