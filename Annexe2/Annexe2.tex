@@ -24,12 +24,12 @@ U = \frac{(C_sV_s + C_dV_d + C_gV_g)^2}{2C_{\Sigma}}
  C_{\Sigma} = C_g + C_s + C_g \nonumber
 \end{equation}
 
-Ces capacitances vont également induire un "co\^ut" énergétique à l'ajout d'un électron dans l'\^ilot central. Cet ajout est associé à l'énergie $E_c$, appelée énergie de charge, dont la valeur est donnée par :
+Ces capacitances vont également induire un ``co\^ut" énergétique à l'ajout d'un électron dans l'\^ilot central. Cet ajout est associé à l'énergie $E_c$, appelée énergie de charge, dont la valeur est donnée par :
 \begin{eqnarray}
 \frac{E_c}{2} = \frac{e^2}{2C_{\Sigma}} \nonumber
 \end{eqnarray}
 
-Si aucun électron de la source ou du drain ne possède l'énergie correspondante à $E_c$, ils ne peuvent plus circuler au sein de la structure. Le courant devient nul et l'on se retrouve en régime de blocage de Coulomb. Pour que cette situation puisse être observée, il faut que l'énergie thermique soit telle que $E_c \ll k_bT$.
+Si aucun électron de la source ou du drain ne possède l'énergie correspondante à $E_c$, ils ne peuvent plus circuler au sein de la structure. Le courant devient nul et l'on se retrouve en régime de blocage de Coulomb. Pour que cette situation puisse être observée, il faut que l'énergie thermique soit telle que $E_c \gg k_bT$.
 
 En tenant compte de ces deux contributions, l'énergie d'un \^ilot contenant $N$ électrons et soumis aux tensions $V_g$, $V_d$ et $V_s$ est donnée par :
 \begin{eqnarray}
@@ -58,7 +58,7 @@ On rencontre généralement trois types de système pouvant jouer le rôle de po
 \item \textbf{une molécule \cite{Reed1997,Park2000}:} les molécules susceptibles de jouer ce r\^ole sont bien trop nombreuses pour toutes \^etre citées. On peut cependant donner quelques exemples célèbres : les nanotubes, les fullerènes~\cite{Park2000}, les aimants moléculaires~\cite{Heersche2006}, etc.. \newline
 \end{itemize}
 
-Dans le cas d'un 2DEG ou celui d'un grain métallique, du fait de la taille typique des échantillons~($\sim 100nm$ pour les premiers, $\sim 10nm$ pour les seconds), on observe une quantification des différents états du système. Le spectre énergétique de l'\^ilot peut s'exprimer en fonction de trois nombres quantiques $n_x$, $n_y$ et $n_z$ à travers la relation suivante:
+Dans le cas d'un 2DEG ou celui d'un grain métallique, du fait de la taille typique des échantillons~($\sim 100\,nm$ pour les premiers, $\sim 10\,nm$ pour les seconds), on observe une quantification des différents états du système. Le spectre énergétique de l'\^ilot peut s'exprimer en fonction de trois nombres quantiques $n_x$, $n_y$ et $n_z$ à travers la relation suivante:
 \begin{eqnarray}
 E_n = \frac{\pi^2 \hbar^2}{2m}(\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}) \nonumber
 \end{eqnarray}
@@ -74,11 +74,9 @@ Lorsque des molécules sont utilisées, cette quantification apparaît beaucoup 
 
 Il faut se garder cependant de penser qu'une molécule jouant le r\^ole de point quantique conserve les mêmes propriétés que cette m\^eme molécule isolée. Tout d'abord, les niveaux d'énergie sont fortement influencés par la présence des électrodes du fait de l'hybridisation. De plus, les électrodes peuvent induire une déformation de la molécule altérant la structure électronique de celle-ci. Ce phénomène est connu sour le nom d'effet Jhan-Teller~\cite{Jahn1937}. 
 
-Nous montrerons par la suite que, dans le cadre de l'électronique moléculaire et plus particulièrement celui de la spintronique moléculaire, il est important de pouvoir évaluer l'influence de ces différents phénomènes.
+\subsection{Les paramètres de couplage tunnel $\gamma_{s/d}$}
 
-\subsection{Les paramètre de couplage tunnel $\gamma_{s/d}$}
-
-On peut voir ces coefficients comme définissant "l'aisance" avec laquelle les électrons peuvent passer par effet tunnel de la source ou du drain vers l'\^ilot et vice-versa. Le paramètre $\gamma$ rend également compte de l'hybridisation des niveaux d'énergie du point quantique avec ceux des électrodes. Cette hybridisation entraîne l'élargissement des niveaux d'énergie d'une largeur $\Delta E$ donnée par :
+On peut voir ces coefficients comme définissant ``l'aisance" avec laquelle les électrons peuvent passer par effet tunnel de la source ou du drain vers l'\^ilot et vice-versa. Le paramètre $\gamma$ rend également compte de l'hybridisation des niveaux d'énergie du point quantique avec ceux des électrodes. Cette hybridisation entraîne l'élargissement des niveaux d'énergie d'une largeur $\Delta E$ donnée par :
 \begin{eqnarray}
 \Delta E = h (\gamma_s + \gamma_d)
 \label{hybridgamma}
@@ -224,7 +222,7 @@ où $\Delta E = E_N(B) - E_{N-1}(B)$ est l'écart entre deux niveaux d'énergie 
 
 Si l'on reprend les deux paragraphes précédents, on peut envisager les quatre situations représentées sur la Fig. \ref{charge_discharge}. Dans les situations un et deux, l'état de charge de l'\^ilot est bien défini et on se trouve dans le régime de blocage de Coulomb. Dans la situation 3, les électrons circulent du drain vers la source. Un courant négatif est mesuré. Dans la situation 4 les électrons circulent de la source vers le drain. Un courant positif est donc mesuré.
 
-Souvent, les mesures ne se font non pas en courant, mais en conductance différentielle $dI/dV$. Cetre mesure est préférée à celle en courant DC car elle peut \^etre faite par un technique de détection synchrone~(lock-in en anglais) qui à l'avantage de fournir des mesures plus "propres" et donc plus facilement exploitables. Une simulation d'une telle mesure obtenue par la méthode des équations pilotes est présenté dans la  Fig.\ref{charge_discharge}.b. Les différentes zones décrites précédemment sont séparées par de grandes variations dans la conductance différentielle mesurée.\newline
+Souvent, les mesures ne se font non pas en courant, mais en conductance différentielle $dI/dV$. Cetre mesure est préférée à celle en courant DC car elle peut \^etre faite par un technique de détection synchrone~(lock-in en anglais) qui à l'avantage de fournir des mesures plus ``propres" et donc plus facilement exploitables. Une simulation d'une telle mesure obtenue par la méthode des équations pilotes est présenté dans la  Fig.\ref{charge_discharge}.b. Les différentes zones décrites précédemment sont séparées par de grandes variations dans la conductance différentielle mesurée.\newline
 
 
 \fbox{\begin{minipage}{0.90\textwidth}
@@ -245,7 +243,7 @@ On peut construire deux jeux de diamants de Coulomb, l'un correspondant à $\mu_
 
 De part cette construction, on constate que l'intersection entre les bords de diamants de la transition $EF(0)\rightarrow EE(1)$ et ceux de la transition $EF(0)\rightarrow EF(1)$ donne une lecture directe de l'effet Zeeman (cf Fig.\ref{etat_excite}.\textbf{a}). On peut, par une mesure de transport, faire la spectroscopie du point quantique en fonction du champ magnétique.
 
- Cependant, dans la plupart des cas, les états N/N+1 possèdent tous deux des états fondamentaux et des états excités et l'analyse de la signature du système en transport devient plus difficile. Ces différentes configurations sont notamment traitées par Hanson \textit{et al.}, et un exemple peut \^etre trouvé dans l'analyse du $N@C_{60}$ proposée dans \cite{Grose2008}.
+ Cependant, dans la plupart des cas, les états N/N+1 possèdent tous deux des états fondamentaux et des états excités et l'analyse de la signature du système en transport devient plus difficile. Ces différentes configurations sont notamment traitées par Hanson \textit{et al.}, et un exemple peut \^etre trouvé dans l'analyse du $N@C_{60}$ proposée dans \cite{Grose2008} et dans l'Annexe C de cette thèse.
 
 \begin{figure}
 \includegraphics[scale=0.45]{Annexe2/figure4/figure4.pdf} 
@@ -254,7 +252,7 @@ De part cette construction, on constate que l'intersection entre les bords de di
 \end{figure}
 
 \section{Cotunneling}
-Nous avons vu jusqu'à maintenant que dans les zones de blocage de Coulomb, l'état de charge du système est fixe du fait de l'énergie de charge. En effet, l'ajout d'un électron supplémentaire aurait un "co\^ut" énergétique trop grand pour le système. Cependant, de part les inégalités d'Heinsenberg, un système peut outrepasser cette limitation pendant un temps très court. L'ordre de grandeur de ce temps dépend de l'énergie nécessaire et est donné par la relation :
+Nous avons vu jusqu'à maintenant que dans les zones de blocage de Coulomb, l'état de charge du système est fixe du fait de l'énergie de charge. En effet, l'ajout d'un électron supplémentaire aurait un ``co\^ut" énergétique trop grand pour le système. Cependant, de par les inégalités d'Heinsenberg, un système peut outrepasser cette limitation pendant un temps très court. L'ordre de grandeur de ce temps dépend de l'énergie nécessaire et est donné par la relation :
 \begin{eqnarray}
 \tau \simeq \frac{\hbar}{E_c} \nonumber
 \end{eqnarray}
@@ -267,21 +265,21 @@ Nous avons vu jusqu'à maintenant que dans les zones de blocage de Coulomb, l'é
 \end{figure}
 
 
-Une façon de voir le phénomène est de dire que pendant le temps $\tau$ un électron est entré dans le point quantique pendant qu'un autre en est sorti, d'où l'appellation de "cotunneling". Si un m\^eme état de charge possède plusieurs états~(fondamentaux et excités), on peut imaginer deux situations. Dans le premier cas, l'électron entrant vient occuper un état de m\^eme énergie que celui de l'électron sortant et dans ce cas on parle de cotunneling élastique. Si l'électron entrant occupe un état d'énergie plus élevée que l'électron sortant, alors on parle de cotunneling inélastique. Dans le deuxième cas, cette différence en énergie que l'on notera $\Delta E_{cot}$ dans la suite doit être fournie au système. Ce rôle est assuré par la tension $V_{\rm{ds}}$ et pour qu'un processus inélastique ait lieu, il faut donc que :
+Une façon de voir le phénomène est de dire que pendant le temps $\tau$ un électron est entré dans le point quantique pendant qu'un autre en est sorti, d'où l'appellation de ``cotunneling". Si un m\^eme état de charge possède plusieurs états~(fondamentaux et excités), on peut imaginer deux situations. Dans le premier cas, l'électron entrant vient occuper un état de m\^eme énergie que celui de l'électron sortant et dans ce cas on parle de cotunneling élastique. Si l'électron entrant occupe un état d'énergie plus élevée que l'électron sortant, alors on parle de cotunneling inélastique. Dans le deuxième cas, cette différence en énergie que l'on notera $\Delta E_{cot}$ dans la suite doit être fournie au système. Ce rôle est assuré par la tension $V_{\rm{ds}}$ et pour qu'un processus inélastique ait lieu, il faut donc que :
 \begin{eqnarray}
 |e|V_{\rm{ds}} \geq \Delta E_{cot}
 \end{eqnarray}
 
-Dans le cas du cotunneling élastique cette condition est toujours remplie. C'est ce phénomène qui donne le fond de conductance. Dans la zone de blocage de Coulomb, on va donc observer des zones avec des valeurs de conductance différentielle différentes~(cf nuance de gris Fig.\ref{cotun}.\textbf{a}). Dans le cas présenté ici, la limite entre les deux zones permet une lecture directe de l'effet Zeeman $\Delta E_z$. Encore une fois, il s'agit ici d'un cas simple avec un unique état excité. Un étude plus complexe peut \^etre trouvés dans \cite{DeFranceschi2001} ainsi que dans l'article en fin de thèse concernant la molécule d'endofullerène.\newline
+Dans le cas du cotunneling élastique cette condition est toujours remplie. C'est ce phénomène qui donne le fond de conductance. Dans la zone de blocage de Coulomb, on va donc observer des zones avec des valeurs de conductance différentielle différentes~(cf nuance de gris Fig.\ref{cotun}.\textbf{a}). Dans le cas présenté ici, la limite entre les deux zones permet une lecture directe de l'effet Zeeman $\Delta E_z$. Encore une fois, il s'agit ici d'un cas simple avec un unique état excité. Un étude plus complexe peut \^etre trouvés dans \cite{DeFranceschi2001} ainsi que dans l'Annexe C.\newline
 
 \fbox{\begin{minipage}{0.9\textwidth}
-\textbf{Remarque :} Je voudrais ici insister sur la différence entre la spectroscopie en tunneling et celle en cotunneling. La première s'intéresse aux transitions entre deux états d'énergie relatif à deux états de charges différents. Il faut donc "deconvoluer" le signal pour pouvoir analyser le spectre des deux états de charge. Dans le cas du cotunneling, on peut accéder directement aux spectres d'un état de charge donné. Les règles de sélection des transitions sont également différentes. Dans le cas du tunneling, on doit avoir $\Delta m = \pm 1/2$. Pour le cotunneling, cette règle de sélection devient $\Delta m = 0 \text{ ou } \pm 1$. Il peut arriver que des états inaccessibles par une spectroscopie en régime de tunneling soient en revanche accessibles par une mesure en régime de cotunneling. Une comparaison des deux méthodes peut \^etre trouvée dans l'article en fin de thèse ainsi que dans la thèse de Nicolas Roch.
+\textbf{Remarque :} Je voudrais ici insister sur la différence entre la spectroscopie en tunneling et celle en cotunneling. La première s'intéresse aux transitions entre deux états d'énergie relatifs à deux états de charges différents. Il faut donc ``deconvoluer" le signal pour pouvoir analyser le spectre des deux états de charge. Dans le cas du cotunneling, on peut accéder directement au spectre d'un état de charge donné. Les règles de sélection des transitions sont également différentes. Dans le cas du tunneling, on doit avoir $\Delta m = \pm 1/2$. Pour le cotunneling, cette règle de sélection devient $\Delta m = 0 \text{ ou } \pm 1$. Il peut arriver que des états inaccessibles par une spectroscopie en régime de tunneling soient en revanche accessibles par une mesure en régime de cotunneling. Une comparaison des deux méthodes peut \^etre trouvée dans l'Annexe C ainsi que dans la thèse de Nicolas Roch~\cite{RochPhd}.
 \end{minipage}}
 
 
 \section{Effet Kondo}
 
-Tout comme le blocage de Coulomb, l'effet Kondo a d'abord été mesuré sur des échantillons macroscopiques consistant en un metal massif contenant des impuretés magnétiques. En mesurant la conductance de ces échantillons, les expériences avaient montré une anomalie. Celle-ci qui aurait d\^u diminuer durant le refroidissement ne suivait cette tendance que jusqu'à une certaine température pour augmenter à nouveau. Ce problème est resté insoluble pendant quelques années jusqu'au modèle proposé par Jung Kondo en 1964~\cite{Kondo1964}. Ce modèle est relativement simple à concevoir mais en revanche très difficile à résoudre car faisant appel à la physique à $N$ corps. Dans ce modèle, les électrons de conduction viennent se coupler de façon antiferromagnétique aux impuretés du métal de telle sorte que le moment magnétique total devient nul. Chaque impureté agit donc comme un centre de diffusion très actif diminuant d'autant la conductance du système. La physique à $N$ corps apparait au travers des électrons de conduction. En effet, l'impureté magnétique interagit avec un grand nombre d'électrons que l'on désigne par le terme de "nuage Kondo". Le seul problème du modèle à l'époque, c'est qu'il prevoit une divergence de la conductance quand la température tend vers zéro. Il faudra attendre encore quelques années avec la théorie de renormalisation~(NRG en anglais) proposée par Wilson~\cite{Wilson1975}, pour résoudre complètement le problème.
+Tout comme le blocage de Coulomb, l'effet Kondo a d'abord été mesuré sur des échantillons macroscopiques consistant en un metal massif contenant des impuretés magnétiques. En mesurant la conductance de ces échantillons, les expériences avaient montré une anomalie. Celle-ci qui aurait d\^u diminuer durant le refroidissement, ne suivait cette tendance que jusqu'à une certaine température pour augmenter à nouveau. Ce problème est resté insoluble pendant quelques années jusqu'au modèle proposé par Jung Kondo en 1964~\cite{Kondo1964}. Ce modèle est relativement simple à concevoir mais en revanche très difficile à résoudre car faisant appel à la physique à $N$ corps. Dans ce modèle, les électrons de conduction viennent se coupler de façon antiferromagnétique aux impuretés du métal de telle sorte que le moment magnétique total devient nul. Chaque impureté agit donc comme un centre de diffusion très actif diminuant d'autant la conductance du système. La physique à $N$ corps apparait au travers des électrons de conduction. En effet, l'impureté magnétique interagit avec un grand nombre d'électrons que l'on désigne par le terme de ``nuage Kondo". Le seul problème du modèle à l'époque, c'est qu'il prevoit une divergence de la conductance quand la température tend vers zéro. Il faudra attendre encore quelques années avec la théorie de renormalisation~(NRG en anglais) proposée par Wilson~\cite{Wilson1975}, pour résoudre complètement le problème.
 
 Récemment la physique mésoscopique a permis de mettre à la disposition des théoriciens des modèles plus simples à résoudre dans lesquels le nombre d'impuretés magnétiques pouvait être réduit à l'unité et le couplage aux électrons pouvait être contrôlé de manière précise. Les 2DEGs, par exemple, permettent un contrôle quasi-parfait de ces différents paramètres. La littérature est riche en articles et revues de toutes sortes couvrant de nombreux aspects de l'effet Kondo. Notre groupe à notablement contribuer à l'investigation de cette physique au travers notamment de l'étude de la transition de phase quantique~\cite{Roch2008} et de l'effet Kondo sous écranté~\cite{Roch2009}. Cependant, je ne traiterai pas en détail de ces effets.
 
@@ -299,11 +297,11 @@ T_K \sim \frac{\sqrt{\gamma E_c}}{2} \exp(\frac{\pi \epsilon_0(\epsilon_0 + E_c)
 
 Première constatation, plus l'énergie de charge $E_c$ est grande, plus la température Kondo sera élevée. C'est ici que réside un des avantages des transistors moléculaires comparativement aux 2DEGs. Les énergies de charge sont en général beaucoup plus élevées ce qui peut conduire à des $T_K$ de l'ordre de quelques dizaines de Kelvin. On remarque également que lorsqu'on s'éloigne d'un point de dégénérescence~(les trois potentiels chimiques sont alignés), $\epsilon_0$ augmente et donc la témpérature Kondo diminue pour atteindre son minimum au centre du diamant~(cf Fig.\ref{Kondo_param}.a). On peut donc moduler $T_K$ par l'intermédiaire de la tension de grille.
 
-L'effet Kondo se traduit dans nos structures par une augmentation de la conductance, contrairement à ce qui avait été observé dans les matériaux massifs. En effet, la forte interaction des électrons de conduction avec le point quantique va grandement augmenter les évènements tunnels d'ordre plus élevé~(cotunneling d'ordre supérieur). Ceci peut être vu comme l'apparition d'une densité virtuelle d'état dans l'\^ilot alignée avec le niveau de Fermi des électrodes. Cela se traduit dans les mesures de transport par une conductance non nulle à tension source-drain proche de zéro à l'intérieur des zones des blocage. 
+L'effet Kondo se traduit dans nos structures par une augmentation de la conductance, contrairement à ce qui avait été observé dans les matériaux massifs. En effet, la forte interaction des électrons de conduction avec le point quantique va grandement augmenter les évènements tunnels d'ordre plus élevé~(cotunneling d'ordre supérieur). Ceci peut être vu comme l'apparition d'une densité virtuelle d'état dans l'\^ilot alignée avec le niveau de Fermi des électrodes. Cela se traduit dans les mesures de transport par une conductance non nulle à tension source-drain proche de zéro à l'intérieur des zones de blocage. 
 
 Des perturbations extérieures comme la tension source/drain~($E \sim eV_{\rm{ds}}$), la température~($E \sim k_bT$) ou bien encore le champ magnétique~($E \sim g \mu_bB$) peuvent venir modifier la conductance mesurée. On peut discerner deux régimes :
 \begin{itemize}
 \item $E \ll k_bT_K$ : dans ce cas, la conductance est donnée par $G(E) = G_0(1-C (E/k_bT_K))^2$, $C$ étant un nombre qui dépend de la perturbation appliquée ainsi que de la géométrie du système.
 \item $E \gg k_bT_K$ : on obtient la dépendance suivante : $G(E) = 1/\ln^2(E/k_bT_K)$. C'est ce régime qu'avait décrit Kondo.
 \end{itemize}
-Afin de décrire le régime intermédiaire, il est nécessaire de faire appel à la technique du groupe de renormalisation numérique, NRG en anglais. Nous verrons dans la partie résultat comment cette sensibilité aux perturbations peut \^etre utilisée pour évaluer l'énergie d'interaction des électrons du point quantique avec un moment magnétique proche.
+Afin de décrire le régime intermédiaire, il est nécessaire de faire appel à la technique du groupe de renormalisation numérique, NRG en anglais. Dans la partie résultat, cette sensibilité aux perturbations est utilisée pour évaluer l'énergie d'interaction des électrons du point quantique avec un moment magnétique proche.

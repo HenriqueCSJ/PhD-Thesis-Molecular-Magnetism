@@ -1,53 +1,77 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
+Case mismatch error between cite keys RochPhD and RochPhd
+---line 186 of file main.aux
+ : \citation{RochPhD
+ :                  }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys RochPhD and RochPhd
+---line 187 of file main.aux
+ : \citation{RochPhD
+ :                  }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys RochPhD and RochPhd
+---line 191 of file main.aux
+ : \citation{RochPhD
+ :                  }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys RochPhD and RochPhd
+---line 192 of file main.aux
+ : \citation{RochPhD
+ :                  }
+I'm skipping whatever remains of this command
 The style file: unsrt.bst
 Database file #1: citations.bib
+Warning--entry type for "Bennett1992" isn't style-file defined
+--line 84 of file citations.bib
+Warning--entry type for "Grover2001" isn't style-file defined
+--line 579 of file citations.bib
 Warning--entry type for "Trouwborst2006" isn't style-file defined
---line 1695 of file citations.bib
+--line 1859 of file citations.bib
 Warning--there's a number but no volume in Sanvito2011
 Warning--empty title in Gerardin1861
 Warning--there's a number but no volume in Sorace2011
 Warning--there's a number but no volume in Stepanow
 Warning--empty year in Hong2012
-You've used 95 entries,
+You've used 104 entries,
             1791 wiz_defined-function locations,
-            1081 strings with 22335 characters,
-and the built_in function-call counts, 24967 in all, are:
-= -- 2142
-> -- 1433
+            1139 strings with 23970 characters,
+and the built_in function-call counts, 26836 in all, are:
+= -- 2300
+> -- 1528
 < -- 1
-+ -- 515
-- -- 420
-* -- 2320
-:= -- 4100
-add.period$ -- 283
-call.type$ -- 95
-change.case$ -- 88
++ -- 551
+- -- 447
+* -- 2464
+:= -- 4406
+add.period$ -- 308
+call.type$ -- 104
+change.case$ -- 95
 chr.to.int$ -- 0
-cite$ -- 100
-duplicate$ -- 842
-empty$ -- 2200
-format.name$ -- 420
-if$ -- 5190
+cite$ -- 109
+duplicate$ -- 914
+empty$ -- 2384
+format.name$ -- 447
+if$ -- 5588
 int.to.chr$ -- 0
-int.to.str$ -- 95
-missing$ -- 92
-newline$ -- 476
-num.names$ -- 95
-pop$ -- 141
+int.to.str$ -- 104
+missing$ -- 99
+newline$ -- 519
+num.names$ -- 104
+pop$ -- 169
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 291
+skip$ -- 318
 stack$ -- 0
-substring$ -- 2125
-swap$ -- 98
+substring$ -- 2244
+swap$ -- 107
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 265
-width$ -- 97
-write$ -- 1036
-(There were 6 warnings)
+while$ -- 284
+width$ -- 107
+write$ -- 1128
+(There were 4 error messages)

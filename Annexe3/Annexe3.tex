@@ -24,21 +24,21 @@ P_{\pm} &=& \frac{\Gamma_{\pm \rightarrow 0}}{\Gamma_{0 \rightarrow \pm}}P_0
 Il nous faut maintenant exprimer les taux de transition $\Gamma_{0 \rightarrow \pm}$ et $\Gamma_{\pm \rightarrow 0}$ en fonction des paramètres du système. 
 
 \section{Détermination des taux de transfert}
-Nous allons tout d'abord nous intéresser au taux de transfert $\Gamma_{0 \rightarrow \pm}$ car le raisonnement à faire est très proche de celui effectué dans l'Annexe A dans le cadre des potentiels chimiques. 
+Nous allons tout d'abord nous intéresser aux taux de transfert $\Gamma_{0 \rightarrow \pm}$ car le raisonnement à faire est très proche de celui effectué dans l'Annexe A dans le cadre des potentiels chimiques. 
 
-Comme nous l'avons déjà montré plus haut, il y a deux façons de charger l'\^ilot : par la source ou par le drain. On a donc :
+Comme nous l'avons déjà montré, il y a deux façons de charger l'\^ilot : par la source ou par le drain. On a donc :
 \begin{eqnarray}
 \Gamma_{0 \rightarrow \pm} = \Gamma_{0 \rightarrow \pm}^s + \Gamma_{0 \rightarrow \pm}^d
 \end{eqnarray}
-où nous avons diviser le taux de transfert en un taux de transfert source et un taux de transfert drain. Il s'agit donc de trouver dans la source (ou le drain) un électron dont le potentiel chimique correspond à la transition $0\rightarrow \pm$. Nous noterons le potentiel chimique associé à cette transition $\mu_{\pm}$ dans la suite. 
+où nous avons divisé le taux de transfert en un taux de transfert source et un taux de transfert drain. Il s'agit donc de trouver dans la source (ou le drain) un électron dont le potentiel chimique correspond à la transition $0\rightarrow \pm$. Nous noterons le potentiel chimique associé à cette transition $\mu_{\pm}$ dans la suite. 
 
-Son expression peut facilement se déduire de l'Equ.\ref{pot_chim} et exprimer sous la forme suivante :
+Son expression peut facilement se déduire de l'Equ.\ref{pot_chim} et s'exprimer sous la forme suivante :
 \begin{eqnarray}
 \mu_{\pm} = \frac{1}{2}E_c - \frac{E_c}{|e|}(C_gV_g + C_sV_s + C_dV_d)~ \pm \underbrace{ \frac{1}{2}g \mu_B B}_{\text{terme Zeeman}}
 \end{eqnarray}
 ou  $\mu_B$ et le magnéton de Bohr, $g$ est le facteur de Landé et $B$ est le champ magnétique appliqué au système.
 
-Si on se réfère au paragraphe précédent, le probabilité de trouver un électron dans la source ou dans le drain dont le potentiel chimique est égal à $\mu_{\pm}$ est donnée par :
+Si on se réfère à l'Annexe A, le probabilité de trouver un électron dans la source ou dans le drain dont le potentiel chimique est égal à $\mu_{\pm}$ est donnée par :
 \begin{eqnarray}
 p_i(\mu_\pm) = \frac{1}{1 + \exp{(\frac{\mu_\pm - eV_i}{k_bT})}}
 \end{eqnarray}
@@ -82,7 +82,7 @@ On peut voir dans la Fig. \ref{SimulatedCoulombMap} le courant correspondant ain
 \end{figure}
 
 \subsubsection{Quelques remarques}
-Il convient toutefois de faire quelques remarques sur cette méthode des équations pilotes. Tout d'abord, nous n'avons pas tenu compte des relaxations à l'intérieur de l'\^ilot. Pour inclure de tel phénomène, il faudrait introduire des taux de transfert du type $\Gamma_{\pm \rightarrow \mp}$. De plus, afin que dans le cas d'un système isolé, l'on retrouve une distribution de type Bolzman, il faudra s'assurer que ces deux taux de transfert obéissent à la relation suivante :
+Il convient toutefois de faire quelques remarques sur cette méthode des équations pilotes. Tout d'abord, nous n'avons pas tenu compte des relaxations à l'intérieur de l'\^ilot. Pour inclure de tels phénomènes, il faudrait introduire des taux de transfert du type $\Gamma_{\pm \rightarrow \mp}$. De plus, afin que dans le cas d'un système isolé, l'on retrouve une distribution de type Bolzman, il faudra s'assurer que ces deux taux de transfert obéissent à la relation suivante :
 \begin{eqnarray}
 \frac{\Gamma_{+ \rightarrow -}}{\Gamma_{- \rightarrow +}} = \exp(\frac{\mu_{+}- \mu_{-}}{k_bT}) \nonumber
 \end{eqnarray}

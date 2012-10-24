@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {2.3.3}Notre technique}{38}
 \contentsline {section}{\numberline {2.4}Fabrication d'un transistor \IeC {\`a} mol\IeC {\'e}cule unique}{39}
 \contentsline {chapter}{\numberline {3}R\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{41}
-\contentsline {section}{\numberline {3.1}L'aimant mol\IeC {\'e}culaire TbPc$_2$}{41}
+\contentsline {section}{\numberline {3.1}L'aimant mol\IeC {\'e}culaire TbPc$_{\rm {2}}$}{41}
 \contentsline {subsection}{\numberline {3.1.1}Origine du moment magn\IeC {\'e}tique}{41}
 \contentsline {subsection}{\numberline {3.1.2}Hamiltonien}{42}
 \contentsline {subsubsection}{Le moment magn\IeC {\'e}tique \IeC {\'e}lectronique}{42}
@@ -54,32 +54,32 @@
 \contentsline {subsection}{\numberline {3.4.1}M\IeC {\'e}thode de d\IeC {\'e}tection}{63}
 \contentsline {subsection}{\numberline {3.4.2}Interpr\IeC {\'e}tation physique de $\Delta g$}{64}
 \contentsline {subsection}{\numberline {3.4.3}Choix du point de fonctionnement}{64}
-\contentsline {subsection}{\numberline {3.4.4}Proc\IeC {\'e}dure d'alignement}{66}
+\contentsline {subsection}{\numberline {3.4.4}Proc\IeC {\'e}dure d'alignement}{67}
 \contentsline {section}{\numberline {3.5}Magn\IeC {\'e}tisme \IeC {\'e}lectronique}{69}
 \contentsline {subsection}{\numberline {3.5.1}Reconstruction du cycle d\IeC {\textquoteright }hyst\IeC {\'e}r\IeC {\'e}sis}{69}
 \contentsline {subsection}{\numberline {3.5.2}Le r\^ole du champ transverse}{71}
-\contentsline {subsubsection}{Cons\IeC {\'e}quences physiques}{71}
+\contentsline {subsubsection}{Cons\IeC {\'e}quences physiques}{72}
 \contentsline {subsubsection}{Impact sur la mise en \IeC {\oe }uvre}{72}
 \contentsline {section}{\numberline {3.6}Dynamique du spin nucl\IeC {\'e}aire}{73}
-\contentsline {subsection}{\numberline {3.6.1}Temps de relaxation}{73}
-\contentsline {subsection}{\numberline {3.6.2}Perturbations induites par la mesure}{74}
+\contentsline {subsection}{\numberline {3.6.1}Temps de relaxation}{74}
+\contentsline {subsection}{\numberline {3.6.2}Perturbations induites par la mesure}{77}
 \contentsline {subsection}{\numberline {3.6.3}Extraction des populations nucl\IeC {\'e}aires}{77}
 \contentsline {subsection}{\numberline {3.6.4}Influence de la tension de grille sur la relaxation}{79}
 \contentsline {subsection}{\numberline {3.6.5}D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{80}
 \contentsline {chapter}{Conclusion et perspectives}{83}
-\contentsline {chapter}{Appendices}{87}
+\contentsline {chapter}{Appendices}{88}
 \contentsline {chapter}{\numberline {A}Transport m\IeC {\'e}soscopique}{89}
 \contentsline {section}{\numberline {A.1}Le transistor \IeC {\`a} \IeC {\'e}lectron unique}{90}
 \contentsline {subsection}{\numberline {A.1.1}Les capacitances du syst\IeC {\`e}me}{90}
 \contentsline {subsection}{\numberline {A.1.2}L'\^ilot}{92}
-\contentsline {subsection}{\numberline {A.1.3}Les param\IeC {\`e}tre de couplage tunnel $\gamma _{s/d}$}{93}
+\contentsline {subsection}{\numberline {A.1.3}Les param\IeC {\`e}tres de couplage tunnel $\gamma _{s/d}$}{93}
 \contentsline {section}{\numberline {A.2}La notion de potentiel chimique}{94}
 \contentsline {subsection}{\numberline {A.2.1}D\IeC {\'e}finition}{95}
 \contentsline {subsection}{\numberline {A.2.2}Les potentiels chimiques de la source et du drain}{95}
 \contentsline {subsection}{\numberline {A.2.3}Le potentiel chimique de l'\^ilot}{96}
 \contentsline {section}{\numberline {A.3}Le blocage de Coulomb}{97}
-\contentsline {subsection}{\numberline {A.3.1}Charge de l'\^ilot par le drain}{98}
-\contentsline {subsection}{\numberline {A.3.2}Charge de l'\^ilot par la source}{98}
+\contentsline {subsection}{\numberline {A.3.1}Charge de l'\^ilot par le drain}{97}
+\contentsline {subsection}{\numberline {A.3.2}Charge de l'\^ilot par la source}{99}
 \contentsline {subsection}{\numberline {A.3.3}Condition de circulation du courant}{99}
 \contentsline {section}{\numberline {A.4}Etats excit\IeC {\'e}s et transport}{100}
 \contentsline {section}{\numberline {A.5}Cotunneling}{101}

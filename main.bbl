@@ -1,15 +1,15 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
-\bibitem{Kane1998}
-B.~E. Kane.
-\newblock A silicon-based nuclear spin quantum computer.
-\newblock {\em Nature}, 393(6681):133--137, May 1998.
+\bibitem{Lehn1988}
+Jean-Marie Lehn.
+\newblock Supramolecular chemistry—scope and perspectives molecules,
+  supermolecules, and molecular devices (nobel lecture).
+\newblock {\em Angew. Chem. Int. Ed. Engl.}, 27(1):89--112, 1988.
 
-\bibitem{Tsumura1986}
-A.~Tsumura, H.~Koezuka, and T.~Ando.
-\newblock Macromolecular electronic device: Field-effect transistor with a
-  polythiophene thin film.
-\newblock {\em Appl. Phys. Lett.}, 49(18):1210--1212, November 1986.
+\bibitem{Lehn1996}
+J.M. Lehn.
+\newblock {\em Supramolecular Chemistry: Concepts and Perspectives}.
+\newblock John Wiley \& Sons, 1996.
 
 \bibitem{Horowitz1990}
 Gilles Horowitz, Xuezhou Peng, Denis Fichou, and Francis Garnier.
@@ -22,6 +22,75 @@ Y.-Y. Lin, D.J. Gundlach, S.F. Nelson, and T.N. Jackson.
 \newblock Stacked pentacene layer organic thin-film transistors with improved
   characteristics.
 \newblock {\em Electron Device Letters, IEEE}, 18(12):606--608, 1997.
+
+\bibitem{Klauk2007}
+H.~Klauk.
+\newblock {\em Organic Electronics: Materials, Manufacturing, and
+  Applications}.
+\newblock John Wiley \& Sons, 2007.
+
+\bibitem{Gatteschi2006}
+D.~Gatteschi, R.~Sessoli, and J.~Villain.
+\newblock {\em Molecular Nanomagnets}.
+\newblock OUP Oxford, 2006.
+
+\bibitem{Grover2001}
+Lov Grover.
+\newblock From schrödinger’s equation to the quantum search algorithm,
+  February 2001.
+
+\bibitem{Vandersypen2001}
+Lieven M.~K. Vandersypen, Matthias Steffen, Gregory Breyta, Costantino~S.
+  Yannoni, Mark~H. Sherwood, and Isaac~L. Chuang.
+\newblock Experimental realization of shor's quantum factoring algorithm using
+  nuclear magnetic resonance.
+\newblock {\em Nature}, 414(6866):883--887, December 2001.
+
+\bibitem{Bennett1992}
+Charles~H. Bennett, François Bessette, Gilles Brassard, Louis Salvail, and
+  John Smolin.
+\newblock Experimental quantum cryptography, January 1992.
+
+\bibitem{Bogani2008}
+Lapo Bogani and Wolfgang Wernsdorfer.
+\newblock Molecular spintronics using single-molecule magnets.
+\newblock {\em Nat Mater}, 7(3):179--186, March 2008.
+
+\bibitem{Sanvito2011}
+Stefano Sanvito.
+\newblock Molecular spintronics.
+\newblock {\em Chemical Society reviews}, (6):--, May 2011.
+
+\bibitem{Leuenberger2001}
+M~N Leuenberger and D~Loss.
+\newblock Quantum computing in molecular magnets.
+\newblock {\em Nature}, 410(6830):789--93, April 2001.
+
+\bibitem{Bertaina2008}
+S~Bertaina, S~Gambarelli, T~Mitra, B~Tsukerblat, a~Müller, and B~Barbara.
+\newblock Quantum oscillations in a molecular magnet.
+\newblock {\em Nature}, 453(7192):203--6, May 2008.
+
+\bibitem{Schlegel2008}
+C.~Schlegel, J.~van Slageren, M.~Manoli, E.~K. Brechin, and M.~Dressel.
+\newblock Direct observation of quantum coherence in single-molecule magnets.
+\newblock {\em Phys. Rev. Lett.}, 101(14):147203--, October 2008.
+
+\bibitem{Kane1998}
+B.~E. Kane.
+\newblock A silicon-based nuclear spin quantum computer.
+\newblock {\em Nature}, 393(6681):133--137, May 1998.
+
+\bibitem{Leuenberger2003}
+Michael~N. Leuenberger and Daniel Loss.
+\newblock Grover algorithm for large nuclear spins in semiconductors.
+\newblock {\em Physical Review B}, 68(16):1--11, October 2003.
+
+\bibitem{Tsumura1986}
+A.~Tsumura, H.~Koezuka, and T.~Ando.
+\newblock Macromolecular electronic device: Field-effect transistor with a
+  polythiophene thin film.
+\newblock {\em Appl. Phys. Lett.}, 49(18):1210--1212, November 1986.
 
 \bibitem{Baibich1988}
 M.~N. Baibich, J.~M. Broto, A.~Fert, F.~Nguyen Van~Dau, F.~Petroff, P.~Etienne,
@@ -61,32 +130,11 @@ Biqin Huang, Douwe~J. Monsma, and Ian Appelbaum.
 \newblock Experimental realization of a silicon spin field-effect transistor.
 \newblock {\em Appl. Phys. Lett.}, 91(7):072501--3, August 2007.
 
-\bibitem{Klauk2007}
-H.~Klauk.
-\newblock {\em Organic Electronics: Materials, Manufacturing, and
-  Applications}.
-\newblock John Wiley \& Sons, 2007.
-
 \bibitem{Sekitani2010}
 Tsuyoshi Sekitani, Ute Zschieschang, Hagen Klauk, and Takao Someya.
 \newblock Flexible organic transistors and circuits with extreme bending
   stability.
 \newblock {\em Nat Mater}, 9(12):1015--1022, December 2010.
-
-\bibitem{Gatteschi2006}
-D.~Gatteschi, R.~Sessoli, and J.~Villain.
-\newblock {\em Molecular Nanomagnets}.
-\newblock OUP Oxford, 2006.
-
-\bibitem{Bogani2008}
-Lapo Bogani and Wolfgang Wernsdorfer.
-\newblock Molecular spintronics using single-molecule magnets.
-\newblock {\em Nat Mater}, 7(3):179--186, March 2008.
-
-\bibitem{Sanvito2011}
-Stefano Sanvito.
-\newblock Molecular spintronics.
-\newblock {\em Chemical Society reviews}, (6):--, May 2011.
 
 \bibitem{Mannini2010}
 M.~Mannini, F.~Pineider, C.~Danieli, F.~Totti, L.~Sorace, Ph. Sainctavit, M.-A.
@@ -264,6 +312,12 @@ Nicolas Roch, Serge Florens, Vincent Bouchiat, Wolfgang Wernsdorfer, and Franck
 \newblock Quantum phase transition in a single-molecule quantum dot.
 \newblock {\em Nature}, 453(7195):633--637, May 2008.
 
+\bibitem{RochPhd}
+Nicolas Roch.
+\newblock {\em Transistors à molécule unique : des effets Kondo exotiques à
+  la spintronique moléculaire}.
+\newblock PhD thesis, Université de Grenoble - Insitut Néel, 2009.
+
 \bibitem{Vincent2012}
 Romain Vincent, Svetlana Klyatskaya, Mario Ruben, Wolfgang Wernsdorfer, and
   Franck Balestro.
@@ -346,12 +400,6 @@ A.~Mangin, A.~Anthore, M.~L. Della~Rocca, E.~Boulat, and P.~Lafarge.
 \newblock Transport through metallic nanogaps in an in-plane three-terminal
   geometry.
 \newblock {\em J. Appl. Phys.}, 105(1):014313--5, January 2009.
-
-\bibitem{RochPhD}
-Nicolas Roch.
-\newblock {\em Transistors à molécule unique : des effets Kondo exotiques à
-  la spintronique moléculaire}.
-\newblock PhD thesis, Université de Grenoble - Insitut Néel, 2009.
 
 \bibitem{Leskelae2003}
 Markku Leskelä and Mikko Ritala.
@@ -458,11 +506,6 @@ B~Bleaney and R~W Hill.
 \newblock Hyperfine structure in terbium metal.
 \newblock {\em Proceedings of the Physical Society}, 78(2):--313, 1961.
 
-\bibitem{Leuenberger2003}
-Michael~N. Leuenberger and Daniel Loss.
-\newblock Grover algorithm for large nuclear spins in semiconductors.
-\newblock {\em Physical Review B}, 68(16):1--11, October 2003.
-
 \bibitem{Stepanow}
 Sebastian Stepanow, Jan Honolka, Pietro Gambardella, Lucia Vitali, Tzu-chun
   Tseng, Stephan Rauschenbach, Steven~L Tait, Svetlana Klyatskaya, Mario Ruben,
@@ -549,10 +592,18 @@ W.~Wernsdorfer, S.~Bhaduri, R.~Tiron, D.~N. Hendrickson, and G.~Christou.
 \newblock Spin-spin cross relaxation in single-molecule magnets.
 \newblock {\em Phys. Rev. Lett.}, 89(19):--197201, 2002.
 
-\bibitem{Schlegel2008}
-C.~Schlegel, J.~van Slageren, M.~Manoli, E.~K. Brechin, and M.~Dressel.
-\newblock Direct observation of quantum coherence in single-molecule magnets.
-\newblock {\em Phys. Rev. Lett.}, 101(14):147203--, October 2008.
+\bibitem{Liatard2012}
+Sébastien Liatard.
+\newblock {\em Complexes de ruthenium bis-terdentates pour la réalisation
+  d’assemblages photoactivables}.
+\newblock PhD thesis, Université Joseph Fourier – Département de Chimie
+  Moléculaire, 2012.
+
+\bibitem{Murphy2006}
+Catherine~J. Murphy, Anand~M. Gole, Simona~E. Hunyadi, and Christopher~J.
+  Orendorff.
+\newblock One-dimensional colloidal gold and silver nanostructures.
+\newblock {\em Inorg. Chem.}, 45(19):7544--7554, September 2006.
 
 \bibitem{Deshmukh2002}
 Mandar~M. Deshmukh, Edgar Bonet, A.~N. Pasupathy, and D.~C. Ralph.
