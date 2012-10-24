@@ -5,37 +5,51 @@
 \usepackage[francais]{babel}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{sectsty}
 \usepackage{appendix} % pour une ligne dans TOC pour les annexes
-\usepackage[Sonny]{fncychap}
+\usepackage[Sonny]{fncychap} % réglage des titres de chapitre
 \usepackage{setspace}
 \usepackage{mathrsfs} %lettre ronde
 \usepackage{multirow}
-\usepackage{fancyhdr}
+\usepackage[titles]{tocloft}  %régale de la table des matière
+\usepackage{fancyhdr} %réglage des header
 \pagestyle{plain}
 \usepackage{pdfpages}
 \usepackage[a4paper]{meta-donnees} %nécessaire pour la page de garde
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setstretch{1.2}
 
 
-\renewcommand{\sectionmark}[1]{}
-
 \begin{document}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% section style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\allsectionsfont{\sffamily \mdseries \slshape}
 
-% headrer style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TOC style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tocloftpagestyle{fancy}
+\renewcommand{\cftchapfont}{\sffamily \normalsize \bfseries}
+\renewcommand{\cftsecfont}{\sffamily \normalsize \mdseries}
+\renewcommand{\cftsubsecfont}{\sffamily \normalsize \mdseries}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% header style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \pagestyle{fancy}
 \fancyhf{}
-
 \renewcommand{\sectionmark}[1]{\markright{\emph{#1}}{}}
 \renewcommand{\chaptermark}[1]{\markboth{\chaptername \thechapter.\ #1}{}} 
-
 \fancyhead[LO]{\rightmark}
 \fancyhead[RE]{\leftmark}
 \fancyfoot[LE,RO]{\thepage}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Couverture
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\Sethpageshift{???mm}   %%optionnel : à décommenter si besoin pour ajout d'espace afin de center la couvérture horizontalement (valeur par défaut est -5.5mm)
 %\Setvpageshift{???mm}   %%optionnel : à décommenter si besoin pour ajout d'espace afin de center la couvérture verticalement (valeur par défaut est -15.5mm)
 
@@ -46,34 +60,41 @@
 \CoDirecteur{Franck BALESTRO}
 \Laboratoire{de l'Institut Néel, CNRS/UJF}
 \EcoleDoctorale{l'école doctorale de Physique}         
-\Titre{Lecture d'un spin nucléaire unique à l'aide d'un transistor moléculaire à base de molécules aimants}
-%\Soustitre{}      %%optionnel : à décommenter et à renseigenr si présence d'un sous-titre de thèse
+\Titre{Spintronique moléculaire}
+\Soustitre{du moment magnétique électronique à la détection d'un spin nucléaire unique}      %%optionnel : à décommenter et à renseigenr si présence d'un sous-titre de thèse
 \Depot{6 Décembre 2012}       
-
-
-
 \Jury{
 \UGTPresident{Monsieur Alain SCHUHL}{Professeur, Institut Néel, CNRS/UJF}
-
 \UGTRapporteur{Monsieur Denis VION}{Docteur, CEA}    
 \UGTRapporteur{Monsieur Marco AFFRONTE}{Professeur, Università di Modena e Reggio Emilia}    
-
 \UGTExaminateur{Monsieur Herre VAN DER ZANT}{Professeur, Delft University of Technology}
-
 \UGTDirecteur{Monsieur Wolfgang WERNSDORFER}{Directeur de recherche, Insitut Néel, CNRS}       
 \UGTCoDirecteur{Monsieur Franck BALESTRO}{Maître de conférence, Insitut Néel, CNRS/UJF} 
 }
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \sloppy %permet de forcer certains retours à la ligne plutôt qu'un mot qui dépasse
-
 
 \frontmatter 
 \MakeUGthesePDG %génère la page de garde de la thèse
-\newpage
+\includepdf[pages = {1}]{empty.pdf}
 
+\pagestyle{fancy}
+\fancyhf{}
 \tableofcontents
+\newpage
+\pagestyle{empty}
+
 
 \mainmatter 
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\sectionmark}[1]{\markright{\thesection~-~\emph{#1}}{}}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername~\thechapter~-~\ #1}{}} 
+\fancyhead[LO]{\rightmark}
+\fancyhead[RE]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
 
 \input{Introduction/Introduction.tex}
 \input{Spintronique/Spintronique.tex}
@@ -89,6 +110,7 @@
 \input{Annexe2/Annexe2.tex}
 \input{Annexe3/Annexe3.tex}
 
+\pagestyle{empty}
 \chapter{Article Phys. Rev. B : Cotunneling through a magnetic single-molecule transistor based on N@C$_{60}$}
 \includepdf[pages = {1-4}]{Articles/prb_83_081407.pdf}
 
