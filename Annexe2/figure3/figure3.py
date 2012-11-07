@@ -1,4 +1,4 @@
-execfile("/home/hukadan/These/Manuscript/Transport/CB_classique.py")
+execfile("../../old/Transport/CB_classique.py")
 fig =figure()
 fig.set_size_inches(12,5.5)
 ax1 = fig.add_subplot(121)
@@ -65,7 +65,7 @@ ax.annotate("",(-0.59+offset1,0.05+offset2),(-0.4+offset1, 0.15+offset2),arrowpr
 
 #pentes
 ax.text(-0.7,0.25,r"$-\frac{C_{g}}{C_{d}}$",ha="center",va="bottom",fontsize=25,rotation = 0)
-ax.text(0.7,0.25,r"$-\frac{C_{g}}{C_{g}+C_{d}}$",ha="center",va="bottom",fontsize=25,rotation = 0)
+ax.text(0.7,0.25,r"$\frac{C_{g}}{C_{g}+C_{s}}$",ha="center",va="bottom",fontsize=25,rotation = 0)
 ################
 ##plot de droite
 di = dI_Vg_dVds(-0.001,0.001,500,-0.002,0.002,500,1,2,1,20e9,20e9,0,0.4)
@@ -78,8 +78,8 @@ ax2.text(0,-0.75,"N/N+1",fontsize=30,ha='center',va='center', color="white")
 ax2.text(0,0.75,"N/N+1",fontsize=30,ha='center',va='center', color="white")
 #Mise en page du plot
 fig.subplots_adjust(left=0.09,right=0.97,wspace=0.35)
-fig.text(0.01,0.95,"a",fontsize=25,fontweight="bold",backgroundcolor="pink")
-fig.text(0.51,0.95,"b",fontsize=25,fontweight="bold",backgroundcolor="pink")
+fig.text(0.01,0.95,"a",fontsize=25,fontweight="bold")
+fig.text(0.51,0.95,"b",fontsize=25,fontweight="bold")
 #On trace le tout
 draw()
-fig.savefig("/home/hukadan/These/Manuscript/Theorie/Transport/figure3/figure3.pdf")
+fig.savefig("figure3.pdf")

@@ -20,6 +20,8 @@
 \setstretch{1.2}
 
 
+
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -53,23 +55,23 @@
 %\Sethpageshift{???mm}   %%optionnel : à décommenter si besoin pour ajout d'espace afin de center la couvérture horizontalement (valeur par défaut est -5.5mm)
 %\Setvpageshift{???mm}   %%optionnel : à décommenter si besoin pour ajout d'espace afin de center la couvérture verticalement (valeur par défaut est -15.5mm)
 
-\Specialite{Physique}
+\Specialite{Nanophysique}
 \Arrete{7 Août 2012}
 \Auteur{Romain VINCENT}
 \Directeur{Wolfgang WERNSDORFER}
 \CoDirecteur{Franck BALESTRO}
 \Laboratoire{de l'Institut Néel, CNRS/UJF}
 \EcoleDoctorale{l'école doctorale de Physique}         
-\Titre{Spintronique moléculaire}
-\Soustitre{du moment magnétique électronique à la détection d'un spin nucléaire unique}      %%optionnel : à décommenter et à renseigenr si présence d'un sous-titre de thèse
+\Titre{Spintronique moléculaire :}
+\Soustitre{étude de la dynamique d'un spin nucléaire unique}      %%optionnel : à décommenter et à renseigenr si présence d'un sous-titre de thèse
 \Depot{6 Décembre 2012}       
 \Jury{
-\UGTPresident{Monsieur Alain SCHUHL}{Professeur, Institut Néel, CNRS/UJF}
-\UGTRapporteur{Monsieur Denis VION}{Docteur, CEA}    
-\UGTRapporteur{Monsieur Marco AFFRONTE}{Professeur, Università di Modena e Reggio Emilia}    
-\UGTExaminateur{Monsieur Herre VAN DER ZANT}{Professeur, Delft University of Technology}
-\UGTDirecteur{Monsieur Wolfgang WERNSDORFER}{Directeur de recherche, Insitut Néel, CNRS}       
-\UGTCoDirecteur{Monsieur Franck BALESTRO}{Maître de conférence, Insitut Néel, CNRS/UJF} 
+\UGTRapporteur{Pr. Marco AFFRONTE}{Università di Modena e Reggio Emilia}    
+\UGTRapporteur{Dr. Denis VION}{CEA}    
+\UGTExaminateur{Pr. Alain SCHUHL}{Institut Néel, CNRS/UJF}
+\UGTExaminateur{Pr. Herre S.J. van der ZANT}{Delft University of Technology}
+\UGTDirecteur{Dr. Wolfgang WERNSDORFER}{Directeur de recherche, Insitut Néel, CNRS}       
+\UGTCoDirecteur{Dr. Franck BALESTRO}{Maître de conférence, Insitut Néel, CNRS/UJF} 
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,11 +81,22 @@
 \MakeUGthesePDG %génère la page de garde de la thèse
 \includepdf[pages = {1}]{empty.pdf}
 
+\fancypagestyle{plain}{
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[LO]{}
+\fancyhead[RE]{}
+\fancyfoot[LE,RO]{\thepage}
+}
+
 \pagestyle{fancy}
 \fancyhf{}
+\renewcommand{\sectionmark}[1]{\markright{\emph{#1}}{}}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername \thechapter.\ #1}{}} 
+\fancyhead[LO]{}
+\fancyhead[RE]{}
+\fancyfoot[LE,RO]{\thepage}
 \tableofcontents
-\newpage
-\pagestyle{empty}
+
 
 
 \mainmatter 
