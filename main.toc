@@ -62,32 +62,36 @@
 \contentsline {subsubsection}{Impact sur la mise en \IeC {\oe }uvre}{72}
 \contentsline {section}{\numberline {3.6}Dynamique du spin nucl\IeC {\'e}aire}{73}
 \contentsline {subsection}{\numberline {3.6.1}Temps de relaxation}{74}
-\contentsline {subsection}{\numberline {3.6.2}Perturbations induites par la mesure}{77}
-\contentsline {subsection}{\numberline {3.6.3}Extraction des populations nucl\IeC {\'e}aires}{77}
-\contentsline {subsection}{\numberline {3.6.4}Influence de la tension de grille sur la relaxation}{79}
-\contentsline {subsection}{\numberline {3.6.5}D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{80}
-\contentsline {chapter}{Conclusion et perspectives}{83}
-\contentsline {chapter}{Appendices}{88}
-\contentsline {chapter}{\numberline {A}Transport m\IeC {\'e}soscopique}{89}
-\contentsline {section}{\numberline {A.1}Le transistor \IeC {\`a} \IeC {\'e}lectron unique}{90}
-\contentsline {subsection}{\numberline {A.1.1}Les capacitances du syst\IeC {\`e}me}{90}
-\contentsline {subsection}{\numberline {A.1.2}L'\^ilot}{92}
-\contentsline {subsection}{\numberline {A.1.3}Les param\IeC {\`e}tres de couplage tunnel $\gamma _{s/d}$}{93}
-\contentsline {section}{\numberline {A.2}La notion de potentiel chimique}{94}
-\contentsline {subsection}{\numberline {A.2.1}D\IeC {\'e}finition}{95}
-\contentsline {subsection}{\numberline {A.2.2}Les potentiels chimiques de la source et du drain}{95}
-\contentsline {subsection}{\numberline {A.2.3}Le potentiel chimique de l'\^ilot}{96}
-\contentsline {section}{\numberline {A.3}Le blocage de Coulomb}{97}
-\contentsline {subsection}{\numberline {A.3.1}Charge de l'\^ilot par le drain}{97}
-\contentsline {subsection}{\numberline {A.3.2}Charge de l'\^ilot par la source}{99}
-\contentsline {subsection}{\numberline {A.3.3}Condition de circulation du courant}{99}
-\contentsline {section}{\numberline {A.4}Etats excit\IeC {\'e}s et transport}{100}
-\contentsline {section}{\numberline {A.5}Cotunneling}{101}
-\contentsline {section}{\numberline {A.6}Effet Kondo}{104}
-\contentsline {chapter}{\numberline {B}\'Equation pilote}{109}
-\contentsline {section}{\numberline {B.1}Les diff\IeC {\'e}rents \IeC {\'e}tats du syst\IeC {\`e}me et leur probabilit\IeC {\'e}s}{109}
-\contentsline {section}{\numberline {B.2}D\IeC {\'e}termination des taux de transfert}{110}
-\contentsline {section}{\numberline {B.3}D\IeC {\'e}termination du courant}{112}
-\contentsline {subsubsection}{Quelques remarques}{112}
-\contentsline {chapter}{\numberline {C}Article Phys. Rev. B : Cotunneling through a magnetic single-molecule transistor based on N@C$_{60}$}{115}
-\contentsline {chapter}{\numberline {D}Article Nature : Electronic read-out of a single nuclear spin using a molecular spin transistor}{121}
+\contentsline {subsubsection}{Proc\IeC {\'e}dure de mesure}{74}
+\contentsline {subsubsection}{R\IeC {\'e}sultats}{74}
+\contentsline {subsection}{\numberline {3.6.2}Perturbations induites par la mesure}{76}
+\contentsline {subsubsection}{Proc\IeC {\'e}dure de mesure}{76}
+\contentsline {subsubsection}{R\IeC {\'e}sultat}{78}
+\contentsline {subsection}{\numberline {3.6.3}Extraction des populations nucl\IeC {\'e}aires}{78}
+\contentsline {subsection}{\numberline {3.6.4}Influence de la tension de grille sur la relaxation}{80}
+\contentsline {subsection}{\numberline {3.6.5}D\IeC {\'e}termination de la temp\IeC {\'e}rature nucl\IeC {\'e}aire}{81}
+\contentsline {chapter}{Conclusion et perspectives}{85}
+\contentsline {chapter}{Appendices}{90}
+\contentsline {chapter}{\numberline {A}Transport m\IeC {\'e}soscopique}{91}
+\contentsline {section}{\numberline {A.1}Le transistor \IeC {\`a} \IeC {\'e}lectron unique}{92}
+\contentsline {subsection}{\numberline {A.1.1}Les capacitances du syst\IeC {\`e}me}{92}
+\contentsline {subsection}{\numberline {A.1.2}L'\^ilot}{94}
+\contentsline {subsection}{\numberline {A.1.3}Les param\IeC {\`e}tres de couplage tunnel $\gamma _{s/d}$}{95}
+\contentsline {section}{\numberline {A.2}La notion de potentiel chimique}{96}
+\contentsline {subsection}{\numberline {A.2.1}D\IeC {\'e}finition}{97}
+\contentsline {subsection}{\numberline {A.2.2}Les potentiels chimiques de la source et du drain}{97}
+\contentsline {subsection}{\numberline {A.2.3}Le potentiel chimique de l'\^ilot}{98}
+\contentsline {section}{\numberline {A.3}Le blocage de Coulomb}{99}
+\contentsline {subsection}{\numberline {A.3.1}Charge de l'\^ilot par le drain}{99}
+\contentsline {subsection}{\numberline {A.3.2}Charge de l'\^ilot par la source}{101}
+\contentsline {subsection}{\numberline {A.3.3}Condition de circulation du courant}{101}
+\contentsline {section}{\numberline {A.4}Etats excit\IeC {\'e}s et transport}{102}
+\contentsline {section}{\numberline {A.5}Cotunneling}{103}
+\contentsline {section}{\numberline {A.6}Effet Kondo}{106}
+\contentsline {chapter}{\numberline {B}\'Equation pilote}{111}
+\contentsline {section}{\numberline {B.1}Les diff\IeC {\'e}rents \IeC {\'e}tats du syst\IeC {\`e}me et leur probabilit\IeC {\'e}s}{111}
+\contentsline {section}{\numberline {B.2}D\IeC {\'e}termination des taux de transfert}{112}
+\contentsline {section}{\numberline {B.3}D\IeC {\'e}termination du courant}{114}
+\contentsline {subsubsection}{Quelques remarques}{114}
+\contentsline {chapter}{\numberline {C}Article Phys. Rev. B : Cotunneling through a magnetic single-molecule transistor based on N@C$_{60}$}{117}
+\contentsline {chapter}{\numberline {D}Article Nature : Electronic read-out of a single nuclear spin using a molecular spin transistor}{123}

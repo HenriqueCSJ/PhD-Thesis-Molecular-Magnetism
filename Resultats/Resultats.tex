@@ -408,14 +408,25 @@ Cette propriété a le mérite de faciliter considérablement l'interprétation 
 L’intérêt du spin nucléaire dans la cadre de l'information quantique, a été maintes fois mis en avant~\cite{Kane1998,Vandersypen2001,Leuenberger2003}. Mais avant de pouvoir manipuler les différents états de spin, il est nécessaire de connaître la dynamique de ce dernier, ainsi que l'influence que peut avoir notre technique de mesure sur ses états. En outre, compte tenu du courant qui circule dans le point quantique sonde, il est légitime de s'interroger quant à l'influence de l'environnement électrostatique, sur les processus de relaxation, mais aussi sur la température d'un spin nucléaire unique. 
 
 \subsection{Temps de relaxation}
-Le spin nucléaire, du fait de son couplage relativement faible à l’environnement, possède généralement un temps de vie élevé. Afin de pouvoir vérifier cette propriété, il nous faut pouvoir mesurer l'évolution des états du spin nucléaire en fonction du temps. Nous avons choisi pour cela une technique simple consistant à mesurer l'état du spin nucléaire lors de deux mesures, en faisant varier le temps séparant ces dernières. Du fait de l'aspect chronophage de cette procédure~(jusqu'à plusieurs jours par mesure), nous avons choisi cinq temps d'attente différents : $0,5,10,20$ et $50$ secondes. Pour chacune de ces valeurs, $22000$ balayages ont été effectués afin d'obtenir une statistique significative.
 
+Le spin nucléaire, du fait de son couplage relativement faible à l’environnement, possède généralement un temps de vie élevé. Afin de pouvoir vérifier cette propriété, il nous faut pouvoir mesurer l'évolution des états du spin nucléaire en fonction du temps. 
+
+\subsubsection{Procédure de mesure}
+Nous avons choisi pour cela une technique simple consistant à mesurer l'état du spin nucléaire lors de deux mesures, en faisant varier le temps séparant ces dernières.
+Le point de polarisation est choisi afin d'être sensible au retournement de l'aimentation, tout en minimisant le courant traversant notre système; cela revient à choisir $V_g \sim -0.9V$ et $V_{ds}=0V$. Le champ magnétique est balayé à la vitesse de $50\,mTs^{-1}$. Puisque nous nous intéressons seulement à la dynamique autour des anti-croisements, le champ magnétique est seulement balayé entre $-100\,mT$ et $100\,mT$.
+
+Du fait de l'aspect chronophage de cette procédure~(jusqu'à plusieurs jours par mesure), nous avons choisi cinq temps d'attente différents~:~$0,\,5,\,10,\,20$ et $50$ secondes. Pour chacune de ces valeurs, $22000$\,balayages ont été effectués afin d'obtenir une statistique significative.
+Les figures a et b présente la processus de mesure sans temps d'attente (a) et avec un temps d'attente de 10\,secondes. La correlation se fait entre la retrace (en vert) et la trace suivante (en rouge). Les données ainsi obtenues sont ensuite représenté dans un histogramme en deux dimensions. La coordonnée suivant l'axe x est donné par le position du retrounement durant la trace, et la coordonnée suivant l'axe y est quant à lui donné par la position du retournement durant la retrace.
+
+
+\subsubsection{Résultats}
 
 \begin{figure}
 \includegraphics[scale=0.45]{Resultats/Hist2D/Hist2D.pdf} 
 \caption{La cartographie couleur en deux dimensions représente l’histogramme de corrélation des champs de retournement ayant lieu durant la trace et la retrace. Celui-ci a été obtenu à partir de 22000 traces et retraces mesurées consécutivement, et sans temps d'attente. Les histogrammes à une dimension disposés le long des axes x et y représentent respectivement la statistique des positions en champ magnétique des retournements durant la trace et la retrace. La prépondérance des éléments diagonaux atteste de la préservation de l'état de spin entre deux mesures.}
 \label{correlations}
 \end{figure}
+
 
 L'évolution des états du spin nucléaire est représenté à l'aide d'un histogramme à deux dimensions. Le champ de retournement de la première mesure est repéré en abscisse et celui mesuré lors de la seconde mesure est représenté en ordonnée. Dans une telle représentation, les éléments diagonaux rendent compte d'un état de spin nucléaire qui ne change pas entre les deux mesures. Les éléments hors-diagonaux représentent quant à eux, les cas où l'état de spin nucléaire varie de $\Delta m_z^I = \pm 1,2,3$, où $m_z^I$ est la projection du moment angulaire du spin nucléaire sur l'axe $z$. La Fig.\ref{correlations} présente une telle mesure pour un temps d'attente nul. Pour faciliter la lecture, les histogrammes des champs de retournement de la première et deuxième mesures ont été ajoutés.
 
@@ -430,8 +441,16 @@ Il peut être intéressant de ce demander si une partie de la décohérence obse
 \end{figure}
 
 \subsection{Perturbations induites par la mesure}
-Il est également possible d'évaluer l'influence de la mesure sur l'état de spin nucléaire. Pour cela, nous avons choisi d'utiliser la méthode présentée précédemment, en observant non plus l'évolution de l'état nucléaire en fonction du temps, mais en fonction du nombre de mesures. Nous avons utilisé les données collectées sur 22000 balayages (11000 traces et autant de retraces) effectués sans temps d'attente.
+Il est également important d'évaluer l'influence de la mesure sur l'état de spin nucléaire, afin d'interprété de façon pertinente l'ensemble des mesures.
 
+\subsubsection{Procédure de mesure}
+Pour cela, nous avons choisi d'utiliser la méthode présentée précédemment, en observant non plus l'évolution de l'état nucléaire en fonction du temps, mais en fonction du nombre de mesures. Autrement dit, on effectue des corrélation d'ordre supérieur.
+
+La figure c présente une mesure de corrélation au troisième ordre, dans lequel la correlation est faites entre la mesure obtenue durant un trace (bleu) et une retrace séparé de la première par plusieurs balayages (rouge). Bien sûr, les permières mesures peuvent être faite indiferemment sur une trace ou un retrace. En effet, puisqu'il n'y a aucun temps d'attente entre les différents balayages, traces et retraces sont équivalentes.
+
+Nous avons utilisé les données collectées sur 22000 balayages (11000 traces et autant de retraces) effectués sans temps d'attente, et les résultats ont également été présentés à l'aide d'un histogramme 2D, la position du retournement durant la première mesure étant représentée sur l'axe x, et celui correspondant à la seconde mesure étant représenté sur l'axe y.
+
+\subsubsection{Résultat}
 La Fig.\ref{evolution_mesures} présente cette évolution après deux~(\textbf{a}), trois~(\textbf{b}), quatre~(\textbf{c}), cinq~(\textbf{d}) et six~(\textbf{e}) mesures. On constate qu'après 4 mesures, les éléments diagonaux dominent toujours, pour ne commencer à s'atténuer qu'au bout de 6 mesures. Il est important de noter que chaque mesure est, en moyenne, séparée de 4 secondes, et donc, dans le cas de 6 mesures, cela correspond à un temps total de plus de 20 secondes. Aux vues des résultats présentés dans la section précédente, on peut donc attribuer cette diminution de corrélation dans l'état du spin nucléaire aux processus de relaxation internes, la procédure de mesure elle-même n'affectant qu'à la marge le système. 
 
 La méthode de mesure de l'état de spin nucléaire par l'intermédiaire du QTM se révèle donc peu invasive, ce qui permet d'étudier les propriétés du système, en négligeant son influence sur ce dernier. Elle peut aussi être utilisée afin d'extraire, sans trop de perturbation, la population des états de spin nucléaire.
