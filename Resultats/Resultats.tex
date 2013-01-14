@@ -413,10 +413,18 @@ Le spin nucléaire, du fait de son couplage relativement faible à l’environne
 
 \subsubsection{Procédure de mesure}
 Nous avons choisi pour cela une technique simple consistant à mesurer l'état du spin nucléaire lors de deux mesures, en faisant varier le temps séparant ces dernières.
-Le point de polarisation est choisi afin d'être sensible au retournement de l'aimentation, tout en minimisant le courant traversant notre système; cela revient à choisir $V_g \sim -0.9V$ et $V_{ds}=0V$. Le champ magnétique est balayé à la vitesse de $50\,mTs^{-1}$. Puisque nous nous intéressons seulement à la dynamique autour des anti-croisements, le champ magnétique est seulement balayé entre $-100\,mT$ et $100\,mT$.
+
+\begin{figure}
+\centering \includegraphics[scale=0.45]{Resultats/PostFig1/postfig1.pdf} 
+\caption{\textbf{a}~(\textbf{b})~:~représentation de la procédure de mesure lorsqu'aucun temps d'attente~(un temps d'attente de 5\, secondes, représenté en vert) n'est inséré entre la retrace et la trace suivante. \textbf{c}~:~procédure de mesure correspondant à une corrélation du troisième ordre, deux mesures se situant entre les deux retournement considérés~(en bleu et en rouge). \textbf{d}~:~représentation d'une correlation dans un diagramme à deux dimensions.  La position en champ magnétique du retournement de l'aimantation obtenue durant les deux mesures est repérée sur les axes $x$, et $y$ par deux lignes dont le croisement va donner un point de corrélation. En répétant cette procédure un grand nombre de fois, un histogramme en deux dimensions de ces corrélations peut être obtenu~(cf Fig.\ref{correlations}).}
+\label{procedure}
+\end{figure}
+
+
+Le point de polarisation est choisi afin d'être sensible au retournement de l'aimantation, tout en minimisant le courant traversant notre système; ce qui revient à choisir dans notre cas $V_g \sim -0.6\,V$ et $V_{ds}=0\,V$~(cf Fig.\ref{coulomb_map}). Le champ magnétique est, quant à lui, balayé à la vitesse de $50\,mT.s^{-1}$ entre $-85\,mT$ et $+85\,mT$, puisque nous nous intéressons à la physique du spin nucléaire, et donc, à la zone correspondant au anti-croisements.
 
 Du fait de l'aspect chronophage de cette procédure~(jusqu'à plusieurs jours par mesure), nous avons choisi cinq temps d'attente différents~:~$0,\,5,\,10,\,20$ et $50$ secondes. Pour chacune de ces valeurs, $22000$\,balayages ont été effectués afin d'obtenir une statistique significative.
-Les figures a et b présente la processus de mesure sans temps d'attente (a) et avec un temps d'attente de 10\,secondes. La correlation se fait entre la retrace (en vert) et la trace suivante (en rouge). Les données ainsi obtenues sont ensuite représenté dans un histogramme en deux dimensions. La coordonnée suivant l'axe x est donné par le position du retrounement durant la trace, et la coordonnée suivant l'axe y est quant à lui donné par la position du retournement durant la retrace.
+Les Fig.\ref{procedure}.\textbf{a} et \textbf{b} présente la processus de mesure sans temps d'attente~(Fig.\ref{procedure}.\textbf{a}) et avec un temps d'attente de 5\,secondes~(Fig.\ref{procedure}.\textbf{b}), la corrélation se faisant entre la retrace (en bleu) et la trace suivante (en rouge). Les données ainsi obtenues sont ensuite représentées dans un histogramme en deux dimensions (cf Fig.\ref{procedure}.\textbf{d}). La coordonnée suivant l'axe x est donnée par le position du retournement durant la trace, et la coordonnée suivant l'axe y est quant à elle donnée par la position du retournement durant la retrace.
 
 
 \subsubsection{Résultats}
@@ -446,9 +454,9 @@ Il est également important d'évaluer l'influence de la mesure sur l'état de s
 \subsubsection{Procédure de mesure}
 Pour cela, nous avons choisi d'utiliser la méthode présentée précédemment, en observant non plus l'évolution de l'état nucléaire en fonction du temps, mais en fonction du nombre de mesures. Autrement dit, on effectue des corrélation d'ordre supérieur.
 
-La figure c présente une mesure de corrélation au troisième ordre, dans lequel la correlation est faites entre la mesure obtenue durant un trace (bleu) et une retrace séparé de la première par plusieurs balayages (rouge). Bien sûr, les permières mesures peuvent être faite indiferemment sur une trace ou un retrace. En effet, puisqu'il n'y a aucun temps d'attente entre les différents balayages, traces et retraces sont équivalentes.
+La Fig.\ref{procedure}.\textbf{c} présente la mesure d'une corrélation au troisième ordre, dans lequel la corrélation est faites entre la mesure obtenue durant un retrace~(bleu) et une trace~(rouge) séparées par deux balayages. Bien sûr, la corrélations peut s'effectuer indifféremment entre trace et/ou retrace. En effet, puisqu'il n'y a aucun temps d'attente entre les différents balayages, traces et retraces sont équivalentes.
 
-Nous avons utilisé les données collectées sur 22000 balayages (11000 traces et autant de retraces) effectués sans temps d'attente, et les résultats ont également été présentés à l'aide d'un histogramme 2D, la position du retournement durant la première mesure étant représentée sur l'axe x, et celui correspondant à la seconde mesure étant représenté sur l'axe y.
+Nous avons utilisé les données collectées sur 22000 balayages (11000 traces et autant de retraces) effectués sans temps d'attente, et les résultats ont également été présentés à l'aide d'un histogramme à deux dimensions, en utlisant la méthode introduite précédemment, la position du retournement durant la première mesure étant représentée sur l'axe x, et celui correspondant à la seconde mesure étant représenté sur l'axe y.
 
 \subsubsection{Résultat}
 La Fig.\ref{evolution_mesures} présente cette évolution après deux~(\textbf{a}), trois~(\textbf{b}), quatre~(\textbf{c}), cinq~(\textbf{d}) et six~(\textbf{e}) mesures. On constate qu'après 4 mesures, les éléments diagonaux dominent toujours, pour ne commencer à s'atténuer qu'au bout de 6 mesures. Il est important de noter que chaque mesure est, en moyenne, séparée de 4 secondes, et donc, dans le cas de 6 mesures, cela correspond à un temps total de plus de 20 secondes. Aux vues des résultats présentés dans la section précédente, on peut donc attribuer cette diminution de corrélation dans l'état du spin nucléaire aux processus de relaxation internes, la procédure de mesure elle-même n'affectant qu'à la marge le système. 
@@ -457,7 +465,7 @@ La méthode de mesure de l'état de spin nucléaire par l'intermédiaire du QTM 
 
 \begin{figure}
 \includegraphics[scale=0.45]{Resultats/MesureInfl/MesureInfl.pdf} 
-\caption{La cartographie \textbf{a} (\textbf{b}, \textbf{c}, \textbf{d} et \textbf{e}) présente un histogramme 2D rendant compte de la corrélation entre les états de spin nucléaire après deux (trois, quatre, cinq et six) mesures. On constate qu'après six mesures, les éléments diagonaux sont toujours dominants, démontrant la faible influence de notre procédure de mesure sur l'état du spin nucléaire.}
+\caption{La cartographie \textbf{a} (\textbf{b}, \textbf{c}, \textbf{d} et \textbf{e}) présente un histogramme en deux dimensions rendant compte de la corrélation entre les états de spin nucléaire après deux (trois, quatre, cinq et six) mesures. On constate qu'après six mesures, les éléments diagonaux sont toujours dominants, démontrant la faible influence de notre procédure de mesure sur l'état du spin nucléaire.}
 \label{evolution_mesures}
 \end{figure}
 
