@@ -49,7 +49,7 @@
 \contentsline {subsection}{\numberline {3.3.2}Amplitude des sauts de conductance}{58}
 \contentsline {subsection}{\numberline {3.3.3}Intensit\IeC {\'e} de l'interaction}{59}
 \contentsline {subsubsection}{L'effet Kondo $1/2$ non coupl\IeC {\'e}}{59}
-\contentsline {subsubsection}{Effet Kondo $1/2$ coupl\IeC {\'e}}{59}
+\contentsline {subsubsection}{Effet Kondo $1/2$ coupl\IeC {\'e}}{61}
 \contentsline {section}{\numberline {3.4}Analyse des sauts en conductance}{61}
 \contentsline {subsection}{\numberline {3.4.1}M\IeC {\'e}thode de d\IeC {\'e}tection}{63}
 \contentsline {subsection}{\numberline {3.4.2}Interpr\IeC {\'e}tation physique de $\Delta g$}{64}
@@ -93,5 +93,8 @@
 \contentsline {section}{\numberline {B.2}D\IeC {\'e}termination des taux de transfert}{112}
 \contentsline {section}{\numberline {B.3}D\IeC {\'e}termination du courant}{114}
 \contentsline {subsubsection}{Quelques remarques}{114}
-\contentsline {chapter}{\numberline {C}Article Phys. Rev. B : Cotunneling through a magnetic single-molecule transistor based on N@C$_{60}$}{117}
-\contentsline {chapter}{\numberline {D}Article Nature : Electronic read-out of a single nuclear spin using a molecular spin transistor}{123}
+\contentsline {chapter}{\numberline {C}Dispositif exp\IeC {\'e}rimental}{117}
+\contentsline {section}{\numberline {C.1}Automate de mesure : Adwin}{117}
+\contentsline {section}{\numberline {C.2}Convertisseur courant-tension}{119}
+\contentsline {chapter}{\numberline {D}Article Phys. Rev. B : Cotunneling through a magnetic single-molecule transistor based on N@C$_{60}$}{121}
+\contentsline {chapter}{\numberline {E}Article Nature : Electronic read-out of a single nuclear spin using a molecular spin transistor}{127}
