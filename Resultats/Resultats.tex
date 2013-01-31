@@ -297,7 +297,9 @@ De plus, chaque anti-croisement est associé à un unique état de spin nucléai
 \subsection{Interprétation physique de $\Delta g$}
 Jusqu'à présent, nous n'avons pas utilisé le signe de $\Delta g$ comme élément d'analyse. Pourtant, dans le cadre de notre modèle, celui-ci donne accès à la nature de la transition : $J_z = \pm6 \rightarrow J_z = \mp 6$. Il existe une méthode expérimentale, basée sur la population thermique des spins nucléaires, permettant de vérifier notre hypothèse.
 
-Supposons que l'on se place dans l'état initial $J_z=+6$ et $B<0$. Au regard du diagramme Zeeman de la Fig.\ref{TbPc2Zeeman}.\textbf{d}, et du fait de la relaxation, l'état de spin $I_z = -3/2$ devrait être le plus probablement mesuré. L'inverse est vrai pour l'état initial $J_z=-6$ et $B<0$. La Fig.\ref{analyse_signe_saut} présente une étude statistique des champs de retournement en fonction du signe de $\Delta g$. Lorsque $\Delta g> 0$~($\Delta g< 0$), l'état de spin nucléaire le plus probable est l'état $I_z = -3/2$~($I_z = +3/2$), ce qui correspond à un état initial $J_z=+6$~($J_z=-6$). $\Delta g> 0$~($\Delta g< 0$) correspond donc à la transition $J_z = +6 \rightarrow J_z =  - 6$~($J_z = -6 \rightarrow J_z =  + 6$).
+La procédure de mesure consiste à balayer le champ magnétique~(ici à $50\,mT.s^{-1}$) des valeurs négatives vers les valeurs positives et vice-versa~(ici de $-85\,mT$ à $+85m\,T$). On relève ensuite la position du retournement uniquement pour retournement ayant lieu durant la trace. On construit ensuite deux histogrammes à partir de ces retournements : le premier est relatif aux retournements entraînant une diminution de la conductance différentielle~($\Delta g <0$)et le second relatif aux retournements entraînant une augmentation de la conductance différentielle~($\Delta g >0$).
+
+Pour comprendre l'interêt d'une telle procédure, supposons que l'on se place dans l'état initial $J_z=+6$ et $B<0$. Au regard du diagramme Zeeman de la Fig.\ref{TbPc2Zeeman}.\textbf{d}, et du fait de la relaxation, l'état de spin $I_z = -3/2$ devrait être le plus probablement mesuré. L'inverse est vrai pour l'état initial $J_z=-6$ et $B<0$. La Fig.\ref{analyse_signe_saut} présente une étude statistique des champs de retournement en fonction du signe de $\Delta g$. Lorsque $\Delta g> 0$~($\Delta g< 0$), l'état de spin nucléaire le plus probable est l'état $I_z = -3/2$~($I_z = +3/2$), ce qui correspond à un état initial $J_z=+6$~($J_z=-6$). $\Delta g> 0$~($\Delta g< 0$) correspond donc à la transition $J_z = +6 \rightarrow J_z =  - 6$~($J_z = -6 \rightarrow J_z =  + 6$).
 
 \begin{figure}
 \includegraphics[scale=0.45]{Resultats/JumpSens/JumpSens.pdf} 
@@ -485,8 +487,18 @@ Nous allons maintenant utiliser cette technique d'extraction des populations afi
 \subsection{Influence de la tension de grille sur la relaxation}
 Dans le cadre de la spintronique moléculaire, il peut \^etre intéressant de montrer que l'application d'un champ électrique peut modifier la dynamique du spin nucléaire. On peut, par exemple, imaginer passer d'une polarisation où la relaxation est rapide, permettant une meilleure thermalisation, à une polarisation où le temps de vie des différents états est plus élevé, plus propice au processus de lecture.
 
-Afin d'évaluer l'influence de la tension de grille sur la relaxation, nous avons mesuré l'évolution de la population des états de spin en fonction du temps, pour deux points de polarisation ($V_{\rm{g}}$, $V_{\rm{ds}}$) différents : ($-0.9\, V$, $0\, V$) et ($-0.1\, V$, $0\, V$). Pour chacun de ces points, nous avons fait varier le temps d'attente entre la retrace et la trace suivante de 0, 5, 10, 20 et 50 secondes. La population des états nucléaires a été reconstruite à partir des transitions obtenues durant la trace, en sélectionnant seulement celles correspondant à l'état initial $J_z=+6$.
+Afin d'évaluer l'influence de la tension de grille sur la relaxation, nous avons mesuré l'évolution de la population des états de spin en fonction du temps, pour deux points de polarisation ($V_{\rm{g}}$, $V_{\rm{ds}}$) différents : ($-0.9\, V$, $0\, V$) et ($-0.1\, V$, $0\, V$).
 
+\begin{figure}
+\centering \includegraphics[scale=0.45]{Resultats/PostFig1/postfig2.pdf} 
+\caption{\textbf{a}~(\textbf{b})~:~représentation de la procédure de mesure lorsqu'aucun temps d'attente~(un temps d'attente de 5\, secondes, représenté en vert) n'est inséré entre la retrace et la trace suivante. Les retournements considérés pour l'extraction des populations sont ceux mesurés durant la trace~(ici en rouge). Cette étude peut ensuite être faite en fonction de la température ou de la tension de grille~(cf. Fig.\ref{dynamique_spin}).}
+\label{procedure2}
+\end{figure}
+
+\subsubsection{Procédure de mesure}
+La procédure de mesure consiste à balayer le champ magnétique~(ici à $50\,mT.s^{-1}$) des valeurs négatives vers les valeurs positives et vice-versa~(ici de $-85\,mT$ à $+85m\,T$). On relève ensuite la position du retournement uniquement durant la trace~(cf. Fig.\ref{procedure2}). On fait varier le temps d'attente entre la retrace et la trace suivante entre 0, 5, 10, 20 et 50 secondes. On construit ensuite un histogramme à partir de la position en champ magnétique des retournements en ne prenant que ceux associés à l'état initial $J_z= 6$, autrement dit, ceux correspondant à une variation de conductance $\Delta g >0$ (cf. la section consacrée à l'analyse des sauts en conductance). On reconstitue ensuite, à partir des différents histogrammes obtenues, l'évolution de la population nucléaire en fonction du temps d'attente pour différentes valeur de tension de grille.
+
+\subsubsection{Résultats}
 Les Fig.\ref{dynamique_spin}.\textbf{a} et \textbf{b} présentent les résultats obtenus. On constate immédiatement que les deux distributions évoluent différemment. Pour la tension de grille $V_g = -0.9\,V$ la relaxation vers l'équilibre thermodynamique se fait plus lentement que lorsque $V_g = -0.1\,V$. Un analyse plus fine en grille n'a cependant pas permis de déterminer le phénomène physique rendant compte de cette dépendance.
 
 \subsection{Détermination de la température nucléaire}
