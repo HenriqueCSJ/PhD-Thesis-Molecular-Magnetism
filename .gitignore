@@ -7,6 +7,6 @@
 #aux files
 *.aux
 #pdf files
-*.pdf
+main.pdf
 #gz
 *.gz
